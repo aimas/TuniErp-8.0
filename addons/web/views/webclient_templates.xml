@@ -169,9 +169,9 @@
                     </div>
                 </div>
             </div>
-            <div class="oe_footer">
+           <!--  <div class="oe_footer">
                 Powered by <a href="http://www.bonjour-tunisie.com/" target="_blank"><span>TuniErp</span></a>
-            </div>
+            </div> -->
         </template>
         <template id="web.menu_secondary_submenu">
             <ul t-if="menu['children']" class="oe_secondary_submenu nav nav-pills nav-stacked">
@@ -256,13 +256,13 @@
                     <hr/>
                     <t t-raw="0"/>
 
-                    <div class="oe_single_form_footer" t-if="not disable_footer">
+                   <!--   <div class="oe_single_form_footer" t-if="not disable_footer">
                         <t t-if="not disable_database_manager">
                             <a class="oe_login_manage_db" t-attf-href="/web/database/manager{{ '?debug' if debug else '' }}">Manage Databases</a>
                             <span class="oe_footer_seperator"> | </span>
                         </t>
                         <a href="http://www.bonjour-tunisie.com/" target="_blank">Powered by <span>TuniErp</span></a>
-                    </div>
+                    </div> -->
                 </div>
             </t>
         </template>
