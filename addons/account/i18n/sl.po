@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniErp Server.
 # This file contains the translation of the following modules:
 # * account
 # 
@@ -7,12 +7,12 @@
 # Matjaž Mozetič <m.mozetic@matmoz.si>, 2014-2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniErp 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-06-29 12:18+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Slovenian (http://www.transifex.com/p/odoo-8/language/sl/)\n"
+"Language-Team: Slovenian (http://www.transifex.com/p/TuniErp-8/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -312,7 +312,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a customer invoice.\n"
 "              </p><p>\n"
-"                Odoo's electronic invoicing allows to ease and fasten the\n"
+"                TuniErp's electronic invoicing allows to ease and fasten the\n"
 "                collection of customer payments. Your customer receives the\n"
 "                invoice by email and he can pay online and/or import it\n"
 "                in his own system.\n"
@@ -321,7 +321,7 @@ msgid ""
 "                the bottom of each invoice.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Izdaja računa kupcu.\n              </p><p>\n                Odoo elektronski obračun omogoča enostavnejše in hitrejše\n                zbiranje plačil kupcev. Kupec prejme račun preko e-pošte\n                in lahko plača preko spleta ali ga uvozi\n                v svoj sistem.\n              </p><p>\n                Razgovori s kupcem se samodejno prikažejo\n                na dnu vsakega računa.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Izdaja računa kupcu.\n              </p><p>\n                TuniErp elektronski obračun omogoča enostavnejše in hitrejše\n                zbiranje plačil kupcev. Kupec prejme račun preko e-pošte\n                in lahko plača preko spleta ali ga uvozi\n                v svoj sistem.\n              </p><p>\n                Razgovori s kupcem se samodejno prikažejo\n                na dnu vsakega računa.\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_invoice_tree3
@@ -347,13 +347,13 @@ msgid ""
 "                A journal entry consists of several journal items, each of\n"
 "                which is either a debit or a credit transaction.\n"
 "              </p><p>\n"
-"                Odoo automatically creates one journal entry per accounting\n"
+"                TuniErp automatically creates one journal entry per accounting\n"
 "                document: invoice, refund, supplier payment, bank statements,\n"
 "                etc. So, you should record journal entries manually only/mainly\n"
 "                for miscellaneous operations.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Ustvari dnevniški vnos.\n              </p><p>\n                Dnevniški vnos sestavlja več dnevniških postavk, katerih vsaka\n                je lahko transakcija v breme ali v dobro.\n              </p><p>\n                Odoo samodejno ustvari po en dnevniški vnos za vsak računovodski\n                dokument: račun, dobropis, plačilo dobavitelju, bančni izpiski,\n                ipd., tako, da je ročno knjiženje dnevniških vnosov potrebno predvsem\n                za operacije pod rubriko 'razno'.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Ustvari dnevniški vnos.\n              </p><p>\n                Dnevniški vnos sestavlja več dnevniških postavk, katerih vsaka\n                je lahko transakcija v breme ali v dobro.\n              </p><p>\n                TuniErp samodejno ustvari po en dnevniški vnos za vsak računovodski\n                dokument: račun, dobropis, plačilo dobavitelju, bančni izpiski,\n                ipd., tako, da je ročno knjiženje dnevniških vnosov potrebno predvsem\n                za operacije pod rubriko 'razno'.\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_view_bank_statement_tree
@@ -418,12 +418,12 @@ msgid ""
 "                Click to define a new tax code.\n"
 "              </p><p>\n"
 "                Depending on the country, a tax code is usually a cell to fill\n"
-"                in your legal tax statement. Odoo allows you to define the\n"
+"                in your legal tax statement. TuniErp allows you to define the\n"
 "                tax structure and each tax computation will be registered in\n"
 "                one or several tax code.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Definiraj novo davčno kodo.\n              </p><p>\n                Glede na državo, je davčna koda običajno celica, ki zapolni\n                davčni izkaz. Odoo omogoča določitev davčne strukture\n                in vsak obračun davkov bo registriran v eno ali več davčnih\n                kod.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Definiraj novo davčno kodo.\n              </p><p>\n                Glede na državo, je davčna koda običajno celica, ki zapolni\n                davčni izkaz. TuniErp omogoča določitev davčne strukture\n                in vsak obračun davkov bo registriran v eno ali več davčnih\n                kod.\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_invoice_tree2
@@ -432,11 +432,11 @@ msgid ""
 "                Click to record a new supplier invoice.\n"
 "              </p><p>\n"
 "                You can control the invoice from your supplier according to\n"
-"                what you purchased or received. Odoo can also generate\n"
+"                what you purchased or received. TuniErp can also generate\n"
 "                draft invoices automatically from purchase orders or receipts.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Zapiši nov prejeti (dobaviteljev) račun.\n              </p><p>\n                Prejete račune lahko nadzirate glede na kaj je bilo kupljeno\n                in kaj dejansko prejeto. Odoo lahko samodejno ustvarja\n                osnutke računov iz nabavnih nalogov in prejemnic.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Zapiši nov prejeti (dobaviteljev) račun.\n              </p><p>\n                Prejete račune lahko nadzirate glede na kaj je bilo kupljeno\n                in kaj dejansko prejeto. TuniErp lahko samodejno ustvarja\n                osnutke računov iz nabavnih nalogov in prejemnic.\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_bank_statement_tree
@@ -448,11 +448,11 @@ msgid ""
 "                occurring over a given period of time on a bank account. You\n"
 "                should receive this periodicaly from your bank.\n"
 "              </p><p>\n"
-"                Odoo allows you to reconcile a statement line directly with\n"
+"                TuniErp allows you to reconcile a statement line directly with\n"
 "                the related sale or puchase invoices.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Vknjiži bančni izpisek.\n              </p><p>\n                Bančni izpisek je povzetek vseh finančnih transakcij\n                določenega obdobja za določen bančni račun.\n                Od banke se prejemajo periodično.\n              </p><p>\n                Odoo omogoča usklajevanje postavk izpiska neposredno\n                iz povezanih izdanih ali prejetih računov.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Vknjiži bančni izpisek.\n              </p><p>\n                Bančni izpisek je povzetek vseh finančnih transakcij\n                določenega obdobja za določen bančni račun.\n                Od banke se prejemajo periodično.\n              </p><p>\n                TuniErp omogoča usklajevanje postavk izpiska neposredno\n                iz povezanih izdanih ali prejetih računov.\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_invoice_tree4
@@ -490,13 +490,13 @@ msgid ""
 "                Select the period and the journal you want to fill.\n"
 "              </p><p>\n"
 "                This view can be used by accountants in order to quickly record\n"
-"                entries in Odoo. If you want to record a supplier invoice,\n"
-"                start by recording the line of the expense account. Odoo\n"
+"                entries in TuniErp. If you want to record a supplier invoice,\n"
+"                start by recording the line of the expense account. TuniErp\n"
 "                will propose to you automatically the Tax related to this\n"
 "                account and the counterpart \"Account Payable\".\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Izberite obdobje in dnevnik, ki ju želite zapolniti.\n              </p><p>\n                Ta pogled uporabljajo računovodje za hitro knjiženje vnosov\n                v Odoo. Če želite vknjižiti prejeti račun, pričnite s postavko\n                konta stroškov. Odoo bo samodejno predlagal davek\n                povezan s tem kontom in njegovim proti-kontom\n                \"Konto obveznosti\".\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Izberite obdobje in dnevnik, ki ju želite zapolniti.\n              </p><p>\n                Ta pogled uporabljajo računovodje za hitro knjiženje vnosov\n                v TuniErp. Če želite vknjižiti prejeti račun, pričnite s postavko\n                konta stroškov. TuniErp bo samodejno predlagal davek\n                povezan s tem kontom in njegovim proti-kontom\n                \"Konto obveznosti\".\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_bank_tree
@@ -507,7 +507,7 @@ msgid ""
 "            Configure your company's bank account and select those that must\n"
 "            appear on the report footer.\n"
 "          </p><p>\n"
-"            If you use the accounting application of Odoo, journals and\n"
+"            If you use the accounting application of TuniErp, journals and\n"
 "            accounts will be created automatically based on these data.\n"
 "          </p>\n"
 "        "
@@ -534,12 +534,12 @@ msgid ""
 "                term of costs/revenues reporting.\n"
 "              </p><p>\n"
 "                They are usually structured by contracts, projects, products or\n"
-"                departements. Most of the Odoo operations (invoices,\n"
+"                departements. Most of the TuniErp operations (invoices,\n"
 "                timesheets, expenses, etc) generate analytic entries on the\n"
 "                related account.\n"
 "              </p>\n"
 "            "
-msgstr "<p>\n                Dodaj nov analitični konto.\n              </p><p>\n                Struktura običajnega kontnega plana je določena z\n                zakonodajo države. Struktura analitičnega kontnega\n                plana izkazuje lastne poslovne potrebe v smislu\n                poročanja o stroških/odhodkih.\n              </p><p>\n                Običajno so strukturirani glede na pogodbo, projekt, proizvod\n                ali oddelek. Večina operacij Odoo (računi, časovnice,\n                stroški, ipd.) ustvari analitične vnose na povezani\n                konto.\n              </p>\n            "
+msgstr "<p>\n                Dodaj nov analitični konto.\n              </p><p>\n                Struktura običajnega kontnega plana je določena z\n                zakonodajo države. Struktura analitičnega kontnega\n                plana izkazuje lastne poslovne potrebe v smislu\n                poročanja o stroških/odhodkih.\n              </p><p>\n                Običajno so strukturirani glede na pogodbo, projekt, proizvod\n                ali oddelek. Večina operacij TuniErp (računi, časovnice,\n                stroški, ipd.) ustvari analitične vnose na povezani\n                konto.\n              </p>\n            "
 
 #. module: account
 #: view:account.bank.statement:account.view_bank_statement_form2
@@ -1175,12 +1175,12 @@ msgstr "Stanje zapadlosti partnerja"
 #: view:account.aged.trial.balance:account.account_aged_balance_view
 msgid ""
 "Aged Partner Balance is a more detailed report of your receivables by "
-"intervals. When opening that report, Odoo asks for the name of the company, "
+"intervals. When opening that report, TuniErp asks for the name of the company, "
 "the fiscal period and the size of the interval to be analyzed (in days). "
-"Odoo then calculates a table of credit balance by period. So if you request "
-"an interval of 30 days Odoo generates an analysis of creditors for the past "
+"TuniErp then calculates a table of credit balance by period. So if you request "
+"an interval of 30 days TuniErp generates an analysis of creditors for the past "
 "month, past two months, and so on."
-msgstr "Poročilo o zapadlih odprtih postavkah je podrobno poročilo o terjatvah po intervalih. Ob odprtju poročila, Odoo vpraša po nazivu družbe, obračunskem obdobju in obsegu intervala obdobja, ki ga želimo analizirati (v dnevih). Odoo nato obračuna tabelo terjatev po obdobjih. Tako, če zahtevate interval 30 dni Odoo ustvari analizo dolžnikov za zadnji mesec, zadnja 2 meseca itd."
+msgstr "Poročilo o zapadlih odprtih postavkah je podrobno poročilo o terjatvah po intervalih. Ob odprtju poročila, TuniErp vpraša po nazivu družbe, obračunskem obdobju in obsegu intervala obdobja, ki ga želimo analizirati (v dnevih). TuniErp nato obračuna tabelo terjatev po obdobjih. Tako, če zahtevate interval 30 dni TuniErp ustvari analizo dolžnikov za zadnji mesec, zadnja 2 meseca itd."
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_aged_receivable_graph
@@ -4583,10 +4583,10 @@ msgstr "Za konte, ki so običajno bolj obveznost kot terjatev in jih želite v s
 msgid ""
 "For an invoice to be considered as paid, the invoice entries must be "
 "reconciled with counterparts, usually payments. With the automatic "
-"reconciliation functionality, Odoo makes its own search for entries to "
+"reconciliation functionality, TuniErp makes its own search for entries to "
 "reconcile in a series of accounts. It finds entries for each partner where "
 "the amounts correspond."
-msgstr "Da se račun smatra kot plačan, morajo biti računski vnosi usklajeni s svojimi proti postavkami, običajno plačili. S samodejnim usklajevanjem Odoo sam poišče vnose za uskladitev v seriji kontov. Najde vnose z ustreznim zneskom za vsakega partnerja."
+msgstr "Da se račun smatra kot plačan, morajo biti računski vnosi usklajeni s svojimi proti postavkami, običajno plačili. S samodejnim usklajevanjem TuniErp sam poišče vnose za uskladitev v seriji kontov. Najde vnose z ustreznim zneskom za vsakega partnerja."
 
 #. module: account
 #: help:account.journal,with_last_closing_balance:0
@@ -4795,9 +4795,9 @@ msgstr "Določa zaporedje na seznamu davkov na računu."
 #: help:account.analytic.journal,type:0
 msgid ""
 "Gives the type of the analytic journal. When it needs for a document (eg: an"
-" invoice) to create analytic entries, Odoo will look for a matching journal "
+" invoice) to create analytic entries, TuniErp will look for a matching journal "
 "of the same type."
-msgstr "Določa tip analitičnega dnevnika. Če je potrebno, da dokument (npr. račun) ustvari analitične vnose, Odoo poišče ustrezajoč dnevnik istega tipa."
+msgstr "Določa tip analitičnega dnevnika. Če je potrebno, da dokument (npr. račun) ustvari analitične vnose, TuniErp poišče ustrezajoč dnevnik istega tipa."
 
 #. module: account
 #: code:addons/account/account_invoice.py:726
@@ -7308,8 +7308,8 @@ msgid ""
 "Paypal account (email) for receiving online payments (credit card, etc.) If "
 "you set a paypal account, the customer  will be able to pay your invoices or"
 " quotations with a button \"Pay with  Paypal\" in automated emails or "
-"through the Odoo portal."
-msgstr "Paypal e-poštni račun za prejemanje spletnih plačil (kreditne kartice ipd.). Če nastavite Paypal račun, bo kupec lahko plačeval račune ali predračune z gumbom \"Plačaj s Paypal\" in samodejnimi e-poštnimi sporočili preko Odoo portala."
+"through the TuniErp portal."
+msgstr "Paypal e-poštni račun za prejemanje spletnih plačil (kreditne kartice ipd.). Če nastavite Paypal račun, bo kupec lahko plačeval račune ali predračune z gumbom \"Plačaj s Paypal\" in samodejnimi e-poštnimi sporočili preko TuniErp portala."
 
 #. module: account
 #: help:res.company,paypal_account:0
@@ -10173,7 +10173,7 @@ msgstr "Ta tekst bo izpisan na poročilu."
 msgid ""
 "This menu prints a tax declaration based on invoices or payments. Select one"
 " or several periods of the fiscal year. The information required for a tax "
-"declaration is automatically generated by Odoo from invoices (or payments, "
+"declaration is automatically generated by TuniErp from invoices (or payments, "
 "in some countries). This data is updated in real time. That’s very useful "
 "because it enables you to preview at any time the tax that you owe at the "
 "start and end of the month or quarter."
@@ -10246,12 +10246,12 @@ msgstr "To tehnično polje se uporablja ob nastanku/uvozu postavk izpiskov v izo
 #. module: account
 #: help:account.account.template,type:0 help:account.entries.report,type:0
 msgid ""
-"This type is used to differentiate types with special effects in Odoo: view "
+"This type is used to differentiate types with special effects in TuniErp: view "
 "can not have entries, consolidation are accounts that can have children "
 "accounts for multi-company consolidations, payable/receivable are for "
 "partners accounts (for debit/credit computations), closed for depreciated "
 "accounts."
-msgstr "Ta tip se uporablja za diferenciacijo tipov s posebnimi učinki v Odoo: pogled ne more imeti vnosov, konsolidacija je konto, ki ima načinu z večdružbami podrejene konte za konsolidacije, obveznosti/terjatve so za konte partnerjev (za izračun dobro/breme), zaprte za razvrednotene konte."
+msgstr "Ta tip se uporablja za diferenciacijo tipov s posebnimi učinki v TuniErp: pogled ne more imeti vnosov, konsolidacija je konto, ki ima načinu z večdružbami podrejene konte za konsolidacije, obveznosti/terjatve so za konte partnerjev (za izračun dobro/breme), zaprte za razvrednotene konte."
 
 #. module: account
 #: help:account.account,currency_mode:0
@@ -11508,7 +11508,7 @@ msgstr "dan;dni"
 
 #. module: account
 #: view:account.config.settings:account.view_account_config_settings
-msgid "e.g. sales@odoo.com"
+msgid "e.g. sales@TuniErp.com"
 msgstr "npr. sales@druzba.com"
 
 #. module: account

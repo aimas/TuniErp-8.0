@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniErp Server.
 # This file contains the translation of the following modules:
 # * account
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniErp 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 06:39+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Dutch (http://www.transifex.com/p/odoo-8/language/nl/)\n"
+"Language-Team: Dutch (http://www.transifex.com/p/TuniErp-8/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -311,7 +311,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a customer invoice.\n"
 "              </p><p>\n"
-"                Odoo's electronic invoicing allows to ease and fasten the\n"
+"                TuniErp's electronic invoicing allows to ease and fasten the\n"
 "                collection of customer payments. Your customer receives the\n"
 "                invoice by email and he can pay online and/or import it\n"
 "                in his own system.\n"
@@ -320,7 +320,7 @@ msgid ""
 "                the bottom of each invoice.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik om een nieuwe factuur te maken.\n              </p><p>\n                Odoo's facturatie methode maakt het \n                eenvoudig facturen en betalingen te beheren.\n                Uw klanten ontvangen de facturen digitaal per email en zijn ook\n                eenvoudig te importeren in systemen van derden door uw klanten.\n              </p><p>\n                Communicatie m.b.t. de facturen worden onder aan iedere\n                factuur getoond in de berichtenbox.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik om een nieuwe factuur te maken.\n              </p><p>\n                TuniErp's facturatie methode maakt het \n                eenvoudig facturen en betalingen te beheren.\n                Uw klanten ontvangen de facturen digitaal per email en zijn ook\n                eenvoudig te importeren in systemen van derden door uw klanten.\n              </p><p>\n                Communicatie m.b.t. de facturen worden onder aan iedere\n                factuur getoond in de berichtenbox.\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_invoice_tree3
@@ -346,13 +346,13 @@ msgid ""
 "                A journal entry consists of several journal items, each of\n"
 "                which is either a debit or a credit transaction.\n"
 "              </p><p>\n"
-"                Odoo automatically creates one journal entry per accounting\n"
+"                TuniErp automatically creates one journal entry per accounting\n"
 "                document: invoice, refund, supplier payment, bank statements,\n"
 "                etc. So, you should record journal entries manually only/mainly\n"
 "                for miscellaneous operations.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik om een journaalpost te maken.\n              </p><p>\n                Een journaalpost bestaat uit verschillende journaalpost regels\n                welke credit of debet boekingen kunnen zijn.\n              </p><p>\n                Odoo maakt automatisch een journaalpost per financieel document:\n                Factuur, creditfactuur, inkoopfactuur, bankafschrift,\n                etc. U zult dus alleen voor alle andere een seperate journaalpost.\n                willen maken; denk aan openingsbalans, memoriaalboekingen etc.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik om een journaalpost te maken.\n              </p><p>\n                Een journaalpost bestaat uit verschillende journaalpost regels\n                welke credit of debet boekingen kunnen zijn.\n              </p><p>\n                TuniErp maakt automatisch een journaalpost per financieel document:\n                Factuur, creditfactuur, inkoopfactuur, bankafschrift,\n                etc. U zult dus alleen voor alle andere een seperate journaalpost.\n                willen maken; denk aan openingsbalans, memoriaalboekingen etc.\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_view_bank_statement_tree
@@ -417,12 +417,12 @@ msgid ""
 "                Click to define a new tax code.\n"
 "              </p><p>\n"
 "                Depending on the country, a tax code is usually a cell to fill\n"
-"                in your legal tax statement. Odoo allows you to define the\n"
+"                in your legal tax statement. TuniErp allows you to define the\n"
 "                tax structure and each tax computation will be registered in\n"
 "                one or several tax code.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik voor het aanmaken van een nieuwe belastingrubriek.\n              </p><p>\n                Afhankelijk van het land, is een belastingrubriek is meestal een in te vullen\n                veld in uw belastingaanfifte. Met Odoo kunt u bepalen hoe de\n                fiscale structuur en elke belasting berekening zal worden geregistreerd in\n                een of meerdere belastingrubrieken.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik voor het aanmaken van een nieuwe belastingrubriek.\n              </p><p>\n                Afhankelijk van het land, is een belastingrubriek is meestal een in te vullen\n                veld in uw belastingaanfifte. Met TuniErp kunt u bepalen hoe de\n                fiscale structuur en elke belasting berekening zal worden geregistreerd in\n                een of meerdere belastingrubrieken.\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_invoice_tree2
@@ -431,11 +431,11 @@ msgid ""
 "                Click to record a new supplier invoice.\n"
 "              </p><p>\n"
 "                You can control the invoice from your supplier according to\n"
-"                what you purchased or received. Odoo can also generate\n"
+"                what you purchased or received. TuniErp can also generate\n"
 "                draft invoices automatically from purchase orders or receipts.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik om een nieuwe inkoopfactuur aan te maken.\n              </p><p>\n                U kunt de factuur van uw leverancier controleren op basis van\n                wat u gekocht of ontvangen heeft. Odoo kan ook automatisch concept\n                inkoopfacturen genereren uit inkooporders of ontvangstbewijzen.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik om een nieuwe inkoopfactuur aan te maken.\n              </p><p>\n                U kunt de factuur van uw leverancier controleren op basis van\n                wat u gekocht of ontvangen heeft. TuniErp kan ook automatisch concept\n                inkoopfacturen genereren uit inkooporders of ontvangstbewijzen.\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_bank_statement_tree
@@ -447,11 +447,11 @@ msgid ""
 "                occurring over a given period of time on a bank account. You\n"
 "                should receive this periodicaly from your bank.\n"
 "              </p><p>\n"
-"                Odoo allows you to reconcile a statement line directly with\n"
+"                TuniErp allows you to reconcile a statement line directly with\n"
 "                the related sale or puchase invoices.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik om een bankafschrift te registreren.\n              </p><p>\n                Een bankafschrift is een samenvatting van alle financiele transacties\n                van een bankrekening gedurende een bepaalde periode.\n                U ontvangt deze periodiek van uw bank.\n              </p><p>\n                Met Odoo kunt u de bankafschriften direct afletteren\n                met de gerelateerde in- en verkoopfacturen.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik om een bankafschrift te registreren.\n              </p><p>\n                Een bankafschrift is een samenvatting van alle financiele transacties\n                van een bankrekening gedurende een bepaalde periode.\n                U ontvangt deze periodiek van uw bank.\n              </p><p>\n                Met TuniErp kunt u de bankafschriften direct afletteren\n                met de gerelateerde in- en verkoopfacturen.\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_invoice_tree4
@@ -489,13 +489,13 @@ msgid ""
 "                Select the period and the journal you want to fill.\n"
 "              </p><p>\n"
 "                This view can be used by accountants in order to quickly record\n"
-"                entries in Odoo. If you want to record a supplier invoice,\n"
-"                start by recording the line of the expense account. Odoo\n"
+"                entries in TuniErp. If you want to record a supplier invoice,\n"
+"                start by recording the line of the expense account. TuniErp\n"
 "                will propose to you automatically the Tax related to this\n"
 "                account and the counterpart \"Account Payable\".\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Selecteer de periode en het dagboek wat u wilt vullen.\n              </p><p>\n                Deze weergave kan worden gebruikt door accountants om\n                snel boekingen te maken in Odoo. Als u bijvoorbeeld een\n                leveranciersfactuur wilt registreren, start dan met het registreren\n                van een regel voor kostenrekening. Odoo zal vervolgens\n                automatisch de belasting, gerelateerd aan deze rekening\n                voorstellen, alsmede de tegenrekening \"Crediteuren\".\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Selecteer de periode en het dagboek wat u wilt vullen.\n              </p><p>\n                Deze weergave kan worden gebruikt door accountants om\n                snel boekingen te maken in TuniErp. Als u bijvoorbeeld een\n                leveranciersfactuur wilt registreren, start dan met het registreren\n                van een regel voor kostenrekening. TuniErp zal vervolgens\n                automatisch de belasting, gerelateerd aan deze rekening\n                voorstellen, alsmede de tegenrekening \"Crediteuren\".\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_bank_tree
@@ -506,11 +506,11 @@ msgid ""
 "            Configure your company's bank account and select those that must\n"
 "            appear on the report footer.\n"
 "          </p><p>\n"
-"            If you use the accounting application of Odoo, journals and\n"
+"            If you use the accounting application of TuniErp, journals and\n"
 "            accounts will be created automatically based on these data.\n"
 "          </p>\n"
 "        "
-msgstr "<p class=\"oe_view_nocontent_create\">\n            Klik voor het aanmaken van een nieuwe bankrekening. \n          </p><p>\n            Stel uw bedrijf bankrekening in en selecteer die moet worden\n            vermeld als rapport voettekst. \n          </p><p>\n           Als u de boekhoudmodule van Odoo gebruikt, dan zullen \n          dagboeken en rekeningen automatisch worden aangemaakt\n          op basis van deze gegevens.\n          </p>\n        "
+msgstr "<p class=\"oe_view_nocontent_create\">\n            Klik voor het aanmaken van een nieuwe bankrekening. \n          </p><p>\n            Stel uw bedrijf bankrekening in en selecteer die moet worden\n            vermeld als rapport voettekst. \n          </p><p>\n           Als u de boekhoudmodule van TuniErp gebruikt, dan zullen \n          dagboeken en rekeningen automatisch worden aangemaakt\n          op basis van deze gegevens.\n          </p>\n        "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_account_manual_reconcile
@@ -533,12 +533,12 @@ msgid ""
 "                term of costs/revenues reporting.\n"
 "              </p><p>\n"
 "                They are usually structured by contracts, projects, products or\n"
-"                departements. Most of the Odoo operations (invoices,\n"
+"                departements. Most of the TuniErp operations (invoices,\n"
 "                timesheets, expenses, etc) generate analytic entries on the\n"
 "                related account.\n"
 "              </p>\n"
 "            "
-msgstr "<p>\n                Klik om een kostenplaats toe te voegen.\n              </p><p>\n                Het normale grootboekschema heeft een structuur volgen\n                de wettelijke richtlijnen voor boekhouden. De kostenplaats\n                rekeningen kunt u vrij inrichten naar uw behoeften. \n              </p><p>\n                Kostenplaatsen worden normaliter gebruikt bij contracten,\n                projecten en/of afdelingen. De meeste acties uitgevoerd door\n                Odoo (facturen, urenstaten, declaraties, etc.) genereren\n                kostenplaatsboekingen.\n              </p>\n            "
+msgstr "<p>\n                Klik om een kostenplaats toe te voegen.\n              </p><p>\n                Het normale grootboekschema heeft een structuur volgen\n                de wettelijke richtlijnen voor boekhouden. De kostenplaats\n                rekeningen kunt u vrij inrichten naar uw behoeften. \n              </p><p>\n                Kostenplaatsen worden normaliter gebruikt bij contracten,\n                projecten en/of afdelingen. De meeste acties uitgevoerd door\n                TuniErp (facturen, urenstaten, declaraties, etc.) genereren\n                kostenplaatsboekingen.\n              </p>\n            "
 
 #. module: account
 #: view:account.bank.statement:account.view_bank_statement_form2
@@ -1174,12 +1174,12 @@ msgstr "Ouderdomsanalyse per relatie"
 #: view:account.aged.trial.balance:account.account_aged_balance_view
 msgid ""
 "Aged Partner Balance is a more detailed report of your receivables by "
-"intervals. When opening that report, Odoo asks for the name of the company, "
+"intervals. When opening that report, TuniErp asks for the name of the company, "
 "the fiscal period and the size of the interval to be analyzed (in days). "
-"Odoo then calculates a table of credit balance by period. So if you request "
-"an interval of 30 days Odoo generates an analysis of creditors for the past "
+"TuniErp then calculates a table of credit balance by period. So if you request "
+"an interval of 30 days TuniErp generates an analysis of creditors for the past "
 "month, past two months, and so on."
-msgstr "Dit openstaande posten rapport is een meer gedetailleerd verslag van uw vorderingen in de tijd. Bij het openen van het rapport, vraagt odoo naar de naam van het bedrijf, de periode en de grootte van het interval te analyseren (in dagen). odoo berekent dan een tabel van openstaande posten per periode. Dus als u een interval van 30 dagen opgeeft, genereert odoo een analyse van de schuldeisers van de afgelopen maand, afgelopen twee maanden, enz."
+msgstr "Dit openstaande posten rapport is een meer gedetailleerd verslag van uw vorderingen in de tijd. Bij het openen van het rapport, vraagt TuniErp naar de naam van het bedrijf, de periode en de grootte van het interval te analyseren (in dagen). TuniErp berekent dan een tabel van openstaande posten per periode. Dus als u een interval van 30 dagen opgeeft, genereert TuniErp een analyse van de schuldeisers van de afgelopen maand, afgelopen twee maanden, enz."
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_aged_receivable_graph
@@ -4582,10 +4582,10 @@ msgstr "Voor rekeningen welke normaliter meer debet zijn dan credit en welke u a
 msgid ""
 "For an invoice to be considered as paid, the invoice entries must be "
 "reconciled with counterparts, usually payments. With the automatic "
-"reconciliation functionality, Odoo makes its own search for entries to "
+"reconciliation functionality, TuniErp makes its own search for entries to "
 "reconcile in a series of accounts. It finds entries for each partner where "
 "the amounts correspond."
-msgstr "Om een factuur als betaald te markeren, moeten de factuurregels worden afgeletterd met, meestal,  betalingen. Met de automatische afletter functionaliteit, zal odoo trachten automatisch de factuurregels te koppelen aan betalingen van dezelfde relatie, waarvan het bedrag overeenkomt met de factuurregel."
+msgstr "Om een factuur als betaald te markeren, moeten de factuurregels worden afgeletterd met, meestal,  betalingen. Met de automatische afletter functionaliteit, zal TuniErp trachten automatisch de factuurregels te koppelen aan betalingen van dezelfde relatie, waarvan het bedrag overeenkomt met de factuurregel."
 
 #. module: account
 #: help:account.journal,with_last_closing_balance:0
@@ -4794,9 +4794,9 @@ msgstr "Bepaalt de volgorde bij afbeelden lijst van factuur belasting."
 #: help:account.analytic.journal,type:0
 msgid ""
 "Gives the type of the analytic journal. When it needs for a document (eg: an"
-" invoice) to create analytic entries, Odoo will look for a matching journal "
+" invoice) to create analytic entries, TuniErp will look for a matching journal "
 "of the same type."
-msgstr "Geeft het type kostenplaats. Wanneer het nodig is voor een document (bijvoorbeeld: een factuur) om een kostenplaats boeking te doen, zal Odoo op zoek gaan naar een bijpassend dagboek van hetzelfde type."
+msgstr "Geeft het type kostenplaats. Wanneer het nodig is voor een document (bijvoorbeeld: een factuur) om een kostenplaats boeking te doen, zal TuniErp op zoek gaan naar een bijpassend dagboek van hetzelfde type."
 
 #. module: account
 #: code:addons/account/account_invoice.py:726
@@ -7307,8 +7307,8 @@ msgid ""
 "Paypal account (email) for receiving online payments (credit card, etc.) If "
 "you set a paypal account, the customer  will be able to pay your invoices or"
 " quotations with a button \"Pay with  Paypal\" in automated emails or "
-"through the Odoo portal."
-msgstr "Uw Paypal account (e-mail) voor het ontvangen van online betalingen (credit card, etc.) Wanneer er een paypal account is ingesteld, zal de klant in staat om uw facturen of offertes betalen met een knop \"Betalen met Paypal\" in geautomatiseerde e-mails of via de ODOO portal ."
+"through the TuniErp portal."
+msgstr "Uw Paypal account (e-mail) voor het ontvangen van online betalingen (credit card, etc.) Wanneer er een paypal account is ingesteld, zal de klant in staat om uw facturen of offertes betalen met een knop \"Betalen met Paypal\" in geautomatiseerde e-mails of via de TuniErp portal ."
 
 #. module: account
 #: help:res.company,paypal_account:0
@@ -10172,11 +10172,11 @@ msgstr "Deze tekst verschijnt op de rapportage om de berekende balans weergegeve
 msgid ""
 "This menu prints a tax declaration based on invoices or payments. Select one"
 " or several periods of the fiscal year. The information required for a tax "
-"declaration is automatically generated by Odoo from invoices (or payments, "
+"declaration is automatically generated by TuniErp from invoices (or payments, "
 "in some countries). This data is updated in real time. That’s very useful "
 "because it enables you to preview at any time the tax that you owe at the "
 "start and end of the month or quarter."
-msgstr "Dit menu drukt een BTW-aangifte af. Selecteer één of meer periodes uit het fiscale jaar. De benodigde informatie voor de BTW-aangifte wordt door Odoo automatisch verzameld op basis van de facturen of betalingen (dit verschilt per land). De rapportage geeft de actuele stand van zaken, zodat u op elk moment kunt zien hoeveel belasting u schuldig bent aan het begin en eind van een periode."
+msgstr "Dit menu drukt een BTW-aangifte af. Selecteer één of meer periodes uit het fiscale jaar. De benodigde informatie voor de BTW-aangifte wordt door TuniErp automatisch verzameld op basis van de facturen of betalingen (dit verschilt per land). De rapportage geeft de actuele stand van zaken, zodat u op elk moment kunt zien hoeveel belasting u schuldig bent aan het begin en eind van een periode."
 
 #. module: account
 #: help:account.tax,name:0
@@ -10245,12 +10245,12 @@ msgstr "Dit technisch veld kan bij het maken van een regel op een afschrift word
 #. module: account
 #: help:account.account.template,type:0 help:account.entries.report,type:0
 msgid ""
-"This type is used to differentiate types with special effects in Odoo: view "
+"This type is used to differentiate types with special effects in TuniErp: view "
 "can not have entries, consolidation are accounts that can have children "
 "accounts for multi-company consolidations, payable/receivable are for "
 "partners accounts (for debit/credit computations), closed for depreciated "
 "accounts."
-msgstr "Dit type wordt gebruikt om onderscheid te maken tussen rekeningen met verschillende toepassingen in Odoo. Een rekening van het type 'Weergave' kan geen boekingen bevatten. 'Consolidatie' zijn rekeningen welke onderliggende rekeningen kunnen hebben, voor multi-company (meerdere bedrijven) consolidatie. 'Debiteuren' en 'Crediteuren' zijn rekeningen voor klanten en leveranciers (voor debet en credit berekeningen). 'Afgesloten' zijn rekeningen die niet meer in gebruik zijn."
+msgstr "Dit type wordt gebruikt om onderscheid te maken tussen rekeningen met verschillende toepassingen in TuniErp. Een rekening van het type 'Weergave' kan geen boekingen bevatten. 'Consolidatie' zijn rekeningen welke onderliggende rekeningen kunnen hebben, voor multi-company (meerdere bedrijven) consolidatie. 'Debiteuren' en 'Crediteuren' zijn rekeningen voor klanten en leveranciers (voor debet en credit berekeningen). 'Afgesloten' zijn rekeningen die niet meer in gebruik zijn."
 
 #. module: account
 #: help:account.account,currency_mode:0
@@ -11507,8 +11507,8 @@ msgstr "Dagen"
 
 #. module: account
 #: view:account.config.settings:account.view_account_config_settings
-msgid "e.g. sales@odoo.com"
-msgstr "Bijv. sales@odoo.com"
+msgid "e.g. sales@TuniErp.com"
+msgstr "Bijv. sales@TuniErp.com"
 
 #. module: account
 #: view:account.config.settings:account.view_account_config_settings

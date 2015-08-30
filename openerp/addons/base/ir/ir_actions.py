@@ -567,7 +567,7 @@ class ir_actions_server(osv.osv):
         'sequence': 5,
         'code': """# Available locals:
 #  - time, datetime, dateutil: Python libraries
-#  - env: Odoo Environement
+#  - env: TuniERP Environement
 #  - model: Model of the record on which the action is triggered
 #  - object: Record on which the action is triggered if there is one, otherwise None
 #  - workflow: Workflow engine

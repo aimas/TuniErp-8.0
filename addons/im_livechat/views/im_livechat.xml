@@ -66,14 +66,14 @@
                 <body>
                      <div class="main" style="opacity: 1;">
                         <h1 class="channel_name"><t t-esc="channel_name"/></h1>
-                        <div>Live Chat Powered by <strong>Odoo</strong>.</div>
+                        <div>Live Chat Powered by <strong>TuniErp</strong>.</div>
                     </div>
                 </body>
             </html>
         </template>
 
 
-        <!-- Template rendering all the scripts required to execute the Livechat from an external page (which not contain Odoo) -->
+        <!-- Template rendering all the scripts required to execute the Livechat from an external page (which not contain TuniErp) -->
         <template id="external_loader" name="All the scripts to launch the LiveSupport from an external Web Page">
             <!-- css style -->
             <link t-att-href="'%s/web/css/im_livechat.external_lib' % (url)" rel="stylesheet"/>
@@ -83,7 +83,7 @@
             <script t-att-src="'%s/im_livechat/loader/%s/%i' % (url, dbname, channel)" type="text/javascript" />
         </template>
 
-        <!-- Template rendering all the scripts required to execute the Livechat from a page containing Odoo -->
+        <!-- Template rendering all the scripts required to execute the Livechat from a page containing TuniErp -->
         <template id="internal_loader" name="All the scripts to launch the LiveSupport from an internal Web Page">
             <!-- css style -->
             <link property='stylesheet' t-att-href="'%s/web/css/im_livechat.internal_lib' % (url)" rel="stylesheet"/>

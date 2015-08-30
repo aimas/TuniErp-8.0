@@ -172,7 +172,7 @@
                                 </div>
                                 <field name="country_id" placeholder="Country" class="oe_no_button" options='{"no_open": True, "no_create": True}' attrs="{'readonly': [('use_parent_address','=',True)]}"/>
                             </div>
-                            <field name="website" widget="url" placeholder="e.g. www.odoo.com"/>
+                            <field name="website" widget="url" placeholder="e.g. www.TuniErp.com"/>
                         </group>
                         <group>
                             <field name="function" placeholder="e.g. Sales Director"
@@ -423,7 +423,7 @@
               <p class="oe_view_nocontent_create">
                 Click to add a contact in your address book.
               </p><p>
-                Odoo helps you easily track all activities related to
+                TuniErp helps you easily track all activities related to
                 a customer; discussions, history of business opportunities,
                 documents, etc.
               </p>
@@ -462,7 +462,7 @@
               <p class="oe_view_nocontent_create">
                 Click to add a contact in your address book.
               </p><p>
-                Odoo helps you easily track all activities related to
+                TuniErp helps you easily track all activities related to
                 a customer: discussions, history of business opportunities,
                 documents, etc.
               </p>
@@ -482,7 +482,7 @@
               <p class="oe_view_nocontent_create">
                 Click to add a contact in your address book.
               </p><p>
-                Odoo helps you easily track all activities related to
+                TuniErp helps you easily track all activities related to
                 a supplier: discussions, history of purchases,
                 documents, etc.
               </p>

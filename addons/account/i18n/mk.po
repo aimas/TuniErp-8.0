@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniErp Server.
 # This file contains the translation of the following modules:
 # * account
 # 
@@ -7,12 +7,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniErp 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-08 09:41+0000\n"
 "Last-Translator: Anica Milanova\n"
-"Language-Team: Macedonian (http://www.transifex.com/p/odoo-8/language/mk/)\n"
+"Language-Team: Macedonian (http://www.transifex.com/p/TuniErp-8/language/mk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -312,7 +312,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a customer invoice.\n"
 "              </p><p>\n"
-"                Odoo's electronic invoicing allows to ease and fasten the\n"
+"                TuniErp's electronic invoicing allows to ease and fasten the\n"
 "                collection of customer payments. Your customer receives the\n"
 "                invoice by email and he can pay online and/or import it\n"
 "                in his own system.\n"
@@ -321,7 +321,7 @@ msgid ""
 "                the bottom of each invoice.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Кликнете да креирате фактура за клиент.\n              </p><p>\n                Електронското фактурирање на Odoo ви овозможува да го олесните и\n                забрзате собирањето на уплати од клиентите. Вашиот клиент добива\n                фактури по е-маил и меже да ги плати преку интернет и/или да ги внесе\n                во неговиот сопствен систем.\n              </p><p>\n                Дискусиите со вашиот клиент се автоматски прикажани на\n                дното на фактурата.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Кликнете да креирате фактура за клиент.\n              </p><p>\n                Електронското фактурирање на TuniErp ви овозможува да го олесните и\n                забрзате собирањето на уплати од клиентите. Вашиот клиент добива\n                фактури по е-маил и меже да ги плати преку интернет и/или да ги внесе\n                во неговиот сопствен систем.\n              </p><p>\n                Дискусиите со вашиот клиент се автоматски прикажани на\n                дното на фактурата.\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_invoice_tree3
@@ -347,13 +347,13 @@ msgid ""
 "                A journal entry consists of several journal items, each of\n"
 "                which is either a debit or a credit transaction.\n"
 "              </p><p>\n"
-"                Odoo automatically creates one journal entry per accounting\n"
+"                TuniErp automatically creates one journal entry per accounting\n"
 "                document: invoice, refund, supplier payment, bank statements,\n"
 "                etc. So, you should record journal entries manually only/mainly\n"
 "                for miscellaneous operations.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Кликнете да креирате внес во дневникот.\n              </p><p>\n                Внесот во дневникот се состои од неколку ставки, од кои секоја е дебит или кредит трансакција.\n              </p><p>\n                Odoo автоматски креира еден внес во дневникот по сметководствен\n                документ: фактура, поврат на ф-ра, плаќања на добавувачи, изводи од банка,\n                итн. Според тоа, рачно ги бележите внесовите во дневникот само/главно\n                за останатите операции.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Кликнете да креирате внес во дневникот.\n              </p><p>\n                Внесот во дневникот се состои од неколку ставки, од кои секоја е дебит или кредит трансакција.\n              </p><p>\n                TuniErp автоматски креира еден внес во дневникот по сметководствен\n                документ: фактура, поврат на ф-ра, плаќања на добавувачи, изводи од банка,\n                итн. Според тоа, рачно ги бележите внесовите во дневникот само/главно\n                за останатите операции.\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_view_bank_statement_tree
@@ -418,7 +418,7 @@ msgid ""
 "                Click to define a new tax code.\n"
 "              </p><p>\n"
 "                Depending on the country, a tax code is usually a cell to fill\n"
-"                in your legal tax statement. Odoo allows you to define the\n"
+"                in your legal tax statement. TuniErp allows you to define the\n"
 "                tax structure and each tax computation will be registered in\n"
 "                one or several tax code.\n"
 "              </p>\n"
@@ -432,11 +432,11 @@ msgid ""
 "                Click to record a new supplier invoice.\n"
 "              </p><p>\n"
 "                You can control the invoice from your supplier according to\n"
-"                what you purchased or received. Odoo can also generate\n"
+"                what you purchased or received. TuniErp can also generate\n"
 "                draft invoices automatically from purchase orders or receipts.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Кликнете да снимите нова фактура на добавувач.\n              </p><p>\n                Можете да ја контролирате фактурата од вашиот добавувач според\n                тоа што сте го нарачале или примиле. Odoo исто може да генерира\n                нацрт фактури автоматски од налози за нарачка или потврди.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Кликнете да снимите нова фактура на добавувач.\n              </p><p>\n                Можете да ја контролирате фактурата од вашиот добавувач според\n                тоа што сте го нарачале или примиле. TuniErp исто може да генерира\n                нацрт фактури автоматски од налози за нарачка или потврди.\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_bank_statement_tree
@@ -448,11 +448,11 @@ msgid ""
 "                occurring over a given period of time on a bank account. You\n"
 "                should receive this periodicaly from your bank.\n"
 "              </p><p>\n"
-"                Odoo allows you to reconcile a statement line directly with\n"
+"                TuniErp allows you to reconcile a statement line directly with\n"
 "                the related sale or puchase invoices.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Кликнете тука да регистрирате извод од банка.\n              </p><p>\n                Изводот од банка е збир од сите финансиски трансакции\n                кои се случиле за даден период на банкарската сметка. \n                Треба повремено да го добивате овој извод од вашата банка.\n              </p><p>\n                Odoo овозможува подмирување на позициите од изводот директно со\n                поврзаните влезни или излезни фактури.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Кликнете тука да регистрирате извод од банка.\n              </p><p>\n                Изводот од банка е збир од сите финансиски трансакции\n                кои се случиле за даден период на банкарската сметка. \n                Треба повремено да го добивате овој извод од вашата банка.\n              </p><p>\n                TuniErp овозможува подмирување на позициите од изводот директно со\n                поврзаните влезни или излезни фактури.\n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_invoice_tree4
@@ -490,8 +490,8 @@ msgid ""
 "                Select the period and the journal you want to fill.\n"
 "              </p><p>\n"
 "                This view can be used by accountants in order to quickly record\n"
-"                entries in Odoo. If you want to record a supplier invoice,\n"
-"                start by recording the line of the expense account. Odoo\n"
+"                entries in TuniErp. If you want to record a supplier invoice,\n"
+"                start by recording the line of the expense account. TuniErp\n"
 "                will propose to you automatically the Tax related to this\n"
 "                account and the counterpart \"Account Payable\".\n"
 "              </p>\n"
@@ -507,7 +507,7 @@ msgid ""
 "            Configure your company's bank account and select those that must\n"
 "            appear on the report footer.\n"
 "          </p><p>\n"
-"            If you use the accounting application of Odoo, journals and\n"
+"            If you use the accounting application of TuniErp, journals and\n"
 "            accounts will be created automatically based on these data.\n"
 "          </p>\n"
 "        "
@@ -534,12 +534,12 @@ msgid ""
 "                term of costs/revenues reporting.\n"
 "              </p><p>\n"
 "                They are usually structured by contracts, projects, products or\n"
-"                departements. Most of the Odoo operations (invoices,\n"
+"                departements. Most of the TuniErp operations (invoices,\n"
 "                timesheets, expenses, etc) generate analytic entries on the\n"
 "                related account.\n"
 "              </p>\n"
 "            "
-msgstr "<p>\n                Кликнете да креирате ново аналитичко конто.\n              </p><p>\n                Нормалниот контен план има структура дефинирана од\n                правните регулативи на земјата. Структурата на \n                аналитичкиот контен план би требало да ги рефлектира\n                вашите бизнис потреби во смисол на извештаи за трошоци/приход.\n              </p><p>\n                Тие најчесто се структуирани од договори, проекти, производи или\n                оддели. Повеќето од Odoo операциите (фактури,\n                распореди, трошоци, итн) генерираат аналитички внесови во\n                соодветното конто.\n              </p>\n            "
+msgstr "<p>\n                Кликнете да креирате ново аналитичко конто.\n              </p><p>\n                Нормалниот контен план има структура дефинирана од\n                правните регулативи на земјата. Структурата на \n                аналитичкиот контен план би требало да ги рефлектира\n                вашите бизнис потреби во смисол на извештаи за трошоци/приход.\n              </p><p>\n                Тие најчесто се структуирани од договори, проекти, производи или\n                оддели. Повеќето од TuniErp операциите (фактури,\n                распореди, трошоци, итн) генерираат аналитички внесови во\n                соодветното конто.\n              </p>\n            "
 
 #. module: account
 #: view:account.bank.statement:account.view_bank_statement_form2
@@ -1175,10 +1175,10 @@ msgstr "Старосна структура на обврски/побарува
 #: view:account.aged.trial.balance:account.account_aged_balance_view
 msgid ""
 "Aged Partner Balance is a more detailed report of your receivables by "
-"intervals. When opening that report, Odoo asks for the name of the company, "
+"intervals. When opening that report, TuniErp asks for the name of the company, "
 "the fiscal period and the size of the interval to be analyzed (in days). "
-"Odoo then calculates a table of credit balance by period. So if you request "
-"an interval of 30 days Odoo generates an analysis of creditors for the past "
+"TuniErp then calculates a table of credit balance by period. So if you request "
+"an interval of 30 days TuniErp generates an analysis of creditors for the past "
 "month, past two months, and so on."
 msgstr ""
 
@@ -4583,10 +4583,10 @@ msgstr "За сметки кои типично имаат повеќе задо
 msgid ""
 "For an invoice to be considered as paid, the invoice entries must be "
 "reconciled with counterparts, usually payments. With the automatic "
-"reconciliation functionality, Odoo makes its own search for entries to "
+"reconciliation functionality, TuniErp makes its own search for entries to "
 "reconcile in a series of accounts. It finds entries for each partner where "
 "the amounts correspond."
-msgstr "Фактурата се смета дека е платена, кога ставките ќе се порамнат со противконта, што вообичаено се плаќања. Преку функционалноста за автоматско порамнување, Odoo самостојно   бара внесови за подмирување во серија сметки. За секој партнер пронаоѓа внесови каде што вредностите се совпаѓаат."
+msgstr "Фактурата се смета дека е платена, кога ставките ќе се порамнат со противконта, што вообичаено се плаќања. Преку функционалноста за автоматско порамнување, TuniErp самостојно   бара внесови за подмирување во серија сметки. За секој партнер пронаоѓа внесови каде што вредностите се совпаѓаат."
 
 #. module: account
 #: help:account.journal,with_last_closing_balance:0
@@ -4795,7 +4795,7 @@ msgstr "Дава секвенциски редослед кога ја прик�
 #: help:account.analytic.journal,type:0
 msgid ""
 "Gives the type of the analytic journal. When it needs for a document (eg: an"
-" invoice) to create analytic entries, Odoo will look for a matching journal "
+" invoice) to create analytic entries, TuniErp will look for a matching journal "
 "of the same type."
 msgstr ""
 
@@ -7308,8 +7308,8 @@ msgid ""
 "Paypal account (email) for receiving online payments (credit card, etc.) If "
 "you set a paypal account, the customer  will be able to pay your invoices or"
 " quotations with a button \"Pay with  Paypal\" in automated emails or "
-"through the Odoo portal."
-msgstr "Paypal налог (е-маил) за примање плаќања преку интернет (кредитна картичка, итн.) Ако подесете paypal налог, клиентот  ќе може да ги плаќа вашите фактури или понуди преку копче \"Плати со  Paypal\" во автоматизирани е-маил пораки или преку Odoo порталот."
+"through the TuniErp portal."
+msgstr "Paypal налог (е-маил) за примање плаќања преку интернет (кредитна картичка, итн.) Ако подесете paypal налог, клиентот  ќе може да ги плаќа вашите фактури или понуди преку копче \"Плати со  Paypal\" во автоматизирани е-маил пораки или преку TuniErp порталот."
 
 #. module: account
 #: help:res.company,paypal_account:0
@@ -10173,7 +10173,7 @@ msgstr "Оваа етикет ќе биде прикажана на извешт
 msgid ""
 "This menu prints a tax declaration based on invoices or payments. Select one"
 " or several periods of the fiscal year. The information required for a tax "
-"declaration is automatically generated by Odoo from invoices (or payments, "
+"declaration is automatically generated by TuniErp from invoices (or payments, "
 "in some countries). This data is updated in real time. That’s very useful "
 "because it enables you to preview at any time the tax that you owe at the "
 "start and end of the month or quarter."
@@ -10246,7 +10246,7 @@ msgstr ""
 #. module: account
 #: help:account.account.template,type:0 help:account.entries.report,type:0
 msgid ""
-"This type is used to differentiate types with special effects in Odoo: view "
+"This type is used to differentiate types with special effects in TuniErp: view "
 "can not have entries, consolidation are accounts that can have children "
 "accounts for multi-company consolidations, payable/receivable are for "
 "partners accounts (for debit/credit computations), closed for depreciated "
@@ -11508,8 +11508,8 @@ msgstr "денови"
 
 #. module: account
 #: view:account.config.settings:account.view_account_config_settings
-msgid "e.g. sales@odoo.com"
-msgstr "пр. prodazba@odoo.com"
+msgid "e.g. sales@TuniErp.com"
+msgstr "пр. prodazba@TuniErp.com"
 
 #. module: account
 #: view:account.config.settings:account.view_account_config_settings

@@ -7,8 +7,8 @@
     syntax-checked and tested.
     """,
 
-    'author': "Odoo",
-    'website': "http://odoo.com",
+    'author': "TuniErp",
+    'website': "http://TuniErp.com",
 
     'category': 'Tests',
     'version': '0.1',

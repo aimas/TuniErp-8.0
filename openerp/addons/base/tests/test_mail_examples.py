@@ -897,7 +897,7 @@ BUG2 = """
               <th nowrap="" valign="BASELINE" align="RIGHT">Répondre
 
                 à&nbsp;: </th>
-              <td><a class="moz-txt-link-abbreviated" href="mailto:catchall@mail.odoo.com">catchall@mail.odoo.com</a></td>
+              <td><a class="moz-txt-link-abbreviated" href="mailto:catchall@mail.TuniErp.com">catchall@mail.TuniErp.com</a></td>
             </tr>
             <tr>
               <th nowrap="" valign="BASELINE" align="RIGHT">Pour&nbsp;:
@@ -1113,7 +1113,7 @@ BUG3 = """<div class="oe_msg_body_long" style="/* display: none; */"><p>OpenERP 
 <ul>
 <li><p class="first">New Warehouse Management System:</p>
 <blockquote>
-<p>Schedule your picking, packing, receptions and internal moves automatically with Odoo using
+<p>Schedule your picking, packing, receptions and internal moves automatically with TuniErp using
 your own routing rules. Define push and pull rules to organize a warehouse or to manage
 product moves between several warehouses. Track in detail all stock moves, not only in your
 warehouse but wherever else it's taken as well (customers, suppliers or manufacturing

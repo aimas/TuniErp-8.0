@@ -371,14 +371,14 @@ class ir_mail_server(osv.osv):
         joining the parameters "mail.catchall.alias" and
         "mail.catchall.domain".
 
-        If "mail.catchall.alias" is not set it defaults to "postmaster-odoo".
+        If "mail.catchall.alias" is not set it defaults to "postmaster-TuniErp".
 
         If "mail.catchall.domain" is not set, return None.
 
         '''
         get_param = self.pool['ir.config_parameter'].get_param
         postmaster = get_param(cr, SUPERUSER_ID, 'mail.bounce.alias',
-                               default='postmaster-odoo',
+                               default='postmaster-TuniErp',
                                context=context,)
         domain = get_param(cr, SUPERUSER_ID, 'mail.catchall.domain', context=context)
         if postmaster and domain:
