@@ -4,7 +4,7 @@ from pygments.styles.paraiso_dark import ParaisoDarkStyle
 from pygments.token import *
 
 # extracted from getbootstrap.com
-class OdooStyle(Style):
+class TuniERPStyle(Style):
     background_color = '#272727'
     highlight_color = ParaisoDarkStyle.highlight_color
 
@@ -14,7 +14,7 @@ class OdooStyle(Style):
 
 import imp
 import sys
-modname = 'pygments.styles.odoo'
+modname = 'pygments.styles.tunierp'
 m = imp.new_module(modname)
-m.OdooStyle = OdooStyle
+m.TuniERPStyle = TuniERPStyle
 sys.modules[modname] = m

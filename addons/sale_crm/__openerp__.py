@@ -35,7 +35,7 @@ We suggest you to install this module, if you installed both the sale and the cr
 modules.
     """,
     'author': 'OpenERP SA',
-    'website': 'https://www.odoo.com/page/crm',
+    'website': 'https://www.tunierp.com/page/crm',
     'depends': ['sale', 'crm', 'web_kanban_gauge'],
     'data': [
         'wizard/crm_make_sale_view.xml',

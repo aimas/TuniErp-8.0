@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * crm_helpdesk
 # 
@@ -9,12 +9,12 @@
 # 卓忆科技 <zhanghao@jointd.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-07 12:49+0000\n"
 "Last-Translator: mrshelly <mrshelly@hotmail.com>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/p/odoo-8/language/zh_CN/)\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/p/tunierp-8/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -39,13 +39,13 @@ msgid ""
 "              </p><p>\n"
 "                Helpdesk and Support allow you to track your interventions.\n"
 "              </p><p>\n"
-"                Use the Odoo Issues system to manage your support\n"
+"                Use the TuniERP Issues system to manage your support\n"
 "                activities. Issues can be connected to the email gateway: new\n"
 "                emails may create issues, each of them automatically gets the\n"
 "                history of the conversation with the customer.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n点击创建新的请求. \n</p><p>\n服务台和支持服务允许您跟踪自己的的操作。\n</p><p>\n使用Odoo的问题系统来管理你的服务活动。\n所有问题都可以通过邮件服务器连接: 所有新的问题都会创建邮件, 这些邮件自动获取用户的交流记录.\n</p>"
+msgstr "<p class=\"oe_view_nocontent_create\">\n点击创建新的请求. \n</p><p>\n服务台和支持服务允许您跟踪自己的的操作。\n</p><p>\n使用TuniERP的问题系统来管理你的服务活动。\n所有问题都可以通过邮件服务器连接: 所有新的问题都会创建邮件, 这些邮件自动获取用户的交流记录.\n</p>"
 
 #. module: crm_helpdesk
 #: field:crm.helpdesk,active:0

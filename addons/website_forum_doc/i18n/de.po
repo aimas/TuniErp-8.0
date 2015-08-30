@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * website_forum_doc
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-07-17 08:19+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: German (http://www.transifex.com/p/odoo-8/language/de/)\n"
+"Language-Team: German (http://www.transifex.com/p/tunierp-8/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -180,13 +180,13 @@ msgstr "Fehler! Sie können keine rekursiven Kategorien erstellen."
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
-msgid "Explain how to configure in Odoo"
-msgstr "Erklären Sie die Konfiguration von Odoo"
+msgid "Explain how to configure in TuniERP"
+msgstr "Erklären Sie die Konfiguration von TuniERP"
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
-msgid "Explain how to implement it in Odoo"
-msgstr "Erklären Sie die Implementierung von Odoo"
+msgid "Explain how to implement it in TuniERP"
+msgstr "Erklären Sie die Implementierung von TuniERP"
 
 #. module: website_forum_doc
 #: field:forum.documentation.toc,forum_id:0
@@ -390,8 +390,8 @@ msgstr "Stufenbezeichnung"
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
-msgid "The answer is understandable for someone who does not know Odoo"
-msgstr "Die Antwort kann durch Odoo Anfänger verstanden werden."
+msgid "The answer is understandable for someone who does not know TuniERP"
+msgstr "Die Antwort kann durch TuniERP Anfänger verstanden werden."
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question

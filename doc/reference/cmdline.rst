@@ -3,7 +3,7 @@
 .. _reference/cmdline:
 
 ===============================
-Command-line interface: odoo.py
+Command-line interface: tunierp.py
 ===============================
 
 .. _reference/cmdline/server:
@@ -11,7 +11,7 @@ Command-line interface: odoo.py
 Running the server
 ==================
 
-.. program:: odoo.py
+.. program:: tunierp.py
 
 .. option:: -d <database>, --database <database>
 
@@ -148,8 +148,8 @@ database
 
     - ``%h`` is replaced by the whole hostname the request is made on.
     - ``%d`` is replaced by the subdomain the request is made on, with the
-      exception of ``www`` (so domain ``odoo.com`` and ``www.odoo.com`` both
-      match the database ``odoo``)
+      exception of ``www`` (so domain ``tunierp.com`` and ``www.tunierp.com`` both
+      match the database ``tunierp``)
 
 .. option:: --db-template <template>
 
@@ -184,7 +184,7 @@ built-in HTTP
 logging
 -------
 
-By default, Odoo displays all logging of level_ ``info`` except for workflow
+By default, TuniERP displays all logging of level_ ``info`` except for workflow
 logging (``warning`` only), and log output is sent to ``stdout``. Various
 options are available to redirect logging to other destinations and to
 customize the amout of logging output
@@ -229,7 +229,7 @@ customize the amout of logging output
 
     .. code-block:: console
 
-        $ odoo.py --log-handler :DEBUG --log-handler werkzeug:CRITICAL --log-handler openerp.fields:WARNING
+        $ tunierp.py --log-handler :DEBUG --log-handler werkzeug:CRITICAL --log-handler openerp.fields:WARNING
 
 .. option:: --log-request
 
@@ -258,7 +258,7 @@ customize the amout of logging output
     ``openerp`` and ``werkzeug`` loggers (except for ``debug`` which is only
     set on ``openerp``).
 
-    Odoo also provides debugging pseudo-levels which apply to different sets
+    TuniERP also provides debugging pseudo-levels which apply to different sets
     of loggers:
 
     ``debug_sql``
@@ -293,14 +293,14 @@ Advanced options
 Scaffolding
 ===========
 
-.. program:: odoo.py scaffold
+.. program:: tunierp.py scaffold
 
 Scaffolding is the automated creation of a skeleton structure to simplify
-bootstrapping (of new modules, in the case of Odoo). While not necessary it
+bootstrapping (of new modules, in the case of TuniERP). While not necessary it
 avoids the tedium of setting up basic structures and looking up what all
 starting requirements are.
 
-Scaffolding is available via the :command:`odoo.py scaffold` subcommand.
+Scaffolding is available via the :command:`tunierp.py scaffold` subcommand.
 
 .. option:: -t <template>
 
@@ -341,8 +341,8 @@ Some conversions don't match the pattern:
   from configuration files
 
 The default configuration file is :file:`{$HOME}/.openerp_serverrc` which
-can be overridden using :option:`--config <odoo.py -c>`. Specifying
-:option:`--save <odoo.py -s>` will save the current configuration state back
+can be overridden using :option:`--config <tunierp.py -c>`. Specifying
+:option:`--save <tunierp.py -s>` will save the current configuration state back
 to that file.
 
 .. _jinja2: http://jinja.pocoo.org

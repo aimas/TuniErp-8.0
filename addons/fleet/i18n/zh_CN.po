@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * fleet
 # 
@@ -8,12 +8,12 @@
 # tony <gm@wffeitas.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:09+0000\n"
 "PO-Revision-Date: 2015-07-07 12:49+0000\n"
 "Last-Translator: mrshelly <mrshelly@hotmail.com>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/p/odoo-8/language/zh_CN/)\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/p/tunierp-8/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -48,14 +48,14 @@ msgid ""
 "                Click to create a new contract.\n"
 "              </p><p>\n"
 "                Manage all your contracts (leasing, insurances, etc.) with\n"
-"                their related services, costs. Odoo will automatically warn\n"
+"                their related services, costs. TuniERP will automatically warn\n"
 "                you when some contracts have to be renewed.\n"
 "              </p><p>\n"
 "                Each contract (e.g.: leasing) may include several services\n"
 "                (reparation, insurances, periodic maintenance).\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n单击创建一份新的合同。 \n</p><p>\n管理你所有合同(租赁、保险等)的相关服务和费用。Odoo会在合同需要更新的时候自动提醒你。</p><p>\n每份合同(例如租赁)可能包含多项服务(赔偿、保险、定期维护)。</p>"
+msgstr "<p class=\"oe_view_nocontent_create\">\n单击创建一份新的合同。 \n</p><p>\n管理你所有合同(租赁、保险等)的相关服务和费用。TuniERP会在合同需要更新的时候自动提醒你。</p><p>\n每份合同(例如租赁)可能包含多项服务(赔偿、保险、定期维护)。</p>"
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_costs_act
@@ -63,12 +63,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a new cost.\n"
 "              </p><p>\n"
-"                Odoo helps you managing the costs for your different\n"
+"                TuniERP helps you managing the costs for your different\n"
 "                vehicles. Costs are created automatically from services,\n"
 "                contracts (fixed or recurring) and fuel logs.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n 单击，创建一个新的成本费用。\n</p><p>\n Odoo帮你管理不同车辆的成本费用.。成本费用被自动从服务，合同(固定或者定期的)和加油记录中创建.\n</p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n 单击，创建一个新的成本费用。\n</p><p>\n TuniERP帮你管理不同车辆的成本费用.。成本费用被自动从服务，合同(固定或者定期的)和加油记录中创建.\n</p>\n            "
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_log_fuel_act
@@ -114,12 +114,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a new service entry.\n"
 "              </p><p>\n"
-"                Odoo helps you keeping track of all the services done\n"
+"                TuniERP helps you keeping track of all the services done\n"
 "                on your vehicle. Services can be of many type: occasional\n"
 "                repair, fixed maintenance, etc.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n单击新建一个服务条目。\n</p><p>\nOdoo帮助你跟踪车辆的所有已完成服务。服务可以包含多种类型：临时维修、定期保养等等。\n</p>"
+msgstr "<p class=\"oe_view_nocontent_create\">\n单击新建一个服务条目。\n</p><p>\nTuniERP帮助你跟踪车辆的所有已完成服务。服务可以包含多种类型：临时维修、定期保养等等。\n</p>"
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_service_types_act
@@ -142,11 +142,11 @@ msgid ""
 "                contracts, services, fixed and recurring costs, odometers and\n"
 "                fuel logs associated to each vehicle.\n"
 "            </p><p>\n"
-"                Odoo will warn you when services or contract have to be\n"
+"                TuniERP will warn you when services or contract have to be\n"
 "                renewed.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n单击来创建一个新的车辆信息。\n</p><p>\n你可以通过跟踪每辆汽车的合同、服务、固定的或经常性的费用、里程表和补充燃料记录来管理你的车辆。 </p><p>\nOdoo会在服务或合同需要更新的时候提醒你。</p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n单击来创建一个新的车辆信息。\n</p><p>\n你可以通过跟踪每辆汽车的合同、服务、固定的或经常性的费用、里程表和补充燃料记录来管理你的车辆。 </p><p>\nTuniERP会在服务或合同需要更新的时候提醒你。</p>\n            "
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_state_act
@@ -165,15 +165,15 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n                点击创建车�
 #: model:ir.actions.act_window,help:fleet.action_fleet_reporting_costs_non_effective
 msgid ""
 "<p>\n"
-"          Odoo helps you managing the costs for your different vehicles\n"
+"          TuniERP helps you managing the costs for your different vehicles\n"
 "          Costs are generally created from services and contract and appears here.\n"
 "        </p>\n"
 "        <p>\n"
-"          Thanks to the different filters, Odoo can only print the effective\n"
+"          Thanks to the different filters, TuniERP can only print the effective\n"
 "          costs, sort them by type and by vehicle.\n"
 "        </p>\n"
 "      "
-msgstr "<p>\nOdoo的帮助您管理不同车辆的费用，并在这里出现成本常规服务的创建和合同订约。\n</p>\n<p>\n基于不同的过滤器，Odoo 只能打印有效的费用成本。并按类型和车辆对它们进行排序。\n</p>"
+msgstr "<p>\nTuniERP的帮助您管理不同车辆的费用，并在这里出现成本常规服务的创建和合同订约。\n</p>\n<p>\n基于不同的过滤器，TuniERP 只能打印有效的费用成本。并按类型和车辆对它们进行排序。\n</p>"
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_1

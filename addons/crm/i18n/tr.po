@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * crm
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-06-30 16:45+0000\n"
 "Last-Translator: Murat Kaplan <muratk@projetgrup.com>\n"
-"Language-Team: Turkish (http://www.transifex.com/p/odoo-8/language/tr/)\n"
+"Language-Team: Turkish (http://www.transifex.com/p/tunierp-8/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -135,7 +135,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "            Click to log the summary of a phone call. \n"
 "          </p><p>\n"
-"            Odoo allows you to log inbound calls on the fly to track the\n"
+"            TuniERP allows you to log inbound calls on the fly to track the\n"
 "            history of the communication with a customer or to inform another\n"
 "            team member.\n"
 "          </p><p>\n"
@@ -143,7 +143,7 @@ msgid ""
 "            another call, a meeting or an opportunity.\n"
 "          </p>\n"
 "        "
-msgstr "<p class=\"oe_view_nocontent_create\">\n            Bir telefon çağrısı özeti kaydı için tıklayın. \n          </p><p>\n            Odoo bir müşteri ile olan iletişim geçmişini veya bir başka\n            takım üyesini bilgilendirmek için gelen çağrı kayıtlarını anında ekranda\n            gösterir.\n          </p><p>\n            Çağrı yaparken izleme yaparak bir başka çağrı isteğini, bir\n            toplantıyı veya bir fırsatı başlatabilirsiniz.\n          </p>\n        "
+msgstr "<p class=\"oe_view_nocontent_create\">\n            Bir telefon çağrısı özeti kaydı için tıklayın. \n          </p><p>\n            TuniERP bir müşteri ile olan iletişim geçmişini veya bir başka\n            takım üyesini bilgilendirmek için gelen çağrı kayıtlarını anında ekranda\n            gösterir.\n          </p><p>\n            Çağrı yaparken izleme yaparak bir başka çağrı isteğini, bir\n            toplantıyı veya bir fırsatı başlatabilirsiniz.\n          </p>\n        "
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_categ_phone_outgoing0
@@ -151,20 +151,20 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "            Click to schedule a call \n"
 "          </p><p>\n"
-"            Odoo allows you to easily define all the calls to be done\n"
+"            TuniERP allows you to easily define all the calls to be done\n"
 "            by your sales team and follow up based on their summary.\n"
 "          </p><p>  \n"
 "            You can use the import feature to massively import a new list of\n"
 "            prospects to qualify.\n"
 "          </p>\n"
 "        "
-msgstr "<p class=\"oe_view_nocontent_create\">\n            Bir çağrı programlamak için tıklayın \n          </p><p>\n            Odoo çağrı özetlerinin izlenmesine dayalı olarak satış\n            takımınızca yapılacak çağrıları kolayca tanımlamanızı sağlar.\n          </p><p>  \n            İçeaktarma özelliği sayesinde değerlendireceğiniz yeni bir beklentiyi\n            toplu olarak içeaktarabilirsiniz.\n          </p>\n        "
+msgstr "<p class=\"oe_view_nocontent_create\">\n            Bir çağrı programlamak için tıklayın \n          </p><p>\n            TuniERP çağrı özetlerinin izlenmesine dayalı olarak satış\n            takımınızca yapılacak çağrıları kolayca tanımlamanızı sağlar.\n          </p><p>  \n            İçeaktarma özelliği sayesinde değerlendireceğiniz yeni bir beklentiyi\n            toplu olarak içeaktarabilirsiniz.\n          </p>\n        "
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid ""
 "<p>\n"
-"                    Odoo helps you keep track of your sales pipeline to follow\n"
+"                    TuniERP helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues.\n"
 "                </p><p>\n"
 "                    You will be able to plan meetings and phone calls from\n"
@@ -172,7 +172,7 @@ msgid ""
 "                    documents, track all discussions, and much more.\n"
 "                </p>\n"
 "            "
-msgstr "<p>\n                    Odoo, potansiyel satışları ve gelecekteki gelirleri daha iyi\n                    öngörmeniz için satış kanallarınızın kayıtlarını tutar.\n                </p><p>\n                    Fırsatlardan toplantılar planlayabilecek ve telefon çağrıları\n                    yapacabilecek, onları tekliflere dönüştürebilecek, belgeler ekleyebilecek, bütün\n                    görüşmelerin kaydını tutabilecek, ve daha bir çok şey yapabileceksiniz.\n                </p>\n            "
+msgstr "<p>\n                    TuniERP, potansiyel satışları ve gelecekteki gelirleri daha iyi\n                    öngörmeniz için satış kanallarınızın kayıtlarını tutar.\n                </p><p>\n                    Fırsatlardan toplantılar planlayabilecek ve telefon çağrıları\n                    yapacabilecek, onları tekliflere dönüştürebilecek, belgeler ekleyebilecek, bütün\n                    görüşmelerin kaydını tutabilecek, ve daha bir çok şey yapabileceksiniz.\n                </p>\n            "
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_lead
@@ -193,7 +193,7 @@ msgstr "<p>\n                    Bir fırsat veya bir müşteri oluşturmadan ö
 #: model:ir.actions.act_window,help:crm.crm_case_category_act_oppor11
 msgid ""
 "<p>\n"
-"                Odoo helps you keep track of your sales pipeline to follow\n"
+"                TuniERP helps you keep track of your sales pipeline to follow\n"
 "                up potential sales and better forecast your future revenues.\n"
 "            </p><p>\n"
 "                You will be able to plan meetings and phone calls from\n"
@@ -201,7 +201,7 @@ msgid ""
 "                documents, track all discussions, and much more.\n"
 "            </p>\n"
 "        "
-msgstr "<p>\n                Odoo, potansiyel satışları ve gelecekteki gelirleri \n                daha iyi öngörmeniz için satış kanallarınızın kayıtlarını  tutar.\n            </p><p>\n                Fırsatlardan toplantılar planlayabilecek ve telefon çağrıları\n                yapacabilecek, onları tekliflere dönüştürebilecek, belgeler ekleyebilecek, \n                bütün görüşmelerin kaydını tutabilecek, ve daha bir çok şey yapabileceksiniz..\n            </p>\n        "
+msgstr "<p>\n                TuniERP, potansiyel satışları ve gelecekteki gelirleri \n                daha iyi öngörmeniz için satış kanallarınızın kayıtlarını  tutar.\n            </p><p>\n                Fırsatlardan toplantılar planlayabilecek ve telefon çağrıları\n                yapacabilecek, onları tekliflere dönüştürebilecek, belgeler ekleyebilecek, \n                bütün görüşmelerin kaydını tutabilecek, ve daha bir çok şey yapabileceksiniz..\n            </p>\n        "
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_category_act_leads_all
@@ -2569,9 +2569,9 @@ msgstr "Bu Satış Ekibi için Aşamaları seçin"
 msgid ""
 "Select the list of fields used to search for\n"
 "                            duplicated records. If you select several fields,\n"
-"                            Odoo will propose you to merge only those having\n"
+"                            TuniERP will propose you to merge only those having\n"
 "                            all these fields in common. (not one of the fields)."
-msgstr "Benzer kayıtların aranacağı liste alanlarını\n                            seçin. Birden çok alan seçerseniz,\n                            Odoo size yalnızca ortak alanları olanları\n                            birleştirmenizi önerecektir. (yalnızca bir alanı değil)."
+msgstr "Benzer kayıtların aranacağı liste alanlarını\n                            seçin. Birden çok alan seçerseniz,\n                            TuniERP size yalnızca ortak alanları olanları\n                            birleştirmenizi önerecektir. (yalnızca bir alanı değil)."
 
 #. module: crm
 #: selection:base.partner.merge.automatic.wizard,state:0

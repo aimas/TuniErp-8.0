@@ -38,7 +38,7 @@ compatible with older configurations.
 
     """,
     'author': 'OpenERP SA',
-    'website': 'https://www.odoo.com/page/employees',
+    'website': 'https://www.tunierp.com/page/employees',
     'depends': ['hr_timesheet_sheet'],
     'data': ['analytic_user_function_view.xml', 'security/ir.model.access.csv'],
     'demo': [],

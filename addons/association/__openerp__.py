@@ -37,6 +37,6 @@ membership products (schemes).
     'demo': [],
     'installable': True,
     'auto_install': False,
-    'website': 'https://www.odoo.com'
+    'website': 'https://www.tunierp.com'
 }
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

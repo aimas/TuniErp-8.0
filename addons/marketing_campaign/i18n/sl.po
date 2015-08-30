@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * marketing_campaign
 # 
@@ -7,12 +7,12 @@
 # Matjaž Mozetič <m.mozetic@matmoz.si>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-06-30 08:25+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Slovenian (http://www.transifex.com/p/odoo-8/language/sl/)\n"
+"Language-Team: Slovenian (http://www.transifex.com/p/tunierp-8/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -30,7 +30,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "            Click to create a marketing campaign.\n"
 "          </p><p>\n"
-"            Odoo's marketing campaign allows you to automate communication\n"
+"            TuniERP's marketing campaign allows you to automate communication\n"
 "            to your prospects. You can define a segment (set of conditions) on\n"
 "            your leads and partners to fullfil the campaign.\n"
 "          </p><p>\n"
@@ -40,7 +40,7 @@ msgid ""
 "            contact, if a lead is not closed yet, etc.\n"
 "          </p>\n"
 "        "
-msgstr "<p class=\"oe_view_nocontent_create\">\n            Ustvarjanje marketinške kampanje.\n          </p><p>\n            Odoo's marketinška kampanja omogoča avtomatizacijo komunikacije\n            s potencialnimi kupci. Za izpolnitev kampanje lahko določite segment\n            (serijo pogojev) na indicih in partnerjih.\n          </p><p>\n            Kampanja lahko vsebuje več aktivnosti, kot npr. pošiljanje e-pošte, tiskanje\n            dopisa, dodeljevanje ekipam, ipd. Te aktivnosti se sprožijo\n            v specifičnih situacijah; obrazec stika, 10 dni po prvi vzpostavitvi\n            stika, če indic še ni zaključen, ipd.\n          </p>\n        "
+msgstr "<p class=\"oe_view_nocontent_create\">\n            Ustvarjanje marketinške kampanje.\n          </p><p>\n            TuniERP's marketinška kampanja omogoča avtomatizacijo komunikacije\n            s potencialnimi kupci. Za izpolnitev kampanje lahko določite segment\n            (serijo pogojev) na indicih in partnerjih.\n          </p><p>\n            Kampanja lahko vsebuje več aktivnosti, kot npr. pošiljanje e-pošte, tiskanje\n            dopisa, dodeljevanje ekipam, ipd. Te aktivnosti se sprožijo\n            v specifičnih situacijah; obrazec stika, 10 dni po prvi vzpostavitvi\n            stika, če indic še ni zaključen, ipd.\n          </p>\n        "
 
 #. module: marketing_campaign
 #: field:marketing.campaign.activity,server_action_id:0
@@ -1077,8 +1077,8 @@ msgstr "Spremenljivi stroški"
 
 #. module: marketing_campaign
 #: model:email.template,subject:marketing_campaign.email_template_1
-msgid "Welcome to the Odoo Partner Channel!"
-msgstr "Dobrodošli na Odoo partnerskem kanalu!"
+msgid "Welcome to the TuniERP Partner Channel!"
+msgstr "Dobrodošli na TuniERP partnerskem kanalu!"
 
 #. module: marketing_campaign
 #: selection:marketing.campaign,mode:0

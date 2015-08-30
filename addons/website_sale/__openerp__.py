@@ -2,7 +2,7 @@
     'name': 'eCommerce',
     'category': 'Website',
     'summary': 'Sell Your Products Online',
-    'website': 'https://www.odoo.com/page/e-commerce',
+    'website': 'https://www.tunierp.com/page/e-commerce',
     'version': '1.0',
     'description': """
 OpenERP E-Commerce

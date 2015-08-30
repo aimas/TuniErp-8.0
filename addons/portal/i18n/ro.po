@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * portal
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-06-26 19:24+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Romanian (http://www.transifex.com/p/odoo-8/language/ro/)\n"
+"Language-Team: Romanian (http://www.transifex.com/p/tunierp-8/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -137,9 +137,9 @@ msgid ""
 "%(welcome_message)s\n"
 "\n"
 "--\n"
-"Odoo - Open Source Business Applications\n"
+"TuniERP - Open Source Business Applications\n"
 "http://www.openerp.com\n"
-msgstr "Dragă %(name)s,\n\nAți primit acces la %(company)s's %(portal)s.\n\nDatele de cont sunt:\n  Utilizator: %(login)s\n  Portal: %(portal_url)s\n  Bază de date: %(db)s \n\nPuteți schimba parola utilizând URL-ul următor :\n   %(signup_url)s\n\n%(welcome_message)s\n\n--\nOdoo - Open Source Business Applications\nhttp://www.openerp.com\n"
+msgstr "Dragă %(name)s,\n\nAți primit acces la %(company)s's %(portal)s.\n\nDatele de cont sunt:\n  Utilizator: %(login)s\n  Portal: %(portal_url)s\n  Bază de date: %(db)s \n\nPuteți schimba parola utilizând URL-ul următor :\n   %(signup_url)s\n\n%(welcome_message)s\n\n--\nTuniERP - Open Source Business Applications\nhttp://www.openerp.com\n"
 
 #. module: portal
 #: view:share.wizard:portal.share_step2_form_portal
@@ -372,8 +372,8 @@ msgstr "Trebuie sa aveti o adresa de e-mail in Preferintele Utilizatorului pentr
 #. module: portal
 #: code:addons/portal/wizard/portal_wizard.py:33
 #, python-format
-msgid "Your Odoo account at %(company)s"
-msgstr "Contul dumneavoastră de Odoo la %(company)s"
+msgid "Your TuniERP account at %(company)s"
+msgstr "Contul dumneavoastră de TuniERP la %(company)s"
 
 #. module: portal
 #: code:addons/portal/mail_mail.py:46

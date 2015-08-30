@@ -56,7 +56,7 @@ def _get_wkhtmltopdf_bin():
 
 
 #--------------------------------------------------------------------------
-# Check the presence of Wkhtmltopdf and return its version at Odoo start-up
+# Check the presence of Wkhtmltopdf and return its version at TuniERP start-up
 #--------------------------------------------------------------------------
 wkhtmltopdf_state = 'install'
 try:
@@ -76,7 +76,7 @@ else:
         wkhtmltopdf_state = 'ok'
 
     if config['workers'] == 1:
-        _logger.info('You need to start Odoo with at least two workers to print a pdf version of the reports.')
+        _logger.info('You need to start TuniERP with at least two workers to print a pdf version of the reports.')
         wkhtmltopdf_state = 'workers'
 
 

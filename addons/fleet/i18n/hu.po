@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * fleet
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:09+0000\n"
 "PO-Revision-Date: 2015-07-17 07:09+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Hungarian (http://www.transifex.com/p/odoo-8/language/hu/)\n"
+"Language-Team: Hungarian (http://www.transifex.com/p/tunierp-8/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -46,14 +46,14 @@ msgid ""
 "                Click to create a new contract.\n"
 "              </p><p>\n"
 "                Manage all your contracts (leasing, insurances, etc.) with\n"
-"                their related services, costs. Odoo will automatically warn\n"
+"                their related services, costs. TuniERP will automatically warn\n"
 "                you when some contracts have to be renewed.\n"
 "              </p><p>\n"
 "                Each contract (e.g.: leasing) may include several services\n"
 "                (reparation, insurances, periodic maintenance).\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Kattintson új szerződés létrehozásãhoz.\n              </p><p>\n                Összes szerződésének kezelése (lizing, biztosítások, stb.) az ide\n                vonatkozó szolgáltatásokkal, költségekkel. Odoo automatikusan fogja\n                figyelmeztetni ha egyes szerződéseket meg kell újítani.\n              </p><p>\n                Mindegyik szerződés (pl. lizing) magában foglalhat hoszlgáltatást\n                (javítás, biztosítások, ismétlődő karbantartás).\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Kattintson új szerződés létrehozásãhoz.\n              </p><p>\n                Összes szerződésének kezelése (lizing, biztosítások, stb.) az ide\n                vonatkozó szolgáltatásokkal, költségekkel. TuniERP automatikusan fogja\n                figyelmeztetni ha egyes szerződéseket meg kell újítani.\n              </p><p>\n                Mindegyik szerződés (pl. lizing) magában foglalhat hoszlgáltatást\n                (javítás, biztosítások, ismétlődő karbantartás).\n              </p>\n            "
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_costs_act
@@ -61,12 +61,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a new cost.\n"
 "              </p><p>\n"
-"                Odoo helps you managing the costs for your different\n"
+"                TuniERP helps you managing the costs for your different\n"
 "                vehicles. Costs are created automatically from services,\n"
 "                contracts (fixed or recurring) and fuel logs.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Kattintson új költség létrehozásához\n              </p><p>\n                Odoo segít a különböző autói költségeinek\n                kezelésében. A költségeket automatikusan hozza létre a szerződött\n                szolgáltatásokból (fix vagy visszatérő) és üzemanyag nyilvántartás.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Kattintson új költség létrehozásához\n              </p><p>\n                TuniERP segít a különböző autói költségeinek\n                kezelésében. A költségeket automatikusan hozza létre a szerződött\n                szolgáltatásokból (fix vagy visszatérő) és üzemanyag nyilvántartás.\n              </p>\n            "
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_log_fuel_act
@@ -112,12 +112,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a new service entry.\n"
 "              </p><p>\n"
-"                Odoo helps you keeping track of all the services done\n"
+"                TuniERP helps you keeping track of all the services done\n"
 "                on your vehicle. Services can be of many type: occasional\n"
 "                repair, fixed maintenance, etc.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Kattintson új szolgáltatás beviteléhez.\n              </p><p>\n                Odoo rendszer segít a járművein elvégzett szolgáltatások\n                nyomon követéséhez.  Különböző szolgáltatás érhető el: eseti\n                javítás, fix karbantartás, stb.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Kattintson új szolgáltatás beviteléhez.\n              </p><p>\n                TuniERP rendszer segít a járművein elvégzett szolgáltatások\n                nyomon követéséhez.  Különböző szolgáltatás érhető el: eseti\n                javítás, fix karbantartás, stb.\n              </p>\n            "
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_service_types_act
@@ -140,11 +140,11 @@ msgid ""
 "                contracts, services, fixed and recurring costs, odometers and\n"
 "                fuel logs associated to each vehicle.\n"
 "            </p><p>\n"
-"                Odoo will warn you when services or contract have to be\n"
+"                TuniERP will warn you when services or contract have to be\n"
 "                renewed.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Kattintson új gépjármű rögzítéséhez.\n              </p><p>\n                Kezelheti a flottáját a szerződések, szolgáltatások,  fix és\n                alkalmi költségek, kilóméterállás és üzemanyag felhasználás\n                nyomon követésével, minden egyes járművéhez.\n            </p><p>\n                Odoo rendszer felhívja a figyelmét, ha egy szerződést vagy\n                szolgáltatást meg kell újítania.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Kattintson új gépjármű rögzítéséhez.\n              </p><p>\n                Kezelheti a flottáját a szerződések, szolgáltatások,  fix és\n                alkalmi költségek, kilóméterállás és üzemanyag felhasználás\n                nyomon követésével, minden egyes járművéhez.\n            </p><p>\n                TuniERP rendszer felhívja a figyelmét, ha egy szerződést vagy\n                szolgáltatást meg kell újítania.\n              </p>\n            "
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_state_act
@@ -163,15 +163,15 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n                Kattintson gépj
 #: model:ir.actions.act_window,help:fleet.action_fleet_reporting_costs_non_effective
 msgid ""
 "<p>\n"
-"          Odoo helps you managing the costs for your different vehicles\n"
+"          TuniERP helps you managing the costs for your different vehicles\n"
 "          Costs are generally created from services and contract and appears here.\n"
 "        </p>\n"
 "        <p>\n"
-"          Thanks to the different filters, Odoo can only print the effective\n"
+"          Thanks to the different filters, TuniERP can only print the effective\n"
 "          costs, sort them by type and by vehicle.\n"
 "        </p>\n"
 "      "
-msgstr "<p>\n          Odoo rendszer segítséget nyújt a gépjármű parkjában lévő\n          különböző autók költségeinek kezelésére.\n          Az itt feltűnő költségeket általános esetben a szervizekből és szerződésekből keletkeznek\n        </p>\n        <p>\n          A különböző szűrőknek köszönhető,hogy az Odoo rendszer csak a célirányos\n          költségeket nyomtassa, a gépjárműként és típusonként sorbarakva.\n        </p>\n      "
+msgstr "<p>\n          TuniERP rendszer segítséget nyújt a gépjármű parkjában lévő\n          különböző autók költségeinek kezelésére.\n          Az itt feltűnő költségeket általános esetben a szervizekből és szerződésekből keletkeznek\n        </p>\n        <p>\n          A különböző szűrőknek köszönhető,hogy az TuniERP rendszer csak a célirányos\n          költségeket nyomtassa, a gépjárműként és típusonként sorbarakva.\n        </p>\n      "
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_1

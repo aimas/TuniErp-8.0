@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * crm
 # 
@@ -7,12 +7,12 @@
 # Matjaž Mozetič <m.mozetic@matmoz.si>, 2014-2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-06-29 12:18+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Slovenian (http://www.transifex.com/p/odoo-8/language/sl/)\n"
+"Language-Team: Slovenian (http://www.transifex.com/p/tunierp-8/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -136,7 +136,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "            Click to log the summary of a phone call. \n"
 "          </p><p>\n"
-"            Odoo allows you to log inbound calls on the fly to track the\n"
+"            TuniERP allows you to log inbound calls on the fly to track the\n"
 "            history of the communication with a customer or to inform another\n"
 "            team member.\n"
 "          </p><p>\n"
@@ -144,7 +144,7 @@ msgid ""
 "            another call, a meeting or an opportunity.\n"
 "          </p>\n"
 "        "
-msgstr "<p class=\"oe_view_nocontent_create\">\n            Beleženje povzetka telefonskega klica. \n          </p><p>\n            Odoo omogoča sprotno beleženje vhodnih klicev za sledenje\n            kronologije komunikacij s kupcem ali za obveščanje drugega\n            člana ekipe.\n          </p><p>\n            Za nadaljnjo obravnavo telefonskega klica se lahko sproži zahtevek\n            za drug klic, sestanek ali priložnost.\n          </p>\n        "
+msgstr "<p class=\"oe_view_nocontent_create\">\n            Beleženje povzetka telefonskega klica. \n          </p><p>\n            TuniERP omogoča sprotno beleženje vhodnih klicev za sledenje\n            kronologije komunikacij s kupcem ali za obveščanje drugega\n            člana ekipe.\n          </p><p>\n            Za nadaljnjo obravnavo telefonskega klica se lahko sproži zahtevek\n            za drug klic, sestanek ali priložnost.\n          </p>\n        "
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_categ_phone_outgoing0
@@ -152,20 +152,20 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "            Click to schedule a call \n"
 "          </p><p>\n"
-"            Odoo allows you to easily define all the calls to be done\n"
+"            TuniERP allows you to easily define all the calls to be done\n"
 "            by your sales team and follow up based on their summary.\n"
 "          </p><p>  \n"
 "            You can use the import feature to massively import a new list of\n"
 "            prospects to qualify.\n"
 "          </p>\n"
 "        "
-msgstr "<p class=\"oe_view_nocontent_create\">\n            Načrtovanje telefonskega klica \n          </p><p>\n            Odoo omogoča načrtovanje klicev, ki jih mora\n            prodajna ekipa opraviti in obravnavati na osnovi njihovega povzetka.\n          </p><p>  \n            Za množičen uvoz novega seznama obetov za\n            kvalifikacijo, se uporabi funkcijo uvoza.\n          </p>\n        "
+msgstr "<p class=\"oe_view_nocontent_create\">\n            Načrtovanje telefonskega klica \n          </p><p>\n            TuniERP omogoča načrtovanje klicev, ki jih mora\n            prodajna ekipa opraviti in obravnavati na osnovi njihovega povzetka.\n          </p><p>  \n            Za množičen uvoz novega seznama obetov za\n            kvalifikacijo, se uporabi funkcijo uvoza.\n          </p>\n        "
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid ""
 "<p>\n"
-"                    Odoo helps you keep track of your sales pipeline to follow\n"
+"                    TuniERP helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues.\n"
 "                </p><p>\n"
 "                    You will be able to plan meetings and phone calls from\n"
@@ -173,7 +173,7 @@ msgid ""
 "                    documents, track all discussions, and much more.\n"
 "                </p>\n"
 "            "
-msgstr "<p>\n                    Odoo omogoča sledenje prodajnih tokov za obravnavo\n                    potencialne prodaje in boljšo napoved bodočih prihodkov prihodkov.\n                </p><p>\n                    Omogočeno bo načrtovanje sestankov in klicev iz\n                    priložnosti, sprememba le-teh v ponudbe, prilaganje\n                    dokumentov, sledenje razprav in še veliko več.\n                </p>\n            "
+msgstr "<p>\n                    TuniERP omogoča sledenje prodajnih tokov za obravnavo\n                    potencialne prodaje in boljšo napoved bodočih prihodkov prihodkov.\n                </p><p>\n                    Omogočeno bo načrtovanje sestankov in klicev iz\n                    priložnosti, sprememba le-teh v ponudbe, prilaganje\n                    dokumentov, sledenje razprav in še veliko več.\n                </p>\n            "
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_lead
@@ -194,7 +194,7 @@ msgstr "<p>\n                    Če potrebujete pred ustvarjanjem priložnosti 
 #: model:ir.actions.act_window,help:crm.crm_case_category_act_oppor11
 msgid ""
 "<p>\n"
-"                Odoo helps you keep track of your sales pipeline to follow\n"
+"                TuniERP helps you keep track of your sales pipeline to follow\n"
 "                up potential sales and better forecast your future revenues.\n"
 "            </p><p>\n"
 "                You will be able to plan meetings and phone calls from\n"
@@ -202,7 +202,7 @@ msgid ""
 "                documents, track all discussions, and much more.\n"
 "            </p>\n"
 "        "
-msgstr "<p>\n                    Odoo omogoča sledenje prodajnih tokov za obravnavo\n                    potencialne prodaje in boljšo napoved bodočih prihodkov prihodkov.\n                </p><p>\n                    Omogočeno bo načrtovanje sestankov in klicev iz\n                    priložnosti, sprememba le-teh v ponudbe, prilaganje\n                    dokumentov, sledenje razprav in še veliko več.\n                </p>\n        "
+msgstr "<p>\n                    TuniERP omogoča sledenje prodajnih tokov za obravnavo\n                    potencialne prodaje in boljšo napoved bodočih prihodkov prihodkov.\n                </p><p>\n                    Omogočeno bo načrtovanje sestankov in klicev iz\n                    priložnosti, sprememba le-teh v ponudbe, prilaganje\n                    dokumentov, sledenje razprav in še veliko več.\n                </p>\n        "
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_category_act_leads_all
@@ -2570,9 +2570,9 @@ msgstr "Izbira stopenj za to prodajno ekipo"
 msgid ""
 "Select the list of fields used to search for\n"
 "                            duplicated records. If you select several fields,\n"
-"                            Odoo will propose you to merge only those having\n"
+"                            TuniERP will propose you to merge only those having\n"
 "                            all these fields in common. (not one of the fields)."
-msgstr "Izberi seznam polj za iskanje podvojenih\n                            zapisov. Če izberete več polj,\n                            bo Odoo predlagal spajanje le tistih, ki imajo\n                            ta polja skupna. (ne enega izmed polj)."
+msgstr "Izberi seznam polj za iskanje podvojenih\n                            zapisov. Če izberete več polj,\n                            bo TuniERP predlagal spajanje le tistih, ki imajo\n                            ta polja skupna. (ne enega izmed polj)."
 
 #. module: crm
 #: selection:base.partner.merge.automatic.wizard,state:0

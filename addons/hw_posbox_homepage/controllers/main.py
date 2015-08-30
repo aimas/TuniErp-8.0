@@ -15,7 +15,7 @@ index_template = """
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Odoo's PosBox</title>
+        <title>TuniERP's PosBox</title>
         <style>
         body {
             width: 480px;
@@ -30,9 +30,9 @@ index_template = """
         <h1>Your PosBox is up and running</h1>
         <p>
         The PosBox is an hardware adapter that allows you to use 
-        receipt printers and barcode scanners with Odoo's Point of
-        Sale, <b>version 8.0 or later</b>. You can start an <a href='https://www.odoo.com/start'>online free trial</a>,
-        or <a href='https://www.odoo.com/start?download'>download and install</a> it yourself.
+        receipt printers and barcode scanners with TuniERP's Point of
+        Sale, <b>version 8.0 or later</b>. You can start an <a href='https://www.tunierp.com/start'>online free trial</a>,
+        or <a href='https://www.tunierp.com/start?download'>download and install</a> it yourself.
         </p>
         <p>
         For more information on how to setup the Point of Sale with
@@ -44,10 +44,10 @@ index_template = """
         </p>
         <p>
         The PosBox software installed on this posbox is <b>version 6</b>, 
-        the posbox version number is independent from Odoo. You can upgrade
+        the posbox version number is independent from TuniERP. You can upgrade
         the software on the <a href='/hw_proxy/upgrade/'>upgrade page</a>
         </p>
-        <p>For any other question, please contact the Odoo support at <a href='mailto:support@odoo.com'>support@odoo.com</a>
+        <p>For any other question, please contact the TuniERP support at <a href='mailto:support@tunierp.com'>support@tunierp.com</a>
         </p>
     </body>
 </html>

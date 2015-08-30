@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * share
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-07-17 08:03+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Portuguese (http://www.transifex.com/p/odoo-8/language/pt/)\n"
+"Language-Team: Portuguese (http://www.transifex.com/p/tunierp-8/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -338,8 +338,8 @@ msgstr "Grupos Sem-Partilha"
 #: code:addons/share/wizard/share_wizard.py:868
 #, python-format
 msgid ""
-"Odoo is a powerful and user-friendly suite of Business Applications (CRM, Sales, HR, etc.)\n"
-"It is open source and can be found on https://www.odoo.com."
+"TuniERP is a powerful and user-friendly suite of Business Applications (CRM, Sales, HR, etc.)\n"
+"It is open source and can be found on https://www.tunierp.com."
 msgstr ""
 
 #. module: share
@@ -534,18 +534,18 @@ msgstr "O utilizador corrente tem de ter um endereço eletrónico definido nas s
 #: code:addons/share/wizard/share_wizard.py:855
 #, python-format
 msgid ""
-"The documents are not attached, you can view them online directly on my Odoo server at:\n"
+"The documents are not attached, you can view them online directly on my TuniERP server at:\n"
 "    %s\n"
 "\n"
-msgstr "Os documentos não estão ligados, você pode vê-los on-line diretamente no meu servidor Odoo em: \n     % s\n\n"
+msgstr "Os documentos não estão ligados, você pode vê-los on-line diretamente no meu servidor TuniERP em: \n     % s\n\n"
 
 #. module: share
 #: code:addons/share/wizard/share_wizard.py:864
 #, python-format
 msgid ""
-"The documents have been automatically added to your current Odoo "
+"The documents have been automatically added to your current TuniERP "
 "documents.\n"
-msgstr "Os documentos foram adicionados automaticamente aos seus documentos Odoo atuais.\n"
+msgstr "Os documentos foram adicionados automaticamente aos seus documentos TuniERP atuais.\n"
 
 #. module: share
 #: code:addons/share/wizard/share_wizard.py:831

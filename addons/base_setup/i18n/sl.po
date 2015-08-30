@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * base_setup
 # 
@@ -7,12 +7,12 @@
 # Matjaž Mozetič <m.mozetic@matmoz.si>, 2014-2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-06-29 06:56+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Slovenian (http://www.transifex.com/p/odoo-8/language/sl/)\n"
+"Language-Team: Slovenian (http://www.transifex.com/p/tunierp-8/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -221,12 +221,12 @@ msgstr "Član"
 #. module: base_setup
 #: view:sale.config.settings:base_setup.view_sale_config_settings
 msgid ""
-"Odoo allows to automatically create leads (or others documents)\n"
-"                            from incoming emails. You can automatically synchronize emails with Odoo\n"
+"TuniERP allows to automatically create leads (or others documents)\n"
+"                            from incoming emails. You can automatically synchronize emails with TuniERP\n"
 "                            using regular POP/IMAP accounts, using a direct email integration script for your\n"
-"                            email server, or by manually pushing emails to Odoo using specific\n"
+"                            email server, or by manually pushing emails to TuniERP using specific\n"
 "                            plugins for your preferred email application."
-msgstr "Odoo omogoča samodejno ustvarjanje indicev (ali drugih dokumentov)\n                            iz vhodne e-pošte. E-pošto lahko samodejno sinhronizirate preko\n                            POP/IMAP računov z uporabo skripta neposredne e-poštne integracije za\n                            svoj e-poštni strežnik, ali pa ročno potiskate e-pošto v Odoo preko specifičnih\n                            vtičnikov za svojo priljubljeno e-poštno aplikacijo."
+msgstr "TuniERP omogoča samodejno ustvarjanje indicev (ali drugih dokumentov)\n                            iz vhodne e-pošte. E-pošto lahko samodejno sinhronizirate preko\n                            POP/IMAP računov z uporabo skripta neposredne e-poštne integracije za\n                            svoj e-poštni strežnik, ali pa ročno potiskate e-pošto v TuniERP preko specifičnih\n                            vtičnikov za svojo priljubljeno e-poštno aplikacijo."
 
 #. module: base_setup
 #: view:base.config.settings:base_setup.view_general_configuration
@@ -284,8 +284,8 @@ msgstr "Pisavo določena za glavo poročila bo privzeto uporabljena za RML poro�
 
 #. module: base_setup
 #: help:base.config.settings,module_share:0
-msgid "Share or embbed any screen of Odoo."
-msgstr "Souporaba ali vgradnja kateregakoli zaslona Odoo."
+msgid "Share or embbed any screen of TuniERP."
+msgstr "Souporaba ali vgradnja kateregakoli zaslona TuniERP."
 
 #. module: base_setup
 #: view:sale.config.settings:base_setup.view_sale_config_settings

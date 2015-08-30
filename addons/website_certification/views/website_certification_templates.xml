@@ -6,7 +6,7 @@
         <div id="wrap">
             <div class="oe_structure"/>
             <div class="container">
-                <h1>Odoo Certified Experts</h1>
+                <h1>TuniERP Certified Experts</h1>
                 <div class="row">
                     <div class="col-md-8">
                         <div class="well well-sm">Filter by Certification:
@@ -36,14 +36,14 @@
                     </div><div class="col-md-3 col-md-offset-1">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h3 class="panel-title">Odoo Certifications</h3>
+                                <h3 class="panel-title">TuniERP Certifications</h3>
                             </div>
                             <div class="panel-body">
                                 <p>
-                                    The Odoo certification program allows companies
+                                    The TuniERP certification program allows companies
                                     to identify certified professionals and get
                                     the guarantee that their contractors are
-                                    qualified to offer Odoo services.
+                                    qualified to offer TuniERP services.
                                 </p>
                                 <a href="/page/contactus" class="btn btn-primary">Get Certified</a>
                             </div>

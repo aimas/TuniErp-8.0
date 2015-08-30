@@ -1,37 +1,37 @@
-:banner: banners/installing_odoo.jpg
+:banner: banners/installing_tunierp.jpg
 
 .. _setup/install:
 
 ===============
-Installing Odoo
+Installing TuniERP
 ===============
 
-There are mutliple ways to install Odoo, or not install it at all, depending
+There are mutliple ways to install TuniERP, or not install it at all, depending
 on the intended use case.
 
 This documents attempts to describe most of the installation options.
 
 :ref:`setup/install/demo`
     the simplest "installation", only suitable for getting a quick feel for
-    Odoo or trying something out
+    TuniERP or trying something out
 :ref:`setup/install/saas`
-    trivial to start with and fully managed and migrated by Odoo S.A., can be
-    used to both test Odoo and use it for your business, but restricts the
+    trivial to start with and fully managed and migrated by TuniERP S.A., can be
+    used to both test TuniERP and use it for your business, but restricts the
     flexibility of the system somewhat (check: no custom modules? what else?).
 
-    Can be used for both testing Odoo and long-term "production" use.
+    Can be used for both testing TuniERP and long-term "production" use.
 :ref:`setup/install/packaged`
     simple to get started, allows more flexibility in hosting and deploying
     the system and greater control over where data is stored. The maintenance
     burden is shifted to the user.
 
-    Suitable for testing Odoo, developing modules and can be used for
+    Suitable for testing TuniERP, developing modules and can be used for
     long-term production use with additional deployment and maintenance work.
 :ref:`setup/install/source`
     harder to get started than :ref:`setup/install/packaged`, provides
     even greater flexibility: packaged installers don't generally allow
-    multiple running Odoo versions on the same system, and don't provide easy
-    source access to Odoo itself.
+    multiple running TuniERP versions on the same system, and don't provide easy
+    source access to TuniERP itself.
 
     Good for developing modules, can be used as base for production
     deployment.
@@ -39,7 +39,7 @@ This documents attempts to describe most of the installation options.
     The source code can be obtained by downloading a tarball or using git.
     Using git makes it easier to update, switch between multiple versions
     (including the current development version) or contribute.
-`docker image <https://registry.hub.docker.com/_/odoo/>`_
+`docker image <https://registry.hub.docker.com/_/tunierp/>`_
     if you usually use docker_ for development or deployment, an official
     docker_ base image is available, see the image's help document for more
     information
@@ -49,7 +49,7 @@ This documents attempts to describe most of the installation options.
 Demo
 ====
 
-To simply get a quick idea of Odoo, demo_ instances are available. They are
+To simply get a quick idea of TuniERP, demo_ instances are available. They are
 shared instances which only live for a few hours, and can be used to browse
 around and try things out with no commitment.
 
@@ -60,8 +60,8 @@ Demo_ instances require no local installation, just a web browser.
 SaaS
 ====
 
-Odoo's SaaS_ provides private instances and starts out free. It can be used to
-discover and test Odoo and do non-code customizations without having to
+TuniERP's SaaS_ provides private instances and starts out free. It can be used to
+discover and test TuniERP and do non-code customizations without having to
 install it locally.
 
 Like demo_ instances, SaaS_ instances require no local installation, a web
@@ -72,19 +72,19 @@ browser is sufficient.
 Packaged installers
 ===================
 
-Odoo provides packaged installers for Windows, deb-based distributions
+TuniERP provides packaged installers for Windows, deb-based distributions
 (Debian, Ubuntu, …) and RPM-based distributions (Fedora, CentOS, RHEL, …).
 
 These packages automatically set up all dependencies, but may be difficult to
 keep up-to-date.
 
 Official packages with all relevant dependency requirements are available on
-https://nightly.odoo.com.
+https://nightly.tunierp.com.
 
 Windows
 -------
 
-* download https://nightly.odoo.com/8.0/nightly/exe/odoo_8.0.latest.exe
+* download https://nightly.tunierp.com/8.0/nightly/exe/tunierp_8.0.latest.exe
 * run the downloaded file
 
   .. warning:: on Windows 8, you may see a warning titled "Windows protected
@@ -94,33 +94,33 @@ Windows
 * Accept the UAC_ prompt
 * Go through the various installation steps
 
-Odoo will automatically be started at the end of the installation.
+TuniERP will automatically be started at the end of the installation.
 
 Configuration
 '''''''''''''
 
 The :ref:`configuration file <reference/cmdline/config>` can be found at
-:file:`{%PROGRAMFILES%}\\Odoo 8.0-{id}\\server\\openerp-server.conf`.
+:file:`{%PROGRAMFILES%}\\TuniERP 8.0-{id}\\server\\openerp-server.conf`.
 
 The configuration file can be edited to connect to a remote Postgresql, edit
 file locations or set a dbfilter.
 
-To reload the configuration file, restart the Odoo service via
-:menuselection:`Services --> odoo server`.
+To reload the configuration file, restart the TuniERP service via
+:menuselection:`Services --> tunierp server`.
 
 Deb
 ---
 
-To install Odoo 8.0 on Debian-based distribution, execute the following
+To install TuniERP 8.0 on Debian-based distribution, execute the following
 commands as root:
 
 .. code-block:: console
 
-    # wget -O - https://nightly.odoo.com/odoo.key | apt-key add -
-    # echo "deb http://nightly.odoo.com/8.0/nightly/deb/ ./" >> /etc/apt/sources.list
-    # apt-get update && apt-get install odoo
+    # wget -O - https://nightly.tunierp.com/tunierp.key | apt-key add -
+    # echo "deb http://nightly.tunierp.com/8.0/nightly/deb/ ./" >> /etc/apt/sources.list
+    # apt-get update && apt-get install tunierp
 
-This will automatically install all dependencies, install Odoo itself as a
+This will automatically install all dependencies, install TuniERP itself as a
 daemon and automatically start it.
 
 .. danger:: to print PDF reports, you must install wkhtmltopdf_ yourself:
@@ -129,21 +129,21 @@ daemon and automatically start it.
             automatically. The recommended version is 0.12.1 and is available on
             `the wkhtmltopdf download page`_, in the archive section. As there
             is no official release for Debian Jessie, you can find ours on
-            http://nightly.odoo.com/extra/.
+            http://nightly.tunierp.com/extra/.
 
 Configuration
 '''''''''''''
 
 The :ref:`configuration file <reference/cmdline/config>` can be found at
-:file:`/etc/odoo/openerp-server.conf`
+:file:`/etc/tunierp/openerp-server.conf`
 
-When the configuration file is edited, Odoo must be restarted using
+When the configuration file is edited, TuniERP must be restarted using
 ``service``:
 
 .. code-block:: console
 
-    $ sudo service odoo restart
-    Restarting odoo: ok
+    $ sudo service tunierp restart
+    Restarting tunierp: ok
 
 RPM
 ---
@@ -151,7 +151,7 @@ RPM
 .. warning::
 
     with RHEL-based distributions (RHEL, CenOS, Scientific Linux), EPEL_ must
-    be added to the distribution's repositories for all of Odoo's
+    be added to the distribution's repositories for all of TuniERP's
     dependencies to be available. For CenOS:
 
     .. code-block:: console
@@ -166,10 +166,10 @@ RPM
     $ sudo postgresql-setup initdb
     $ sudo systemctl enable postgresql
     $ sudo systemctl start postgresql
-    $ sudo yum-config-manager --add-repo=https://nightly.odoo.com/8.0/nightly/rpm/odoo.repo
-    $ sudo yum install -y odoo
-    $ sudo systemctl enable odoo
-    $ sudo systemctl start odoo
+    $ sudo yum-config-manager --add-repo=https://nightly.tunierp.com/8.0/nightly/rpm/tunierp.repo
+    $ sudo yum install -y tunierp
+    $ sudo systemctl enable tunierp
+    $ sudo systemctl start tunierp
 
 .. danger:: to print PDF reports, you must install wkhtmltopdf_ yourself:
             the version of wkhtmltopdf_ available in Fedora/CentOS
@@ -181,13 +181,13 @@ Configuration
 '''''''''''''
 
 The :ref:`configuration file <reference/cmdline/config>` can be found at
-:file:`/etc/odoo/openerp-server.conf`
+:file:`/etc/tunierp/openerp-server.conf`
 
-When the configuration file is edited, Odoo must be restarted via SystemD:
+When the configuration file is edited, TuniERP must be restarted via SystemD:
 
 .. code-block:: console
 
-    $ sudo systemctl restart odoo
+    $ sudo systemctl restart tunierp
 
 
 .. _setup/install/source:
@@ -195,33 +195,33 @@ When the configuration file is edited, Odoo must be restarted via SystemD:
 Source Install
 ==============
 
-The source "installation" really is about not installing Odoo, and running
+The source "installation" really is about not installing TuniERP, and running
 it directly from source instead.
 
-This can be more convenient for module developers as the Odoo source is
+This can be more convenient for module developers as the TuniERP source is
 more easily accessible than using packaged installation (for information or
 to build this documentation and have it available offline).
 
-It also makes starting and stopping Odoo more flexible and explicit than the
+It also makes starting and stopping TuniERP more flexible and explicit than the
 services set up by the packaged installations, and allows overriding settings
 using :ref:`command-line parameters <reference/cmdline>` without needing to
 edit a configuration file.
 
 Finally it provides greater control over the system's set up, and allows more
-easily keeping (and running) multiple versions of Odoo side-by-side.
+easily keeping (and running) multiple versions of TuniERP side-by-side.
 
-There are two way to get the odoo source source zip or git.
+There are two way to get the tunierp source source zip or git.
 
-* Odoo zip can be downloaded from
-  https://nightly.odoo.com/8.0/nightly/src/odoo_8.0.latest.zip, the zip file
+* TuniERP zip can be downloaded from
+  https://nightly.tunierp.com/8.0/nightly/src/tunierp_8.0.latest.zip, the zip file
   then needs to be uncompressed to use its content
 
 * git allows simpler update and easier switching between differents versions
-  of Odoo. It also simplifies maintaining non-module patches and
+  of TuniERP. It also simplifies maintaining non-module patches and
   contributions.  The primary drawback of git is that it is significantly
-  larger than a tarball as it contains the entire history of the Odoo project.
+  larger than a tarball as it contains the entire history of the TuniERP project.
 
-  The git repository is https://github.com/odoo/odoo.git.
+  The git repository is https://github.com/tunierp/tunierp.git.
 
   Downloading it requires a `git client <http://git-scm.com/download/>`_
   (which may be available via your distribution on linux) and can be performed
@@ -229,7 +229,7 @@ There are two way to get the odoo source source zip or git.
 
   .. code-block:: console
 
-      $ git clone https://github.com/odoo/odoo.git
+      $ git clone https://github.com/tunierp/tunierp.git
 
 Installing dependencies
 -----------------------
@@ -247,12 +247,12 @@ Source installation requires manually installing dependencies:
 
     .. note:: if Python is already installed, make sure it is 2.7.9, previous
               versions are less convenient and 3.x versions are not compatible
-              with Odoo
+              with TuniERP
 
 * PostgreSQL, to use a local database
 
   After installation you will need to create a postgres user: by default the
-  only user is ``postgres``, and Odoo forbids connecting as ``postgres``.
+  only user is ``postgres``, and TuniERP forbids connecting as ``postgres``.
 
   - on Linux, use your distribution's package, then create a postgres user
     named like your login:
@@ -274,12 +274,12 @@ Source installation requires manually installing dependencies:
     - create a postgres user with a password using the pg admin gui: open
       pgAdminIII, double-click the server to create a connection, select
       :menuselection:`Edit --> New Object --> New Login Role`, enter the
-      usename in the :guilabel:`Role Name` field (e.g. ``odoo``), then open
-      the :guilabel:`Definition` tab and enter the password (e.g. ``odoo``),
+      usename in the :guilabel:`Role Name` field (e.g. ``tunierp``), then open
+      the :guilabel:`Definition` tab and enter the password (e.g. ``tunierp``),
       then click :guilabel:`OK`.
 
-      The user and password must be passed to Odoo using either the
-      :option:`-w <odoo.py -w>` and :option:`-r <odoo.py -r>` options or
+      The user and password must be passed to TuniERP using either the
+      :option:`-w <tunierp.py -w>` and :option:`-r <tunierp.py -r>` options or
       :ref:`the configuration file <reference/cmdline/config>`
 
 * Python dependencies listed in the :file:`requirements.txt` file.
@@ -321,13 +321,13 @@ Source installation requires manually installing dependencies:
     - add ``pypiwin32`` because it's needed under windows.
 
     Then use pip to install the dependencies using the following
-    command from a cmd.exe prompt (replace ``\YourOdooPath`` by the actual
-    path where you downloaded Odoo):
+    command from a cmd.exe prompt (replace ``\YourTuniERPPath`` by the actual
+    path where you downloaded TuniERP):
 
     .. code-block:: ps1
 
-        C:\> cd \YourOdooPath
-        C:\YourOdooPath> C:\Python27\Scripts\pip.exe install -r requirements.txt
+        C:\> cd \YourTuniERPPath
+        C:\YourTuniERPPath> C:\Python27\Scripts\pip.exe install -r requirements.txt
 
 * *Less CSS* via nodejs
 
@@ -373,10 +373,10 @@ Source installation requires manually installing dependencies:
 
         C:\> npm install -g less less-plugin-clean-css
 
-Running Odoo
+Running TuniERP
 ------------
 
-Once all dependencies are set up, Odoo can be launched by running ``odoo.py``.
+Once all dependencies are set up, TuniERP can be launched by running ``tunierp.py``.
 
 :ref:`Configuration <reference/cmdline>` can be provided either through
 :ref:`command-line arguments <reference/cmdline>` or through a
@@ -386,7 +386,7 @@ Common necessary configurations are:
 
 * PostgreSQL host, port, user and password.
 
-  Odoo has no defaults beyond
+  TuniERP has no defaults beyond
   `psycopg2's defaults <http://initd.org/psycopg/docs/module.html>`_: connects
   over a UNIX socket on port 5432 with the current user and no password. By
   default this should work on Linux and OS X, but it *will not work* on
@@ -394,26 +394,26 @@ Common necessary configurations are:
 
 * Custom addons path beyond the defaults, to load your own modules
 
-Under Windows a typical way to execute odoo would be:
+Under Windows a typical way to execute tunierp would be:
 
 .. code-block:: ps1
 
-    C:\YourOdooPath> python odoo.py -w odoo -r odoo --addons-path=addons,../mymodules --db-filter=mydb$
+    C:\YourTuniERPPath> python tunierp.py -w tunierp -r tunierp --addons-path=addons,../mymodules --db-filter=mydb$
 
-Where ``odoo``, ``odoo`` are the postgresql login and password,
+Where ``tunierp``, ``tunierp`` are the postgresql login and password,
 ``../mymodules`` a directory with additional addons and ``mydb`` the default
 db to serve on localhost:8069
 
-Under Unix a typical way to execute odoo would be:
+Under Unix a typical way to execute tunierp would be:
 
 .. code-block:: console
 
-    $ ./odoo.py --addons-path=addons,../mymodules --db-filter=mydb$
+    $ ./tunierp.py --addons-path=addons,../mymodules --db-filter=mydb$
 
 Where ``../mymodules`` is a directory with additional addons and ``mydb`` the
 default db to serve on localhost:8069
 
-.. _demo: https://demo.odoo.com
+.. _demo: https://demo.tunierp.com
 .. _docker: https://www.docker.com
 .. _EPEL: https://fedoraproject.org/wiki/EPEL
 .. _PostgreSQL: http://www.postgresql.org
@@ -423,7 +423,7 @@ default db to serve on localhost:8069
 .. _PostgreSQL for windows:
     http://www.enterprisedb.com/products-services-training/pgdownload
 .. _Quilt: http://en.wikipedia.org/wiki/Quilt_(software)
-.. _saas: https://www.odoo.com/page/start
+.. _saas: https://www.tunierp.com/page/start
 .. _the wkhtmltopdf download page: http://wkhtmltopdf.org/downloads.html
 .. _UAC: http://en.wikipedia.org/wiki/User_Account_Control
 .. _wkhtmltopdf: http://wkhtmltopdf.org
@@ -435,5 +435,5 @@ default db to serve on localhost:8069
 .. _wheels: https://wheel.readthedocs.org/en/latest/
 .. _virtual environment: http://docs.python-guide.org/en/latest/dev/virtualenvs/
 .. _pywin32: http://sourceforge.net/projects/pywin32/files/pywin32/
-.. _the repository: https://github.com/odoo/odoo
+.. _the repository: https://github.com/tunierp/tunierp
 .. _git: http://git-scm.com

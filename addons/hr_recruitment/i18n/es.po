@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * hr_recruitment
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 07:20+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Spanish (http://www.transifex.com/p/odoo-8/language/es/)\n"
+"Language-Team: Spanish (http://www.transifex.com/p/tunierp-8/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -109,7 +109,7 @@ msgstr "<p class=\"oe_view_nocontent_create\">\nPulse para añadir una nueva eta
 #: model:ir.actions.act_window,help:hr_recruitment.action_hr_job_applications
 msgid ""
 "<p>\n"
-"                Odoo helps you track applicants in the recruitment\n"
+"                TuniERP helps you track applicants in the recruitment\n"
 "                process and follow up all operations: meetings, interviews, etc.\n"
 "              </p><p>\n"
 "                Applicants and their attached CV are created automatically when an email is sent.\n"
@@ -117,13 +117,13 @@ msgid ""
 "                so that you can easily search through their content.\n"
 "              </p>\n"
 "         "
-msgstr "<p>\n                Odoo le ayuda a realizar el seguimiento de los candidatos en la selección\n                procesar y seguir todas las operaciones: reuniones, entrevistas, etc.\n              </p><p>\n                Los candidatos y sus CVs adjuntos son creados automáticamente cuando se envía un correo\n                Si instala el módulo de gestión documental, todo el historial es indexado automaticamente\n                por lo que puede buscar fácilmente en su contenido\n              </p>\n         "
+msgstr "<p>\n                TuniERP le ayuda a realizar el seguimiento de los candidatos en la selección\n                procesar y seguir todas las operaciones: reuniones, entrevistas, etc.\n              </p><p>\n                Los candidatos y sus CVs adjuntos son creados automáticamente cuando se envía un correo\n                Si instala el módulo de gestión documental, todo el historial es indexado automaticamente\n                por lo que puede buscar fácilmente en su contenido\n              </p>\n         "
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.crm_case_categ0_act_job
 msgid ""
 "<p>\n"
-"                Odoo helps you track applicants in the recruitment\n"
+"                TuniERP helps you track applicants in the recruitment\n"
 "                process and follow up all operations: meetings, interviews, etc.\n"
 "              </p><p>\n"
 "                Applicants and their attached CV are created automatically when an email is sent.\n"
@@ -131,7 +131,7 @@ msgid ""
 "                so that you can easily search through their content.\n"
 "              </p>\n"
 "            "
-msgstr "<p>\nOdoo le ayuda a controlar los solicitantes en el proceso de selección\ny seguir todas las operaciones: reuniones, entrevistas, etc\n</p><p>\nLos solicitantes y sus CVs adjuntos se crean automáticamente cada vez que se envía un correo\nelectrónico. Si instala los módulos de gestión documental, todos los CVs se indexarán \nautomáticamente, por lo que podrá hacer búsquedas por su contenido.</p>\n            "
+msgstr "<p>\nTuniERP le ayuda a controlar los solicitantes en el proceso de selección\ny seguir todas las operaciones: reuniones, entrevistas, etc\n</p><p>\nLos solicitantes y sus CVs adjuntos se crean automáticamente cada vez que se envía un correo\nelectrónico. Si instala los módulos de gestión documental, todos los CVs se indexarán \nautomáticamente, por lo que podrá hacer búsquedas por su contenido.</p>\n            "
 
 #. module: hr_recruitment
 #: model:survey.page,description:hr_recruitment.recruitment_1

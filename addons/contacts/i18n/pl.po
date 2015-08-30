@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * contacts
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 06:55+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Polish (http://www.transifex.com/p/odoo-8/language/pl/)\n"
+"Language-Team: Polish (http://www.transifex.com/p/tunierp-8/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -24,12 +24,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "            Click to add a contact in your address book.\n"
 "          </p><p>\n"
-"            Odoo helps you easily track all activities related to\n"
+"            TuniERP helps you easily track all activities related to\n"
 "            a customer; discussions, history of business opportunities,\n"
 "            documents, etc.\n"
 "          </p>\n"
 "        "
-msgstr "<p class=\"oe_view_nocontent_create\">\n            Kliknij, aby dodać kontakt do książki adresowej.\n          </p><p>\n            Odoo pomaga łatwo śledzić aktywności związane z\n            klientem; dyskusje, historię szans biznesowych,\n            dokumenty itd.\n          </p>\n        "
+msgstr "<p class=\"oe_view_nocontent_create\">\n            Kliknij, aby dodać kontakt do książki adresowej.\n          </p><p>\n            TuniERP pomaga łatwo śledzić aktywności związane z\n            klientem; dyskusje, historię szans biznesowych,\n            dokumenty itd.\n          </p>\n        "
 
 #. module: contacts
 #: model:ir.actions.act_window,name:contacts.action_contacts

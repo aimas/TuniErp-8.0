@@ -24,12 +24,12 @@
     'author' : 'OpenERP S.A.',
     'sequence': 110,
     'category': 'Managing vehicles and contracts',
-    'website' : 'https://www.odoo.com/page/fleet',
+    'website' : 'https://www.tunierp.com/page/fleet',
     'summary' : 'Vehicle, leasing, insurances, costs',
     'description' : """
 Vehicle, leasing, insurances, cost
 ==================================
-With this module, Odoo helps you managing all your vehicles, the
+With this module, TuniERP helps you managing all your vehicles, the
 contracts associated to those vehicle as well as services, fuel log
 entries, costs and many other features necessary to the management 
 of your fleet of vehicle(s)

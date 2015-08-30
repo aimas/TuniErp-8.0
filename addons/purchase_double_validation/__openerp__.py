@@ -32,7 +32,7 @@ Double-validation for purchases exceeding minimum amount.
 This module modifies the purchase workflow in order to validate purchases that
 exceeds minimum amount set by configuration wizard.
     """,
-    'website': 'https://www.odoo.com/page/purchase',
+    'website': 'https://www.tunierp.com/page/purchase',
     'data': [
         'purchase_double_validation_workflow.xml',
         'purchase_double_validation_installer.xml',

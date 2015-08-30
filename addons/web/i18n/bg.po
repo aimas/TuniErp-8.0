@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * web
 # 
@@ -7,12 +7,12 @@
 # Radina <radis.choice@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-07-01 07:49+0000\n"
 "Last-Translator: Radina <radis.choice@gmail.com>\n"
-"Language-Team: Bulgarian (http://www.transifex.com/p/odoo-8/language/bg/)\n"
+"Language-Team: Bulgarian (http://www.transifex.com/p/tunierp-8/language/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -255,7 +255,7 @@ msgstr "Относно"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:369
 #, python-format
-msgid "About Odoo"
+msgid "About TuniERP"
 msgstr ""
 
 #. module: web
@@ -546,7 +546,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:114
 #, python-format
-msgid "Check this box to evaluate Odoo."
+msgid "Check this box to evaluate TuniERP."
 msgstr ""
 
 #. module: web
@@ -882,7 +882,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:435
 #, python-format
-msgid "Discover Events of Odoo around the world..."
+msgid "Discover Events of TuniERP around the world..."
 msgstr ""
 
 #. module: web
@@ -1204,7 +1204,7 @@ msgstr "Файл:"
 #: code:addons/web/static/src/xml/base.xml:87
 #, python-format
 msgid ""
-"Fill in this form to create an Odoo database. You can\n"
+"Fill in this form to create an TuniERP database. You can\n"
 "                    create databases for different companies or for different\n"
 "                    goals (testing, production). Once the database is created,\n"
 "                    you will be able to install your first application."
@@ -1618,7 +1618,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:368
 #, python-format
-msgid "My Odoo.com account"
+msgid "My TuniERP.com account"
 msgstr ""
 
 #. module: web
@@ -1729,33 +1729,33 @@ msgstr "Обект:"
 #. module: web
 #: view:website:web.layout view:website:web.login_layout
 #: view:website:web.menu_secondary
-msgid "Odoo"
+msgid "TuniERP"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:386
 #, python-format
-msgid "Odoo (Formerly OpenERP)"
+msgid "TuniERP (Formerly OpenERP)"
 msgstr ""
 
 #. module: web
 #: view:website:web.qunit_suite
-msgid "Odoo Web Tests"
+msgid "TuniERP Web Tests"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:420
 #, python-format
-msgid "Odoo is a trademark of the"
+msgid "TuniERP is a trademark of the"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:422
 #, python-format
-msgid "Odoo.com"
+msgid "TuniERP.com"
 msgstr ""
 
 #. module: web
@@ -2729,7 +2729,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/chrome.js:259
 #, python-format
-msgid "Your Odoo session expired. Please refresh the current web page."
+msgid "Your TuniERP session expired. Please refresh the current web page."
 msgstr ""
 
 #. module: web

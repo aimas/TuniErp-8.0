@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * purchase
 # 
@@ -7,12 +7,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 18:24+0000\n"
 "Last-Translator: Dorin Hongu <dhongu@gmail.com>\n"
-"Language-Team: Romanian (http://www.transifex.com/p/odoo-8/language/ro/)\n"
+"Language-Team: Romanian (http://www.transifex.com/p/tunierp-8/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -217,7 +217,7 @@ msgid ""
 "                    Supplier invoices can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control invoices\n"
 "                    you receive from your supplier according to the draft\n"
-"                    document in Odoo.\n"
+"                    document in TuniERP.\n"
 "                </p>\n"
 "            "
 msgstr "<p class=\"oe_view_nocontent_create\">\n                                                                   Click aici pentru a înregistra o factură de la furnizor\n</p><p>\n                                                                   Facturile de la furnizori pot fi pre-generate pe baza comenzilor de achiziţie.\n                                                                   Acest lucru vă dă voie să urmăriţi facturile pe baza documentului draft.\n</p>\n            "
@@ -288,10 +288,10 @@ msgid ""
 "                quotation is converted into a purchase order.\n"
 "              </p><p>\n"
 "                Most propositions of purchase orders are created automatically\n"
-"                by Odoo based on inventory needs.\n"
+"                by TuniERP based on inventory needs.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\nClic pentru a crea o cerere de cotație.\n</p><p>\nCotația conține istoricul discuțiilor/negocierilor cu furnizorul. \nDupă confirmare cotația se convertește într-o comandă de achiziție\n</p><p>\nCele mai multe propuneri sunt create automat de Odoo în baza necesarului.\n</p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\nClic pentru a crea o cerere de cotație.\n</p><p>\nCotația conține istoricul discuțiilor/negocierilor cu furnizorul. \nDupă confirmare cotația se convertește într-o comandă de achiziție\n</p><p>\nCele mai multe propuneri sunt create automat de TuniERP în baza necesarului.\n</p>\n            "
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.action_invoice_pending
@@ -300,14 +300,14 @@ msgid ""
 "            Click to create a draft invoice.\n"
 "          </p><p>\n"
 "            Use this menu to control the invoices to be received from your\n"
-"            supplier. Odoo generates draft invoices from your purchase\n"
+"            supplier. TuniERP generates draft invoices from your purchase\n"
 "            orders or receipts, according to your settings.\n"
 "          </p><p>\n"
 "            Once you receive a supplier invoice, you can match it with the\n"
 "            draft invoice and validate it.\n"
 "          </p>\n"
 "        "
-msgstr "<p class=\"oe_view_nocontent_create\">\n            Click pentru a creea o factură ciornă.\n          </p><p>\n           Folosiţi acest meniu pentru a creea facturi primite de la furnizori.\n             Odoo va genera aceste facturi ciornă pe baza \n            comenzilor de achiziţie sau a recepţiilor, în funcţie de setări.\n          </p><p>\n            Odată primită factura de la furnizor, se poate confrunta cu \n            factura ciornă şi valida.\n          </p>\n        "
+msgstr "<p class=\"oe_view_nocontent_create\">\n            Click pentru a creea o factură ciornă.\n          </p><p>\n           Folosiţi acest meniu pentru a creea facturi primite de la furnizori.\n             TuniERP va genera aceste facturi ciornă pe baza \n            comenzilor de achiziţie sau a recepţiilor, în funcţie de setări.\n          </p><p>\n            Odată primită factura de la furnizor, se poate confrunta cu \n            factura ciornă şi valida.\n          </p>\n        "
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.product_normal_action_puchased

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * marketing_campaign
 # 
@@ -7,12 +7,12 @@
 # Rodrigo Macedo <rodrigomacedo@rmsolucoeseminformatica.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-06-30 02:18+0000\n"
 "Last-Translator: danimaribeiro <danimaribeiro@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/p/odoo-8/language/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/p/tunierp-8/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -30,7 +30,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "            Click to create a marketing campaign.\n"
 "          </p><p>\n"
-"            Odoo's marketing campaign allows you to automate communication\n"
+"            TuniERP's marketing campaign allows you to automate communication\n"
 "            to your prospects. You can define a segment (set of conditions) on\n"
 "            your leads and partners to fullfil the campaign.\n"
 "          </p><p>\n"
@@ -40,7 +40,7 @@ msgid ""
 "            contact, if a lead is not closed yet, etc.\n"
 "          </p>\n"
 "        "
-msgstr "<p class=\"oe_view_nocontent_create\">\n            Clique para criar uma campanha de marketing.\n          </p><p>\n            Campanha de marketing da Odoo permite automatizar a comunicação\n            para os seus clientes potenciais. Você pode definir um segmento (conjunto de condições) sobre\n            suas ligações e parceiros a cumprir a campanha.\n          </p><p>\n            A campanha pode ter muitas atividades como o envio de um e-mail, impressão\n            uma carta, atribuindo a uma equipe, etc. Essas atividades são acionados\n            a partir de situações específicas; formulário de contato, 10 dias após a primeira\n            contato, se a liderança não está ainda fechada, etc.\n          </p>\n        "
+msgstr "<p class=\"oe_view_nocontent_create\">\n            Clique para criar uma campanha de marketing.\n          </p><p>\n            Campanha de marketing da TuniERP permite automatizar a comunicação\n            para os seus clientes potenciais. Você pode definir um segmento (conjunto de condições) sobre\n            suas ligações e parceiros a cumprir a campanha.\n          </p><p>\n            A campanha pode ter muitas atividades como o envio de um e-mail, impressão\n            uma carta, atribuindo a uma equipe, etc. Essas atividades são acionados\n            a partir de situações específicas; formulário de contato, 10 dias após a primeira\n            contato, se a liderança não está ainda fechada, etc.\n          </p>\n        "
 
 #. module: marketing_campaign
 #: field:marketing.campaign.activity,server_action_id:0
@@ -1077,8 +1077,8 @@ msgstr "Custo Variável"
 
 #. module: marketing_campaign
 #: model:email.template,subject:marketing_campaign.email_template_1
-msgid "Welcome to the Odoo Partner Channel!"
-msgstr "Bem vindo ao Canal do Parceiro do Odoo"
+msgid "Welcome to the TuniERP Partner Channel!"
+msgstr "Bem vindo ao Canal do Parceiro do TuniERP"
 
 #. module: marketing_campaign
 #: selection:marketing.campaign,mode:0

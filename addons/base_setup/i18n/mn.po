@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * base_setup
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 06:53+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Mongolian (http://www.transifex.com/p/odoo-8/language/mn/)\n"
+"Language-Team: Mongolian (http://www.transifex.com/p/tunierp-8/language/mn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -220,12 +220,12 @@ msgstr "Гишүүн"
 #. module: base_setup
 #: view:sale.config.settings:base_setup.view_sale_config_settings
 msgid ""
-"Odoo allows to automatically create leads (or others documents)\n"
-"                            from incoming emails. You can automatically synchronize emails with Odoo\n"
+"TuniERP allows to automatically create leads (or others documents)\n"
+"                            from incoming emails. You can automatically synchronize emails with TuniERP\n"
 "                            using regular POP/IMAP accounts, using a direct email integration script for your\n"
-"                            email server, or by manually pushing emails to Odoo using specific\n"
+"                            email server, or by manually pushing emails to TuniERP using specific\n"
 "                            plugins for your preferred email application."
-msgstr "Odoo нь ирж буй эмэйлээс автоматаар сэжим (эсвэр өөр баримтууд)\n                            үүсгэх боломжоор хангадаг. Түгээмэл хэрэглэгддэг\n                            POP/IMAP эрхүүдээр Odoo-той эмэйлийг автоматаар уялдуулж болно.\n                            Эсвэл Odoo-руу гар аргаар эмэйл програмынхаа тусгай нэмэлтүүдийг ашиглан оруулж болно."
+msgstr "TuniERP нь ирж буй эмэйлээс автоматаар сэжим (эсвэр өөр баримтууд)\n                            үүсгэх боломжоор хангадаг. Түгээмэл хэрэглэгддэг\n                            POP/IMAP эрхүүдээр TuniERP-той эмэйлийг автоматаар уялдуулж болно.\n                            Эсвэл TuniERP-руу гар аргаар эмэйл програмынхаа тусгай нэмэлтүүдийг ашиглан оруулж болно."
 
 #. module: base_setup
 #: view:base.config.settings:base_setup.view_general_configuration
@@ -283,8 +283,8 @@ msgstr "Тайлангийн толгойд фонтыг тохируулна, �
 
 #. module: base_setup
 #: help:base.config.settings,module_share:0
-msgid "Share or embbed any screen of Odoo."
-msgstr "Odoo-н дурын дэлгэцийг хуваалцах юмуу өөр вебэд шигтгэнэ."
+msgid "Share or embbed any screen of TuniERP."
+msgstr "TuniERP-н дурын дэлгэцийг хуваалцах юмуу өөр вебэд шигтгэнэ."
 
 #. module: base_setup
 #: view:sale.config.settings:base_setup.view_sale_config_settings

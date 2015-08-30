@@ -32,7 +32,7 @@ It is basically used when we want to keep track of production orders generated
 from sales order. It adds sales name and sales Reference on production order.
     """,
     'author': 'OpenERP SA',
-    'website': 'https://www.odoo.com/page/manufacturing',
+    'website': 'https://www.tunierp.com/page/manufacturing',
     'depends': ['mrp', 'sale_stock'],
     'data': [
         'security/ir.model.access.csv',

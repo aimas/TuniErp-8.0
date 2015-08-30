@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * project_issue
 # 
@@ -7,12 +7,12 @@
 # Otgonbayar Agvaan <gobi.mn@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-06-17 15:43+0000\n"
 "Last-Translator: Otgonbayar Agvaan <gobi.mn@gmail.com>\n"
-"Language-Team: Mongolian (http://www.transifex.com/p/odoo-8/language/mn/)\n"
+"Language-Team: Mongolian (http://www.transifex.com/p/tunierp-8/language/mn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -57,23 +57,23 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n                Шинэ хув�
 #: model:ir.actions.act_window,help:project_issue.action_view_issues
 msgid ""
 "<p>\n"
-"                    The Odoo issues tacker allows you to efficiantly manage things\n"
+"                    The TuniERP issues tacker allows you to efficiantly manage things\n"
 "                    like internal requests, software development bugs, customer\n"
 "                    complaints, project troubles, material breakdowns, etc.\n"
 "                </p>\n"
 "            "
-msgstr "<p>\n                    Odoo-н асуудал хөтлөгч нь дотоод хүсэлт шаардлага, програмын   \n                    алдаа, захиалагчийн гомдол, төслийн асуудал бэрхшээл, материалын \n                    эвдлрэл гэх мэт зүйлсийг хөтлөж хялбараар менежмент хийхэд \n                    зориулагддаг.\n                </p>\n            "
+msgstr "<p>\n                    TuniERP-н асуудал хөтлөгч нь дотоод хүсэлт шаардлага, програмын   \n                    алдаа, захиалагчийн гомдол, төслийн асуудал бэрхшээл, материалын \n                    эвдлрэл гэх мэт зүйлсийг хөтлөж хялбараар менежмент хийхэд \n                    зориулагддаг.\n                </p>\n            "
 
 #. module: project_issue
 #: model:ir.actions.act_window,help:project_issue.project_issue_categ_act0
 msgid ""
 "<p>\n"
-"                The Odoo issues tacker allows you to efficiantly manage things\n"
+"                The TuniERP issues tacker allows you to efficiantly manage things\n"
 "                like internal requests, software development bugs, customer\n"
 "                complaints, project troubles, material breakdowns, etc.\n"
 "            </p>\n"
 "        "
-msgstr "<p>\n                Odoo асуудал хөтлөгч нь дотоод хүсэлт шаардлага, програмын алдаа, \n                захиалагчийн гомдол, төслийн асуудал бэрхшээл, материалын эвдлрэл гэх мэт \n                зүйлсийг хөтлөж хялбараар менежмент хийхэд зориулагддаг.\n            </p>\n        "
+msgstr "<p>\n                TuniERP асуудал хөтлөгч нь дотоод хүсэлт шаардлага, програмын алдаа, \n                захиалагчийн гомдол, төслийн асуудал бэрхшээл, материалын эвдлрэл гэх мэт \n                зүйлсийг хөтлөж хялбараар менежмент хийхэд зориулагддаг.\n            </p>\n        "
 
 #. module: project_issue
 #: help:project.issue,kanban_state:0

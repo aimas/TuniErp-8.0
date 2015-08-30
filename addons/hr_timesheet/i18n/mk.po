@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * hr_timesheet
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 07:21+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Macedonian (http://www.transifex.com/p/odoo-8/language/mk/)\n"
+"Language-Team: Macedonian (http://www.transifex.com/p/tunierp-8/language/mk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -49,7 +49,7 @@ msgid ""
 "<p>\n"
 "                No activity yet on this contract.\n"
 "              </p><p>\n"
-"                In Odoo, contracts and projects are implemented using\n"
+"                In TuniERP, contracts and projects are implemented using\n"
 "                analytic account. So, you can track costs and revenues to analyse\n"
 "                your margins easily.\n"
 "              </p><p>\n"
@@ -62,7 +62,7 @@ msgid ""
 "                on expenses (e.g. reinvoicing of travel costs).\n"
 "              </p>\n"
 "            "
-msgstr "<p>\n                Сеуште нема активност за овој договор.\n              </p><p>\n                Во Odoo, договорите и проектите се имплементирани преку\n                аналитичко конто. За да може да ги следите трошоците и приходите за да\n                можете лесно да ги анализирате вашите маргини.\n              </p><p>\n                Трошоците ќе бидат автоматски креирани кога ќе регистрирате фактури\n                од добавувачи, трошоци или распореди.\n              </p><p>\n                Приходите ќе бидат автоматски креирани кога ќе креирате фактури\n                за клиенти. Фактиурите за клиенти може да се креираат базирани на налог за\n                продажба (фактури со фиксни цени), на распореди (врз база на завршената работа) или\n                на трошоци (пр. патни трошоци).\n              </p>\n            "
+msgstr "<p>\n                Сеуште нема активност за овој договор.\n              </p><p>\n                Во TuniERP, договорите и проектите се имплементирани преку\n                аналитичко конто. За да може да ги следите трошоците и приходите за да\n                можете лесно да ги анализирате вашите маргини.\n              </p><p>\n                Трошоците ќе бидат автоматски креирани кога ќе регистрирате фактури\n                од добавувачи, трошоци или распореди.\n              </p><p>\n                Приходите ќе бидат автоматски креирани кога ќе креирате фактури\n                за клиенти. Фактиурите за клиенти може да се креираат базирани на налог за\n                продажба (фактури со фиксни цени), на распореди (врз база на завршената работа) или\n                на трошоци (пр. патни трошоци).\n              </p>\n            "
 
 #. module: hr_timesheet
 #: selection:hr.sign.in.project,state:0 selection:hr.sign.out.project,state:0
@@ -540,9 +540,9 @@ msgstr "Завршена работа во последниот период"
 #: model:ir.actions.act_window,help:hr_timesheet.action_define_analytic_structure
 msgid ""
 "You should create an analytic account structure depending on your needs to "
-"analyse costs and revenues. In Odoo, analytic accounts are also used to "
+"analyse costs and revenues. In TuniERP, analytic accounts are also used to "
 "track customer contracts."
-msgstr "Треба да креирате структура на аналитичко конто зависно од вашите потреби за да ги анализирате трошоците и приходите. Во Odoo, аналитичките конта исто така се користат за да се следат договорите со клиенти."
+msgstr "Треба да креирате структура на аналитичко конто зависно од вашите потреби за да ги анализирате трошоците и приходите. Во TuniERP, аналитичките конта исто така се користат за да се следат договорите со клиенти."
 
 #. module: hr_timesheet
 #: view:hr.timesheet.report:hr_timesheet.view_hr_timesheet_report_search

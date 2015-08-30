@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * google_calendar
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-07-17 07:11+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Italian (http://www.transifex.com/p/odoo-8/language/it/)\n"
+"Language-Team: Italian (http://www.transifex.com/p/tunierp-8/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -229,8 +229,8 @@ msgstr "Nel menu a sinistra, selezionare il sottomenù APIs (dal menu \"APIs and
 #: help:res.users,google_calendar_cal_id:0
 msgid ""
 "Last Calendar ID who has been synchronized. If it is changed, we remove all "
-"links between GoogleID and Odoo Google Internal ID"
-msgstr "Ultimo ID calendario che è stato sincronizzato. Se è cambiato verranno rimossi tutti i collegamenti tra l'ID google e l'ID del calendario interno in ODOO"
+"links between GoogleID and TuniERP Google Internal ID"
+msgstr "Ultimo ID calendario che è stato sincronizzato. Se è cambiato verranno rimossi tutti i collegamenti tra l'ID google e l'ID del calendario interno in TUNIERP"
 
 #. module: google_calendar
 #: field:res.users,google_calendar_last_sync_date:0
@@ -239,13 +239,13 @@ msgstr "Data di ultima sincronizzazione"
 
 #. module: google_calendar
 #: field:calendar.attendee,oe_synchro_date:0
-msgid "Odoo Synchro Date"
-msgstr "Data sincro ODOO"
+msgid "TuniERP Synchro Date"
+msgstr "Data sincro TUNIERP"
 
 #. module: google_calendar
 #: field:calendar.event,oe_update_date:0
-msgid "Odoo Update Date"
-msgstr "ODOO data aggiornamento"
+msgid "TuniERP Update Date"
+msgstr "TUNIERP data aggiornamento"
 
 #. module: google_calendar
 #: view:base.config.settings:google_calendar.view_calendar_config_settings

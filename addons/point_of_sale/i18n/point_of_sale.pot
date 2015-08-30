@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 #	* point_of_sale
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 8.0\n"
+"Project-Id-Version: TuniERP Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-01-21 14:07+0000\n"
@@ -612,7 +612,7 @@ msgstr ""
 
 #. module: point_of_sale
 #: help:pos.config,iface_self_checkout:0
-msgid "Check this if this point of sale should open by default in a self checkout mode. If unchecked, Odoo uses the normal cashier mode by default."
+msgid "Check this if this point of sale should open by default in a self checkout mode. If unchecked, TuniERP uses the normal cashier mode by default."
 msgstr ""
 
 #. module: point_of_sale
@@ -2055,7 +2055,7 @@ msgstr ""
 
 #. module: point_of_sale
 #: view:website:point_of_sale.index
-msgid "Odoo POS"
+msgid "TuniERP POS"
 msgstr ""
 
 #. module: point_of_sale
@@ -3682,7 +3682,7 @@ msgstr ""
 
 #. module: point_of_sale
 #: help:pos.config,sequence_id:0
-msgid "This sequence is automatically created by Odoo but you can change it to customize the reference numbers of your orders."
+msgid "This sequence is automatically created by TuniERP but you can change it to customize the reference numbers of your orders."
 msgstr ""
 
 #. module: point_of_sale

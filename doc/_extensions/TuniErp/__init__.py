@@ -11,14 +11,14 @@ def setup(app):
     app.set_translator('html', translator.BootstrapTranslator)
 
     switcher.setup(app)
-    app.add_config_value('odoo_cover_default', None, 'env')
-    app.add_config_value('odoo_cover_external', {}, 'env')
-    app.add_config_value('odoo_cover_default_external', lambda conf: conf.odoo_cover_default, 'env')
+    app.add_config_value('tunierp_cover_default', None, 'env')
+    app.add_config_value('tunierp_cover_external', {}, 'env')
+    app.add_config_value('tunierp_cover_default_external', lambda conf: conf.tunierp_cover_default, 'env')
     app.connect('html-page-context', update_meta)
 
 def update_meta(app, pagename, templatename, context, doctree):
     meta = context.setdefault('meta', {})
-    meta.setdefault('banner', app.config.odoo_cover_default)
+    meta.setdefault('banner', app.config.tunierp_cover_default)
 
 def navbarify(node, navbar=None):
     """

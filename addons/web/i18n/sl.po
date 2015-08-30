@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * web
 # 
@@ -7,12 +7,12 @@
 # Matjaž Mozetič <m.mozetic@matmoz.si>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-06-27 10:05+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Slovenian (http://www.transifex.com/p/odoo-8/language/sl/)\n"
+"Language-Team: Slovenian (http://www.transifex.com/p/tunierp-8/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -255,8 +255,8 @@ msgstr "Vizitka"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:369
 #, python-format
-msgid "About Odoo"
-msgstr "Vizitka Odoo"
+msgid "About TuniERP"
+msgstr "Vizitka TuniERP"
 
 #. module: web
 #. openerp-web
@@ -546,8 +546,8 @@ msgstr "Chaussée de Namur 40"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:114
 #, python-format
-msgid "Check this box to evaluate Odoo."
-msgstr "Označite to polje za preizkušanje Odoo."
+msgid "Check this box to evaluate TuniERP."
+msgstr "Označite to polje za preizkušanje TuniERP."
 
 #. module: web
 #. openerp-web
@@ -882,8 +882,8 @@ msgstr "Opusti"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:435
 #, python-format
-msgid "Discover Events of Odoo around the world..."
-msgstr "Odkrij Odoo dogodke po svetu..."
+msgid "Discover Events of TuniERP around the world..."
+msgstr "Odkrij TuniERP dogodke po svetu..."
 
 #. module: web
 #. openerp-web
@@ -1204,11 +1204,11 @@ msgstr "Datoteka:"
 #: code:addons/web/static/src/xml/base.xml:87
 #, python-format
 msgid ""
-"Fill in this form to create an Odoo database. You can\n"
+"Fill in this form to create an TuniERP database. You can\n"
 "                    create databases for different companies or for different\n"
 "                    goals (testing, production). Once the database is created,\n"
 "                    you will be able to install your first application."
-msgstr "Izpolnite ta obrazec, da bi ustvarili Odoo podatkovno zbirko.\nPodatkovne zbirke lahko ustvarite za različna podjetja ali\nrazlične namene (testna, produkcijska). Ko bo zbirka ustvarjena,\nbo mogoče namestiti prvo aplikacijo."
+msgstr "Izpolnite ta obrazec, da bi ustvarili TuniERP podatkovno zbirko.\nPodatkovne zbirke lahko ustvarite za različna podjetja ali\nrazlične namene (testna, produkcijska). Ko bo zbirka ustvarjena,\nbo mogoče namestiti prvo aplikacijo."
 
 #. module: web
 #. openerp-web
@@ -1618,8 +1618,8 @@ msgstr "Več"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:368
 #, python-format
-msgid "My Odoo.com account"
-msgstr "Moj Odoo.com račun"
+msgid "My TuniERP.com account"
+msgstr "Moj TuniERP.com račun"
 
 #. module: web
 #. openerp-web
@@ -1729,34 +1729,34 @@ msgstr "Objekt:"
 #. module: web
 #: view:website:web.layout view:website:web.login_layout
 #: view:website:web.menu_secondary
-msgid "Odoo"
-msgstr "Odoo"
+msgid "TuniERP"
+msgstr "TuniERP"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:386
 #, python-format
-msgid "Odoo (Formerly OpenERP)"
-msgstr "Odoo (nekdanji OpenERP)"
+msgid "TuniERP (Formerly OpenERP)"
+msgstr "TuniERP (nekdanji OpenERP)"
 
 #. module: web
 #: view:website:web.qunit_suite
-msgid "Odoo Web Tests"
-msgstr "Odoo Web testi"
+msgid "TuniERP Web Tests"
+msgstr "TuniERP Web testi"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:420
 #, python-format
-msgid "Odoo is a trademark of the"
-msgstr "Odoo je blagovna znamka v lasti"
+msgid "TuniERP is a trademark of the"
+msgstr "TuniERP je blagovna znamka v lasti"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:422
 #, python-format
-msgid "Odoo.com"
-msgstr "Odoo.com"
+msgid "TuniERP.com"
+msgstr "TuniERP.com"
 
 #. module: web
 #. openerp-web
@@ -2729,8 +2729,8 @@ msgstr "Izbrati morate vsaj en zapis"
 #. openerp-web
 #: code:addons/web/static/src/js/chrome.js:259
 #, python-format
-msgid "Your Odoo session expired. Please refresh the current web page."
-msgstr "Vaša Odoo seja je potekla. Osvežite trenutno stran."
+msgid "Your TuniERP session expired. Please refresh the current web page."
+msgstr "Vaša TuniERP seja je potekla. Osvežite trenutno stran."
 
 #. module: web
 #. openerp-web

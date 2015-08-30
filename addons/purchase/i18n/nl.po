@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * purchase
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 07:56+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Dutch (http://www.transifex.com/p/odoo-8/language/nl/)\n"
+"Language-Team: Dutch (http://www.transifex.com/p/tunierp-8/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -216,10 +216,10 @@ msgid ""
 "                    Supplier invoices can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control invoices\n"
 "                    you receive from your supplier according to the draft\n"
-"                    document in Odoo.\n"
+"                    document in TuniERP.\n"
 "                </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                    Klik hier voor het maken van een inkoopfactuur.\n                </p><p>\n                    Inkoopfacturen kunnen vooraf gegenereerd worden op basis van inkoop\n                    orders of inkomende leveringen. Dit stelt u in staat de facturen\n                    die u ontvangt van uw leverancier te controleren op basis van de \n                    concept documenten in Odoo.\n                </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                    Klik hier voor het maken van een inkoopfactuur.\n                </p><p>\n                    Inkoopfacturen kunnen vooraf gegenereerd worden op basis van inkoop\n                    orders of inkomende leveringen. Dit stelt u in staat de facturen\n                    die u ontvangt van uw leverancier te controleren op basis van de \n                    concept documenten in TuniERP.\n                </p>\n            "
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.act_res_partner_2_purchase_order
@@ -232,7 +232,7 @@ msgid ""
 "                    of the products and the supplier invoice.\n"
 "                </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik voor het aanmaken van een offerteaanvraag.\n              </p><p>\n                De offerte bevat de geschiedenis van de discussie / onderhandeling\n                met uw leverancier. Eenmaal bevestigd, wordt de offerteaanvraag\n                omgezet in een inkooporder.\n              </ p></ p>\n                De meeste voorstellen voor inkooporders worden automatisch gemaakt\n                door Odoo op basis van voorraad behoeften.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik voor het aanmaken van een offerteaanvraag.\n              </p><p>\n                De offerte bevat de geschiedenis van de discussie / onderhandeling\n                met uw leverancier. Eenmaal bevestigd, wordt de offerteaanvraag\n                omgezet in een inkooporder.\n              </ p></ p>\n                De meeste voorstellen voor inkooporders worden automatisch gemaakt\n                door TuniERP op basis van voorraad behoeften.\n              </p>\n            "
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.purchase_pricelist_version_action
@@ -287,10 +287,10 @@ msgid ""
 "                quotation is converted into a purchase order.\n"
 "              </p><p>\n"
 "                Most propositions of purchase orders are created automatically\n"
-"                by Odoo based on inventory needs.\n"
+"                by TuniERP based on inventory needs.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik voor het aanmaken van een offerteaanvraag.\n              </p><p>\n                De offerte bevat de geschiedenis van de discussie/onderhandeling\n                welke u had met u leverancier. Bij bevestigen, wordt een offerteaanvraag\n                omgezet in een inkooporder.\n              </p><p>\n                De meeste offerteaanvragen worden automatisch aangemaakt door Odoo\n               op basis van de voorraadbehoefte.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik voor het aanmaken van een offerteaanvraag.\n              </p><p>\n                De offerte bevat de geschiedenis van de discussie/onderhandeling\n                welke u had met u leverancier. Bij bevestigen, wordt een offerteaanvraag\n                omgezet in een inkooporder.\n              </p><p>\n                De meeste offerteaanvragen worden automatisch aangemaakt door TuniERP\n               op basis van de voorraadbehoefte.\n              </p>\n            "
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.action_invoice_pending
@@ -299,14 +299,14 @@ msgid ""
 "            Click to create a draft invoice.\n"
 "          </p><p>\n"
 "            Use this menu to control the invoices to be received from your\n"
-"            supplier. Odoo generates draft invoices from your purchase\n"
+"            supplier. TuniERP generates draft invoices from your purchase\n"
 "            orders or receipts, according to your settings.\n"
 "          </p><p>\n"
 "            Once you receive a supplier invoice, you can match it with the\n"
 "            draft invoice and validate it.\n"
 "          </p>\n"
 "        "
-msgstr "<p class=\"oe_view_nocontent_create\">\n            Klik voor het maken van een concept factuur.\n          </p><p>\n            Gebruik dit menu om uw facturen van uw leverancier te controleren.\n            Odoo maakt concept inkoopfacturen van inkooporders of\n            inkomende leveringen. Dit afhankelijk van uw instellingen.\n          </p><p>\n            Wanneer u een factuur van uw leverancier heeft ontvangen, kunt\n            u deze vergelijken met de concept fractuur en deze valideren.\n          </p>\n        "
+msgstr "<p class=\"oe_view_nocontent_create\">\n            Klik voor het maken van een concept factuur.\n          </p><p>\n            Gebruik dit menu om uw facturen van uw leverancier te controleren.\n            TuniERP maakt concept inkoopfacturen van inkooporders of\n            inkomende leveringen. Dit afhankelijk van uw instellingen.\n          </p><p>\n            Wanneer u een factuur van uw leverancier heeft ontvangen, kunt\n            u deze vergelijken met de concept fractuur en deze valideren.\n          </p>\n        "
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.product_normal_action_puchased

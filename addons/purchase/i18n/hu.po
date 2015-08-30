@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * purchase
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 07:56+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Hungarian (http://www.transifex.com/p/odoo-8/language/hu/)\n"
+"Language-Team: Hungarian (http://www.transifex.com/p/tunierp-8/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -216,10 +216,10 @@ msgid ""
 "                    Supplier invoices can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control invoices\n"
 "                    you receive from your supplier according to the draft\n"
-"                    document in Odoo.\n"
+"                    document in TuniERP.\n"
 "                </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                    Kattintson ide egy beszállítói számla rögzítésére.\n                </p><p>\n                    Beszállítók számláit előre-generálhatók a beszerzési\n                    megrendelések vagy raktári beérkezések alapján.\n                    Ez alapján ellenőrizheti a beszállítóktól beérkező számlákat\n                    az Odoo rendszer vázlat dokumentumai alapján.\n                </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                    Kattintson ide egy beszállítói számla rögzítésére.\n                </p><p>\n                    Beszállítók számláit előre-generálhatók a beszerzési\n                    megrendelések vagy raktári beérkezések alapján.\n                    Ez alapján ellenőrizheti a beszállítóktól beérkező számlákat\n                    az TuniERP rendszer vázlat dokumentumai alapján.\n                </p>\n            "
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.act_res_partner_2_purchase_order
@@ -287,10 +287,10 @@ msgid ""
 "                quotation is converted into a purchase order.\n"
 "              </p><p>\n"
 "                Most propositions of purchase orders are created automatically\n"
-"                by Odoo based on inventory needs.\n"
+"                by TuniERP based on inventory needs.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Kattintson egy árajánlat kérés létrehozásához.\n              </p><p>\n                Az árajánlatkérés tartalmazza a beszállítóval történt tárgyalás/áralku\n                történetét. Ha jóváhagyásra került, az árajánlat\n                kérés átalakul beszerzési megrendeléssé.\n              </p><p>\n                A legtöbb beszerzési megrendelés javaslatot az Odoo rendszer\n                hozza létre automatikusan, a készlet igények alapján.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Kattintson egy árajánlat kérés létrehozásához.\n              </p><p>\n                Az árajánlatkérés tartalmazza a beszállítóval történt tárgyalás/áralku\n                történetét. Ha jóváhagyásra került, az árajánlat\n                kérés átalakul beszerzési megrendeléssé.\n              </p><p>\n                A legtöbb beszerzési megrendelés javaslatot az TuniERP rendszer\n                hozza létre automatikusan, a készlet igények alapján.\n              </p>\n            "
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.action_invoice_pending
@@ -299,14 +299,14 @@ msgid ""
 "            Click to create a draft invoice.\n"
 "          </p><p>\n"
 "            Use this menu to control the invoices to be received from your\n"
-"            supplier. Odoo generates draft invoices from your purchase\n"
+"            supplier. TuniERP generates draft invoices from your purchase\n"
 "            orders or receipts, according to your settings.\n"
 "          </p><p>\n"
 "            Once you receive a supplier invoice, you can match it with the\n"
 "            draft invoice and validate it.\n"
 "          </p>\n"
 "        "
-msgstr "<p class=\"oe_view_nocontent_create\">\n            Kattintson számla vázlat létrehozásához.\n          </p><p>\n            Használja ezt a menüt a beszállítóktól kapott számlák\n            kezeléséhez. Odoo rendszer vázlat számlákat hoz létre a beszerzési megrendeléseiből\n            vagy az áru beérkeztetésekből, a beállításai alapján.\n          </p><p>\n            Ha egyszer megkapott egy beszállítói számlát, akkor összevetheti\n            a vázlat számlákkal és jóváhagyhatja azokat.\n          </p>\n        "
+msgstr "<p class=\"oe_view_nocontent_create\">\n            Kattintson számla vázlat létrehozásához.\n          </p><p>\n            Használja ezt a menüt a beszállítóktól kapott számlák\n            kezeléséhez. TuniERP rendszer vázlat számlákat hoz létre a beszerzési megrendeléseiből\n            vagy az áru beérkeztetésekből, a beállításai alapján.\n          </p><p>\n            Ha egyszer megkapott egy beszállítói számlát, akkor összevetheti\n            a vázlat számlákkal és jóváhagyhatja azokat.\n          </p>\n        "
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.product_normal_action_puchased

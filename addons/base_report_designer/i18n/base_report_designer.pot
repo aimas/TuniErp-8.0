@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 #	* base_report_designer
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 8.0\n"
+"Project-Id-Version: TuniERP Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-01-21 14:07+0000\n"
@@ -99,17 +99,17 @@ msgstr ""
 #. module: base_report_designer
 #: view:base_report_designer.installer:base_report_designer.view_report_designer_installer
 #: model:ir.actions.act_window,name:base_report_designer.action_report_designer_wizard
-msgid "Odoo Report Designer"
+msgid "TuniERP Report Designer"
 msgstr ""
 
 #. module: base_report_designer
 #: view:base_report_designer.installer:base_report_designer.view_report_designer_installer
-msgid "Odoo Report Designer Configuration"
+msgid "TuniERP Report Designer Configuration"
 msgstr ""
 
 #. module: base_report_designer
 #: model:ir.actions.act_window,name:base_report_designer.action_report_designer_installer
-msgid "Odoo Report Designer Installation"
+msgid "TuniERP Report Designer Installation"
 msgstr ""
 
 #. module: base_report_designer
@@ -167,13 +167,13 @@ msgstr ""
 #: view:base.report.file.sxw:base_report_designer.view_base_report_file_sxw
 msgid "This is the template of your requested report.\n"
 "Save it as a .SXW file and open it with OpenOffice.\n"
-"Don't forget to install the Odoo SA OpenOffice package to modify it.\n"
-"Once it is modified, re-upload it in Odoo using this wizard."
+"Don't forget to install the TuniERP SA OpenOffice package to modify it.\n"
+"Once it is modified, re-upload it in TuniERP using this wizard."
 msgstr ""
 
 #. module: base_report_designer
 #: view:base_report_designer.installer:base_report_designer.view_report_designer_installer
-msgid "This plug-in allows you to create/modify Odoo Reports into OpenOffice Writer."
+msgid "This plug-in allows you to create/modify TuniERP Reports into OpenOffice Writer."
 msgstr ""
 
 #. module: base_report_designer

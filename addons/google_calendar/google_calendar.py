@@ -124,9 +124,9 @@ class SyncEvent(object):
                 self.OP = Delete('OE', 'Update or delete from GOOGLE')
             else:
                 if not modeFull:
-                    self.OP = Delete('GG', 'Deleted from Odoo, need to delete it from Gmail if already created')
+                    self.OP = Delete('GG', 'Deleted from TuniERP, need to delete it from Gmail if already created')
                 else:
-                    self.OP = NothingToDo("", "Already Deleted in gmail and unlinked in Odoo")
+                    self.OP = NothingToDo("", "Already Deleted in gmail and unlinked in TuniERP")
         elif self.GG.found and not self.OE.found:
             tmpSrc = 'GG'
             if not self.GG.status and not self.GG.isInstance:
@@ -971,7 +971,7 @@ class res_users(osv.Model):
         'google_calendar_token_validity': fields.datetime('Token Validity'),
         'google_calendar_last_sync_date': fields.datetime('Last synchro date'),
         'google_calendar_cal_id': fields.char('Calendar ID', help='Last Calendar ID who has been synchronized. If it is changed, we remove \
-all links between GoogleID and Odoo Google Internal ID')
+all links between GoogleID and TuniERP Google Internal ID')
     }
 
 
@@ -1006,7 +1006,7 @@ class calendar_event(osv.Model):
         return super(calendar_event, self).unlink(cr, uid, ids, can_be_deleted=can_be_deleted, context=context)
 
     _columns = {
-        'oe_update_date': fields.datetime('Odoo Update Date'),
+        'oe_update_date': fields.datetime('TuniERP Update Date'),
     }
 
 
@@ -1015,7 +1015,7 @@ class calendar_attendee(osv.Model):
 
     _columns = {
         'google_internal_event_id': fields.char('Google Calendar Event Id'),
-        'oe_synchro_date': fields.datetime('Odoo Synchro Date'),
+        'oe_synchro_date': fields.datetime('TuniERP Synchro Date'),
     }
     _sql_constraints = [('google_id_uniq', 'unique(google_internal_event_id,partner_id,event_id)', 'Google ID should be unique!')]
 

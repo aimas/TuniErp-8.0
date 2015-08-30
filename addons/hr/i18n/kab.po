@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * hr
 # 
@@ -7,12 +7,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-18 18:18+0000\n"
 "Last-Translator: Belkacem Mohammed <belkacem77@gmail.com>\n"
-"Language-Team: Kabyle (http://www.transifex.com/p/odoo-8/language/kab/)\n"
+"Language-Team: Kabyle (http://www.transifex.com/p/tunierp-8/language/kab/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -31,12 +31,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a new employee.\n"
 "              </p><p>\n"
-"                With just a quick glance on the Odoo employee screen, you\n"
+"                With just a quick glance on the TuniERP employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\nsit i tmerna n umaris amaynut.\n</p><p>\nS tmuɣli kan fesusen ɣer ugdil n imarisen n Odoo, \nad tizmireḍ adafeḍ yal talɣut n yal amdan;\nisefka unermis, Tadekkant n umahil, availability, atg.\n</p>"
+msgstr "<p class=\"oe_view_nocontent_create\">\nsit i tmerna n umaris amaynut.\n</p><p>\nS tmuɣli kan fesusen ɣer ugdil n imarisen n TuniERP, \nad tizmireḍ adafeḍ yal talɣut n yal amdan;\nisefka unermis, Tadekkant n umahil, availability, atg.\n</p>"
 
 #. module: hr
 #: model:ir.actions.act_window,help:hr.open_module_tree_department
@@ -44,12 +44,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a department.\n"
 "              </p><p>\n"
-"                Odoo's department structure is used to manage all documents\n"
+"                TuniERP's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                leaves and holidays, recruitments, etc.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\nSit dagi i tmerna n ugezdu.\n</p><p>\nTaɣessa n ugezdu n Odoo t-ţuseqdac i wesefrek n warraten \niccuden ɣer imarisen s igezda: expenses, tiferkiyin n wakud,\nleaves and holidays, recruitments, etc.\n</p>"
+msgstr "<p class=\"oe_view_nocontent_create\">\nSit dagi i tmerna n ugezdu.\n</p><p>\nTaɣessa n ugezdu n TuniERP t-ţuseqdac i wesefrek n warraten \niccuden ɣer imarisen s igezda: expenses, tiferkiyin n wakud,\nleaves and holidays, recruitments, etc.\n</p>"
 
 #. module: hr
 #: model:ir.actions.act_window,help:hr.view_department_form_installer
@@ -933,7 +933,7 @@ msgstr "Iseqdacen"
 #. module: hr
 #: code:addons/hr/hr.py:273
 #, python-format
-msgid "Welcome to %s! Please help him/her take the first steps with Odoo!"
+msgid "Welcome to %s! Please help him/her take the first steps with TuniERP!"
 msgstr ""
 
 #. module: hr

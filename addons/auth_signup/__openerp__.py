@@ -28,7 +28,7 @@ Allow users to sign up and reset their password
     'author': 'OpenERP SA',
     'version': '1.0',
     'category': 'Authentication',
-    'website': 'https://www.odoo.com',
+    'website': 'https://www.tunierp.com',
     'installable': True,
     'auto_install': True,
     'depends': [

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * website_event_track
 # 
@@ -7,12 +7,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-07-18 15:33+0000\n"
 "Last-Translator: Belkacem Mohammed <belkacem77@gmail.com>\n"
-"Language-Team: Kabyle (http://www.transifex.com/p/odoo-8/language/kab/)\n"
+"Language-Team: Kabyle (http://www.transifex.com/p/tunierp-8/language/kab/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -48,7 +48,7 @@ msgstr ""
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track7
 msgid ""
-"A technical explanation of Odoo as a CMS and a eCommerce platform for "
+"A technical explanation of TuniERP as a CMS and a eCommerce platform for "
 "version 8."
 msgstr ""
 
@@ -59,7 +59,7 @@ msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track19
-msgid "Advanced lead management with Odoo: tips and tricks from the fields"
+msgid "Advanced lead management with TuniERP: tips and tricks from the fields"
 msgstr ""
 
 #. module: website_event_track
@@ -176,12 +176,12 @@ msgstr ""
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track8
 msgid ""
-"Discover Odoo CRM: How to optimize your sales, from leads to sales orders."
+"Discover TuniERP CRM: How to optimize your sales, from leads to sales orders."
 msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track11
-msgid "Discover Odoo Point-of-Sale: Your shop ready to use in 30 minutes."
+msgid "Discover TuniERP Point-of-Sale: Your shop ready to use in 30 minutes."
 msgstr ""
 
 #. module: website_event_track
@@ -350,8 +350,8 @@ msgstr "Igber agzul n lehduṛ (amḍan n iznan,…). Agzul agi illa  deg umasal
 #: model:event.track,name:website_event_track.event_track18
 msgid ""
 "How to build your marketing strategy for the purpose of generating leads "
-"with Odoo."
-msgstr "Amek a t-ebnuḍ tastratijit n telzuzit i wesirew n tfiɣalin s useqdec n Odoo."
+"with TuniERP."
+msgstr "Amek a t-ebnuḍ tastratijit n telzuzit i wesirew n tfiɣalin s useqdec n TuniERP."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track1
@@ -360,7 +360,7 @@ msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track4
-msgid "How to develop automated tests in the Odoo web client."
+msgid "How to develop automated tests in the TuniERP web client."
 msgstr ""
 
 #. module: website_event_track
@@ -370,13 +370,13 @@ msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track2
-msgid "How to integrate hardware materials with the Odoo point of sale."
+msgid "How to integrate hardware materials with the TuniERP point of sale."
 msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track9
 msgid ""
-"How to use Odoo for your HR process: recruitment, leaves management, "
+"How to use TuniERP for your HR process: recruitment, leaves management, "
 "appraisals, expenses, etc."
 msgstr ""
 
@@ -404,7 +404,7 @@ msgstr "D amagaz"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track23
-msgid "Key Success factors selling Odoo."
+msgid "Key Success factors selling TuniERP."
 msgstr ""
 
 #. module: website_event_track
@@ -466,7 +466,7 @@ msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track12
-msgid "Manage your events with Odoo, the new training modules."
+msgid "Manage your events with TuniERP, the new training modules."
 msgstr ""
 
 #. module: website_event_track
@@ -528,22 +528,22 @@ msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track15
-msgid "Odoo Mobile for Notes, Meetings and Messages."
-msgstr "Odoo Mobile i yiwenniten, Timliliyin ed yeznan."
+msgid "TuniERP Mobile for Notes, Meetings and Messages."
+msgstr "TuniERP Mobile i yiwenniten, Timliliyin ed yeznan."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track28
-msgid "Odoo Status & Strategy 2014"
+msgid "TuniERP Status & Strategy 2014"
 msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track16
-msgid "Odoo as your Enterprise Social Network."
-msgstr "Odoo d aẓeṭṭa ametti n tkebbanit-ik"
+msgid "TuniERP as your Enterprise Social Network."
+msgstr "TuniERP d aẓeṭṭa ametti n tkebbanit-ik"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track27
-msgid "Odoo in 2014"
+msgid "TuniERP in 2014"
 msgstr ""
 
 #. module: website_event_track
@@ -596,7 +596,7 @@ msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track21
-msgid "Recruiting high skilled talents with Odoo HR apps"
+msgid "Recruiting high skilled talents with TuniERP HR apps"
 msgstr ""
 
 #. module: website_event_track
@@ -754,7 +754,7 @@ msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track17
-msgid "The Art of Making an Odoo Demo."
+msgid "The Art of Making an TuniERP Demo."
 msgstr ""
 
 #. module: website_event_track
@@ -765,7 +765,7 @@ msgstr "Tastṛatijit n telzuzit tamaynut"
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track5
 msgid ""
-"The new way to promote your modules in the Apps platform and Odoo website."
+"The new way to promote your modules in the Apps platform and TuniERP website."
 msgstr ""
 
 #. module: website_event_track

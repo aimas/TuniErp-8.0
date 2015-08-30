@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * survey
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 08:10+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Dutch (http://www.transifex.com/p/odoo-8/language/nl/)\n"
+"Language-Team: Dutch (http://www.transifex.com/p/tunierp-8/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -68,8 +68,8 @@ msgstr "<p></p>"
 
 #. module: survey
 #: model:survey.page,description:survey.feedback_4
-msgid "<p>If you do not contribute or develop in Odoo, skip this page.</p>"
-msgstr "<p>Sla deze pagina over indien u niet bijdraagt of ontwikkeld in Odoo.</p>"
+msgid "<p>If you do not contribute or develop in TuniERP, skip this page.</p>"
+msgstr "<p>Sla deze pagina over indien u niet bijdraagt of ontwikkeld in TuniERP.</p>"
 
 #. module: survey
 #: model:ir.actions.act_window,help:survey.action_selected_survey_user_input
@@ -88,9 +88,9 @@ msgstr "<p>Nog niemand heeft gereageerd op uw enquêtes.</p>\n            "
 #. module: survey
 #: model:survey.page,description:survey.feedback_2
 msgid ""
-"<p>These questions relate to the ergonomy and ease of use of Odoo. Try to remind your firsts days on Odoo and\n"
+"<p>These questions relate to the ergonomy and ease of use of TuniERP. Try to remind your firsts days on TuniERP and\n"
 "what have been your difficulties.</p>"
-msgstr "<p>Deze vragen hebben betrekking op de gebuikersvriendelijkheid en toegankelijkheid van Odoo. Probeer uw eerste ervaringen met Odoo te herinneren en uw moeilijheden te beschrijven.</p>"
+msgstr "<p>Deze vragen hebben betrekking op de gebuikersvriendelijkheid en toegankelijkheid van TuniERP. Probeer uw eerste ervaringen met TuniERP te herinneren en uw moeilijheden te beschrijven.</p>"
 
 #. module: survey
 #: model:survey.survey,description:survey.feedback_form
@@ -141,8 +141,8 @@ msgstr "Een token moet uniek zijn"
 
 #. module: survey
 #: model:survey.page,title:survey.feedback_1
-msgid "About your Odoo usage"
-msgstr "Over uw Odoo gebruik"
+msgid "About your TuniERP usage"
+msgstr "Over uw TuniERP gebruik"
 
 #. module: survey
 #: field:survey.mail.compose.message,active_domain:0
@@ -154,7 +154,7 @@ msgstr "Actief domein"
 msgid ""
 "Add list of email of recipients (will not converted in partner), separated "
 "by commas, semicolons or newline..."
-msgstr "Voeg een e-mail lijst toe van de geadresseerden (wordt niet toegevoegd aan relaties in odoo), gescheiden door komma's, puntkomma's of nieuwe regel ..."
+msgstr "Voeg een e-mail lijst toe van de geadresseerden (wordt niet toegevoegd aan relaties in tunierp), gescheiden door komma's, puntkomma's of nieuwe regel ..."
 
 #. module: survey
 #: view:survey.mail.compose.message:survey.survey_email_compose_message
@@ -227,8 +227,8 @@ msgstr "Antwoorden worden niet toegevoegd aan de discussie lijst van het origine
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_1_1
-msgid "Are you using Odoo on a daily basis?"
-msgstr "Gebruikt u Odoo iedere dag?"
+msgid "Are you using TuniERP on a daily basis?"
+msgstr "Gebruikt u TuniERP iedere dag?"
 
 #. module: survey
 #: field:survey.mail.compose.message,attachment_ids:0
@@ -660,8 +660,8 @@ msgstr "Bevat de samenvatting van de chatter (aantal berichten,...). Deze samenv
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_3_1
-msgid "How do you contribute or plan to contribute to Odoo?"
-msgstr "Hoe draagt u bij of bent u van plan om bij te dragen aan Odoo?"
+msgid "How do you contribute or plan to contribute to TuniERP?"
+msgstr "Hoe draagt u bij of bent u van plan om bij te dragen aan TuniERP?"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_1_2_6
@@ -695,8 +695,8 @@ msgstr "Ik neem deel aan discussies en forums"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_1
-msgid "I use Launchpad, like all official Odoo projects"
-msgstr "Ik gebruik Github, zoals alle officiële Odoo projecten"
+msgid "I use Launchpad, like all official TuniERP projects"
+msgstr "Ik gebruik Github, zoals alle officiële TuniERP projecten"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_2
@@ -705,8 +705,8 @@ msgstr "Ik gebruik een ander repository systeem (SourceForge)"
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_1_3
-msgid "I use the contextual help in Odoo"
-msgstr "Ik gebruik de contextuele hulp in Odoo"
+msgid "I use the contextual help in TuniERP"
+msgstr "Ik gebruik de contextuele hulp in TuniERP"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_3_1_5
@@ -1822,8 +1822,8 @@ msgstr "Ze zijn handig op dagelijkse basis"
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_2_1
-msgid "They help new users to understand Odoo"
-msgstr "Ze helpen nieuwe gebruikers Odoo te begrijpen"
+msgid "They help new users to understand TuniERP"
+msgstr "Ze helpen nieuwe gebruikers TuniERP te begrijpen"
 
 #. module: survey
 #: code:addons/survey/survey.py:700
@@ -2069,7 +2069,7 @@ msgstr "Wat denk je van de configuratiewizard?"
 #: model:survey.question,question:survey.feedback_2_1
 msgid ""
 "What do you think about the documentation available on doc.openerp.com?"
-msgstr "Wat denk je over de documentatie beschikbaar op doc.odoo.com?"
+msgstr "Wat denk je over de documentatie beschikbaar op doc.tunierp.com?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_5
@@ -2079,9 +2079,9 @@ msgstr "Wat denk u van de gebruikersgroepen?"
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_2
 msgid ""
-"What do you think about the process views of Odoo, available in the web "
+"What do you think about the process views of TuniERP, available in the web "
 "client ?"
-msgstr "Wat is uw mening over de proces weergaven van Odoo, beschikbaar in de webclient?"
+msgstr "Wat is uw mening over de proces weergaven van TuniERP, beschikbaar in de webclient?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_4
@@ -2116,8 +2116,8 @@ msgstr "Ja, ik gebruik een versie die lokaal is geïnstalleerd"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_1_1_3
-msgid "Yes, I use the online version of Odoo"
-msgstr "Ja, ik gebruik de online versie van Odoo"
+msgid "Yes, I use the online version of TuniERP"
+msgstr "Ja, ik gebruik de online versie van TuniERP"
 
 #. module: survey
 #: view:survey.mail.compose.message:survey.survey_email_compose_message

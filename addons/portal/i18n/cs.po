@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * portal
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-05-29 12:58+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Czech (http://www.transifex.com/projects/p/odoo-8/language/cs/)\n"
+"Language-Team: Czech (http://www.transifex.com/projects/p/tunierp-8/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -137,7 +137,7 @@ msgid ""
 "%(welcome_message)s\n"
 "\n"
 "--\n"
-"Odoo - Open Source Business Applications\n"
+"TuniERP - Open Source Business Applications\n"
 "http://www.openerp.com\n"
 msgstr ""
 
@@ -372,7 +372,7 @@ msgstr "Pro zasílání e-mailů musíte mít nastavenu e-mailovou adresu ve va�
 #. module: portal
 #: code:addons/portal/wizard/portal_wizard.py:33
 #, python-format
-msgid "Your Odoo account at %(company)s"
+msgid "Your TuniERP account at %(company)s"
 msgstr ""
 
 #. module: portal

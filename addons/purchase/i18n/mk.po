@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * purchase
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 07:56+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Macedonian (http://www.transifex.com/p/odoo-8/language/mk/)\n"
+"Language-Team: Macedonian (http://www.transifex.com/p/tunierp-8/language/mk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -216,10 +216,10 @@ msgid ""
 "                    Supplier invoices can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control invoices\n"
 "                    you receive from your supplier according to the draft\n"
-"                    document in Odoo.\n"
+"                    document in TuniERP.\n"
 "                </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                    Кликнете овде за да снимите фактура од добавувач.\n                </p><p>\n                    Фактурите од добавувачи можат да бидат претходно генерирани базирано на налози\n                    за нарачка или потврди. Ова ви дозволува да ги контролирате фактурите\n                    што ги примате од вашиот добавувач според нацрт\n                    документот во Odoo.\n                </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                    Кликнете овде за да снимите фактура од добавувач.\n                </p><p>\n                    Фактурите од добавувачи можат да бидат претходно генерирани базирано на налози\n                    за нарачка или потврди. Ова ви дозволува да ги контролирате фактурите\n                    што ги примате од вашиот добавувач според нацрт\n                    документот во TuniERP.\n                </p>\n            "
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.act_res_partner_2_purchase_order
@@ -287,7 +287,7 @@ msgid ""
 "                quotation is converted into a purchase order.\n"
 "              </p><p>\n"
 "                Most propositions of purchase orders are created automatically\n"
-"                by Odoo based on inventory needs.\n"
+"                by TuniERP based on inventory needs.\n"
 "              </p>\n"
 "            "
 msgstr ""
@@ -299,14 +299,14 @@ msgid ""
 "            Click to create a draft invoice.\n"
 "          </p><p>\n"
 "            Use this menu to control the invoices to be received from your\n"
-"            supplier. Odoo generates draft invoices from your purchase\n"
+"            supplier. TuniERP generates draft invoices from your purchase\n"
 "            orders or receipts, according to your settings.\n"
 "          </p><p>\n"
 "            Once you receive a supplier invoice, you can match it with the\n"
 "            draft invoice and validate it.\n"
 "          </p>\n"
 "        "
-msgstr "<p class=\"oe_view_nocontent_create\">\n            Кликнете да креирате нацрт фактура.\n          </p><p>\n            Користете го ова мени за да ги контролирате фактурите што треба да бидат примени\n            од вашиот добавувач. Odoo генерира нацрт фактури од вашите\n            налози за нарачка или потврди, во зависност од вашите подесувања.\n          </p><p>\n            Кога ќе ја примите фактурата од добавувачот, можете да ја споредите со\n            нацрт фактурата и да ја валидирате.\n          </p>\n        "
+msgstr "<p class=\"oe_view_nocontent_create\">\n            Кликнете да креирате нацрт фактура.\n          </p><p>\n            Користете го ова мени за да ги контролирате фактурите што треба да бидат примени\n            од вашиот добавувач. TuniERP генерира нацрт фактури од вашите\n            налози за нарачка или потврди, во зависност од вашите подесувања.\n          </p><p>\n            Кога ќе ја примите фактурата од добавувачот, можете да ја споредите со\n            нацрт фактурата и да ја валидирате.\n          </p>\n        "
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.product_normal_action_puchased

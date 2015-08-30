@@ -36,7 +36,7 @@ Allows to automatically select analytic accounts based on criterions:
     * Date
     """,
     'author': 'OpenERP SA',
-    'website': 'https://www.odoo.com/page/accounting',
+    'website': 'https://www.tunierp.com/page/accounting',
     'depends': ['sale_stock'],
     'data': [
         'security/ir.model.access.csv', 

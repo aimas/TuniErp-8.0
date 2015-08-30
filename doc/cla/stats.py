@@ -13,7 +13,7 @@ cla = ''.join(open(f).read() for f in glob.glob(cla_glob))
 cla = cla.lower()
 
 def cla_signed(email):
-    if re.match('.*(odoo|openerp|tinyerp).com$',email):
+    if re.match('.*(tunierp|openerp|tinyerp).com$',email):
         return True
     if cla.find(email) != -1:
         return True

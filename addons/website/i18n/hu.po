@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * website
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-07-17 08:15+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Hungarian (http://www.transifex.com/p/odoo-8/language/hu/)\n"
+"Language-Team: Hungarian (http://www.transifex.com/p/tunierp-8/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -111,8 +111,8 @@ msgstr "404: Oldal nem található!"
 
 #. module: website
 #: view:website:website.snippets
-msgid "50,000+ companies run Odoo to grow their businesses."
-msgstr "50,000+ vállalkozás használja az Odoo rendszert az üzlete fokozására."
+msgid "50,000+ companies run TuniERP to grow their businesses."
+msgstr "50,000+ vállalkozás használja az TuniERP rendszert az üzlete fokozására."
 
 #. module: website
 #: model:ir.actions.act_window,help:website.action_module_website
@@ -360,8 +360,8 @@ msgstr "Hírdetés"
 
 #. module: website
 #: view:website:website.snippets
-msgid "Banner Odoo Image"
-msgstr "Odoo hírdetés képe"
+msgid "Banner TuniERP Image"
+msgstr "TuniERP hírdetés képe"
 
 #. module: website
 #. openerp-web
@@ -878,8 +878,8 @@ msgstr "Szerkesztés elvetése"
 
 #. module: website
 #: view:website:website.snippets
-msgid "Discover more about Odoo"
-msgstr "Ha többet szeretne megtudni az Odoo-ról"
+msgid "Discover more about TuniERP"
+msgstr "Ha többet szeretne megtudni az TuniERP-ról"
 
 #. module: website
 #: view:website:website.template_partner_comment
@@ -1711,41 +1711,41 @@ msgstr "Megjegyzés: ennek az oldalnak az elrejtéséhez, törölje a kijelölé
 
 #. module: website
 #: view:website:website.layout view:website:website.snippets
-msgid "Odoo"
-msgstr "Odoo"
+msgid "TuniERP"
+msgstr "TuniERP"
 
 #. module: website
 #: view:website:website.info
-msgid "Odoo Version"
-msgstr "Odoo változat"
+msgid "TuniERP Version"
+msgstr "TuniERP változat"
 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"Odoo provides essential platform for our project management.\n"
+"TuniERP provides essential platform for our project management.\n"
 "                                                    Things are better organized and more visible with it."
-msgstr "Odoo nélkülözhetetlen platformot nyújt a projekt menedzsmentjéhez.\n                                                     A dolgok jobban szervezettek és jobban átláthatók vele."
+msgstr "TuniERP nélkülözhetetlen platformot nyújt a projekt menedzsmentjéhez.\n                                                     A dolgok jobban szervezettek és jobban átláthatók vele."
 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"Odoo provides essential platform for our project management.\n"
+"TuniERP provides essential platform for our project management.\n"
 "                                            Things are better organized and more visible with it."
-msgstr "Odoo nélkülözhetetlen platformot nyújt a projekt menedzsmentjéhez.\n                                                     A dolgok jobban szervezettek és jobban átláthatók vele."
+msgstr "TuniERP nélkülözhetetlen platformot nyújt a projekt menedzsmentjéhez.\n                                                     A dolgok jobban szervezettek és jobban átláthatók vele."
 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"Odoo provides essential platform for our project management.\n"
+"TuniERP provides essential platform for our project management.\n"
 "                                Things are better organized and more visible with it."
-msgstr "Odoo nélkülözhetetlen platformot nyújt a projekt menedzsmentjéhez.\n                                                     A dolgok jobban szervezettek és jobban átláthatók vele."
+msgstr "TuniERP nélkülözhetetlen platformot nyújt a projekt menedzsmentjéhez.\n                                                     A dolgok jobban szervezettek és jobban átláthatók vele."
 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"Odoo's POS is a web application that can run on any device that\n"
+"TuniERP's POS is a web application that can run on any device that\n"
 "                    can display websites with little to no setup required."
-msgstr "Az Odoo ÉP egy webes alkalmazás, amely futhat bármely eszközön, amely \n                     képes megjeleníteni weboldalakat. Alig, vagy egyáltalán nem igényel beállítást."
+msgstr "Az TuniERP ÉP egy webes alkalmazás, amely futhat bármely eszközön, amely \n                     képes megjeleníteni weboldalakat. Alig, vagy egyáltalán nem igényel beállítást."
 
 #. module: website
 #. openerp-web
@@ -2895,8 +2895,8 @@ msgstr "Hogy ez a nézet egy weboldal sablon (teljes)"
 
 #. module: website
 #: view:website:website.snippets
-msgid "Which hardware does Odoo POS support?"
-msgstr "Melyik hardvert támogatja az Odoo ÉP?"
+msgid "Which hardware does TuniERP POS support?"
+msgstr "Melyik hardvert támogatja az TuniERP ÉP?"
 
 #. module: website
 #: view:website:website.snippets
@@ -2908,11 +2908,11 @@ msgstr "Míg ahhoz, hogy elindítsa az Értékesítési Pontot, internet kapcsol
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"With Odoo's fully integrated software, you can easily manage your\n"
+"With TuniERP's fully integrated software, you can easily manage your\n"
 "                            meetings, schedule business calls, create recurring meetings,\n"
 "                            synchronize your agenda and easily keep in touch with your colleagues,\n"
 "                            partners and other people involved in projects or business discussions."
-msgstr "Az Odoo egy teljesen integrált  szoftver, segítségével könnyedén kezelheti a\n                             találkozóit, ütemezett üzleti hívásokat, létrehozhat ismétlődő találkozókat,\n                             szinkronizálja a napirendjét és könnyedén tarthatja a kapcsolatot a kollégáival,\n                             partnereivel és más, a projektekben vagy üzleti az megbeszélésekben érintett személyekkel."
+msgstr "Az TuniERP egy teljesen integrált  szoftver, segítségével könnyedén kezelheti a\n                             találkozóit, ütemezett üzleti hívásokat, létrehozhat ismétlődő találkozókat,\n                             szinkronizálja a napirendjét és könnyedén tarthatja a kapcsolatot a kollégáival,\n                             partnereivel és más, a projektekben vagy üzleti az megbeszélésekben érintett személyekkel."
 
 #. module: website
 #: view:website:website.snippet_options
@@ -3095,8 +3095,8 @@ msgstr "http://openerp.com/logo.png"
 
 #. module: website
 #: view:website:website.view_website_form
-msgid "http://www.linkedin.com/company/odoo"
-msgstr "http://www.linkedin.com/company/odoo"
+msgid "http://www.linkedin.com/company/tunierp"
+msgstr "http://www.linkedin.com/company/tunierp"
 
 #. module: website
 #: view:website.config.settings:website.view_website_config_settings
@@ -3110,8 +3110,8 @@ msgstr "http://www.youtube.com/channel/HCU842OHPPNrQ"
 
 #. module: website
 #: view:website:website.view_website_form
-msgid "https://facebook.com/odoo"
-msgstr "https://facebook.com/odoo"
+msgid "https://facebook.com/tunierp"
+msgstr "https://facebook.com/tunierp"
 
 #. module: website
 #: view:website.config.settings:website.view_website_config_settings
@@ -3120,8 +3120,8 @@ msgstr "https://facebook.com/openerp"
 
 #. module: website
 #: view:website:website.view_website_form
-msgid "https://plus.google.com/+Odooapps"
-msgstr "https://plus.google.com/+Odooapps"
+msgid "https://plus.google.com/+TuniERPapps"
+msgstr "https://plus.google.com/+TuniERPapps"
 
 #. module: website
 #: view:website.config.settings:website.view_website_config_settings
@@ -3130,8 +3130,8 @@ msgstr "https://plus.google.com/+openerp"
 
 #. module: website
 #: view:website:website.view_website_form
-msgid "https://twitter.com/odooapps"
-msgstr "https://twitter.com/odooapps"
+msgid "https://twitter.com/tunierpapps"
+msgstr "https://twitter.com/tunierpapps"
 
 #. module: website
 #: view:website.config.settings:website.view_website_config_settings
@@ -3151,8 +3151,8 @@ msgstr "https://az_ön_fiókja.github.io"
 
 #. module: website
 #: view:website:website.info
-msgid "instance of Odoo, the"
-msgstr "például az Odoo, a"
+msgid "instance of TuniERP, the"
+msgstr "például az TuniERP, a"
 
 #. module: website
 #: view:website:website.snippets
@@ -3214,8 +3214,8 @@ msgstr "sítlus."
 #. openerp-web
 #: code:addons/website/static/src/xml/website.xml:37
 #, python-format
-msgid "the classic Odoo interface"
-msgstr "a klasszikus Odoo felület"
+msgid "the classic TuniERP interface"
+msgstr "a klasszikus TuniERP felület"
 
 #. module: website
 #: field:website.converter.test.sub,name:0

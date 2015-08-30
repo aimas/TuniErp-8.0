@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * stock
 # 
@@ -7,12 +7,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-06-29 10:03+0000\n"
 "Last-Translator: Erwin van der Ploeg <erwin@bas-solutions.nl>\n"
-"Language-Team: Dutch (http://www.transifex.com/p/odoo-8/language/nl/)\n"
+"Language-Team: Dutch (http://www.transifex.com/p/tunierp-8/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -193,29 +193,29 @@ msgid ""
 "                Click to add a location.\n"
 "              </p><p>\n"
 "                Define your locations to reflect your warehouse structure and\n"
-"                organization. Odoo is able to manage physical locations\n"
+"                organization. TuniERP is able to manage physical locations\n"
 "                (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "                suppliers) and virtual locations which are the counterpart of\n"
 "                the stock operations like the manufacturing orders\n"
 "                consumptions, inventories, etc.\n"
 "              </p><p>  \n"
-"                Every stock operation in Odoo moves the products from one\n"
+"                Every stock operation in TuniERP moves the products from one\n"
 "                location to another one.  For instance, if you receive products\n"
-"                from a supplier, Odoo will move products from the Supplier\n"
+"                from a supplier, TuniERP will move products from the Supplier\n"
 "                location to the Stock location. Each report can be performed on\n"
 "                physical, partner or virtual locations.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik voor het toevoegen van een locatie.\n              </p><p>\n                Definieer uw locaties om uw magazijn-en organisatiestructuur\n                vorm te geven. Odoo is in staat om fysieke locaties (magazijnen, planken, etc),\n                relatie locaties (klanten, leveranciers) en virtuele locaties die de tegenlocatie vormen\n                van de voorraadmutaties bij bijvoorbeeld productieopdrachten, tellingen, etc. \n              </p><p>  \n                Iedere voorraadmutatie in Odoo verplaatst de producten van de ene\n                locatie naar de andere. Bijvoorbeeld, als u producten van een leverancier koopt,\n                zal Odoo de producten van de leverancier locatie naar de voorraadlocatie\n                verplaatsen. Elk rapport kan worden uitgevoerd op fysieke, relatie of virtuele locaties.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik voor het toevoegen van een locatie.\n              </p><p>\n                Definieer uw locaties om uw magazijn-en organisatiestructuur\n                vorm te geven. TuniERP is in staat om fysieke locaties (magazijnen, planken, etc),\n                relatie locaties (klanten, leveranciers) en virtuele locaties die de tegenlocatie vormen\n                van de voorraadmutaties bij bijvoorbeeld productieopdrachten, tellingen, etc. \n              </p><p>  \n                Iedere voorraadmutatie in TuniERP verplaatst de producten van de ene\n                locatie naar de andere. Bijvoorbeeld, als u producten van een leverancier koopt,\n                zal TuniERP de producten van de leverancier locatie naar de voorraadlocatie\n                verplaatsen. Elk rapport kan worden uitgevoerd op fysieke, relatie of virtuele locaties.\n              </p>\n            "
 
 #. module: stock
 #: model:ir.actions.act_window,help:stock.action_orderpoint_form
 msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a reordering rule.\n"
-"              </p><p>You can define your minimum stock rules, so that Odoo will automatically create draft manufacturing orders or request for quotations according to the stock level. Once the virtual stock of a product (= stock on hand minus all confirmed orders and reservations) is below the minimum quantity, Odoo will generate a procurement request to increase the stock up to the maximum quantity.</p>\n"
+"              </p><p>You can define your minimum stock rules, so that TuniERP will automatically create draft manufacturing orders or request for quotations according to the stock level. Once the virtual stock of a product (= stock on hand minus all confirmed orders and reservations) is below the minimum quantity, TuniERP will generate a procurement request to increase the stock up to the maximum quantity.</p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik hier voor het aanmaken van een aanvulopdrachtregel.\n              </p><p>U kunt uw minimale voorraad regels definiëren, zodat Odoo automatisch concept productieorders of concept inkooporders kan aanmaken, op basis van het voorraad niveau. Zodra de virtuele voorraad van een product (= werkelijke voorraad minus alle bevestigde verkooporders en reserveringen) lager is dan de minimum hoeveelheid, Zal Odoo een verwervingaanvraag aanmaken om de voorraad te verhogen tot de maximale hoeveelheid.</p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik hier voor het aanmaken van een aanvulopdrachtregel.\n              </p><p>U kunt uw minimale voorraad regels definiëren, zodat TuniERP automatisch concept productieorders of concept inkooporders kan aanmaken, op basis van het voorraad niveau. Zodra de virtuele voorraad van een product (= werkelijke voorraad minus alle bevestigde verkooporders en reserveringen) lager is dan de minimum hoeveelheid, Zal TuniERP een verwervingaanvraag aanmaken om de voorraad te verhogen tot de maximale hoeveelheid.</p>\n            "
 
 #. module: stock
 #: model:ir.actions.act_window,help:stock.action_production_lot_form
@@ -267,12 +267,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a stock operation. \n"
 "              </p><p>\n"
-"                Most operations are prepared automatically by Odoo according\n"
+"                Most operations are prepared automatically by TuniERP according\n"
 "                to your preconfigured logistics rules, but you can also record\n"
 "                manual stock movements.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik voor het aanmaken van een voorraad bewerking. \n              </p><p>\n                De meeste bewerkingen worden automstisch door Odoo voorbereid op basis\n                van uw voor ingestelde logistieke regels. Mara het is ook mogelijk om\n                handmatig een voorraadmutatie aan te maken.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik voor het aanmaken van een voorraad bewerking. \n              </p><p>\n                De meeste bewerkingen worden automstisch door TuniERP voorbereid op basis\n                van uw voor ingestelde logistieke regels. Mara het is ook mogelijk om\n                handmatig een voorraadmutatie aan te maken.\n              </p>\n            "
 
 #. module: stock
 #: model:ir.actions.act_window,help:stock.action_warehouse_form
@@ -594,8 +594,8 @@ msgstr "Bulk inhoud"
 #, python-format
 msgid ""
 "By changing this quantity here, you accept the new quantity as complete: "
-"Odoo will not automatically generate a back order."
-msgstr "Door de hoeveelheid hier te wijzigen accepteert u de nieuwe hoeveel als compleet. Odoo zal niet automatisch een backorderaanmaken."
+"TuniERP will not automatically generate a back order."
+msgstr "Door de hoeveelheid hier te wijzigen accepteert u de nieuwe hoeveel als compleet. TuniERP zal niet automatisch een backorderaanmaken."
 
 #. module: stock
 #: help:stock.move,procure_method:0
@@ -5303,17 +5303,17 @@ msgstr "Wanneer de methode vast is, zal deze locatie worden gebruikt om alle pro
 #: help:stock.warehouse.orderpoint,product_min_qty:0
 msgid ""
 "When the virtual stock goes below the Min Quantity specified for this field,"
-" Odoo generates a procurement to bring the forecasted quantity to the Max "
+" TuniERP generates a procurement to bring the forecasted quantity to the Max "
 "Quantity."
-msgstr "Wanneer een virtuele voorraad onder de minimale voorraad komt, zoals gespecificeerd in dit veld, zal Odoo een verwervingsopdracht genereren om de verwachte voorraad aan te vullen tot de maximale hoeveelheid."
+msgstr "Wanneer een virtuele voorraad onder de minimale voorraad komt, zoals gespecificeerd in dit veld, zal TuniERP een verwervingsopdracht genereren om de verwachte voorraad aan te vullen tot de maximale hoeveelheid."
 
 #. module: stock
 #: help:stock.warehouse.orderpoint,product_max_qty:0
 msgid ""
-"When the virtual stock goes below the Min Quantity, Odoo generates a "
+"When the virtual stock goes below the Min Quantity, TuniERP generates a "
 "procurement to bring the forecasted quantity to the Quantity specified as "
 "Max Quantity."
-msgstr "Wanneer een virtuele voorraad onder de minimale voorraad komt, zoals gespecificeerd in dit veld, zal Odoo een verwervingsopdracht genereren om de verwachte voorraad aan te vullen tot de maximale hoeveelheid."
+msgstr "Wanneer een virtuele voorraad onder de minimale voorraad komt, zoals gespecificeerd in dit veld, zal TuniERP een verwervingsopdracht genereren om de verwachte voorraad aan te vullen tot de maximale hoeveelheid."
 
 #. module: stock
 #: view:stock.change.product.qty:stock.view_change_product_quantity

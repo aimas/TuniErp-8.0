@@ -23,7 +23,7 @@
     'version': '1.0',
     'author': 'OpenERP SA',
     'category': 'hidden',
-    'website': 'https://www.odoo.com/page/employees',
+    'website': 'https://www.tunierp.com/page/employees',
     'depends': ['gamification', 'hr'],
     'description': """Use the HR ressources for the gamification process.
 

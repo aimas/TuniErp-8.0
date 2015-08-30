@@ -31,7 +31,7 @@ Remove minimal account chart.
 Deactivates minimal chart of accounts.
 """,
     'author': 'OpenERP SA',
-    'website': 'https://www.odoo.com/page/accounting',
+    'website': 'https://www.tunierp.com/page/accounting',
     'depends': ['account'],
     'data': [],
     'demo': [],

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * hr_evaluation
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 07:15+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Russian (http://www.transifex.com/p/odoo-8/language/ru/)\n"
+"Language-Team: Russian (http://www.transifex.com/p/tunierp-8/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -68,8 +68,8 @@ msgstr "(user_signature)s: Имя пользователя"
 #: model:survey.page,description:hr_evaluation.opinion_1
 msgid ""
 "<h2>At the supervisor's appraisal date</h2>\n"
-"<p>His direct reports will be invited through Odoo to express a feedback on their supervisor's leadership and to give their opinion about their own engagement and effectiveness, the continuous improvement and openness in action in thecompany...</p>\n"
-"<p>The employees will send back their anonymous answers to Odoo. The data will be handled by the HR manager and a brief summary of the data will be sent to the concerned supervisor, to his team and to the supervisor's supervisor.</p>\n"
+"<p>His direct reports will be invited through TuniERP to express a feedback on their supervisor's leadership and to give their opinion about their own engagement and effectiveness, the continuous improvement and openness in action in thecompany...</p>\n"
+"<p>The employees will send back their anonymous answers to TuniERP. The data will be handled by the HR manager and a brief summary of the data will be sent to the concerned supervisor, to his team and to the supervisor's supervisor.</p>\n"
 "<p>The appraiser should rate the employee's major work accomplishments and performance according to the metric provided below\n"
 "</p><ol>\n"
 "<li>Significantly exceeds standards and expectations required of the position</li>\n"
@@ -78,7 +78,7 @@ msgid ""
 "<li>Did not meet standards and expectations</li>\n"
 "<li>Significantly below standards and expectations</li>\n"
 "</ol>"
-msgstr "<h2>В день оценки руководителя</h2>\n<р>Его подчиненные будут приглашены через Odoo прокомментировать руководство своего непосредственного начальника и высказать свое мнение о собственной активности и эффективности, и непрерывном улучшении и открытости в работе в компании...</p> \n<р>Сотрудники отправят свои анонимные ответы на Odoo. Данные будут обработаны менеджером по персоналу и краткий итог данных будет отправлен соответствующему руководителю, его команде и вышестоящему руководителю.</p>\n<р>Рецензент должен оценить основные рабочие достижения и результаты деятельности работника в соответствии с системой оценки, приведенной ниже \n</p><ol>\n<li>Значительно превышает стандарты и ожидания, необходимые для занимаемой должности</li> \n<li>Превышает стандарты и ожидания</li> \n<li>Соответствует стандартам и ожиданиям</li>\n<li>Не соответствует стандартам и ожиданиям </li> \n<li>Значительно ниже стандартов и ожиданий </li>\n</ol>"
+msgstr "<h2>В день оценки руководителя</h2>\n<р>Его подчиненные будут приглашены через TuniERP прокомментировать руководство своего непосредственного начальника и высказать свое мнение о собственной активности и эффективности, и непрерывном улучшении и открытости в работе в компании...</p> \n<р>Сотрудники отправят свои анонимные ответы на TuniERP. Данные будут обработаны менеджером по персоналу и краткий итог данных будет отправлен соответствующему руководителю, его команде и вышестоящему руководителю.</p>\n<р>Рецензент должен оценить основные рабочие достижения и результаты деятельности работника в соответствии с системой оценки, приведенной ниже \n</p><ol>\n<li>Значительно превышает стандарты и ожидания, необходимые для занимаемой должности</li> \n<li>Превышает стандарты и ожидания</li> \n<li>Соответствует стандартам и ожиданиям</li>\n<li>Не соответствует стандартам и ожиданиям </li> \n<li>Значительно ниже стандартов и ожиданий </li>\n</ol>"
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.appraisal_1
@@ -97,13 +97,13 @@ msgid ""
 "point for the supervisor’s evaluation. The employee can add examples of achievements for each criterion.\n"
 "Once the form had been filled, the employee send it to his supervisor.\n"
 "</li><li>It is the primary responsibility of the supervisor to gather the necessary input from the appropriate sources of feedback\n"
-"(internal and/or external customers, peers). In case of collaboration with Odoo SA Belgium, the supervisor must\n"
+"(internal and/or external customers, peers). In case of collaboration with TuniERP SA Belgium, the supervisor must\n"
 "receive completed evaluation form from the employee's Belgian project manager.\n"
 "</li><li>The supervisor synthesizes and integrates all input into the completed appraisal. He motivates his evaluation in the ad\n"
 "hoc fields.\n"
 "</li><li>The employee may choose to offer comments or explanation regarding the completed review.\n"
 "</li><li>The supervisor send the form to the HR department in India and in Belgium</li></ul>"
-msgstr "<h2>Общая цель Оценивания Сотрудника</h2>\n<ul><li>Чтобы осуществить четкую и открытую коммуникацию ожидаемой производительности\n</li><li>Для оказания помощи сотрудникам в их профессиональном росте, путем выявления сильных сторон и возможностей для\n\nразвития</li></li>\n<h2>Вне периода оценивания</h2>\n<ul><li>Это совместная ответственность работника и руководителя (оценщика) создать оправданный план работы на\nНаступающий год, в том числе из основных обязанностей работника и соответствующих показателей, по которым результаты будут\nоценены.\n</li></li>Критические или ключевые элементы производительности и профессиональных потребностей развития (если таковые имеются), следует также отметить, в это время</li><ul>\n<h2>В завершении периода оценивания</h2>\n<ul><li>Сотрудник будет нести ответственность за выполнение проекта по форме оценки в качестве инструмента для самооценки и начальной\nточки для оценки руководителя. Работник может добавить примеры достижений для каждого критерия.\nПосле того как форма была заполнена, сотрудник отправляет ее своему руководителю.\n</li><li>Главная обязанность руководителя собрать необходимую информацию от соответствующих источников обратной связи\n(внутренние и / или внешние клиенты, пиры). В случае сотрудничества с Odoo SA Бельгия, руководитель должен\nполучить заполненную форму оценки от бельгийского проект-менеджера.\n</li><li>Руководитель синтезирует и интегрирует все исходные данные в завершенную оценку. Он мотивирует свою оценку в\nспециальном поле.\n</li><li>Работник может выбрать, чтобы предложить комментарии или объяснения в отношении завершенного оценивания.\n</li><li>Руководитель отправляет форму в отдел кадров в Индии и в Бельгии</li></ul>"
+msgstr "<h2>Общая цель Оценивания Сотрудника</h2>\n<ul><li>Чтобы осуществить четкую и открытую коммуникацию ожидаемой производительности\n</li><li>Для оказания помощи сотрудникам в их профессиональном росте, путем выявления сильных сторон и возможностей для\n\nразвития</li></li>\n<h2>Вне периода оценивания</h2>\n<ul><li>Это совместная ответственность работника и руководителя (оценщика) создать оправданный план работы на\nНаступающий год, в том числе из основных обязанностей работника и соответствующих показателей, по которым результаты будут\nоценены.\n</li></li>Критические или ключевые элементы производительности и профессиональных потребностей развития (если таковые имеются), следует также отметить, в это время</li><ul>\n<h2>В завершении периода оценивания</h2>\n<ul><li>Сотрудник будет нести ответственность за выполнение проекта по форме оценки в качестве инструмента для самооценки и начальной\nточки для оценки руководителя. Работник может добавить примеры достижений для каждого критерия.\nПосле того как форма была заполнена, сотрудник отправляет ее своему руководителю.\n</li><li>Главная обязанность руководителя собрать необходимую информацию от соответствующих источников обратной связи\n(внутренние и / или внешние клиенты, пиры). В случае сотрудничества с TuniERP SA Бельгия, руководитель должен\nполучить заполненную форму оценки от бельгийского проект-менеджера.\n</li><li>Руководитель синтезирует и интегрирует все исходные данные в завершенную оценку. Он мотивирует свою оценку в\nспециальном поле.\n</li><li>Работник может выбрать, чтобы предложить комментарии или объяснения в отношении завершенного оценивания.\n</li><li>Руководитель отправляет форму в отдел кадров в Индии и в Бельгии</li></ul>"
 
 #. module: hr_evaluation
 #: model:ir.actions.act_window,help:hr_evaluation.open_view_hr_evaluation_tree
@@ -114,12 +114,12 @@ msgid ""
 "                Each employee may be assigned an Appraisal Plan. Such a plan\n"
 "                defines the frequency and the way you manage your periodic\n"
 "                personnel evaluation. You will be able to define steps and\n"
-"                attach interviews to each step. Odoo manages all kinds of\n"
+"                attach interviews to each step. TuniERP manages all kinds of\n"
 "                evaluations: bottom-up, top-down, self-evaluation and final\n"
 "                evaluation by the manager.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">↵\nНажмите чтобы создать нового рецензента.↵\n</p><p>↵\nКаждый сотрудник может быть направлен на плановое оценивание. Такое оценивание↵\nопределяет частоту и способ вашего прохождения периодического↵\nперсонального тестирования. Вы сможете определить этапы↵\nи пройти собеседование по каждому из этапов. Odoo контролирует все типы↵\nоцениваний: восходящие, нисходящие, самостоятельное оценивание и окончательное↵\nоценивание менеджером.↵\n</p>↵\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">↵\nНажмите чтобы создать нового рецензента.↵\n</p><p>↵\nКаждый сотрудник может быть направлен на плановое оценивание. Такое оценивание↵\nопределяет частоту и способ вашего прохождения периодического↵\nперсонального тестирования. Вы сможете определить этапы↵\nи пройти собеседование по каждому из этапов. TuniERP контролирует все типы↵\nоцениваний: восходящие, нисходящие, самостоятельное оценивание и окончательное↵\nоценивание менеджером.↵\n</p>↵\n            "
 
 #. module: hr_evaluation
 #: model:ir.actions.act_window,help:hr_evaluation.action_hr_evaluation_interview_tree
@@ -128,12 +128,12 @@ msgid ""
 "                Click to create a new interview request related to a personal evaluation.\n"
 "              </p><p>\n"
 "                Interview requests are usually generated automatically by\n"
-"                Odoo according to an employee's appraisal plan. Each user\n"
+"                TuniERP according to an employee's appraisal plan. Each user\n"
 "                receives automatic emails and requests to evaluate their\n"
 "                colleagues periodically.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">↵\n                Нажмите чтобы создать  новый запрос на собеседование относительно                            персонального оценивания.↵\n              </p><p>↵\n                Запросы на собеседование обычно создаются Odoo автоматически↵\n                согласно оценочному плану сотрудника. Периодически каждый пользователь↵\n                автоматически получает письма и запросы с просьбой оценить своих коллег.↵\n              </p>↵\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">↵\n                Нажмите чтобы создать  новый запрос на собеседование относительно                            персонального оценивания.↵\n              </p><p>↵\n                Запросы на собеседование обычно создаются TuniERP автоматически↵\n                согласно оценочному плану сотрудника. Периодически каждый пользователь↵\n                автоматически получает письма и запросы с просьбой оценить своих коллег.↵\n              </p>↵\n            "
 
 #. module: hr_evaluation
 #: model:ir.actions.act_window,help:hr_evaluation.action_evaluation_plans_installer
@@ -143,11 +143,11 @@ msgid ""
 "              </p><p>\n"
 "                You can define appraisal plans (ex: first interview after 6\n"
 "                months, then every year). Then, each employee can be linked to\n"
-"                an appraisal plan so that Odoo can automatically generate\n"
+"                an appraisal plan so that TuniERP can automatically generate\n"
 "                interview requests to managers and/or subordinates.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">↵\n               Нажмите чтобы создать новое плановое оценивание.↵\n              </p><p>↵\n                Вы можете определить время планового оценивания (напр.: первое собеседование    через 6↵\n                месяцев, затем каждый год). Затем, каждый сотрудник может быть подключен к↵\n                плановому оцениванию так, что Odoo сможет автоматически создавать↵\n                запросы на собеседование для менеджеров и/или подчиненных.↵\n              </p>↵\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">↵\n               Нажмите чтобы создать новое плановое оценивание.↵\n              </p><p>↵\n                Вы можете определить время планового оценивания (напр.: первое собеседование    через 6↵\n                месяцев, затем каждый год). Затем, каждый сотрудник может быть подключен к↵\n                плановому оцениванию так, что TuniERP сможет автоматически создавать↵\n                запросы на собеседование для менеджеров и/или подчиненных.↵\n              </p>↵\n            "
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.appraisal_2

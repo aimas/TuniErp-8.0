@@ -33,7 +33,7 @@ Module to generate invoices based on costs (human resources, expenses, ...).
 You can define price lists in analytic account, make some theoretical revenue
 reports.""",
     'author': 'OpenERP SA',
-    'website': 'https://www.odoo.com/page/employees',
+    'website': 'https://www.tunierp.com/page/employees',
     'depends': ['account', 'hr_timesheet', 'report'],
     'data': [
         'security/ir.model.access.csv',

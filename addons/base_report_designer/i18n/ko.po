@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * base_report_designer
 # 
@@ -7,12 +7,12 @@
 # Goh Gangtai <gangtai.goh@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-09 02:21+0000\n"
 "Last-Translator: choijaeho <hwangtog@gmail.com>\n"
-"Language-Team: Korean (http://www.transifex.com/p/odoo-8/language/ko/)\n"
+"Language-Team: Korean (http://www.transifex.com/p/tunierp-8/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -98,18 +98,18 @@ msgstr "최근 업데이트 날짜:"
 #. module: base_report_designer
 #: view:base_report_designer.installer:base_report_designer.view_report_designer_installer
 #: model:ir.actions.act_window,name:base_report_designer.action_report_designer_wizard
-msgid "Odoo Report Designer"
-msgstr "Odoo 보고서 디자이너"
+msgid "TuniERP Report Designer"
+msgstr "TuniERP 보고서 디자이너"
 
 #. module: base_report_designer
 #: view:base_report_designer.installer:base_report_designer.view_report_designer_installer
-msgid "Odoo Report Designer Configuration"
-msgstr "Odoo 보고서 디자이너 구성"
+msgid "TuniERP Report Designer Configuration"
+msgstr "TuniERP 보고서 디자이너 구성"
 
 #. module: base_report_designer
 #: model:ir.actions.act_window,name:base_report_designer.action_report_designer_installer
-msgid "Odoo Report Designer Installation"
-msgstr "Odoo 보고서 디자이너 설치"
+msgid "TuniERP Report Designer Installation"
+msgstr "TuniERP 보고서 디자이너 설치"
 
 #. module: base_report_designer
 #: field:base_report_designer.installer,plugin_file:0
@@ -168,16 +168,16 @@ msgstr "RML 보고서"
 msgid ""
 "This is the template of your requested report.\n"
 "Save it as a .SXW file and open it with OpenOffice.\n"
-"Don't forget to install the Odoo SA OpenOffice package to modify it.\n"
-"Once it is modified, re-upload it in Odoo using this wizard."
-msgstr "이것은 요청한 보고서의 양식입니다.\n이것을 .SXW 파일로 저장하고 OpenOffice로 여십시오.\nOdoo SA OpenOffice 패키지 설치를 해야 합니다.\n파일을 열고 수정하고 Odoo에 다시 업로드해서 보고서 마법사를 사용합니다."
+"Don't forget to install the TuniERP SA OpenOffice package to modify it.\n"
+"Once it is modified, re-upload it in TuniERP using this wizard."
+msgstr "이것은 요청한 보고서의 양식입니다.\n이것을 .SXW 파일로 저장하고 OpenOffice로 여십시오.\nTuniERP SA OpenOffice 패키지 설치를 해야 합니다.\n파일을 열고 수정하고 TuniERP에 다시 업로드해서 보고서 마법사를 사용합니다."
 
 #. module: base_report_designer
 #: view:base_report_designer.installer:base_report_designer.view_report_designer_installer
 msgid ""
-"This plug-in allows you to create/modify Odoo Reports into OpenOffice "
+"This plug-in allows you to create/modify TuniERP Reports into OpenOffice "
 "Writer."
-msgstr "이 플러그인은 Odoo 보고서를 OpenOffice Writer 안에서 작성/수정할 수 있도록 해줍니다."
+msgstr "이 플러그인은 TuniERP 보고서를 OpenOffice Writer 안에서 작성/수정할 수 있도록 해줍니다."
 
 #. module: base_report_designer
 #: view:base.report.sxw:base_report_designer.view_base_report_sxw

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * website_certification
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-07-17 08:16+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Macedonian (http://www.transifex.com/p/odoo-8/language/mk/)\n"
+"Language-Team: Macedonian (http://www.transifex.com/p/tunierp-8/language/mk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -128,13 +128,13 @@ msgstr "Име"
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners
-msgid "Odoo Certifications"
-msgstr "Odoo сертификации"
+msgid "TuniERP Certifications"
+msgstr "TuniERP сертификации"
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners
-msgid "Odoo Certified Experts"
-msgstr "Odoo сертифицирани експерти"
+msgid "TuniERP Certified Experts"
+msgstr "TuniERP сертифицирани експерти"
 
 #. module: website_certification
 #: view:certification.certification:website_certification.certification_certification_search
@@ -160,11 +160,11 @@ msgstr "Пребарај сертификации"
 #. module: website_certification
 #: view:website:website_certification.certified_partners
 msgid ""
-"The Odoo certification program allows companies\n"
+"The TuniERP certification program allows companies\n"
 "                                    to identify certified professionals and get\n"
 "                                    the guarantee that their contractors are\n"
-"                                    qualified to offer Odoo services."
-msgstr "Odoo програмата за сертификација им дозволува на компаниите\n                                    да ги идентификуваат сертифицираните професионалци и\n                                    да добијат гаранција дека склучуваат договор со лица кои\n                                    се квалификувани да понудат Odoo услуги."
+"                                    qualified to offer TuniERP services."
+msgstr "TuniERP програмата за сертификација им дозволува на компаниите\n                                    да ги идентификуваат сертифицираните професионалци и\n                                    да добијат гаранција дека склучуваат договор со лица кои\n                                    се квалификувани да понудат TuniERP услуги."
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners

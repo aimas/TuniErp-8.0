@@ -34,7 +34,7 @@ sales team, or an opportunity which still has status pending after 14 days might
 trigger an automatic reminder email.
     """,
     'author': 'OpenERP SA',
-    'website': 'https://www.odoo.com',
+    'website': 'https://www.tunierp.com',
     'depends': ['base', 'resource', 'mail'],
     'data': [
         'base_action_rule_data.xml',

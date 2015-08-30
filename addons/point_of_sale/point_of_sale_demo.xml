@@ -1203,7 +1203,7 @@
         <record id="partner_product_1" model="product.product">
           <field name="available_in_pos">True</field>
           <field name="list_price">850.00</field>
-          <field name="name">Odoo Start Workshop</field>
+          <field name="name">TuniERP Start Workshop</field>
           <field name="type">service</field>
           <field name="pos_categ_id" ref="partner_services"/>
           <field name="image" type="base64" file="point_of_sale/static/img/partners/openbig.jpg"/>
@@ -1212,7 +1212,7 @@
         <record id="partner_product_2" model="product.product">
           <field name="available_in_pos">True</field>
           <field name="list_price">999.99</field>
-          <field name="name">Odoo Consulting</field>
+          <field name="name">TuniERP Consulting</field>
           <field name="type">service</field>
           <field name="pos_categ_id" ref="partner_services"/>
           <field name="image" type="base64" file="point_of_sale/static/img/partners/bhc.jpg"/>
@@ -1283,7 +1283,7 @@
         <record id="partner_product_10" model="product.product">
           <field name="available_in_pos">True</field>
           <field name="list_price">3500.00</field>
-          <field name="name">Odoo primary scoping &amp; analysis package (£900, £450, £30)</field>
+          <field name="name">TuniERP primary scoping &amp; analysis package (£900, £450, £30)</field>
           <field name="type">service</field>
           <field name="pos_categ_id" ref="partner_services"/>
           <field name="image" type="base64" file="point_of_sale/static/img/partners/opusvl.png"/>
@@ -1301,7 +1301,7 @@
         <record id="partner_product_12" model="product.product">
           <field name="available_in_pos">True</field>
           <field name="list_price">30.00</field>
-          <field name="name">Odoo enterprise agreement</field>
+          <field name="name">TuniERP enterprise agreement</field>
           <field name="type">service</field>
           <field name="pos_categ_id" ref="partner_services"/>
           <field name="image" type="base64" file="point_of_sale/static/img/partners/opusvl.png"/>

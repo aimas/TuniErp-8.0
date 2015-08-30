@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * survey
 # 
@@ -7,12 +7,12 @@
 # Matjaž Mozetič <m.mozetic@matmoz.si>, 2014-2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-06-29 12:18+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Slovenian (http://www.transifex.com/p/odoo-8/language/sl/)\n"
+"Language-Team: Slovenian (http://www.transifex.com/p/tunierp-8/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -69,8 +69,8 @@ msgstr "<p></p>"
 
 #. module: survey
 #: model:survey.page,description:survey.feedback_4
-msgid "<p>If you do not contribute or develop in Odoo, skip this page.</p>"
-msgstr "<p>Če niste Odoo sodelavec ali razvijalec, izpustite to stran.</p>"
+msgid "<p>If you do not contribute or develop in TuniERP, skip this page.</p>"
+msgstr "<p>Če niste TuniERP sodelavec ali razvijalec, izpustite to stran.</p>"
 
 #. module: survey
 #: model:ir.actions.act_window,help:survey.action_selected_survey_user_input
@@ -89,9 +89,9 @@ msgstr "<p>Nihče še ni odgovoril na ankete.</p>\n            "
 #. module: survey
 #: model:survey.page,description:survey.feedback_2
 msgid ""
-"<p>These questions relate to the ergonomy and ease of use of Odoo. Try to remind your firsts days on Odoo and\n"
+"<p>These questions relate to the ergonomy and ease of use of TuniERP. Try to remind your firsts days on TuniERP and\n"
 "what have been your difficulties.</p>"
-msgstr "<p>Ta vprašanja se nanašajo na ergonomijo in uporabniško izkušnjo z Odoo. Poskusite se spomniti svojih prvih dni z Odoo\nin kaj vas je takrat oviralo.</p>"
+msgstr "<p>Ta vprašanja se nanašajo na ergonomijo in uporabniško izkušnjo z TuniERP. Poskusite se spomniti svojih prvih dni z TuniERP\nin kaj vas je takrat oviralo.</p>"
 
 #. module: survey
 #: model:survey.survey,description:survey.feedback_form
@@ -142,8 +142,8 @@ msgstr "Žeton mora biti unikaten!"
 
 #. module: survey
 #: model:survey.page,title:survey.feedback_1
-msgid "About your Odoo usage"
-msgstr "O vaši uporabi Odoo"
+msgid "About your TuniERP usage"
+msgstr "O vaši uporabi TuniERP"
 
 #. module: survey
 #: field:survey.mail.compose.message,active_domain:0
@@ -228,8 +228,8 @@ msgstr "Odgovori ne gredo v izvorni niz razprave. To vpliva na ustvarjene ID spo
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_1_1
-msgid "Are you using Odoo on a daily basis?"
-msgstr "Uporabljate Odoo vsakodnevno?"
+msgid "Are you using TuniERP on a daily basis?"
+msgstr "Uporabljate TuniERP vsakodnevno?"
 
 #. module: survey
 #: field:survey.mail.compose.message,attachment_ids:0
@@ -661,8 +661,8 @@ msgstr "Povzetek komunikacij (število sporočil, ...). Ta povzetek je neposredn
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_3_1
-msgid "How do you contribute or plan to contribute to Odoo?"
-msgstr "Kako prispevate ali nameravate prispevati k Odoo?"
+msgid "How do you contribute or plan to contribute to TuniERP?"
+msgstr "Kako prispevate ali nameravate prispevati k TuniERP?"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_1_2_6
@@ -696,8 +696,8 @@ msgstr "Sodelujem v razpravah in forumih"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_1
-msgid "I use Launchpad, like all official Odoo projects"
-msgstr "Uporabljam Launchpad, kot vsi uradni Odoo projekti"
+msgid "I use Launchpad, like all official TuniERP projects"
+msgstr "Uporabljam Launchpad, kot vsi uradni TuniERP projekti"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_2
@@ -706,8 +706,8 @@ msgstr "Uporabljam drug sistem shranjevanja (SourceForge...)"
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_1_3
-msgid "I use the contextual help in Odoo"
-msgstr "Uporabljam kontekstno pomoč v Odoo"
+msgid "I use the contextual help in TuniERP"
+msgstr "Uporabljam kontekstno pomoč v TuniERP"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_3_1_5
@@ -1823,8 +1823,8 @@ msgstr "So koristni za vsakodnevno uporabo"
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_2_1
-msgid "They help new users to understand Odoo"
-msgstr "Novim uporabnikom pomagajo pri razumevanju Odoo"
+msgid "They help new users to understand TuniERP"
+msgstr "Novim uporabnikom pomagajo pri razumevanju TuniERP"
 
 #. module: survey
 #: code:addons/survey/survey.py:700
@@ -2080,9 +2080,9 @@ msgstr "Kaj menite o uporabniških skupinah?"
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_2
 msgid ""
-"What do you think about the process views of Odoo, available in the web "
+"What do you think about the process views of TuniERP, available in the web "
 "client ?"
-msgstr "Kaj menite o procesnih pogledih, ki so na razpolago v Odoo spletnem odjemalcu?"
+msgstr "Kaj menite o procesnih pogledih, ki so na razpolago v TuniERP spletnem odjemalcu?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_4
@@ -2117,8 +2117,8 @@ msgstr "Da, uporabljam lokalno nameščeno verzijo 7.0"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_1_1_3
-msgid "Yes, I use the online version of Odoo"
-msgstr "Da, uporabljam spletno verzijo Odoo"
+msgid "Yes, I use the online version of TuniERP"
+msgstr "Da, uporabljam spletno verzijo TuniERP"
 
 #. module: survey
 #: view:survey.mail.compose.message:survey.survey_email_compose_message

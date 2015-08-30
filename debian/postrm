@@ -2,22 +2,22 @@
 
 set -e
 
-ODOO_LIB_DIR=/var/lib/odoo
-ODOO_USER="odoo"
-ODOO_GROUP="odoo"
+TUNIERP_LIB_DIR=/var/lib/tunierp
+TUNIERP_USER="tunierp"
+TUNIERP_GROUP="tunierp"
 
 case "${1}" in
     remove)
-        deluser --quiet --system $ODOO_USER || true
-        delgroup --quiet --system --only-if-empty $ODOO_GROUP || true
-        if [ -d "$ODOO_LIB_DIR" ]; then
-            rm -rf $ODOO_LIB_DIR
+        deluser --quiet --system $TUNIERP_USER || true
+        delgroup --quiet --system --only-if-empty $TUNIERP_GROUP || true
+        if [ -d "$TUNIERP_LIB_DIR" ]; then
+            rm -rf $TUNIERP_LIB_DIR
         fi
         ;;
 
     purge)
-        if [ -d "$ODOO_LIB_DIR" ]; then
-            rm -rf $ODOO_LIB_DIR
+        if [ -d "$TUNIERP_LIB_DIR" ]; then
+            rm -rf $TUNIERP_LIB_DIR
         fi
         ;;
 

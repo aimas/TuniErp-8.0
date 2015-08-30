@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * account_asset
 # 
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-05-18 11:25+0000\n"
 "Last-Translator: <>\n"
-"Language-Team: French (Belgium) (http://www.transifex.com/p/odoo-8/language/fr_BE/)\n"
+"Language-Team: French (Belgium) (http://www.transifex.com/p/tunierp-8/language/fr_BE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"

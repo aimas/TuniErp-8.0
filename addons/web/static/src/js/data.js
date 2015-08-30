@@ -703,7 +703,7 @@ instance.web.DataSet =  instance.web.Class.extend(instance.web.PropertiesMixin, 
      * Set the sort criteria on the dataset.  
      *
      * @param {Array} fields_list: list of fields order descriptors, as used by
-     * Odoo's ORM (such as 'name desc', 'product_id', 'order_date asc')
+     * TuniERP's ORM (such as 'name desc', 'product_id', 'order_date asc')
      */
     set_sort: function (fields_list) {
         this._sort = instance.web.deserialize_sort(fields_list);

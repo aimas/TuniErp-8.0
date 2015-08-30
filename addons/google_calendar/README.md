@@ -2,7 +2,7 @@ Google Calendar
 ---------------
 
 Get your meetings, yours holidays, ... Get your calendar anywhere and never
-forget an event, fully synchronized with the Odoo <a href="https://www.odoo.com/page/crm">Open Source CRM</a>.
+forget an event, fully synchronized with the TuniERP <a href="https://www.tunierp.com/page/crm">Open Source CRM</a>.
 
 Keep an eye on your events
 --------------------------
@@ -42,11 +42,11 @@ also when this event is updated for some fields as date start, ...
 Be notified
 -----------
 
-You can ask to have a alarm of type 'notification' in your Odoo.  You will have
-a notification in you Odoo which ever the page you are.
+You can ask to have a alarm of type 'notification' in your TuniERP.  You will have
+a notification in you TuniERP which ever the page you are.
 
 Google Calendar
 ---------------
 
-With the plugin Google\_calendar, you can synchronize your Odoo calendar with Google Calendar.
+With the plugin Google\_calendar, you can synchronize your TuniERP calendar with Google Calendar.
 

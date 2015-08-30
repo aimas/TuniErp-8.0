@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * marketing_campaign_crm_demo
 # 
@@ -7,12 +7,12 @@
 # Matjaž Mozetič <m.mozetic@matmoz.si>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-05-21 11:30+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Slovenian (http://www.transifex.com/projects/p/odoo-8/language/sl/)\n"
+"Language-Team: Slovenian (http://www.transifex.com/projects/p/tunierp-8/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -23,10 +23,10 @@ msgstr ""
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_4
 msgid ""
 "<p>Hello,</p>\n"
-"            <p>Thanks for showing interest and buying the Odoo book.</p>\n"
+"            <p>Thanks for showing interest and buying the TuniERP book.</p>\n"
 "            If any further information required kindly revert back.\n"
-"            <p>Regards,Odoo Team,</p>"
-msgstr "<p>Hello,</p>\n            <p>Hvala za izkaz zanimanja za nakup knjige Odoo.</p>\n            Za dodatne informacije in pojasnila smo vam vedno na voljo.\n            <p>Lep pozdrav, Odoo Team.</p>"
+"            <p>Regards,TuniERP Team,</p>"
+msgstr "<p>Hello,</p>\n            <p>Hvala za izkaz zanimanja za nakup knjige TuniERP.</p>\n            Za dodatne informacije in pojasnila smo vam vedno na voljo.\n            <p>Lep pozdrav, TuniERP Team.</p>"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_8
@@ -35,26 +35,26 @@ msgid ""
 "            <p>Thanks for showing interest and for subscribing to technical training.</p>\n"
 "            If any further information required kindly revert back.I really appreciate your co-operation on this.</p>\n"
 "            <p>If any further information is required, do not hesitate to reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
-msgstr "<p>Pozdravljeni,</p>\n            <p>Hvala za izkaz zanimanja za tehnično izobraževanje.</p>\n            Če potrebujete kakršnekoli dodatne informacije, odgovorite na to sporočilo.</p>\n            <p>Za sodelovanje se vam v naprej zahvaljujemo invas lepo pozdravljamo.</p>\n            <p>S spoštovanjem, Odoo Team.</p>"
+"            <p>Regards,TuniERP Team,</p>"
+msgstr "<p>Pozdravljeni,</p>\n            <p>Hvala za izkaz zanimanja za tehnično izobraževanje.</p>\n            Če potrebujete kakršnekoli dodatne informacije, odgovorite na to sporočilo.</p>\n            <p>Za sodelovanje se vam v naprej zahvaljujemo invas lepo pozdravljamo.</p>\n            <p>S spoštovanjem, TuniERP Team.</p>"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_3
 msgid ""
 "<p>Hello,</p>\n"
-"            <p>Thanks for showing interest and for subscribing to the Odoo Discovery Day.</p>\n"
+"            <p>Thanks for showing interest and for subscribing to the TuniERP Discovery Day.</p>\n"
 "            <p>If any further information is required, do not hesitate to reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
-msgstr "<p>Pozdravljeni,</p>\n            <p>Hvala za izkaz zanimanja za Dan predstavitve Odoo.</p>\n            <p>Če potrebujete kakršnekoli dodatne informacije, odgovorite na to sporočilo.</p>\n            <p>S spoštovanjem, Odoo Team.</p>"
+"            <p>Regards,TuniERP Team,</p>"
+msgstr "<p>Pozdravljeni,</p>\n            <p>Hvala za izkaz zanimanja za Dan predstavitve TuniERP.</p>\n            <p>Če potrebujete kakršnekoli dodatne informacije, odgovorite na to sporočilo.</p>\n            <p>S spoštovanjem, TuniERP Team.</p>"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_1
 msgid ""
 "<p>Hello,</p>\n"
-"            <p>Thanks for the genuine interest you have shown in Odoo.</p>\n"
+"            <p>Thanks for the genuine interest you have shown in TuniERP.</p>\n"
 "            <p>If any further information is required, do not hesitate to reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
-msgstr "<p>Pozdravljeni,</p>\n            <p>Hvala za izkaz zanimanja za Odoo</p>\n            <p>Če potrebujete kakršnekoli dodatne informacije, odgovorite na to sporočilo.</p>\n            <p>S spoštovanjem, Odoo Team.</p>"
+"            <p>Regards,TuniERP Team,</p>"
+msgstr "<p>Pozdravljeni,</p>\n            <p>Hvala za izkaz zanimanja za TuniERP</p>\n            <p>Če potrebujete kakršnekoli dodatne informacije, odgovorite na to sporočilo.</p>\n            <p>S spoštovanjem, TuniERP Team.</p>"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_5
@@ -63,8 +63,8 @@ msgid ""
 "            <p>We have very good offer that might suit you.\n"
 "            For our gold partners,We are arranging free technical training on june,2010.</p>\n"
 "            <p>If any further information is required, do not hesitate to reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
-msgstr "<p>Pozdravljeni.</p>\n            <p>Na voljo je posebna ponudba, ki bi vam lahko ustrezala.\n            Za naše zlate partnerje pripravljamo brezplačno tehnično izobraževanje v juniju, 2010.</p>\n            <p>Za kakršnakoli dodatna vprašanja odgovorite na to sporočilo.</p>\n            <p>S spoštovanjem, Odoo Team.</p>"
+"            <p>Regards,TuniERP Team,</p>"
+msgstr "<p>Pozdravljeni.</p>\n            <p>Na voljo je posebna ponudba, ki bi vam lahko ustrezala.\n            Za naše zlate partnerje pripravljamo brezplačno tehnično izobraževanje v juniju, 2010.</p>\n            <p>Za kakršnakoli dodatna vprašanja odgovorite na to sporočilo.</p>\n            <p>S spoštovanjem, TuniERP Team.</p>"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_7
@@ -73,8 +73,8 @@ msgid ""
 "            <p>We have very good offer that might suit you.\n"
 "            For our silver partners, we are  offering Gold partnership.</p>\n"
 "            <p>If any further information is required, do not hesitate to reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
-msgstr "<p>Pozdravljeni.</p>\n            <p>Na voljo je posebna ponudba, ki bi vam lahko ustrezala.\n            Našim srebrnim partnerjem ponujamo zlato partnerstvo</p>\n            <p>Za kakršnakoli dodatna vprašanja odgovorite na to sporočilo.</p>\n            <p>S spoštovanjem, Odoo Team.</p>"
+"            <p>Regards,TuniERP Team,</p>"
+msgstr "<p>Pozdravljeni.</p>\n            <p>Na voljo je posebna ponudba, ki bi vam lahko ustrezala.\n            Našim srebrnim partnerjem ponujamo zlato partnerstvo</p>\n            <p>Za kakršnakoli dodatna vprašanja odgovorite na to sporočilo.</p>\n            <p>S spoštovanjem, TuniERP Team.</p>"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_6
@@ -83,18 +83,18 @@ msgid ""
 "            <p>We have very good offer that might suit you.\n"
 "            For our silver partners,We are  paid technical training on june,2010.</p>\n"
 "            <p>If any further information is required, do not hesitate to reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
-msgstr "<p>Pozdravljeni.</p>\n            <p>Na voljo je posebna ponudba, ki bi vam lahko ustrezala.\n            Za naše srebrne partnerje pripravljamo tehnično izobraževanje v juniju, 2010.</p>\n            <p>Za kakršnakoli dodatna vprašanja odgovorite na to sporočilo.</p>\n            <p>S spoštovanjem, Odoo Team.</p>"
+"            <p>Regards,TuniERP Team,</p>"
+msgstr "<p>Pozdravljeni.</p>\n            <p>Na voljo je posebna ponudba, ki bi vam lahko ustrezala.\n            Za naše srebrne partnerje pripravljamo tehnično izobraževanje v juniju, 2010.</p>\n            <p>Za kakršnakoli dodatna vprašanja odgovorite na to sporočilo.</p>\n            <p>S spoštovanjem, TuniERP Team.</p>"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,body_html:marketing_campaign_crm_demo.email_template_2
 msgid ""
 "<p>Hello,</p>\n"
 "            <p>We have very good offer that might suit you.\n"
-"            We suggest you subscribe to the Odoo Discovery Day on May 2010.</p>\n"
+"            We suggest you subscribe to the TuniERP Discovery Day on May 2010.</p>\n"
 "            <p>If any further information is required, do not hesitate to reply to this message.</p>\n"
-"            <p>Regards,Odoo Team,</p>"
-msgstr "<p>Pozdravljeni,</p>\n            <p>Na voljo je posebna ponudba. ki bi vam lahko ustrezala.\n            Predlagamo vam, da se prijavite na Dan predstavitve Odoo v Maju 2010.</p>\n            <p>Če potrebujete kakršnekoli dodatne informacije, odgovorite na to sporočilo.</p>\n            <p>S spoštovanjem, Odoo Team.</p>"
+"            <p>Regards,TuniERP Team,</p>"
+msgstr "<p>Pozdravljeni,</p>\n            <p>Na voljo je posebna ponudba. ki bi vam lahko ustrezala.\n            Predlagamo vam, da se prijavite na Dan predstavitve TuniERP v Maju 2010.</p>\n            <p>Če potrebujete kakršnekoli dodatne informacije, odgovorite na to sporočilo.</p>\n            <p>S spoštovanjem, TuniERP Team.</p>"
 
 #. module: marketing_campaign_crm_demo
 #: report:crm.lead.demo:0
@@ -133,18 +133,18 @@ msgstr "Predlog plačanega usposabljanja srebrnim partnerjem"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,subject:marketing_campaign_crm_demo.email_template_2
-msgid "Propose to subscribe to the Odoo Discovery Day on May 2010"
-msgstr "Predlog prijave na Odoo predstavitev v Maju 2010"
+msgid "Propose to subscribe to the TuniERP Discovery Day on May 2010"
+msgstr "Predlog prijave na TuniERP predstavitev v Maju 2010"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,subject:marketing_campaign_crm_demo.email_template_4
-msgid "Thanks for buying the Odoo book"
-msgstr "Hvala, ker ste kupili knjigo Odoo"
+msgid "Thanks for buying the TuniERP book"
+msgstr "Hvala, ker ste kupili knjigo TuniERP"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,subject:marketing_campaign_crm_demo.email_template_1
-msgid "Thanks for showing interest in Odoo"
-msgstr "Hvala za izkazano zanimanje za Odoo"
+msgid "Thanks for showing interest in TuniERP"
+msgstr "Hvala za izkazano zanimanje za TuniERP"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,subject:marketing_campaign_crm_demo.email_template_8
@@ -153,5 +153,5 @@ msgstr "Hvala za prijavo na tehnično usposabljanje"
 
 #. module: marketing_campaign_crm_demo
 #: model:email.template,subject:marketing_campaign_crm_demo.email_template_3
-msgid "Thanks for subscribing to the Odoo Discovery Day"
-msgstr "Hvala za prijavo na Odoo predstavitev"
+msgid "Thanks for subscribing to the TuniERP Discovery Day"
+msgstr "Hvala za prijavo na TuniERP predstavitev"

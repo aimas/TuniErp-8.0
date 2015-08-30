@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * account_voucher
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 06:47+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Mongolian (http://www.transifex.com/p/odoo-8/language/mn/)\n"
+"Language-Team: Mongolian (http://www.transifex.com/p/tunierp-8/language/mn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -49,10 +49,10 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a new supplier payment.\n"
 "              </p><p>\n"
-"                Odoo helps you easily track payments you make and the remaining balances you need to pay your suppliers.\n"
+"                TuniERP helps you easily track payments you make and the remaining balances you need to pay your suppliers.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Нийлүүлэгчийн шинэ төлбөр үүсгэхдээ дарна уу.\n              </p><p>\n                Odoo нь төлбөрүүдийг хялбар хөтлөж нийлүүлэгчид төлөх шаардлагатай үлдэгдлийг хөтлөх ажлыг хялбар гүйцэтгэхэд тусладаг.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Нийлүүлэгчийн шинэ төлбөр үүсгэхдээ дарна уу.\n              </p><p>\n                TuniERP нь төлбөрүүдийг хялбар хөтлөж нийлүүлэгчид төлөх шаардлагатай үлдэгдлийг хөтлөх ажлыг хялбар гүйцэтгэхэд тусладаг.\n              </p>\n            "
 
 #. module: account_voucher
 #: model:ir.actions.act_window,help:account_voucher.action_sale_receipt
@@ -73,12 +73,12 @@ msgid ""
 "                Click to register a new payment. \n"
 "              </p><p>\n"
 "                Enter the customer and the payment method and then, either\n"
-"                create manually a payment record or Odoo will propose to you\n"
+"                create manually a payment record or TuniERP will propose to you\n"
 "                automatically the reconciliation of this payment with the open\n"
 "                invoices or sales receipts.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Шинэ төлбөр бүртгэхдээ дарна уу. \n              </p><p>\n                Захиалагч болон төлбөрийн аргыг оруулсан дараа, \n                төлбөрийг гараараа хөтлөх эсвэл Odoo нь энэ төлбөрийг нээлттэй \n                нэхэмжлэл юмуу хүлээн авсан борлуулалттай автомат тулгалтыг санал болгодог.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Шинэ төлбөр бүртгэхдээ дарна уу. \n              </p><p>\n                Захиалагч болон төлбөрийн аргыг оруулсан дараа, \n                төлбөрийг гараараа хөтлөх эсвэл TuniERP нь энэ төлбөрийг нээлттэй \n                нэхэмжлэл юмуу хүлээн авсан борлуулалттай автомат тулгалтыг санал болгодог.\n              </p>\n            "
 
 #. module: account_voucher
 #: model:ir.actions.act_window,help:account_voucher.action_purchase_receipt

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * mail
 # 
@@ -7,12 +7,12 @@
 # Matjaž Mozetič <m.mozetic@matmoz.si>, 2014-2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-09 05:43+0000\n"
 "Last-Translator: Matjaž Mozetič <m.mozetic@matmoz.si>\n"
-"Language-Team: Slovenian (http://www.transifex.com/p/odoo-8/language/sl/)\n"
+"Language-Team: Slovenian (http://www.transifex.com/p/tunierp-8/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -857,9 +857,9 @@ msgstr "Če se označi, bodo partnerji prejeli e-poštno opozorilo, da so bili d
 #. module: mail
 #: help:base.config.settings,alias_domain:0
 msgid ""
-"If you have setup a catch-all email domain redirected to the Odoo server, "
+"If you have setup a catch-all email domain redirected to the TuniERP server, "
 "enter the domain name here."
-msgstr "Če ste nastavili catch-all e-poštno domeno preusmerjeno na Odoo strežnik, vnesite naziv domene."
+msgstr "Če ste nastavili catch-all e-poštno domeno preusmerjeno na TuniERP strežnik, vnesite naziv domene."
 
 #. module: mail
 #: view:mail.compose.message:mail.email_compose_message_wizard_form
@@ -1595,8 +1595,8 @@ msgstr "Poslano"
 #. module: mail
 #: code:addons/mail/mail_followers.py:155
 #, python-format
-msgid "Sent by %(company)s using %(odoo)s"
-msgstr "Poslal %(company)s preko %(odoo)s"
+msgid "Sent by %(company)s using %(tunierp)s"
+msgstr "Poslal %(company)s preko %(tunierp)s"
 
 #. module: mail
 #: field:mail.message.subtype,sequence:0
@@ -1716,16 +1716,16 @@ msgstr "E-poštni naslov, povezan s to skupino. Nova prejeta sporočila bodo sam
 #. module: mail
 #: help:mail.alias,alias_model_id:0
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (TuniERP Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
-msgstr "Model (Odoo Document Kind) kateremu pripada vzdevek. Vsa prispela e-pošta, ki se ne nanaša na kateri obstoječi zapis, ustvari nov zapis tega modela (npr. projektno opravilo)"
+msgstr "Model (TuniERP Document Kind) kateremu pripada vzdevek. Vsa prispela e-pošta, ki se ne nanaša na kateri obstoječi zapis, ustvari nov zapis tega modela (npr. projektno opravilo)"
 
 #. module: mail
 #: help:mail.alias,alias_name:0
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.tunierp.com>"
 msgstr "Naziv e-poštnega vzdevka, npr. 'zaposlovanje', če želite loviti e-pošto za <zaposlovanje@domena.com>"
 
 #. module: mail
@@ -2043,7 +2043,7 @@ msgstr "več."
 
 #. module: mail
 #: view:base.config.settings:mail.view_general_configuration_mail_alias_domain
-msgid "mycompany.odoo.com"
+msgid "mycompany.tunierp.com"
 msgstr "druzba.com"
 
 #. module: mail

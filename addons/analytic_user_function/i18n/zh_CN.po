@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * analytic_user_function
 # 
@@ -7,12 +7,12 @@
 # leangjia <liangjia@qq.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-07 12:49+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/p/odoo-8/language/zh_CN/)\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/p/tunierp-8/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -84,11 +84,11 @@ msgstr "最后一次更新"
 #. module: analytic_user_function
 #: view:account.analytic.account:analytic_user_function.view_account_analytic_account_form_inherit
 msgid ""
-"Odoo will recursively search on parent accounts\n"
+"TuniERP will recursively search on parent accounts\n"
 "                            to check if specific conditions are defined for a\n"
 "                            specific user. This allows to set invoicing\n"
 "                            conditions for a group of contracts."
-msgstr "Odoo 将循环搜索父帐 \n                            来检查是否为特定用户定义特定条件。\n                            这样做允许为一组合同设置账单条件。"
+msgstr "TuniERP 将循环搜索父帐 \n                            来检查是否为特定用户定义特定条件。\n                            这样做允许为一组合同设置账单条件。"
 
 #. module: analytic_user_function
 #: field:analytic.user.funct.grid,price:0

@@ -371,10 +371,10 @@ Development Guidelines
   name of the component they belong to (creating "informal" namespaces, much
   as in C or Objective-C).
 * Global selectors should be avoided. Because a component may be used several
-  times in a single page (an example in Odoo is dashboards), queries should be
+  times in a single page (an example in TuniERP is dashboards), queries should be
   restricted to a given component's scope. Unfiltered selections such as
   ``$(selector)`` or ``document.querySelectorAll(selector)`` will generally
-  lead to unintended or incorrect behavior.  Odoo Web's
+  lead to unintended or incorrect behavior.  TuniERP Web's
   :class:`~openerp.web.Widget` has an attribute providing its DOM root
   (:attr:`~openerp.web.Widget.$el`), and a shortcut to select nodes directly
   (:func:`~openerp.web.Widget.$`).
@@ -411,29 +411,29 @@ Development Guidelines
 RPC
 ===
 
-To display and interact with data, calls to the Odoo server are necessary.
+To display and interact with data, calls to the TuniERP server are necessary.
 This is performed using :abbr:`RPC <Remote Procedure Call>`.
 
-Odoo Web provides two primary APIs to handle this: a low-level
-JSON-RPC based API communicating with the Python section of Odoo
+TuniERP Web provides two primary APIs to handle this: a low-level
+JSON-RPC based API communicating with the Python section of TuniERP
 Web (and of your module, if you have a Python part) and a high-level
-API above that allowing your code to talk directly to high-level Odoo models.
+API above that allowing your code to talk directly to high-level TuniERP models.
 
 All networking APIs are :ref:`asynchronous <reference/async>`. As a result,
 all of them will return Deferred_ objects (whether they resolve those with
 values or not). Understanding how those work before before moving on is
 probably necessary.
 
-High-level API: calling into Odoo models
+High-level API: calling into TuniERP models
 -------------------------------------------
 
-Access to Odoo object methods (made available through XML-RPC from the server)
-is done via :class:`openerp.Model`. It maps onto the Odoo server objects via
+Access to TuniERP object methods (made available through XML-RPC from the server)
+is done via :class:`openerp.Model`. It maps onto the TuniERP server objects via
 two primary methods, :func:`~openerp.Model.call` and
 :func:`~openerp.Model.query`.
 
 :func:`~openerp.Model.call` is a direct mapping to the corresponding method of
-the Odoo server object. Its usage is similar to that of the Odoo Model API,
+the TuniERP server object. Its usage is similar to that of the TuniERP Model API,
 with three differences:
 
 * The interface is :ref:`asynchronous <reference/async>`, so instead of
@@ -456,7 +456,7 @@ with three differences:
     });
 
 :func:`~openerp.Model.query` is a shortcut for a builder-style
-interface to searches (``search`` + ``read`` in Odoo RPC terms). It
+interface to searches (``search`` + ``read`` in TuniERP RPC terms). It
 returns a :class:`~openerp.web.Query` object which is immutable but
 allows building new :class:`~openerp.web.Query` instances from the
 first one, adding new properties or modifiying the parent object's::
@@ -586,13 +586,13 @@ around and use them differently/add new specifications on them.
 Aggregation (grouping)
 ''''''''''''''''''''''
 
-Odoo has powerful grouping capacities, but they are kind-of strange
+TuniERP has powerful grouping capacities, but they are kind-of strange
 in that they're recursive, and level n+1 relies on data provided
 directly by the grouping at level n. As a result, while
 :py:meth:`openerp.models.Model.read_group` works it's not a very intuitive
 API.
 
-Odoo Web eschews direct calls to :py:meth:`~openerp.models.Model.read_group`
+TuniERP Web eschews direct calls to :py:meth:`~openerp.models.Model.read_group`
 in favor of calling a method of :class:`~openerp.web.Query`, :py:meth:`much
 in the way it is one in SQLAlchemy <sqlalchemy.orm.query.Query.group_by>`
 [#terminal]_::
@@ -669,7 +669,7 @@ Low-level API: RPC calls to Python side
 
 While the previous section is great for calling core OpenERP code
 (models code), it does not work if you want to call the Python side of
-Odoo Web.
+TuniERP Web.
 
 For this, a lower-level API exists on on
 :class:`~openerp.web.Session` objects (usually available through
@@ -698,18 +698,18 @@ For instance, to call the ``resequence`` of the
 Web Client
 ==========
 
-Testing in Odoo Web Client
+Testing in TuniERP Web Client
 ==========================
 
 Javascript Unit Testing
 -----------------------
 
-Odoo Web includes means to unit-test both the core code of
-Odoo Web and your own javascript modules. On the javascript side,
+TuniERP Web includes means to unit-test both the core code of
+TuniERP Web and your own javascript modules. On the javascript side,
 unit-testing is based on QUnit_ with a number of helpers and
-extensions for better integration with Odoo.
+extensions for better integration with TuniERP.
 
-To see what the runner looks like, find (or start) an Odoo server
+To see what the runner looks like, find (or start) an TuniERP server
 with the web client enabled, and navigate to ``/web/tests``
 This will show the runner selector, which lists all modules with javascript
 unit tests, and allows starting any of them (or all javascript tests in all
@@ -728,7 +728,7 @@ Writing a test case
 -------------------
 
 The first step is to list the test file(s). This is done through the
-``test`` key of the Odoo manifest, by adding javascript files to it:
+``test`` key of the TuniERP manifest, by adding javascript files to it:
 
 .. code-block:: python
 
@@ -762,14 +762,14 @@ The next step is to create a test case::
     });
 
 All testing helpers and structures live in the ``openerp.testing``
-module. Odoo tests live in a :func:`~openerp.testing.section`,
+module. TuniERP tests live in a :func:`~openerp.testing.section`,
 which is itself part of a module. The first argument to a section is
 the name of the section, the second one is the section body.
 
 :func:`test <openerp.testing.case>`, provided by the
 :func:`~openerp.testing.section` to the callback, is used to
 register a given test case which will be run whenever the test runner
-actually does its job. Odoo Web test case use standard `QUnit
+actually does its job. TuniERP Web test case use standard `QUnit
 assertions`_ within them.
 
 Launching the test runner at this point will run the test and display
@@ -788,7 +788,7 @@ will make it pass:
 Assertions
 ----------
 
-As noted above, Odoo Web's tests use `qunit assertions`_. They are
+As noted above, TuniERP Web's tests use `qunit assertions`_. They are
 available globally (so they can just be called without references to
 anything). The following list is available:
 
@@ -838,10 +838,10 @@ anything). The following list is available:
 
     inverse operation to :func:`equal`
 
-Getting an Odoo instance
+Getting an TuniERP instance
 ------------------------
 
-The Odoo instance is the base through which most Odoo Web
+The TuniERP instance is the base through which most TuniERP Web
 modules behaviors (functions, objects, …) are accessed. As a result,
 the test framework automatically builds one, and loads the module
 being tested and all of its dependencies inside it. This new instance
@@ -1027,7 +1027,7 @@ To enable mock RPC, set the :attr:`rpc option <TestOptions.rpc>` to
 
     * If it matches the pattern ``model:method`` (if it contains a
       colon, essentially) the call will set up the mocking of an RPC
-      call straight to the Odoo server (through XMLRPC) as
+      call straight to the TuniERP server (through XMLRPC) as
       performed via e.g. :func:`openerp.web.Model.call`.
 
       In that case, ``handler`` should be a function taking two
@@ -1237,7 +1237,7 @@ complexities.
 
        For some tests, a source database needs to be duplicated. This
        operation requires that there be no connection to the database
-       being duplicated, but Odoo doesn't currently break
+       being duplicated, but TuniERP doesn't currently break
        existing/outstanding connections, so restarting the server is
        the simplest way to ensure everything is in the right state.
 
@@ -1263,7 +1263,7 @@ the OpenERP Web test suite.
 .. note::
 
     Note that this runs all the Python tests for the ``web`` module,
-    but all the web tests for all of Odoo. This can be surprising.
+    but all the web tests for all of TuniERP. This can be surprising.
 
 .. _qunit: http://qunitjs.com/
 

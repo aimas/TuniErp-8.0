@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * hr_timesheet_invoice
 # 
@@ -7,12 +7,12 @@
 # Matjaž Mozetič <m.mozetic@matmoz.si>, 2014-2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-06-27 10:05+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Slovenian (http://www.transifex.com/p/odoo-8/language/sl/)\n"
+"Language-Team: Slovenian (http://www.transifex.com/p/tunierp-8/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -35,14 +35,14 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a new type of invoicing.\n"
 "              </p><p>\n"
-"                Odoo allows you to create default invoicing types. You might\n"
+"                TuniERP allows you to create default invoicing types. You might\n"
 "                have to regularly assign discounts because of a specific\n"
 "                contract or agreement with a customer. From this menu, you can\n"
 "                create additional types of invoicing to speed up your\n"
 "                invoicing.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Dodajanje novega načina obračuna.\n              </p><p>\n                Odoo omogoča ustvarjanje privzetih tipov obračuna. Potrebno\n                je redno dodeljevanje popustov za specifične specifične\n                pogodbe ali dogovore s kupcem. Iz tega menija se ustvarjajo dodatni\n                tipi obračuna, da bi obračun\n                pospešili.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Dodajanje novega načina obračuna.\n              </p><p>\n                TuniERP omogoča ustvarjanje privzetih tipov obračuna. Potrebno\n                je redno dodeljevanje popustov za specifične specifične\n                pogodbe ali dogovore s kupcem. Iz tega menija se ustvarjajo dodatni\n                tipi obračuna, da bi obračun\n                pospešili.\n              </p>\n            "
 
 #. module: hr_timesheet_invoice
 #: view:report.timesheet.line:hr_timesheet_invoice.view_timesheet_line_search

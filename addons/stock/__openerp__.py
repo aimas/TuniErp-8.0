@@ -50,7 +50,7 @@ Dashboard / Reports for Warehouse Management will include:
 * Last Product Inventories
 * Moves Analysis
     """,
-    'website': 'https://www.odoo.com/page/warehouse',
+    'website': 'https://www.tunierp.com/page/warehouse',
     'depends': ['product', 'procurement', 'board', 'web_kanban_gauge', 'web_kanban_sparkline'],
     'category': 'Warehouse Management',
     'sequence': 16,

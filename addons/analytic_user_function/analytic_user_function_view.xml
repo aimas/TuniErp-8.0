@@ -47,7 +47,7 @@
                             of the default values when invoicing the customer.
                         </p>
                         <p class="oe_grey oe_edit_only">
-                            Odoo will recursively search on parent accounts
+                            TuniERP will recursively search on parent accounts
                             to check if specific conditions are defined for a
                             specific user. This allows to set invoicing
                             conditions for a group of contracts.

@@ -29,7 +29,7 @@ The module adds the possibility to display data from OpenERP in Google Spreadshe
 =================================================================================================
 """,
     'author': 'OpenERP SA',
-    'website': 'https://www.odoo.com',
+    'website': 'https://www.tunierp.com',
     'depends': ['board', 'google_drive'],
     'data' : [
         'google_spreadsheet_view.xml',

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * sales_team
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-07-17 08:02+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Russian (http://www.transifex.com/p/odoo-8/language/ru/)\n"
+"Language-Team: Russian (http://www.transifex.com/p/tunierp-8/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -284,9 +284,9 @@ msgstr "Код отдела продаж должен быть уникальн�
 #. module: sales_team
 #: help:crm.case.section,reply_to:0
 msgid ""
-"The email address put in the 'Reply-To' of all emails sent by Odoo about "
+"The email address put in the 'Reply-To' of all emails sent by TuniERP about "
 "cases in this sales team"
-msgstr "Адрес электронной почты вставлен в поле 'Ответить' всех электронных писем, отправленных Odoo об открытых делах в этой команде по продажам"
+msgstr "Адрес электронной почты вставлен в поле 'Ответить' всех электронных писем, отправленных TuniERP об открытых делах в этой команде по продажам"
 
 #. module: sales_team
 #: field:crm.case.section,message_unread:0

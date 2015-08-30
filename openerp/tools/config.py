@@ -75,7 +75,7 @@ def _get_default_datadir():
 def _deduplicate_loggers(loggers):
     """ Avoid saving multiple logging levels for the same loggers to a save
     file, that just takes space and the list can potentially grow unbounded
-    if for some odd reason people use :option`odoo.py --save`` all the time.
+    if for some odd reason people use :option`tunierp.py --save`` all the time.
     """
     # dict(iterable) -> the last item of iterable for any given key wins,
     # which is what we want and expect. Output order should not matter as
@@ -145,7 +145,7 @@ class configmanager(object):
         group.add_option("--load", dest="server_wide_modules", help="Comma-separated list of server-wide modules default=web")
 
         group.add_option("-D", "--data-dir", dest="data_dir", my_default=_get_default_datadir(),
-                         help="Directory where to store Odoo data")
+                         help="Directory where to store TuniERP data")
         parser.add_option_group(group)
 
         # XML-RPC / HTTP
@@ -257,7 +257,7 @@ class configmanager(object):
         parser.add_option_group(group)
 
         group = optparse.OptionGroup(parser, "Internationalisation options",
-            "Use these options to translate Odoo to another language."
+            "Use these options to translate TuniERP to another language."
             "See i18n section of the user manual. Option '-d' is mandatory."
             "Option '-l' is mandatory in case of importation"
             )

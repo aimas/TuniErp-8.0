@@ -133,7 +133,7 @@ Step By Step Setup Guide
 Extra dependencies
 ~~~~~~~~~~~~~~~~~~
 
-Because Odoo is running on Python 2, you need to check which version of pip you need to use.
+Because TuniERP is running on Python 2, you need to check which version of pip you need to use.
 
     $ sudo pip --version
     

@@ -1,8 +1,8 @@
-Odoo Supply Chain
+TuniERP Supply Chain
 -----------------
 
-Automate requisition-to-pay, control invoicing with the Odoo
-<a href="https://www.odoo.com/page/purchase">Open Source Supply Chain</a>.
+Automate requisition-to-pay, control invoicing with the TuniERP
+<a href="https://www.tunierp.com/page/purchase">Open Source Supply Chain</a>.
 
 Automate procurement propositions, launch request for quotations, track
 purchase orders, manage suppliers' information, control products reception and
@@ -39,7 +39,7 @@ Standard Price, Average Price, FIFO
 
 Use the costing method that reflects your business: standard price, average
 price, fifo or lifo. Get your accounting entries and the right inventory
-valuation in real-time; Odoo manages everything for you, transparently.
+valuation in real-time; TuniERP manages everything for you, transparently.
 
 Import Supplier Pricelists
 --------------------------

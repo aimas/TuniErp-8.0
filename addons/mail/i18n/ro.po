@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * mail
 # 
@@ -7,12 +7,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-11 03:57+0000\n"
 "Last-Translator: Dorin Hongu <dhongu@gmail.com>\n"
-"Language-Team: Romanian (http://www.transifex.com/p/odoo-8/language/ro/)\n"
+"Language-Team: Romanian (http://www.transifex.com/p/tunierp-8/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -857,7 +857,7 @@ msgstr ""
 #. module: mail
 #: help:base.config.settings,alias_domain:0
 msgid ""
-"If you have setup a catch-all email domain redirected to the Odoo server, "
+"If you have setup a catch-all email domain redirected to the TuniERP server, "
 "enter the domain name here."
 msgstr ""
 
@@ -1595,8 +1595,8 @@ msgstr "Trimis"
 #. module: mail
 #: code:addons/mail/mail_followers.py:155
 #, python-format
-msgid "Sent by %(company)s using %(odoo)s"
-msgstr "Trims de %(company)s utilizând %(odoo)s"
+msgid "Sent by %(company)s using %(tunierp)s"
+msgstr "Trims de %(company)s utilizând %(tunierp)s"
 
 #. module: mail
 #: field:mail.message.subtype,sequence:0
@@ -1716,7 +1716,7 @@ msgstr "Adresa de email asociată cu acest grup. Email-urile noi primite vor cre
 #. module: mail
 #: help:mail.alias,alias_model_id:0
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (TuniERP Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
@@ -1725,7 +1725,7 @@ msgstr ""
 #: help:mail.alias,alias_name:0
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.tunierp.com>"
 msgstr ""
 
 #. module: mail
@@ -2043,7 +2043,7 @@ msgstr "mai mult."
 
 #. module: mail
 #: view:base.config.settings:mail.view_general_configuration_mail_alias_domain
-msgid "mycompany.odoo.com"
+msgid "mycompany.tunierp.com"
 msgstr ""
 
 #. module: mail

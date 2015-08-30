@@ -3,7 +3,7 @@
 set -e
 
 mkdir -p wkhtmltopdf less/node_modules
-TEMPDIR=`mktemp -d -t odoo_windows_build_XXXX`
+TEMPDIR=`mktemp -d -t tunierp_windows_build_XXXX`
 function cleanup {
   rm -rf $TEMPDIR
 }

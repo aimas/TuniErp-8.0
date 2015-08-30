@@ -1,4 +1,4 @@
-// Phantomjs odoo helper
+// Phantomjs tunierp helper
 // jshint evil: true, loopfunc: true
 
 var system = require('system');

@@ -24,7 +24,7 @@
     'name' : 'Procurements',
     'version' : '1.0',
     'author' : 'OpenERP SA',
-    'website': 'https://www.odoo.com/page/manufacturing',
+    'website': 'https://www.tunierp.com/page/manufacturing',
     'category' : 'Hidden/Dependency',
     'depends' : ['base', 'product'],
     'description': """

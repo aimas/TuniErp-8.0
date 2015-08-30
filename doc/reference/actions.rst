@@ -146,7 +146,7 @@ The server-side composition of the ``views`` sequence is the following:
 URL Actions (``ir.actions.act_url``)
 ====================================
 
-Allow opening a URL (website/web page) via an Odoo action. Can be customized
+Allow opening a URL (website/web page) via an TuniERP action. Can be customized
 via two fields:
 
 ``url``
@@ -159,11 +159,11 @@ via two fields:
 
     {
         "type": "ir.actions.act_url",
-        "url": "http://odoo.com",
+        "url": "http://tunierp.com",
         "target": "self",
     }
 
-will replace the current content section by the Odoo home page.
+will replace the current content section by the TuniERP home page.
 
 .. _reference/actions/server:
 
@@ -183,7 +183,7 @@ specific or generic actions based on their ``state``. Some fields (and
 corresponding behaviors) are shared between states:
 
 ``model_id``
-    Odoo model linked to the action, made available in
+    TuniERP model linked to the action, made available in
     :ref:`evaluation contexts <reference/actions/server/context>`
 ``condition`` (optional)
     evaluated as Python code using the server action's

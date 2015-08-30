@@ -49,7 +49,7 @@ It also supports batch invoicing methods that can be configured by partners and 
 Some statistics by journals are provided.
     """,
     'author': 'OpenERP SA',
-    'website': 'https://www.odoo.com/page/billing',
+    'website': 'https://www.tunierp.com/page/billing',
     'depends': ['sale_stock'],
     'data': [
         'security/ir.model.access.csv',

@@ -1,6 +1,6 @@
 Netherlands, 2015-03-09
 
-Therp BV agrees to the terms of the Odoo Corporate 
+Therp BV agrees to the terms of the TuniERP Corporate 
 Contributor License Agreement v1.0.
 
 We declare that we are authorized and able to make this agreement and sign

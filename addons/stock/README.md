@@ -1,17 +1,17 @@
-Odoo Inventory Management
+TuniERP Inventory Management
 -------------------------
 
-The Odoo <a href="https://www.odoo.com/page/warehouse">Open Source Inventory Management</a>
+The TuniERP <a href="https://www.tunierp.com/page/warehouse">Open Source Inventory Management</a>
 is a double entry warehouse management system.
 
 Decrease your process times, automate transactions, reduce your stock levels
-and get complete traceability on all operations with the Odoo double entry
+and get complete traceability on all operations with the TuniERP double entry
 inventory system.
 
 Double Entry Inventory Management
 ---------------------------------
 
-Based on the concept of double entry that revolutionized accounting, Odoo's
+Based on the concept of double entry that revolutionized accounting, TuniERP's
 inventory management isn't about consumption, loss or missing products;
 products are just moved from one location to another.
 
@@ -29,7 +29,7 @@ delivery orders, internal controls, etc.
 Automate transactions
 ---------------------
 
-Odoo prepares all operations for you, according to your own logistic rules:
+TuniERP prepares all operations for you, according to your own logistic rules:
 routes, waves, removal/put away strategies, minimum stock rules, etc. Optimizes
 the planning and jobs with the scheduler to reduce your process time.
 
@@ -55,7 +55,7 @@ system help you with fullfilment propositions. 
 Fully Integrated with Operations
 --------------------------------
 
-Get your procurements accurate as the Odoo WMS is fully integrated with sales
+Get your procurements accurate as the TuniERP WMS is fully integrated with sales
 and purchases for accurate forecasts. The accounting integration allows real
 time accounting valuation and deeper reporting on costs and revenues on your
 inventory operations.
@@ -63,7 +63,7 @@ inventory operations.
 Track Serial Numbers
 --------------------
 
-Assign serial numbers at every step of your reception or delivery flow. Odoo
+Assign serial numbers at every step of your reception or delivery flow. TuniERP
 handles unique serial numbers, batches of identical products or packaging
 units.
 
@@ -71,10 +71,10 @@ Scale Your WMS easily
 ---------------------
 
 Manage your own internal and external locations, customers, suppliers or
-manufacturing inventories with the Odoo multi-warehouse management system based
+manufacturing inventories with the TuniERP multi-warehouse management system based
 on a hierarchical location structure.
 
-Odoo's Warehouse Management is designed to scale from a few thousands
+TuniERP's Warehouse Management is designed to scale from a few thousands
 operations to several millions of transactions.
 
 Reporting and Dashboards
@@ -97,7 +97,7 @@ Wave & Batch Picking
 --------------------
 
 Use routes, waves and orderpoint rules to optimize the way you pick products in
-the warehouse. Odoo supports most picking methods out-of-the-box like; wave
+the warehouse. TuniERP supports most picking methods out-of-the-box like; wave
 picking, batch picking and "by order" picking.
 
 Cross-Docking some products

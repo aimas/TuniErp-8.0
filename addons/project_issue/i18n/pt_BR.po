@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * project_issue
 # 
@@ -7,12 +7,12 @@
 # Rodrigo Macedo <rodrigomacedo@rmsolucoeseminformatica.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-06-30 02:02+0000\n"
 "Last-Translator: danimaribeiro <danimaribeiro@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/p/odoo-8/language/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/p/tunierp-8/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -57,23 +57,23 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n                Clique para adic
 #: model:ir.actions.act_window,help:project_issue.action_view_issues
 msgid ""
 "<p>\n"
-"                    The Odoo issues tacker allows you to efficiantly manage things\n"
+"                    The TuniERP issues tacker allows you to efficiantly manage things\n"
 "                    like internal requests, software development bugs, customer\n"
 "                    complaints, project troubles, material breakdowns, etc.\n"
 "                </p>\n"
 "            "
-msgstr "<p>\n                    O rastreador incidentes do Odoo permite gerenciar eficientemente coisas\n                    como solicitações internas, problemas de desenvolvimento de programas, reclamações\n                    de clientes, problemas de projeto, falta de materiais, etc.\n                </p>\n            "
+msgstr "<p>\n                    O rastreador incidentes do TuniERP permite gerenciar eficientemente coisas\n                    como solicitações internas, problemas de desenvolvimento de programas, reclamações\n                    de clientes, problemas de projeto, falta de materiais, etc.\n                </p>\n            "
 
 #. module: project_issue
 #: model:ir.actions.act_window,help:project_issue.project_issue_categ_act0
 msgid ""
 "<p>\n"
-"                The Odoo issues tacker allows you to efficiantly manage things\n"
+"                The TuniERP issues tacker allows you to efficiantly manage things\n"
 "                like internal requests, software development bugs, customer\n"
 "                complaints, project troubles, material breakdowns, etc.\n"
 "            </p>\n"
 "        "
-msgstr "<p>\n                    O rastreador incidentes do Odoo permite gerenciar eficientemente coisas\n                    como solicitações internas, problemas de desenvolvimento de programas, reclamações\n                    de clientes, problemas de projeto, falta de materiais, etc.\n                </p>\n            \n        "
+msgstr "<p>\n                    O rastreador incidentes do TuniERP permite gerenciar eficientemente coisas\n                    como solicitações internas, problemas de desenvolvimento de programas, reclamações\n                    de clientes, problemas de projeto, falta de materiais, etc.\n                </p>\n            \n        "
 
 #. module: project_issue
 #: help:project.issue,kanban_state:0

@@ -22,7 +22,7 @@
     'name': 'Anglo-Saxon Accounting',
     'version': '1.2',
     'author': 'OpenERP SA, Veritos',
-    'website': 'https://www.odoo.com',
+    'website': 'https://www.tunierp.com',
     'description': """
 This module supports the Anglo-Saxon accounting methodology by changing the accounting logic with stock transactions.
 =====================================================================================================================

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * base
 # 
@@ -8,12 +8,12 @@
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 06:35+0000\n"
 "Last-Translator: Yenthe Van Ginneken <yenthespam@gmail.com>\n"
-"Language-Team: Dutch (http://www.transifex.com/p/odoo-8/language/nl/)\n"
+"Language-Team: Dutch (http://www.transifex.com/p/tunierp-8/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -326,7 +326,7 @@ msgid ""
 "\n"
 "You can define your own carrier and delivery grids for prices. When creating \n"
 "invoices from picking, OpenERP is able to add and compute the shipping line.\n"
-msgstr "\nStaat u toe om nieuwe leveringsmethodes toe te voegen in verkooporders en picking.\n ==============================================================\n\nU kan uw eigen vervoerder en leveringsroosters voor prijzen instellen. Wanneer u\nfacturen aanmaakt van een picking is Odoo in de mogelijkheid om de verzendlijn te berekenen en toe te voegen.\n"
+msgstr "\nStaat u toe om nieuwe leveringsmethodes toe te voegen in verkooporders en picking.\n ==============================================================\n\nU kan uw eigen vervoerder en leveringsroosters voor prijzen instellen. Wanneer u\nfacturen aanmaakt van een picking is TuniERP in de mogelijkheid om de verzendlijn te berekenen en toe te voegen.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_ar
@@ -809,7 +809,7 @@ msgid ""
 "to open ESC/POS controlled cashdrawers in the point of sale and other modules\n"
 "that would need such functionality.\n"
 "\n"
-msgstr "\nECS/POS hardware driver\n=======================\n\nDeze module staat toe dat Odoo kan printen met ECS/POS compatibele printers en\nhet openen van ECS/POS gecontroleerde kassa's in de 'point of sale' en andere modules\ndie deze functionaliteit nodig hebben.\n\n"
+msgstr "\nECS/POS hardware driver\n=======================\n\nDeze module staat toe dat TuniERP kan printen met ECS/POS compatibele printers en\nhet openen van ECS/POS gecontroleerde kassa's in de 'point of sale' en andere modules\ndie deze functionaliteit nodig hebben.\n\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_mass_mailing
@@ -1148,7 +1148,7 @@ msgid ""
 "\n"
 "This module allows you to integrate google documents to any of your OpenERP record quickly and easily using OAuth 2.0 for Installed Applications,\n"
 "You can configure your google Authorization Code from Settings > Configuration > General Settings by clicking on \"Generate Google Authorization Code\"\n"
-msgstr "\nIntegreer google document aan Odoo record.\n============================================\n\nDeze module staat u toe om gemakkelijk en snel Google documenten te integreren aan elk Odoo record door middel van de OAuth 2.0 voor geïnstalleerde applicaties,\nU kan de Google authorizatie code configureren vanuit Instellingen > Configuratie > Algemene instellingen en door te klikken op \"Genereer Google authorisatie code\"\n"
+msgstr "\nIntegreer google document aan TuniERP record.\n============================================\n\nDeze module staat u toe om gemakkelijk en snel Google documenten te integreren aan elk TuniERP record door middel van de OAuth 2.0 voor geïnstalleerde applicaties,\nU kan de Google authorizatie code configureren vanuit Instellingen > Configuratie > Algemene instellingen en door te klikken op \"Genereer Google authorisatie code\"\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_stock_invoice_directly
@@ -1495,7 +1495,7 @@ msgid ""
 "\n"
 ".. SAT: http://www.sat.gob.mx/\n"
 "    "
-msgstr "\nMinimale boekhouding configuratie voor Mexico.\n============================================\n\nDit rekeningschema is het minimale voorstel om OoB te kunnen gebruiken \nin de boekhouding van Odoo.\n\nDit heeft niet de pretentie om de volledige lokalisatie te zijn voor Mexico, dit bevat de minimale\ndata om vanaf 0 te starten in de mexicaanse lokalisatie.\n\nDeze module en zijn inhoud worden regelmatig geüpdatet door het openerp-mexico team.\n\nMet deze module heeft u:\n\n - Minimale rekeningschema getest in productie omgevingen.\n - Minimale rekeningschema om te voldoen met de SAT_ eisen.\n\n.. SAT: http://www.sat.gob.mx/\n    "
+msgstr "\nMinimale boekhouding configuratie voor Mexico.\n============================================\n\nDit rekeningschema is het minimale voorstel om OoB te kunnen gebruiken \nin de boekhouding van TuniERP.\n\nDit heeft niet de pretentie om de volledige lokalisatie te zijn voor Mexico, dit bevat de minimale\ndata om vanaf 0 te starten in de mexicaanse lokalisatie.\n\nDeze module en zijn inhoud worden regelmatig geüpdatet door het openerp-mexico team.\n\nMet deze module heeft u:\n\n - Minimale rekeningschema getest in productie omgevingen.\n - Minimale rekeningschema om te voldoen met de SAT_ eisen.\n\n.. SAT: http://www.sat.gob.mx/\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_analytic
@@ -1689,26 +1689,26 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,description:base.module_im_odoo_support
+#: model:ir.module.module,description:base.module_im_tunierp_support
 msgid ""
 "\n"
-"Odoo Live Support\n"
+"TuniERP Live Support\n"
 "=================\n"
 "\n"
-"Ask your functionnal question directly to the Odoo Operators with the livechat support.\n"
+"Ask your functionnal question directly to the TuniERP Operators with the livechat support.\n"
 "\n"
 "        "
-msgstr "\nOdoo Live Support\n=================\n\nVraag uw functionele vragen direct aan de Odoo beheerders met de Odoo livechat ondersteuning.\n\n        "
+msgstr "\nTuniERP Live Support\n=================\n\nVraag uw functionele vragen direct aan de TuniERP beheerders met de TuniERP livechat ondersteuning.\n\n        "
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_livechat
 msgid ""
 "\n"
-"Odoo Website LiveChat\n"
+"TuniERP Website LiveChat\n"
 "========================\n"
-"For website built with Odoo CMS, this module include a chat button on your Website, and allow your visitors to chat with your collabarators.\n"
+"For website built with TuniERP CMS, this module include a chat button on your Website, and allow your visitors to chat with your collabarators.\n"
 "        "
-msgstr "\nOdoo website livechat\n========================\nVoor de website gebouwd met de Odoo CMS heeft deze module een chat knop op uw website en staat deze uw bezoekers toe om te chatten met uw collaborateurs.\n        "
+msgstr "\nTuniERP website livechat\n========================\nVoor de website gebouwd met de TuniERP CMS heeft deze module een chat knop op uw website en staat deze uw bezoekers toe om te chatten met uw collaborateurs.\n        "
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_event_track
@@ -1753,7 +1753,7 @@ msgid ""
 "============\n"
 "\n"
 "        "
-msgstr "\nOdoo Blog\n============\n\n        "
+msgstr "\nTuniERP Blog\n============\n\n        "
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_crm
@@ -1764,7 +1764,7 @@ msgid ""
 "====================\n"
 "\n"
 "        "
-msgstr "\nOdoo contact formulier\n===================\n\n        "
+msgstr "\nTuniERP contact formulier\n===================\n\n        "
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_customer
@@ -1772,7 +1772,7 @@ msgid ""
 "\n"
 "OpenERP Customer References\n"
 "===========================\n"
-msgstr "\nOdoo klant referenties\n===========================\n"
+msgstr "\nTuniERP klant referenties\n===========================\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_sale
@@ -1783,7 +1783,7 @@ msgid ""
 "==================\n"
 "\n"
 "        "
-msgstr "\nOdoo E-Commerce\n===============\n\n        "
+msgstr "\nTuniERP E-Commerce\n===============\n\n        "
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_mail_group
@@ -1793,7 +1793,7 @@ msgid ""
 "==========================================\n"
 "\n"
 "        "
-msgstr "\nOdoo mailgroepen: Mail lijst en archieven\n==========================================\n\n        "
+msgstr "\nTuniERP mailgroepen: Mail lijst en archieven\n==========================================\n\n        "
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_project
@@ -1803,7 +1803,7 @@ msgid ""
 "================\n"
 "\n"
 "        "
-msgstr "\nOdoo projecten\n===============\n\n        "
+msgstr "\nTuniERP projecten\n===============\n\n        "
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_quote
@@ -1813,7 +1813,7 @@ msgid ""
 "=========================\n"
 "\n"
 "        "
-msgstr "\nOdoo verkoop quote roller\n=========================\n\n        "
+msgstr "\nTuniERP verkoop quote roller\n=========================\n\n        "
 
 #. module: base
 #: model:ir.module.module,description:base.module_web_calendar
@@ -1822,7 +1822,7 @@ msgid ""
 "OpenERP Web Calendar view.\n"
 "==========================\n"
 "\n"
-msgstr "\nOdoo Web Agenda weergave.\n==================================\n\n"
+msgstr "\nTuniERP Web Agenda weergave.\n==================================\n\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_web_gantt
@@ -1831,7 +1831,7 @@ msgid ""
 "OpenERP Web Gantt chart view.\n"
 "=============================\n"
 "\n"
-msgstr "\nOdoo Web Gantt chart weergave.\n=============================\n\n"
+msgstr "\nTuniERP Web Gantt chart weergave.\n=============================\n\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_web_linkedin
@@ -1841,7 +1841,7 @@ msgid ""
 "============================\n"
 "This module provides the Integration of the LinkedIn with OpenERP.\n"
 "        "
-msgstr "\nOdoo Web LinkedIn module.\n============================\nDeze module verzorgt de integratie tussen LinkedIn en OpenERP.\n        "
+msgstr "\nTuniERP Web LinkedIn module.\n============================\nDeze module verzorgt de integratie tussen LinkedIn en OpenERP.\n        "
 
 #. module: base
 #: model:ir.module.module,description:base.module_web
@@ -1852,7 +1852,7 @@ msgid ""
 "\n"
 "This module provides the core of the OpenERP Web Client.\n"
 "        "
-msgstr "\nOdoo Web core module.\n========================\n\nDeze module bevat de core van de OpenERP Webclient.\n        "
+msgstr "\nTuniERP Web core module.\n========================\n\nDeze module bevat de core van de OpenERP Webclient.\n        "
 
 #. module: base
 #: model:ir.module.module,description:base.module_web_tests_demo
@@ -1863,7 +1863,7 @@ msgid ""
 "\n"
 "Test suite example, same code as that used in the testing documentation.\n"
 "    "
-msgstr "\nOdoo Web demo van een testsuite\n================================\n\nTest suite voorbeeld, dezelfde code zoals gebruikt in de test documentantie.\n    "
+msgstr "\nTuniERP Web demo van een testsuite\n================================\n\nTest suite voorbeeld, dezelfde code zoals gebruikt in de test documentantie.\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_web_kanban
@@ -1872,7 +1872,7 @@ msgid ""
 "OpenERP Web kanban view.\n"
 "========================\n"
 "\n"
-msgstr "\nOdoo Web kanban weergave.\n==========================\n\n"
+msgstr "\nTuniERP Web kanban weergave.\n==========================\n\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_web_tests
@@ -1881,7 +1881,7 @@ msgid ""
 "OpenERP Web test suite.\n"
 "=======================\n"
 "\n"
-msgstr "\nOdoo Web test suite.\n=======================\n\n"
+msgstr "\nTuniERP Web test suite.\n=======================\n\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_web_view_editor
@@ -1891,7 +1891,7 @@ msgid ""
 "==========================\n"
 "\n"
 "        "
-msgstr "\nOdoo Web to edit weergave.\n==========================\n\n        "
+msgstr "\nTuniERP Web to edit weergave.\n==========================\n\n        "
 
 #. module: base
 #: model:ir.module.module,description:base.module_website
@@ -1901,7 +1901,7 @@ msgid ""
 "===================\n"
 "\n"
 "        "
-msgstr "\nOdoo Website CMS\n===================\n\n        "
+msgstr "\nTuniERP Website CMS\n===================\n\n        "
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_google_map
@@ -1911,7 +1911,7 @@ msgid ""
 "==========================\n"
 "\n"
 "        "
-msgstr "\nOdoo Website Google Map\n==========================\n\n        "
+msgstr "\nTuniERP Website Google Map\n==========================\n\n        "
 
 #. module: base
 #: model:ir.module.module,description:base.module_web_api
@@ -1920,7 +1920,7 @@ msgid ""
 "Openerp Web API.\n"
 "================\n"
 "\n"
-msgstr "\nOdoo Web API.\n================\n\n"
+msgstr "\nTuniERP Web API.\n================\n\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_web_diagram
@@ -1929,7 +1929,7 @@ msgid ""
 "Openerp Web Diagram view.\n"
 "=========================\n"
 "\n"
-msgstr "\nOdoo Web Diagram weergave.\n=========================\n\n"
+msgstr "\nTuniERP Web Diagram weergave.\n=========================\n\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_event
@@ -2040,7 +2040,7 @@ msgid ""
 "If you activate this module, you won't be able to access the \n"
 "regular openerp interface anymore. \n"
 "\n"
-msgstr "\nPosBox home pagina\n===============\nDeze module overschrijft de Odoo web interface om een simpele home pagina\nweer te geven die uitlegt wat de PosBox is, welke status deze heeft\nen waar u documentatie kan vinden.\n\nAls u deze module activeert kan u niet meer de standaard\ninterface van Odoo bereiken. \n\n"
+msgstr "\nPosBox home pagina\n===============\nDeze module overschrijft de TuniERP web interface om een simpele home pagina\nweer te geven die uitlegt wat de PosBox is, welke status deze heeft\nen waar u documentatie kan vinden.\n\nAls u deze module activeert kan u niet meer de standaard\ninterface van TuniERP bereiken. \n\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_hw_posbox_upgrade
@@ -2053,7 +2053,7 @@ msgid ""
 "new version. This module is specific to the PosBox setup and environment\n"
 "and should not be installed on regular openerp servers.\n"
 "\n"
-msgstr "\nPosBox software updater\n========================\n\nDeze module staat toe om van op afstand de PosBox software te upgraden naar een\nnieuwe versie. Deze module is specifiek voor de PosBox en zijn omgeving\nen moet niet geïnstalleerd worden op een gewone Odoo server.\n\n"
+msgstr "\nPosBox software updater\n========================\n\nDeze module staat toe om van op afstand de PosBox software te upgraden naar een\nnieuwe versie. Deze module is specifiek voor de PosBox en zijn omgeving\nen moet niet geïnstalleerd worden op een gewone TuniERP server.\n\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_instantclick
@@ -2087,7 +2087,7 @@ msgid ""
 "More details about OpenERP's EDI format may be found in the technical OpenERP \n"
 "documentation at http://doc.openerp.com.\n"
 "    "
-msgstr "\nBiedt een gemeenschappelijk EDI platform aan dat andere applicaties kunnen gebruiken.\n===============================================================\n\nOdoo specificeert een generiek EDI formaat om zakelijke documenten uit te wisselen tussen\nverschillende systemen en biedt een generiek mechanisme om ze te importeren en exporteren.\n\nMeer details over het Odoo EDI formaat kan u vinden in de technische Odoo documentatie\nop http://doc.openerp.com\n    "
+msgstr "\nBiedt een gemeenschappelijk EDI platform aan dat andere applicaties kunnen gebruiken.\n===============================================================\n\nTuniERP specificeert een generiek EDI formaat om zakelijke documenten uit te wisselen tussen\nverschillende systemen en biedt een generiek mechanisme om ze te importeren en exporteren.\n\nMeer details over het TuniERP EDI formaat kan u vinden in de technische TuniERP documentatie\nop http://doc.openerp.com\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_crm_partner_assign
@@ -2292,7 +2292,7 @@ msgid ""
 "``l10n_ch_payment_slip``\n"
 "  Support of ESR/BVR payment slip report and reconciliation.\n"
 "\n"
-"``l10n_ch`` is located in the core Odoo modules. The other modules are in:\n"
+"``l10n_ch`` is located in the core TuniERP modules. The other modules are in:\n"
 "https://github.com/OCA/l10n-switzerland\n"
 msgstr ""
 
@@ -2398,7 +2398,7 @@ msgid ""
 "\n"
 "The kernel of OpenERP, needed for all installation.\n"
 "===================================================\n"
-msgstr "\nDe kernel van Odoo, nodig voor iedere installatie.\n=====================================================\n"
+msgstr "\nDe kernel van TuniERP, nodig voor iedere installatie.\n=====================================================\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_google_account
@@ -2414,7 +2414,7 @@ msgid ""
 "\n"
 "The module adds the possibility to display data from OpenERP in Google Spreadsheets in real time.\n"
 "=================================================================================================\n"
-msgstr "\nDe module voegt de mogelijkheid toe om live data weer te geven van Odoo in Google Spreadsheets.\n=================================================================================================\n"
+msgstr "\nDe module voegt de mogelijkheid toe om live data weer te geven van TuniERP in Google Spreadsheets.\n=================================================================================================\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_google_calendar
@@ -2422,7 +2422,7 @@ msgid ""
 "\n"
 "The module adds the possibility to synchronize Google Calendar with OpenERP\n"
 "===========================================================================\n"
-msgstr "\nDe module voegt de mogelijkheid toe om Google agenda te synchroniseren met Odoo\n===========================================================================\n"
+msgstr "\nDe module voegt de mogelijkheid toe om Google agenda te synchroniseren met TuniERP\n===========================================================================\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_sale_journal
@@ -2508,7 +2508,7 @@ msgid ""
 "\n"
 "Print product labels with barcode.\n"
 "    "
-msgstr "\nDit is de basis module voor het beheren van producten en prijslijsten in Odoo.\n========================================================================\n\nProducten ondersteunen varianten, verschillende prijsmethodes, leveranciersinformatie,\nop stock/bestelling maken, verschillende maateenheden, verpakking en eigenschappen.\n\nPrijslijst ondersteunt:\n-------------------\n    * Meerdere niveau's van korting (op product, categorie, hoeveelheden)\n    * Prijs berekenen op basis van verschillende criteria:\n        * Andere prijslijsten\n        * Kostprijs\n        * Lijstprijs\n        * Leveranciersprijs\n\nPrijslijst voorkeuren op product en/of partners.\n\nPrint product labels met barcode.\n    "
+msgstr "\nDit is de basis module voor het beheren van producten en prijslijsten in TuniERP.\n========================================================================\n\nProducten ondersteunen varianten, verschillende prijsmethodes, leveranciersinformatie,\nop stock/bestelling maken, verschillende maateenheden, verpakking en eigenschappen.\n\nPrijslijst ondersteunt:\n-------------------\n    * Meerdere niveau's van korting (op product, categorie, hoeveelheden)\n    * Prijs berekenen op basis van verschillende criteria:\n        * Andere prijslijsten\n        * Kostprijs\n        * Lijstprijs\n        * Leveranciersprijs\n\nPrijslijst voorkeuren op product en/of partners.\n\nPrint product labels met barcode.\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_be
@@ -2566,7 +2566,7 @@ msgid ""
 "\n"
 "Accounting chart and localization for Ecuador.\n"
 "    "
-msgstr "\nDit is de basismodule voor het beheren van de boekhouding voor Equador in Odoo.\n==============================================================================\n\nRekeningschema en lokalisatie voor Equador\n    "
+msgstr "\nDit is de basismodule voor het beheren van de boekhouding voor Equador in TuniERP.\n==============================================================================\n\nRekeningschema en lokalisatie voor Equador\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_gr
@@ -2640,7 +2640,7 @@ msgid ""
 "    - VAT100-ready tax structure\n"
 "    - InfoLogic UK counties listing\n"
 "    - a few other adaptations"
-msgstr "\nDit is de nieuwste UK Odoo lokalisatie die nodig is om Odoo boekhouding te gebruiken voor UK SME's met:\n =================================================================================================\n    - Een CT600-ready rekeningschema\n    - VAT100-ready BTW structuur\n    - InfoLogic UK landenlijst\n    - Een paar andere aanpassingen"
+msgstr "\nDit is de nieuwste UK TuniERP lokalisatie die nodig is om TuniERP boekhouding te gebruiken voor UK SME's met:\n =================================================================================================\n    - Een CT600-ready rekeningschema\n    - VAT100-ready BTW structuur\n    - InfoLogic UK landenlijst\n    - Een paar andere aanpassingen"
 
 #. module: base
 #: model:ir.module.module,description:base.module_procurement
@@ -2678,7 +2678,7 @@ msgid ""
 "\n"
 "Romanian accounting chart and localization.\n"
 "    "
-msgstr "\nDit is de module om het rekeningschema, BTW structuur, fiscale positie en BTW mapping te beheren.\nHet voegt ook het registratienummer voor Roemenië toe in Odoo.\n================================================================================================================\nRoemeense rekeningschema en lokalisatie.\n    "
+msgstr "\nDit is de module om het rekeningschema, BTW structuur, fiscale positie en BTW mapping te beheren.\nHet voegt ook het registratienummer voor Roemenië toe in TuniERP.\n================================================================================================================\nRoemeense rekeningschema en lokalisatie.\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_ca
@@ -2724,7 +2724,7 @@ msgid ""
 "rejestrów podatkowych. Moduł ustawia też konta do kupna i sprzedaży towarów\n"
 "zakładając, że wszystkie towary są w obrocie hurtowym.\n"
 "\n"
-"Niniejszy moduł jest przeznaczony dla odoo 8.0.\n"
+"Niniejszy moduł jest przeznaczony dla tunierp 8.0.\n"
 "Wewnętrzny numer wersji OpenGLOBE 1.02\n"
 "    "
 msgstr ""
@@ -2784,7 +2784,7 @@ msgid ""
 "De extra cijfers worden dan achter het rekeningnummer aangevult met 'nullen'.\n"
 "\n"
 "    "
-msgstr "\nDit is de module om boekhoudschema's te beheren voor Nederland in Odoo\n=============================================================================\n\nLees de changelog in het bestand __openerp__.py voor versie informatie.\nDit is een basismodule om een uitgebreid grootboek- en BTW schema voor\nNederlandse bedrijven te installeren in OpenERP versie 7.0.\n\nDe BTW rekeningen zijn waar nodig gekoppeld om de juiste rapportage te genereren,\ndenk b.v. aan intracommunautaire verwervingen waarbij u 21% BTW moet opvoeren,\nmaar tegelijkertijd ook 21% als voorheffing weer mag aftrekken.\n\nNa installatie van deze module word de configuratie wizard voor 'Accounting' aangeroepen.\n    * U krijgt een lijst met grootboektemplates aangeboden waarin zich ook het\n      Nederlandse grootboekschema bevind.\n\n    * Als de configuratie wizard start, wordt u gevraagd om de naam van uw bedrijf\n      in te voeren, welke grootboekschema te installeren, uit hoeveel cijfers een\n      grootboekrekening mag bestaan, het rekeningnummer van uw bank en de currency\n      om Journalen te creeren.\n\nLet op!! -> De template van het Nederlandse rekeningschema is opgebouwd uit 4\ncijfers. Dit is het minimale aantal welk u moet invullen, u mag het aantal verhogen.\nDe extra cijfers worden dan achter het rekeningnummer aangevult met 'nullen'.\n\n    "
+msgstr "\nDit is de module om boekhoudschema's te beheren voor Nederland in TuniERP\n=============================================================================\n\nLees de changelog in het bestand __openerp__.py voor versie informatie.\nDit is een basismodule om een uitgebreid grootboek- en BTW schema voor\nNederlandse bedrijven te installeren in OpenERP versie 7.0.\n\nDe BTW rekeningen zijn waar nodig gekoppeld om de juiste rapportage te genereren,\ndenk b.v. aan intracommunautaire verwervingen waarbij u 21% BTW moet opvoeren,\nmaar tegelijkertijd ook 21% als voorheffing weer mag aftrekken.\n\nNa installatie van deze module word de configuratie wizard voor 'Accounting' aangeroepen.\n    * U krijgt een lijst met grootboektemplates aangeboden waarin zich ook het\n      Nederlandse grootboekschema bevind.\n\n    * Als de configuratie wizard start, wordt u gevraagd om de naam van uw bedrijf\n      in te voeren, welke grootboekschema te installeren, uit hoeveel cijfers een\n      grootboekrekening mag bestaan, het rekeningnummer van uw bank en de currency\n      om Journalen te creeren.\n\nLet op!! -> De template van het Nederlandse rekeningschema is opgebouwd uit 4\ncijfers. Dit is het minimale aantal welk u moet invullen, u mag het aantal verhogen.\nDe extra cijfers worden dan achter het rekeningnummer aangevult met 'nullen'.\n\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_vn
@@ -2796,7 +2796,7 @@ msgid ""
 "This module applies to companies based in Vietnamese Accounting Standard (VAS).\n"
 "\n"
 "**Credits:** General Solutions.\n"
-msgstr "\nDit is de module voor het beheer van het rekeningschema voor Vietnam in Odoo.\n=========================================================================\n\nDeze module geldt voor bedrijven die gebaseerd zijn in het standaard Vietnamese rekeningschema (VAS).\n\n**Kredieten:** Algemene oplossingen.\n"
+msgstr "\nDit is de module voor het beheer van het rekeningschema voor Vietnam in TuniERP.\n=========================================================================\n\nDeze module geldt voor bedrijven die gebaseerd zijn in het standaard Vietnamese rekeningschema (VAS).\n\n**Kredieten:** Algemene oplossingen.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_crm_partner_assign
@@ -2810,7 +2810,7 @@ msgid ""
 "Once the coordinates of the Lead/Opportunity is known, they can be automatically assigned\n"
 "to an appropriate local partner, based on the distance and the weight that was assigned to the partner.\n"
 "    "
-msgstr "\nDit is de module gebruikt door Odoo om klanten door te verwijzen naar hun partners, gebaseerd op Geolocatie.\n======================================================================================================\n\nDeze module laat u Leaads, kansen en partners vhun adres lokaliseren via geolocatie.\n\nAls het coördinaat bekend is voor de Lead/kans kan deze automatisch toegewezen worden\naan een gepaste lokale partner, gebaseerd op de afstand en het gewicht dat is toegewezen aan de partner.\n    "
+msgstr "\nDit is de module gebruikt door TuniERP om klanten door te verwijzen naar hun partners, gebaseerd op Geolocatie.\n======================================================================================================\n\nDeze module laat u Leaads, kansen en partners vhun adres lokaliseren via geolocatie.\n\nAls het coördinaat bekend is voor de Lead/kans kan deze automatisch toegewezen worden\naan een gepaste lokale partner, gebaseerd op de afstand en het gewicht dat is toegewezen aan de partner.\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_pad_project
@@ -3171,7 +3171,7 @@ msgid ""
 "meeting minutes.\n"
 "\n"
 "Notes can be found in the 'Home' menu.\n"
-msgstr "\nDeze module staat toe dat gebruikers hun eigen notities kunnen aanmaken in Odoo\n=================================================================\n\nSchrijf notities om notities te maken van vergaderingen, organiseer ideeën, organiseer persoonlijke to-do lijsten, etc.\nElke gebruiker beheer zijn eigen persoonlijke notities. Notities zijn enkel beschikbaar voor\nde auteur zelf, maar kunnen gedeeld worden met andere gebruikers zodat meerdere\nmensen aan één notitie kunnen werken in real time. Het is zeer efficiënt om notities\nvan vergaderingen te delen.\n\nNotities kunnen in het 'Home' menu gevonden worden.\n"
+msgstr "\nDeze module staat toe dat gebruikers hun eigen notities kunnen aanmaken in TuniERP\n=================================================================\n\nSchrijf notities om notities te maken van vergaderingen, organiseer ideeën, organiseer persoonlijke to-do lijsten, etc.\nElke gebruiker beheer zijn eigen persoonlijke notities. Notities zijn enkel beschikbaar voor\nde auteur zelf, maar kunnen gedeeld worden met andere gebruikers zodat meerdere\nmensen aan één notitie kunnen werken in real time. Het is zeer efficiënt om notities\nvan vergaderingen te delen.\n\nNotities kunnen in het 'Home' menu gevonden worden.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_crm_profiling
@@ -3395,7 +3395,7 @@ msgid ""
 "\n"
 "This module adds wizards to Import/Export .sxw report that you can modify in OpenOffice. \n"
 "Once you have modified it you can upload the report using the same wizard.\n"
-msgstr "\nDeze module wordt samen met de Odoo OpenOffice Plugin gebruikt.\n===============================================================\n\nDeze module voegt Import/Export .sxw rapportage wizards toe die u kunt aanpassen in OpenOffice. \nEenmaal aangepast kunt u het rapport uploaden met dezelfde wizard.\n"
+msgstr "\nDeze module wordt samen met de TuniERP OpenOffice Plugin gebruikt.\n===============================================================\n\nDeze module voegt Import/Export .sxw rapportage wizards toe die u kunt aanpassen in OpenOffice. \nEenmaal aangepast kunt u het rapport uploaden met dezelfde wizard.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_fr_rib
@@ -3544,7 +3544,7 @@ msgid ""
 "\n"
 "Use for update your text memo in real time with the following user that you invite.\n"
 "\n"
-msgstr "\nDeze module update memo's in Odoo voor het gebruiken van een extern pad\n=================================================================\n\nGebruik dit voor het live updaten van uw memo met de volgende gebruiker die uw uitnodigt.\n\n"
+msgstr "\nDeze module update memo's in TuniERP voor het gebruiken van een extern pad\n=================================================================\n\nGebruik dit voor het live updaten van uw memo met de volgende gebruiker die uw uitnodigt.\n\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_web_kanban_gauge
@@ -3620,7 +3620,7 @@ msgid ""
 "    * Sihirbaz sizden hesap planı şablonu, planın kurulacağı şirket, banka hesap\n"
 "      bilgileriniz, ilgili para birimi gibi bilgiler isteyecek.\n"
 "    "
-msgstr "\nRekeningschema boekhouding voor Odoo in Turkije.\n==========================================================\n\nNa het voltooien van deze installatie loopt een configuratie wizard.\n    * Wizard van de account die de template gebruikt\n      om de bankgegevens, informatie en rekeningschema in te stellen.\n    "
+msgstr "\nRekeningschema boekhouding voor TuniERP in Turkije.\n==========================================================\n\nNa het voltooien van deze installatie loopt een configuratie wizard.\n    * Wizard van de account die de template gebruikt\n      om de bankgegevens, informatie en rekeningschema in te stellen.\n    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_ae
@@ -3698,7 +3698,7 @@ msgid ""
 "\n"
 "Vehicle, leasing, insurances, cost\n"
 "==================================\n"
-"With this module, Odoo helps you managing all your vehicles, the\n"
+"With this module, TuniERP helps you managing all your vehicles, the\n"
 "contracts associated to those vehicle as well as services, fuel log\n"
 "entries, costs and many other features necessary to the management \n"
 "of your fleet of vehicle(s)\n"
@@ -4041,12 +4041,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a contact in your address book.\n"
 "              </p><p>\n"
-"                Odoo helps you easily track all activities related to\n"
+"                TuniERP helps you easily track all activities related to\n"
 "                a customer: discussions, history of business opportunities,\n"
 "                documents, etc.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik voor het toevoegen van een contact in uw adresboek.\n              </p><p>\n                Odoo helpt u bij het beheren van al uw activiteiten met uw klanten.\n                Discussies, historische prospects, documenten, etc.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik voor het toevoegen van een contact in uw adresboek.\n              </p><p>\n                TuniERP helpt u bij het beheren van al uw activiteiten met uw klanten.\n                Discussies, historische prospects, documenten, etc.\n              </p>\n            "
 
 #. module: base
 #: model:ir.actions.act_window,help:base.action_partner_form
@@ -4054,12 +4054,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a contact in your address book.\n"
 "              </p><p>\n"
-"                Odoo helps you easily track all activities related to\n"
+"                TuniERP helps you easily track all activities related to\n"
 "                a customer; discussions, history of business opportunities,\n"
 "                documents, etc.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik voor het toevoegen van een contact in uw adresboek.\n              </p><p>\n                Odoo helpt u bij het beheren van al uw activiteiten met uw klanten.\n                Discussies, historische prospects, documenten, etc.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik voor het toevoegen van een contact in uw adresboek.\n              </p><p>\n                TuniERP helpt u bij het beheren van al uw activiteiten met uw klanten.\n                Discussies, historische prospects, documenten, etc.\n              </p>\n            "
 
 #. module: base
 #: model:ir.actions.act_window,help:base.action_partner_supplier_form
@@ -4067,12 +4067,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a contact in your address book.\n"
 "              </p><p>\n"
-"                Odoo helps you easily track all activities related to\n"
+"                TuniERP helps you easily track all activities related to\n"
 "                a supplier: discussions, history of purchases,\n"
 "                documents, etc.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik voor het toevoegen van een contact in uw adresboek.\n              </p><p>\n                Odoo helpt u bij het beheren van al uw activiteiten met uw klanten.\n                Discussies, historische prospects, documenten, etc.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik voor het toevoegen van een contact in uw adresboek.\n              </p><p>\n                TuniERP helpt u bij het beheren van al uw activiteiten met uw klanten.\n                Discussies, historische prospects, documenten, etc.\n              </p>\n            "
 
 #. module: base
 #: model:ir.actions.act_window,help:base.action_res_partner_bank_account_form
@@ -4084,10 +4084,10 @@ msgid ""
 "                You can reorder bank accounts from the list view.\n"
 "              </p>\n"
 "              <p>\n"
-"                If you use the accounting application of Odoo, journals and accounts will be created automatically based on these data.\n"
+"                If you use the accounting application of TuniERP, journals and accounts will be created automatically based on these data.\n"
 "              </p>  \n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik voor het aanmaken van een bankrekening.\n              </p><p>\n                Stel de bankrekeningen in van uw bedrijf en selecteer welke op uw rapportage voet moeten verschijnen.\n                Het is mogelijk de volgorde te wijzigen in de lijstweergave.\n              </p>\n              <p>\n                Indien u gebruik maakt van de financiële boekhouding van Odoo, dan worden dagboeken en rekeningen automatisch aangemaakt, gebaseerd op deze gegevens.\n              </p>  \n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik voor het aanmaken van een bankrekening.\n              </p><p>\n                Stel de bankrekeningen in van uw bedrijf en selecteer welke op uw rapportage voet moeten verschijnen.\n                Het is mogelijk de volgorde te wijzigen in de lijstweergave.\n              </p>\n              <p>\n                Indien u gebruik maakt van de financiële boekhouding van TuniERP, dan worden dagboeken en rekeningen automatisch aangemaakt, gebaseerd op deze gegevens.\n              </p>  \n            "
 
 #. module: base
 #: model:ir.actions.act_window,help:base.action_res_bank_form
@@ -5618,9 +5618,9 @@ msgid "Chat With Your Website Visitors"
 msgstr "Chat met uw website bezoekers"
 
 #. module: base
-#: model:ir.module.module,summary:base.module_im_odoo_support
-msgid "Chat with the Odoo collaborators"
-msgstr "Chant met Odoo medewerkers"
+#: model:ir.module.module,summary:base.module_im_tunierp_support
+msgid "Chat with the TuniERP collaborators"
+msgstr "Chant met TuniERP medewerkers"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_check_writing
@@ -6330,9 +6330,9 @@ msgstr "Maak een nieuw record in het basis model"
 #. module: base
 #: model:ir.actions.act_window,help:base.action_res_company_form
 msgid ""
-"Create and manage the companies that will be managed by Odoo from here. "
+"Create and manage the companies that will be managed by TuniERP from here. "
 "Shops or subsidiaries can be created and maintained from here."
-msgstr "Maak en beheer de bedrijven welke worden beheert door Odoo, hier aan. Winkels en dochterondernemingen kunnen vanaf hier worden aangemaakt en beheert."
+msgstr "Maak en beheer de bedrijven welke worden beheert door TuniERP, hier aan. Winkels en dochterondernemingen kunnen vanaf hier worden aangemaakt en beheert."
 
 #. module: base
 #: model:ir.actions.act_window,help:base.action_res_users
@@ -7796,9 +7796,9 @@ msgstr "Voor acties, een van deze mogelijke acties:\n  - client_action_multi\n  
 #. module: base
 #: view:base.language.export:base.wizard_lang_export
 msgid ""
-"For more details about translating Odoo in your language, please refer to "
+"For more details about translating TuniERP in your language, please refer to "
 "the"
-msgstr "Voor meer informatie over het vertalen van Odoo in uw eigen taal, verwijzen wij u naar de"
+msgstr "Voor meer informatie over het vertalen van TuniERP in uw eigen taal, verwijzen wij u naar de"
 
 #. module: base
 #: help:ir.model.fields,relation_field:0
@@ -8702,9 +8702,9 @@ msgstr "Indien u deze optie activeert, worden bestaande vertalingen (inclusief s
 #: help:ir.ui.menu,groups_id:0
 msgid ""
 "If you have groups, the visibility of this menu will be based on these "
-"groups. If this field is empty, Odoo will compute visibility based on the "
+"groups. If this field is empty, TuniERP will compute visibility based on the "
 "related object's read access."
-msgstr "Als u groepen heeft zal de zichtbaarheid van dit menu gebaseerd zijn op deze groepen. Als dit veld leeg is zal Odoo de zichtbaarheid bepalen aan de hand van de gerelateerde objecten hun rechten."
+msgstr "Als u groepen heeft zal de zichtbaarheid van dit menu gebaseerd zijn op deze groepen. Als dit veld leeg is zal TuniERP de zichtbaarheid bepalen aan de hand van de gerelateerde objecten hun rechten."
 
 #. module: base
 #: help:ir.model.access,active:0
@@ -9594,9 +9594,9 @@ msgstr "Laat u verschillende interessante maar niet-noodzakelijke hulpmiddelen z
 #. module: base
 #: model:ir.module.category,description:base.module_category_report_designer
 msgid ""
-"Lets you install various tools to simplify and enhance Odoo's report "
+"Lets you install various tools to simplify and enhance TuniERP's report "
 "creation."
-msgstr "Laat u diverse tools installeren voor het vergemakkelijken en verbeteren van de Odoo rapport creatie."
+msgstr "Laat u diverse tools installeren voor het vergemakkelijken en verbeteren van de TuniERP rapport creatie."
 
 #. module: base
 #: view:ir.logging:base.ir_logging_search_view field:ir.logging,level:0
@@ -9880,12 +9880,12 @@ msgstr "Beheer Website and qWeb weergaven"
 #. module: base
 #: model:ir.actions.act_window,help:base.grant_menu_access
 msgid ""
-"Manage and customize the items available and displayed in your Odoo system "
+"Manage and customize the items available and displayed in your TuniERP system "
 "menu. You can delete an item by clicking on the box at the beginning of each"
 " line and then delete it through the button that appeared. Items can be "
 "assigned to specific groups in order to make them accessible to some users "
 "within the system."
-msgstr "Beheer en personaliseer de items beschikbaar en die weergegeven worden in uw Odoo systeem menu. U kan een item verwijderen door te klikken op het vakje aan het begin van elke lijn en verwijder het item dan door de knop die verschijnt. Items kunnen toegewezen worden aan specifieke groepen om ze zo beschikbaar te maken aan bepaalde gebruikers in het systeem."
+msgstr "Beheer en personaliseer de items beschikbaar en die weergegeven worden in uw TuniERP systeem menu. U kan een item verwijderen door te klikken op het vakje aan het begin van elke lijn en verwijder het item dan door de knop die verschijnt. Items kunnen toegewezen worden aan specifieke groepen om ze zo beschikbaar te maken aan bepaalde gebruikers in het systeem."
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_customer_relationship_management
@@ -10821,20 +10821,20 @@ msgstr "Occitan (FR, post 1500) / Occitan"
 #. openerp-web
 #: code:addons/base/static/src/js/apps.js:179
 #, python-format
-msgid "Odoo Apps will be available soon"
-msgstr "Odoo apps zijn binnenkort beschikbaar"
+msgid "TuniERP Apps will be available soon"
+msgstr "TuniERP apps zijn binnenkort beschikbaar"
 
 #. module: base
-#: model:ir.module.module,shortdesc:base.module_im_odoo_support
-msgid "Odoo Live Support"
-msgstr "Odoo Live Support"
+#: model:ir.module.module,shortdesc:base.module_im_tunierp_support
+msgid "TuniERP Live Support"
+msgstr "TuniERP Live Support"
 
 #. module: base
 #: help:ir.sequence,padding:0
 msgid ""
-"Odoo will automatically adds some '0' on the left of the 'Next Number' to "
+"TuniERP will automatically adds some '0' on the left of the 'Next Number' to "
 "get the required padding size."
-msgstr "Odoo voegt automatisch een aantal nullen toe aan het 'volgende nummer' om de juiste uitlijning te krijgen."
+msgstr "TuniERP voegt automatisch een aantal nullen toe aan het 'volgende nummer' om de juiste uitlijning te krijgen."
 
 #. module: base
 #: model:res.partner.category,name:base.res_partner_category_12
@@ -10965,17 +10965,17 @@ msgstr "Open een venster"
 #. module: base
 #: model:ir.module.module,summary:base.module_im_chat
 msgid "OpenERP Chat"
-msgstr "Odoo Chat"
+msgstr "TuniERP Chat"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_web_api
 msgid "OpenERP Web API"
-msgstr "Odoo Web API"
+msgstr "TuniERP Web API"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_web_diagram
 msgid "OpenERP Web Diagram"
-msgstr "Odoo Web Diagram"
+msgstr "TuniERP Web Diagram"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_auth_openid
@@ -11583,8 +11583,8 @@ msgstr "Voorraad portaal"
 #: model:res.groups,comment:base.group_portal
 msgid ""
 "Portal members have specific access rights (such as record rules and restricted menus).\n"
-"                They usually do not belong to the usual Odoo groups."
-msgstr "Portaal gebruikers hebben specifieke toegangsrechten (zoals record-regels en specifieke menu's).\n                Normaliter behoren deze niet tot een normale Odoo gebruikersgroep.."
+"                They usually do not belong to the usual TuniERP groups."
+msgstr "Portaal gebruikers hebben specifieke toegangsrechten (zoals record-regels en specifieke menu's).\n                Normaliter behoren deze niet tot een normale TuniERP gebruikersgroep.."
 
 #. module: base
 #: model:res.country,name:base.pt
@@ -11782,8 +11782,8 @@ msgstr "Openbare projecten"
 #: model:res.groups,comment:base.group_public
 msgid ""
 "Public users have specific access rights (such as record rules and restricted menus).\n"
-"                They usually do not belong to the usual Odoo groups."
-msgstr "Pubieke gebruikers hebben specifieke toegangsrechten (zoals record-regels en specifieke menu's).\n                Normaliter behoren deze niet tot een normale Odoo gebruikersgroep.."
+"                They usually do not belong to the usual TuniERP groups."
+msgstr "Pubieke gebruikers hebben specifieke toegangsrechten (zoals record-regels en specifieke menu's).\n                Normaliter behoren deze niet tot een normale TuniERP gebruikersgroep.."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_membership
@@ -13490,8 +13490,8 @@ msgstr "TGZ-archiefbestand"
 #: view:base.language.export:base.wizard_lang_export
 msgid ""
 "TGZ format: this is a compressed archive containing a PO file, directly suitable\n"
-"                                for uploading to Odoo's translation platform,"
-msgstr "TGZ formaat: dis is een gecomprimeerd archief bestand welke het PO bestand bevat. Direct bruikbaar\n                                voor het uploaden in het Odoo vertaal platform,"
+"                                for uploading to TuniERP's translation platform,"
+msgstr "TGZ formaat: dis is een gecomprimeerd archief bestand welke het PO bestand bevat. Direct bruikbaar\n                                voor het uploaden in het TuniERP vertaal platform,"
 
 #. module: base
 #: code:addons/base/res/res_company.py:167 field:res.partner,vat:0
@@ -13763,9 +13763,9 @@ msgstr "Het bedrijf waar deze gebruiker momenteel voor werkt."
 #: model:ir.actions.act_window,help:base.act_ir_actions_todo_form
 msgid ""
 "The configuration wizards are used to help you configure a new instance of "
-"Odoo. They are launched during the installation of new modules, but you can "
+"TuniERP. They are launched during the installation of new modules, but you can "
 "choose to restart some wizards manually from this menu."
-msgstr "De configuratie wizards helpen u bij het configureren van uw nieuwe Odoo instantie. Ze worden gelanceerd tijdens de installatie van nieuwe modules maar u kan kiezen om wizards manueel te herstarten vanuit dit menu."
+msgstr "De configuratie wizards helpen u bij het configureren van uw nieuwe TuniERP instantie. Ze worden gelanceerd tijdens de installatie van nieuwe modules maar u kan kiezen om wizards manueel te herstarten vanuit dit menu."
 
 #. module: base
 #: sql_constraint:res.currency:0
@@ -14056,7 +14056,7 @@ msgstr "Dit is de bestandsnaam van de bijlage die gebruikt wordt voor opslag van
 #: model:ir.module.module,description:base.module_l10n_no
 msgid ""
 "This is the module to manage the accounting chart for Norway in Open ERP."
-msgstr "Dit is de module om het boekhoudingschema te beheren voor Noorwegen in Odoo."
+msgstr "Dit is de module om het boekhoudingschema te beheren voor Noorwegen in TuniERP."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_crm_mass_mailing
@@ -14269,7 +14269,7 @@ msgstr "Opmerkingen op vertaling"
 msgid ""
 "Translation features are unavailable until you install an extra OpenERP "
 "translation."
-msgstr "Vertaal mogelijkheden zijn niet beschikbaar, zolang u geen extra Odoo taal heeft geïnstalleerd."
+msgstr "Vertaal mogelijkheden zijn niet beschikbaar, zolang u geen extra TuniERP taal heeft geïnstalleerd."
 
 #. module: base
 #: selection:ir.translation,state:0
@@ -14897,9 +14897,9 @@ msgstr "Weergaven"
 #. module: base
 #: model:ir.actions.act_window,help:base.action_ui_view
 msgid ""
-"Views allows you to personalize each view of Odoo. You can add new fields, "
+"Views allows you to personalize each view of TuniERP. You can add new fields, "
 "move fields, rename them or delete the ones that you do not need."
-msgstr "Weergaves staan u toe om elke weergave te personaliseren in Odoo. U kan nieuwe velden toevoegen, verplaatsen, hernoemen of verwijderen als u deze niet nodig heeft."
+msgstr "Weergaves staan u toe om elke weergave te personaliseren in TuniERP. U kan nieuwe velden toevoegen, verplaatsen, hernoemen of verwijderen als u deze niet nodig heeft."
 
 #. module: base
 #: model:res.country,name:base.vg
@@ -15133,8 +15133,8 @@ msgid ""
 "arrow, but rather add new nodes or arrows. If you absolutly need to modify a"
 " node or arrow, you can only change fields that are empty or set to the "
 "default value. If you don't do that, your customization will be overwrited "
-"at the next update or upgrade to a future version of Odoo."
-msgstr "Bij het aanpassen van een workflow, zorg ervoor dat je niet een bestaande knooppunt of pijl te wijzigen, maar het is beter om nieuwe knooppunten of pijlen toe te voegen. Als je het absoluut nodig hebt om een bestaand knooppunt of pijl  te wijzigen, kunt u alleen velden die leeg zijn of zijn ingesteld op de standaardwaarde wijzigen. Als je dat niet doet, zal uw aanpassing worden overschreven bij de volgende update of upgrade naar een toekomstige versie van Odoo."
+"at the next update or upgrade to a future version of TuniERP."
+msgstr "Bij het aanpassen van een workflow, zorg ervoor dat je niet een bestaande knooppunt of pijl te wijzigen, maar het is beter om nieuwe knooppunten of pijlen toe te voegen. Als je het absoluut nodig hebt om een bestaand knooppunt of pijl  te wijzigen, kunt u alleen velden die leeg zijn of zijn ingesteld op de standaardwaarde wijzigen. Als je dat niet doet, zal uw aanpassing worden overschreven bij de volgende update of upgrade naar een toekomstige versie van TuniERP."
 
 #. module: base
 #: help:ir.actions.server,sequence:0
@@ -15354,8 +15354,8 @@ msgstr "Het is niet mogelijk om twee lettertypes met dezelfde naam te registrere
 #, python-format
 msgid ""
 "You can not remove the admin user as it is used internally for resources "
-"created by Odoo (updates, module installation, ...)"
-msgstr "U kan niet de administrator gebruiker verwijderen, het is gebruikt voor interne bronnen door Odoo (updates, module installatie, ...)"
+"created by TuniERP (updates, module installation, ...)"
+msgstr "U kan niet de administrator gebruiker verwijderen, het is gebruikt voor interne bronnen door TuniERP (updates, module installatie, ...)"
 
 #. module: base
 #: help:res.country,address_format:0
@@ -15435,7 +15435,7 @@ msgid ""
 "Your OpenERP Server does not support SMTP-over-SSL. You could use STARTTLS "
 "instead.If SSL is needed, an upgrade to Python 2.6 on the server-side should"
 " do the trick."
-msgstr "Uw Odoo  Server ondersteunt geen SMTP over een SSL verbinding. U kan daarvoor in de plaats gebruik maken van STARTSSL. Indien SSL noodzakelijk is, dient u up te graden naar Python 2.6 op de server."
+msgstr "Uw TuniERP  Server ondersteunt geen SMTP over een SSL verbinding. U kan daarvoor in de plaats gebruik maken van STARTSSL. Indien SSL noodzakelijk is, dient u up te graden naar Python 2.6 op de server."
 
 #. module: base
 #: code:addons/base/ir/ir_mail_server.py:482
@@ -15588,8 +15588,8 @@ msgstr "Bijv. nl_NL"
 #. module: base
 #: view:res.company:base.view_company_form
 #: view:res.partner:base.view_partner_form
-msgid "e.g. www.odoo.com"
-msgstr "Bijv. www.odoo.com"
+msgid "e.g. www.tunierp.com"
+msgstr "Bijv. www.tunierp.com"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_sale

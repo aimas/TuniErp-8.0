@@ -6,13 +6,13 @@ OpenERP BI View (a.k.a. Graph View)
 Outline
 '''''''
 
-* BI in Odoo
+* BI in TuniERP
 * Adding a Graph view
 * Graph view parameters
 * Fields: measures and dimensions
 * Graph view architecture
 
-BI in Odoo
+BI in TuniERP
 ''''''''''
 
 The graph view gives a way to look at your data and to visualize it in various ways.  Currently, it supports four main modes:
@@ -168,7 +168,7 @@ Graph view
 The graph view (addon *web_graph*) is actually made out of three parts:
 
 * **pivot table**: this is the part that keeps the data in memory and takes care of calling the ORM with ajax calls.
-* **graph widget**: this is a normal Odoo widget that takes care of displaying the data (the graph view is actually managed by a large widget) and interacting with the user 
+* **graph widget**: this is a normal TuniERP widget that takes care of displaying the data (the graph view is actually managed by a large widget) and interacting with the user 
 * **graph view**: its task is to interact with the web client.  So, basically, it only needs to instantiate a graph widget, and communicating both ways with the search view and the widget.
 
 Because of that design, it is possible (for example, in a client action) to display only a widget without the graph view.  The widget has the full power of a normal graph view.  

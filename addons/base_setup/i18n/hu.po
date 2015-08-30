@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * base_setup
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 06:53+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Hungarian (http://www.transifex.com/p/odoo-8/language/hu/)\n"
+"Language-Team: Hungarian (http://www.transifex.com/p/tunierp-8/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -220,12 +220,12 @@ msgstr "Tag"
 #. module: base_setup
 #: view:sale.config.settings:base_setup.view_sale_config_settings
 msgid ""
-"Odoo allows to automatically create leads (or others documents)\n"
-"                            from incoming emails. You can automatically synchronize emails with Odoo\n"
+"TuniERP allows to automatically create leads (or others documents)\n"
+"                            from incoming emails. You can automatically synchronize emails with TuniERP\n"
 "                            using regular POP/IMAP accounts, using a direct email integration script for your\n"
-"                            email server, or by manually pushing emails to Odoo using specific\n"
+"                            email server, or by manually pushing emails to TuniERP using specific\n"
 "                            plugins for your preferred email application."
-msgstr "Odoo rendszer lehetővé teszi az automatikus érdeklődés (vagy más dokumentumok) létrehozását \n                            a beérkező levelekből. Automatikusan szinkronizálhatja emailjeit az Odoo rendszerrel\n                            az általános POP/IMAP fiókokkal, egy közvetlen email beépülési szkripttel az email\n                            szerverén, vagy kézzel az emailek bevitelével az Odoo rendszerbe sajátos pliginnel\n                            az előnybe részesített email alkalmazásához."
+msgstr "TuniERP rendszer lehetővé teszi az automatikus érdeklődés (vagy más dokumentumok) létrehozását \n                            a beérkező levelekből. Automatikusan szinkronizálhatja emailjeit az TuniERP rendszerrel\n                            az általános POP/IMAP fiókokkal, egy közvetlen email beépülési szkripttel az email\n                            szerverén, vagy kézzel az emailek bevitelével az TuniERP rendszerbe sajátos pliginnel\n                            az előnybe részesített email alkalmazásához."
 
 #. module: base_setup
 #: view:base.config.settings:base_setup.view_general_configuration
@@ -283,8 +283,8 @@ msgstr "Állítsa be a jelentés fejléc betűtípusát, amit alapértelmezettk�
 
 #. module: base_setup
 #: help:base.config.settings,module_share:0
-msgid "Share or embbed any screen of Odoo."
-msgstr "Ossza meg vagy illessze bele bármely Odoo rendszer képernyő képét."
+msgid "Share or embbed any screen of TuniERP."
+msgstr "Ossza meg vagy illessze bele bármely TuniERP rendszer képernyő képét."
 
 #. module: base_setup
 #: view:sale.config.settings:base_setup.view_sale_config_settings

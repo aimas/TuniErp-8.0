@@ -44,7 +44,7 @@ Dashboard / Reports for Purchase Management will include:
 * Purchase Analysis
     """,
     'author': 'OpenERP SA',
-    'website': 'https://www.odoo.com/page/purchase',
+    'website': 'https://www.tunierp.com/page/purchase',
     'depends': ['stock_account', 'report'],
     'data': [
         'security/purchase_security.xml',

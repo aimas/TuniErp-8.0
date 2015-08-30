@@ -22,7 +22,7 @@
     'version' : '1.0',
     'author' : 'OpenERP SA',
     'category' : 'Specific Industry Applications',
-    'website': 'https://www.odoo.com',
+    'website': 'https://www.tunierp.com',
     'depends' : ['stock'],
     'demo' : ['product_expiry_demo.xml'],
     'description': """

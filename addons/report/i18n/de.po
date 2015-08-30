@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * report
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-07-17 07:57+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: German (http://www.transifex.com/p/odoo-8/language/de/)\n"
+"Language-Team: German (http://www.transifex.com/p/tunierp-8/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -424,7 +424,7 @@ msgstr "Wkhtmltopdf ist fehlgeschlagen (error code: %s). Nachricht: %s"
 msgid ""
 "You need to start OpenERP with at least two \n"
 "workers to print a pdf version of the reports."
-msgstr "Sie müssen Odoo mit mindestens zwei\nWorkern betreiben, damit Sie eine pdf Version für den Report bekommen."
+msgstr "Sie müssen TuniERP mit mindestens zwei\nWorkern betreiben, damit Sie eine pdf Version für den Report bekommen."
 
 #. module: report
 #. openerp-web

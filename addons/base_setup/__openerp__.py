@@ -32,7 +32,7 @@ Shows you a list of applications features to install from.
 
     """,
     'author': 'OpenERP SA',
-    'website': 'https://www.odoo.com',
+    'website': 'https://www.tunierp.com',
     'depends': ['base', 'web_kanban'],
     'data': [
         'security/ir.model.access.csv',

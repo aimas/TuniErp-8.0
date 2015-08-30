@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * sale
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-06-30 16:45+0000\n"
 "Last-Translator: Murat Kaplan <muratk@projetgrup.com>\n"
-"Language-Team: Turkish (http://www.transifex.com/p/odoo-8/language/tr/)\n"
+"Language-Team: Turkish (http://www.transifex.com/p/tunierp-8/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -153,11 +153,11 @@ msgid ""
 "                    Click to create a quotation that can be converted into a sales\n"
 "                    order.\n"
 "                </p><p>\n"
-"                    Odoo will help you efficiently handle the complete sales flow:\n"
+"                    TuniERP will help you efficiently handle the complete sales flow:\n"
 "                    quotation, sales order, delivery, invoicing and payment.\n"
 "                </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                    Bir teklif oluşturmak için tıklayın ve satışa siparişine\n                    dönüştürün.\n                </p><p>\n                    Odoo verimli ve komple satış akışı yapmanıza yardımcı olacaktır:\n                    teklifi, satış sipariş, teslimat, faturalama ve ödeme.\n                </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                    Bir teklif oluşturmak için tıklayın ve satışa siparişine\n                    dönüştürün.\n                </p><p>\n                    TuniERP verimli ve komple satış akışı yapmanıza yardımcı olacaktır:\n                    teklifi, satış sipariş, teslimat, faturalama ve ödeme.\n                </p>\n            "
 
 #. module: sale
 #: model:ir.actions.act_window,help:sale.act_res_partner_2_sale_order
@@ -165,7 +165,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a quotation or sales order for this customer.\n"
 "              </p><p>\n"
-"                Odoo will help you efficiently handle the complete sale flow:\n"
+"                TuniERP will help you efficiently handle the complete sale flow:\n"
 "                quotation, sales order, delivery, invoicing and\n"
 "                payment.\n"
 "              </p><p>\n"
@@ -174,7 +174,7 @@ msgid ""
 "                of the sales order.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Bu Müşteri için bir teklifi veya satış siparişi oluşturmak için tıklayın.\n              </p><p>\n                Odoo verimli komple satış işlem için yardımcı olacaktır akış:\n                teklifi, satış sipariş, teslimat, faturalama ve\n                ödeme.\n              </p><p>\n                Sosyal özellik, her satış da tartışmalar düzenlemenize yardımcı  olacak\n                sipariş ve müşteri satış siparişinin evrelerini\n                izlemenize olanak verir.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Bu Müşteri için bir teklifi veya satış siparişi oluşturmak için tıklayın.\n              </p><p>\n                TuniERP verimli komple satış işlem için yardımcı olacaktır akış:\n                teklifi, satış sipariş, teslimat, faturalama ve\n                ödeme.\n              </p><p>\n                Sosyal özellik, her satış da tartışmalar düzenlemenize yardımcı  olacak\n                sipariş ve müşteri satış siparişinin evrelerini\n                izlemenize olanak verir.\n              </p>\n            "
 
 #. module: sale
 #: model:ir.actions.act_window,help:sale.action_orders_salesteams
@@ -183,11 +183,11 @@ msgid ""
 "                Click to create a quotation that can be converted into a sales\n"
 "                order.\n"
 "              </p><p>\n"
-"                Odoo will help you efficiently handle the complete sales flow:\n"
+"                TuniERP will help you efficiently handle the complete sales flow:\n"
 "                quotation, sales order, delivery, invoicing and payment.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Satış siparişine dönüştürülebilecek bir teklif oluşturmak için\n                tıklayın.\n              </p><p>\n                Odoo, tam bir satış akışı işlemlerini etkili olarak yapmanıza yardım eder:\n                teklif, satış siparişi, teslimat, faturalama ve ödeme.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Satış siparişine dönüştürülebilecek bir teklif oluşturmak için\n                tıklayın.\n              </p><p>\n                TuniERP, tam bir satış akışı işlemlerini etkili olarak yapmanıza yardım eder:\n                teklif, satış siparişi, teslimat, faturalama ve ödeme.\n              </p>\n            "
 
 #. module: sale
 #: model:ir.actions.act_window,help:sale.action_quotations
@@ -196,7 +196,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a quotation, the first step of a new sale.\n"
 "              </p><p>\n"
-"                Odoo will help you handle efficiently the complete sale flow:\n"
+"                TuniERP will help you handle efficiently the complete sale flow:\n"
 "                from the quotation to the sales order, the\n"
 "                delivery, the invoicing and the payment collection.\n"
 "              </p><p>\n"
@@ -205,7 +205,7 @@ msgid ""
 "                of the sales order.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Bir teklif oluşturmak için tıklayın, bir satışın ilk adımıdır.\n              </p><p>\n                Odoo tüm satış akışını verimli bir şekilde yürütmenizi sağlayacaktır:\n                tekliften satış siparişine, teslimata, faturalamaya ve ödeme\n                almanıza kadar.\n              </p><p>\n                Sosyal özelliği her satış siparişi üzerindeki görüşmeleri düzenlemenize \n                yardım eder ve müşterilerinizin satış siparişlerinin gelişimini izlemesini\n                sağlar.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Bir teklif oluşturmak için tıklayın, bir satışın ilk adımıdır.\n              </p><p>\n                TuniERP tüm satış akışını verimli bir şekilde yürütmenizi sağlayacaktır:\n                tekliften satış siparişine, teslimata, faturalamaya ve ödeme\n                almanıza kadar.\n              </p><p>\n                Sosyal özelliği her satış siparişi üzerindeki görüşmeleri düzenlemenize \n                yardım eder ve müşterilerinizin satış siparişlerinin gelişimini izlemesini\n                sağlar.\n              </p>\n            "
 
 #. module: sale
 #: model:ir.actions.act_window,help:sale.action_order_line_tree2

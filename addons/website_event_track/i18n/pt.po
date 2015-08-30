@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * website_event_track
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-07-17 08:17+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Portuguese (http://www.transifex.com/p/odoo-8/language/pt/)\n"
+"Language-Team: Portuguese (http://www.transifex.com/p/tunierp-8/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -47,9 +47,9 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n                  Clique para ad
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track7
 msgid ""
-"A technical explanation of Odoo as a CMS and a eCommerce platform for "
+"A technical explanation of TuniERP as a CMS and a eCommerce platform for "
 "version 8."
-msgstr "A explicação técnica de Odoo como um CMS e uma plataforma de comércio eletrónico para a versão 8."
+msgstr "A explicação técnica de TuniERP como um CMS e uma plataforma de comércio eletrónico para a versão 8."
 
 #. module: website_event_track
 #: field:event.event,allowed_track_tag_ids:0
@@ -58,8 +58,8 @@ msgstr "Etiquetas Aceites"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track19
-msgid "Advanced lead management with Odoo: tips and tricks from the fields"
-msgstr "Gestão de liderança avançada com Odoo: dicas e truques dos campos"
+msgid "Advanced lead management with TuniERP: tips and tricks from the fields"
+msgstr "Gestão de liderança avançada com TuniERP: dicas e truques dos campos"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track13
@@ -175,13 +175,13 @@ msgstr "Roteiro detalhado de contabilização de novos módulos e melhorias para
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track8
 msgid ""
-"Discover Odoo CRM: How to optimize your sales, from leads to sales orders."
-msgstr "Descubra Odoo CRM: Como otimizar suas vendas, a partir de leads para ordens de venda."
+"Discover TuniERP CRM: How to optimize your sales, from leads to sales orders."
+msgstr "Descubra TuniERP CRM: Como otimizar suas vendas, a partir de leads para ordens de venda."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track11
-msgid "Discover Odoo Point-of-Sale: Your shop ready to use in 30 minutes."
-msgstr "Descubra Odoo Ponto de Venda: Sua loja de pronto a usar em 30 minutos."
+msgid "Discover TuniERP Point-of-Sale: Your shop ready to use in 30 minutes."
+msgstr "Descubra TuniERP Ponto de Venda: Sua loja de pronto a usar em 30 minutos."
 
 #. module: website_event_track
 #: view:website:website_event_track.track_view
@@ -349,8 +349,8 @@ msgstr "Contém o sumário de chat. Este sumário é em html direto para ser ins
 #: model:event.track,name:website_event_track.event_track18
 msgid ""
 "How to build your marketing strategy for the purpose of generating leads "
-"with Odoo."
-msgstr "Como construir sua estratégia de marketing com o objetivo de geração de leads com Odoo."
+"with TuniERP."
+msgstr "Como construir sua estratégia de marketing com o objetivo de geração de leads com TuniERP."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track1
@@ -359,8 +359,8 @@ msgstr "Como desenvolver um módulo website."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track4
-msgid "How to develop automated tests in the Odoo web client."
-msgstr "Como desenvolver testes automatizados no cliente web Odoo."
+msgid "How to develop automated tests in the TuniERP web client."
+msgstr "Como desenvolver testes automatizados no cliente web TuniERP."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track3
@@ -369,15 +369,15 @@ msgstr "Como desenvolver aplicações em tempo real, o módulo de chat ao vivo e
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track2
-msgid "How to integrate hardware materials with the Odoo point of sale."
-msgstr "Como integrar materiais de hardware com o ponto de venda Odoo."
+msgid "How to integrate hardware materials with the TuniERP point of sale."
+msgstr "Como integrar materiais de hardware com o ponto de venda TuniERP."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track9
 msgid ""
-"How to use Odoo for your HR process: recruitment, leaves management, "
+"How to use TuniERP for your HR process: recruitment, leaves management, "
 "appraisals, expenses, etc."
-msgstr "Como usar Odoo para o seu processo de RH: recrutamento, gestão de ausências, avaliações, despesas, etc"
+msgstr "Como usar TuniERP para o seu processo de RH: recrutamento, gestão de ausências, avaliações, despesas, etc"
 
 #. module: website_event_track
 #: field:event.sponsor,id:0 field:event.sponsor.type,id:0 field:event.tag,id:0
@@ -403,8 +403,8 @@ msgstr "É um Seguidor"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track23
-msgid "Key Success factors selling Odoo."
-msgstr "Principais fatores de sucesso mais vendáveis do Odoo."
+msgid "Key Success factors selling TuniERP."
+msgstr "Principais fatores de sucesso mais vendáveis do TuniERP."
 
 #. module: website_event_track
 #: field:event.track,message_last_post:0
@@ -465,8 +465,8 @@ msgstr "Gira os seus KPIs (recomendados para parceiros OpenERP)."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track12
-msgid "Manage your events with Odoo, the new training modules."
-msgstr "Gira os seus eventos com Odoo, os novos módulos de formação."
+msgid "Manage your events with TuniERP, the new training modules."
+msgstr "Gira os seus eventos com TuniERP, os novos módulos de formação."
 
 #. module: website_event_track
 #: selection:event.track,priority:0
@@ -527,23 +527,23 @@ msgstr "Nenhum tema encontrado!"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track15
-msgid "Odoo Mobile for Notes, Meetings and Messages."
-msgstr "Odoo Móvel para anotações, reuniões e mensagens."
+msgid "TuniERP Mobile for Notes, Meetings and Messages."
+msgstr "TuniERP Móvel para anotações, reuniões e mensagens."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track28
-msgid "Odoo Status & Strategy 2014"
-msgstr "Odoo Estado e Estratégia 2014"
+msgid "TuniERP Status & Strategy 2014"
+msgstr "TuniERP Estado e Estratégia 2014"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track16
-msgid "Odoo as your Enterprise Social Network."
-msgstr "Odoo como sua Rede Social Corporativa."
+msgid "TuniERP as your Enterprise Social Network."
+msgstr "TuniERP como sua Rede Social Corporativa."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track27
-msgid "Odoo in 2014"
-msgstr "Odoo em 2014"
+msgid "TuniERP in 2014"
+msgstr "TuniERP em 2014"
 
 #. module: website_event_track
 #: view:website:website_event.layout
@@ -595,8 +595,8 @@ msgstr "Levantando conhecimentos qualitativo com o aplicativo de inquéritos"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track21
-msgid "Recruiting high skilled talents with Odoo HR apps"
-msgstr "Recrutar altos talentos qualificados com Odoo app de RH"
+msgid "Recruiting high skilled talents with TuniERP HR apps"
+msgstr "Recrutar altos talentos qualificados com TuniERP app de RH"
 
 #. module: website_event_track
 #: view:website:website_event_track.event_track_proposal
@@ -753,8 +753,8 @@ msgstr "Obrigado pela sua proposta."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track17
-msgid "The Art of Making an Odoo Demo."
-msgstr "A Arte de Fazer uma Demo Odoo."
+msgid "The Art of Making an TuniERP Demo."
+msgstr "A Arte de Fazer uma Demo TuniERP."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track29
@@ -764,8 +764,8 @@ msgstr "A nova estratégia de marketing."
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track5
 msgid ""
-"The new way to promote your modules in the Apps platform and Odoo website."
-msgstr "A nova maneira de promover os seus módulos na plataforma Android e site Odoo."
+"The new way to promote your modules in the Apps platform and TuniERP website."
+msgstr "A nova maneira de promover os seus módulos na plataforma Android e site TuniERP."
 
 #. module: website_event_track
 #: view:website:website_event_track.event_track_proposal

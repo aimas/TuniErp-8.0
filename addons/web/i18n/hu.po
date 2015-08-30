@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * web
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-07-17 08:12+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Hungarian (http://www.transifex.com/p/odoo-8/language/hu/)\n"
+"Language-Team: Hungarian (http://www.transifex.com/p/tunierp-8/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -254,8 +254,8 @@ msgstr "Névjegy"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:369
 #, python-format
-msgid "About Odoo"
-msgstr "Odoo-ról"
+msgid "About TuniERP"
+msgstr "TuniERP-ról"
 
 #. module: web
 #. openerp-web
@@ -545,8 +545,8 @@ msgstr "Chaussée de Namur 40"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:114
 #, python-format
-msgid "Check this box to evaluate Odoo."
-msgstr "Jelölje ki a négyzetet az Odoo értékeléséhez."
+msgid "Check this box to evaluate TuniERP."
+msgstr "Jelölje ki a négyzetet az TuniERP értékeléséhez."
 
 #. module: web
 #. openerp-web
@@ -881,8 +881,8 @@ msgstr "Elvetés"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:435
 #, python-format
-msgid "Discover Events of Odoo around the world..."
-msgstr "Odoo rendszer eseményeiről a világon..."
+msgid "Discover Events of TuniERP around the world..."
+msgstr "TuniERP rendszer eseményeiről a világon..."
 
 #. module: web
 #. openerp-web
@@ -1203,11 +1203,11 @@ msgstr "Fájl:"
 #: code:addons/web/static/src/xml/base.xml:87
 #, python-format
 msgid ""
-"Fill in this form to create an Odoo database. You can\n"
+"Fill in this form to create an TuniERP database. You can\n"
 "                    create databases for different companies or for different\n"
 "                    goals (testing, production). Once the database is created,\n"
 "                    you will be able to install your first application."
-msgstr "Töltse ki ezt a adatlapot az Odoo rendszer adatbázis létrehozásához. Létre\n                    tud hozni adatbázist különböző vállalatokhoz vagy különböző\n                    céloknak (tesztelés, termelés). Miután elkészült az adatbázis,\n                    lehetősége lesz az első alkalmazás telepítésére."
+msgstr "Töltse ki ezt a adatlapot az TuniERP rendszer adatbázis létrehozásához. Létre\n                    tud hozni adatbázist különböző vállalatokhoz vagy különböző\n                    céloknak (tesztelés, termelés). Miután elkészült az adatbázis,\n                    lehetősége lesz az első alkalmazás telepítésére."
 
 #. module: web
 #. openerp-web
@@ -1617,8 +1617,8 @@ msgstr "Egyebek"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:368
 #, python-format
-msgid "My Odoo.com account"
-msgstr "Az Odoo.com fiókom"
+msgid "My TuniERP.com account"
+msgstr "Az TuniERP.com fiókom"
 
 #. module: web
 #. openerp-web
@@ -1728,34 +1728,34 @@ msgstr "Tárgy:"
 #. module: web
 #: view:website:web.layout view:website:web.login_layout
 #: view:website:web.menu_secondary
-msgid "Odoo"
-msgstr "Odoo rendszer"
+msgid "TuniERP"
+msgstr "TuniERP rendszer"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:386
 #, python-format
-msgid "Odoo (Formerly OpenERP)"
-msgstr "Odoo (régebben mint OpenERP)"
+msgid "TuniERP (Formerly OpenERP)"
+msgstr "TuniERP (régebben mint OpenERP)"
 
 #. module: web
 #: view:website:web.qunit_suite
-msgid "Odoo Web Tests"
-msgstr "Odoo Web Teszt"
+msgid "TuniERP Web Tests"
+msgstr "TuniERP Web Teszt"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:420
 #, python-format
-msgid "Odoo is a trademark of the"
-msgstr "Odoo a védjegye ennek"
+msgid "TuniERP is a trademark of the"
+msgstr "TuniERP a védjegye ennek"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:422
 #, python-format
-msgid "Odoo.com"
-msgstr "Odoo.com"
+msgid "TuniERP.com"
+msgstr "TuniERP.com"
 
 #. module: web
 #. openerp-web
@@ -2728,8 +2728,8 @@ msgstr "Legalább egy a rekordot válasszon ki."
 #. openerp-web
 #: code:addons/web/static/src/js/chrome.js:259
 #, python-format
-msgid "Your Odoo session expired. Please refresh the current web page."
-msgstr "Az Odoo rendszer munkafázisa letelt. Kérem frissítse a jelenlegi weboldalt."
+msgid "Your TuniERP session expired. Please refresh the current web page."
+msgstr "Az TuniERP rendszer munkafázisa letelt. Kérem frissítse a jelenlegi weboldalt."
 
 #. module: web
 #. openerp-web

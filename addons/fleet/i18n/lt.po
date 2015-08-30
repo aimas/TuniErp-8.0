@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * fleet
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:09+0000\n"
 "PO-Revision-Date: 2015-07-17 07:09+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Lithuanian (http://www.transifex.com/p/odoo-8/language/lt/)\n"
+"Language-Team: Lithuanian (http://www.transifex.com/p/tunierp-8/language/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -46,14 +46,14 @@ msgid ""
 "                Click to create a new contract.\n"
 "              </p><p>\n"
 "                Manage all your contracts (leasing, insurances, etc.) with\n"
-"                their related services, costs. Odoo will automatically warn\n"
+"                their related services, costs. TuniERP will automatically warn\n"
 "                you when some contracts have to be renewed.\n"
 "              </p><p>\n"
 "                Each contract (e.g.: leasing) may include several services\n"
 "                (reparation, insurances, periodic maintenance).\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Spauskite, norėdami sukurti naują kontraktą.\n              </p><p>\n                Valdykite visas savo sutartis (nuoma, draudimas ir pan. ) su\n                susijusiomis paslaugomis, mokesčiais . Odoo automatiškai Jus\n                perspės, kada sutartis turi būti atnaujinta.\n              </p><p>\n                Kiekvienai sutarčiai (pvz. nuomai) gali priklausyti kelios paslaugos\n                (taisymas, draudimas, periodinės priežiūros).\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Spauskite, norėdami sukurti naują kontraktą.\n              </p><p>\n                Valdykite visas savo sutartis (nuoma, draudimas ir pan. ) su\n                susijusiomis paslaugomis, mokesčiais . TuniERP automatiškai Jus\n                perspės, kada sutartis turi būti atnaujinta.\n              </p><p>\n                Kiekvienai sutarčiai (pvz. nuomai) gali priklausyti kelios paslaugos\n                (taisymas, draudimas, periodinės priežiūros).\n              </p>\n            "
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_costs_act
@@ -61,12 +61,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a new cost.\n"
 "              </p><p>\n"
-"                Odoo helps you managing the costs for your different\n"
+"                TuniERP helps you managing the costs for your different\n"
 "                vehicles. Costs are created automatically from services,\n"
 "                contracts (fixed or recurring) and fuel logs.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Spauskite, nordėdami sukurti naują mokestį.\n              </p><p>\n                Odoo padeda valdytis mokesčius skirtingiems\n                automobiliams. Mokesčiai sugeneruojami automatiškai iš suteiktų paslaugų,\n                sutarčių ir kuro žurnalų.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Spauskite, nordėdami sukurti naują mokestį.\n              </p><p>\n                TuniERP padeda valdytis mokesčius skirtingiems\n                automobiliams. Mokesčiai sugeneruojami automatiškai iš suteiktų paslaugų,\n                sutarčių ir kuro žurnalų.\n              </p>\n            "
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_log_fuel_act
@@ -112,12 +112,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a new service entry.\n"
 "              </p><p>\n"
-"                Odoo helps you keeping track of all the services done\n"
+"                TuniERP helps you keeping track of all the services done\n"
 "                on your vehicle. Services can be of many type: occasional\n"
 "                repair, fixed maintenance, etc.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Paspauskite, norėdami sukurti naują paslaugos įrašą.\n              </p><p>\n                Odoo padeda sekti visas paslaugas, atliktas Jūsų \n                automobiliui. Paslaugos gali būti kelių tipų: atsitiktinės\n                rtaisymai, kasmetinė priežiūra ir pan.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Paspauskite, norėdami sukurti naują paslaugos įrašą.\n              </p><p>\n                TuniERP padeda sekti visas paslaugas, atliktas Jūsų \n                automobiliui. Paslaugos gali būti kelių tipų: atsitiktinės\n                rtaisymai, kasmetinė priežiūra ir pan.\n              </p>\n            "
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_service_types_act
@@ -140,11 +140,11 @@ msgid ""
 "                contracts, services, fixed and recurring costs, odometers and\n"
 "                fuel logs associated to each vehicle.\n"
 "            </p><p>\n"
-"                Odoo will warn you when services or contract have to be\n"
+"                TuniERP will warn you when services or contract have to be\n"
 "                renewed.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Spauskite, nordėdami sukurti naują automobilį.\n              </p><p>\n                Jūs galėsite valdyti savo automobilių parką sekdami\n                sutartis, servizus, odometro ir kuro\n                žurnalus susijusius su kiekvienu automobiliu.\n            </p><p>\n                Odoo pespės jus, kai reikės atnaujinti paslaugas\n                ar sutartis.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Spauskite, nordėdami sukurti naują automobilį.\n              </p><p>\n                Jūs galėsite valdyti savo automobilių parką sekdami\n                sutartis, servizus, odometro ir kuro\n                žurnalus susijusius su kiekvienu automobiliu.\n            </p><p>\n                TuniERP pespės jus, kai reikės atnaujinti paslaugas\n                ar sutartis.\n              </p>\n            "
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_state_act
@@ -163,15 +163,15 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n                Paspauskite, nor
 #: model:ir.actions.act_window,help:fleet.action_fleet_reporting_costs_non_effective
 msgid ""
 "<p>\n"
-"          Odoo helps you managing the costs for your different vehicles\n"
+"          TuniERP helps you managing the costs for your different vehicles\n"
 "          Costs are generally created from services and contract and appears here.\n"
 "        </p>\n"
 "        <p>\n"
-"          Thanks to the different filters, Odoo can only print the effective\n"
+"          Thanks to the different filters, TuniERP can only print the effective\n"
 "          costs, sort them by type and by vehicle.\n"
 "        </p>\n"
 "      "
-msgstr "<p>\n          Odoo padeda valdyti mokesčius susijusius su kiekvienu iš Jūsų automobiliu.\n          Mokesčiai automatiškai sugeneruojami pagal paslaugas ir sutartis ir yra matomi čia.\n        </p>\n        <p>\n          Naudodami Odoo filtrus, galite kiekvieną mokestį\n          sufiltruoti pagal Jūsų pageidavimus ir atsispausdinti.\n        </p>\n      "
+msgstr "<p>\n          TuniERP padeda valdyti mokesčius susijusius su kiekvienu iš Jūsų automobiliu.\n          Mokesčiai automatiškai sugeneruojami pagal paslaugas ir sutartis ir yra matomi čia.\n        </p>\n        <p>\n          Naudodami TuniERP filtrus, galite kiekvieną mokestį\n          sufiltruoti pagal Jūsų pageidavimus ir atsispausdinti.\n        </p>\n      "
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_1

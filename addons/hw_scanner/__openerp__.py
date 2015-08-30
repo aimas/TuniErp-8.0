@@ -26,7 +26,7 @@
     'category': 'Hardware Drivers',
     'sequence': 6,
     'summary': 'Hardware Driver for Barcode Scanners',
-    'website': 'https://www.odoo.com/page/point-of-sale',
+    'website': 'https://www.tunierp.com/page/point-of-sale',
     'description': """
 Barcode Scanner Hardware Driver
 ================================

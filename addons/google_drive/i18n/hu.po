@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * google_drive
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-07-17 07:11+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Hungarian (http://www.transifex.com/p/odoo-8/language/hu/)\n"
+"Language-Team: Hungarian (http://www.transifex.com/p/tunierp-8/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -21,9 +21,9 @@ msgstr ""
 #. module: google_drive
 #: view:google.drive.config:google_drive.view_google_drive_config_form
 msgid ""
-"- Go to the Odoo document you want to filter. For instance, go to "
+"- Go to the TuniERP document you want to filter. For instance, go to "
 "Opportunities and search on Sales Department."
-msgstr "- Menjen a szűrni kívánt Odoo dokumentumához. Például, menjen a Lehetőségekhez és keressen rá az Értékesítési osztályra."
+msgstr "- Menjen a szűrni kívánt TuniERP dokumentumához. Például, menjen a Lehetőségekhez és keressen rá az Értékesítési osztályra."
 
 #. module: google_drive
 #: view:google.drive.config:google_drive.view_google_drive_config_form
@@ -62,10 +62,10 @@ msgid ""
 "                    Click to add a new template.\n"
 "                </p>\n"
 "                <p>\n"
-"                    Link your own google drive templates to any record of Odoo. If you have really specific documents you want your collaborator fill in, e.g. Use a spreadsheet to control the quality of your product or review the delivery checklist for each order in a foreign country, ... Its very easy to manage them, link them to Odoo and use them to collaborate with your employees.\n"
+"                    Link your own google drive templates to any record of TuniERP. If you have really specific documents you want your collaborator fill in, e.g. Use a spreadsheet to control the quality of your product or review the delivery checklist for each order in a foreign country, ... Its very easy to manage them, link them to TuniERP and use them to collaborate with your employees.\n"
 "                </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                    Kattintson egy új sablon hozzáadásához.\n                </p>\n                <p>\n                    Csatolja hozzá a saját google drive sablonjait bármely Odoo bejegyzéshez. Ha nagyon egyedi dokumentumot szeretne kitöltetni a résztvevővel, pl. Egy adatlapot használatát szeretné a terméke minőségének ellenőrzésére vagy a szállítási ellenőrző lista vizsgálatát az összes külföldi szállítmányhoz, ... nagyon könnyen kezelheti, fűzze hozzá az Odoo rendszerhez és használja azokat a munkavállalóival együttműködve.\n                </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                    Kattintson egy új sablon hozzáadásához.\n                </p>\n                <p>\n                    Csatolja hozzá a saját google drive sablonjait bármely TuniERP bejegyzéshez. Ha nagyon egyedi dokumentumot szeretne kitöltetni a résztvevővel, pl. Egy adatlapot használatát szeretné a terméke minőségének ellenőrzésére vagy a szállítási ellenőrző lista vizsgálatát az összes külföldi szállítmányhoz, ... nagyon könnyen kezelheti, fűzze hozzá az TuniERP rendszerhez és használja azokat a munkavállalóival együttműködve.\n                </p>\n            "
 
 #. module: google_drive
 #: field:google.drive.config,active:0
@@ -263,9 +263,9 @@ msgstr "A Google által létrehozott URL elérési út az engedélyezési kód l
 msgid ""
 "The name of the attached document can use fixed or variable data. To distinguish between documents in\n"
 "                                Google Drive, use fixed words and fields. For instance, in the example above, if you wrote Agrolait_%(name)s_Sales\n"
-"                                in the Google Drive name field, the document in your Google Drive and in Odoo attachment will be named\n"
+"                                in the Google Drive name field, the document in your Google Drive and in TuniERP attachment will be named\n"
 "                                'Agrolait_SO0001_Sales'."
-msgstr "A mellékelt dokumentum neve tartalmazhat állandó vagy változtatható adatot. A Google Drive-on a dokumentumok közti     \n                                megkülönböztetéshez, használjon állandó szavakat és mezőket. Például, a feljebb lévő példában, ha azt írta Agrolait_%(name)s_Sales\n                                a Google Drive név mezőbe, akkor a dokumentum neve a Google Drive tárolóban és az Odoo rendszer mellékletében ez lesz\n                                'Agrolait_SO0001_Sales'."
+msgstr "A mellékelt dokumentum neve tartalmazhat állandó vagy változtatható adatot. A Google Drive-on a dokumentumok közti     \n                                megkülönböztetéshez, használjon állandó szavakat és mezőket. Például, a feljebb lévő példában, ha azt írta Agrolait_%(name)s_Sales\n                                a Google Drive név mezőbe, akkor a dokumentum neve a Google Drive tárolóban és az TuniERP rendszer mellékletében ez lesz\n                                'Agrolait_SO0001_Sales'."
 
 #. module: google_drive
 #: code:addons/google_drive/google_drive.py:133

@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 #	* crm
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 8.0\n"
+"Project-Id-Version: TuniERP Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-01-21 14:07+0000\n"
@@ -126,7 +126,7 @@ msgstr ""
 msgid "<p class=\"oe_view_nocontent_create\">\n"
 "            Click to log the summary of a phone call. \n"
 "          </p><p>\n"
-"            Odoo allows you to log inbound calls on the fly to track the\n"
+"            TuniERP allows you to log inbound calls on the fly to track the\n"
 "            history of the communication with a customer or to inform another\n"
 "            team member.\n"
 "          </p><p>\n"
@@ -141,7 +141,7 @@ msgstr ""
 msgid "<p class=\"oe_view_nocontent_create\">\n"
 "            Click to schedule a call \n"
 "          </p><p>\n"
-"            Odoo allows you to easily define all the calls to be done\n"
+"            TuniERP allows you to easily define all the calls to be done\n"
 "            by your sales team and follow up based on their summary.\n"
 "          </p><p>  \n"
 "            You can use the import feature to massively import a new list of\n"
@@ -153,7 +153,7 @@ msgstr ""
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid "<p>\n"
-"                    Odoo helps you keep track of your sales pipeline to follow\n"
+"                    TuniERP helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues.\n"
 "                </p><p>\n"
 "                    You will be able to plan meetings and phone calls from\n"
@@ -180,7 +180,7 @@ msgstr ""
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_category_act_oppor11
 msgid "<p>\n"
-"                Odoo helps you keep track of your sales pipeline to follow\n"
+"                TuniERP helps you keep track of your sales pipeline to follow\n"
 "                up potential sales and better forecast your future revenues.\n"
 "            </p><p>\n"
 "                You will be able to plan meetings and phone calls from\n"
@@ -2573,7 +2573,7 @@ msgstr ""
 #: view:base.partner.merge.automatic.wizard:crm.base_partner_merge_automatic_wizard_form
 msgid "Select the list of fields used to search for\n"
 "                            duplicated records. If you select several fields,\n"
-"                            Odoo will propose you to merge only those having\n"
+"                            TuniERP will propose you to merge only those having\n"
 "                            all these fields in common. (not one of the fields)."
 msgstr ""
 

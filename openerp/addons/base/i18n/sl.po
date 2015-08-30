@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * base
 # 
@@ -7,12 +7,12 @@
 # Matjaž Mozetič <m.mozetic@matmoz.si>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 06:35+0000\n"
 "Last-Translator: Matjaž Mozetič <m.mozetic@matmoz.si>\n"
-"Language-Team: Slovenian (http://www.transifex.com/p/odoo-8/language/sl/)\n"
+"Language-Team: Slovenian (http://www.transifex.com/p/tunierp-8/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1688,26 +1688,26 @@ msgid ""
 msgstr "\nNov razširljiv uvoz datotek za OpenERP\n======================================\n\nPopolna predelava OpenERP sistema za uvoz datotek:\n\n* Strežniška stran, prejšnji sistem vsili večino logike odjemalcu,\n  kar podvaja napor (med odjemalci) in oteži\n  uporabo sistema za uvoz brez odjemalca (neposredni RPC ali\n  druge oblike avtomatizacije) ter tudi oteži pridobivanje znanja o\n  sistemu za uvoz/izvoz, saj je razširjen preko\n  3+ različnih projektov.\n\n* Bolj razširljiv način, da lahko uporabniki in partnerji gradijo svoj\n  lasten vmesnik za uvoz iz drugih formatov datotek (npr. OpenDocument\n  datoteke), ki jim ga bo enostavneje upravljati v sklopu njihovih delovnih procesov\n  ali iz njihovih virov proizvodnih podatkov.\n\n* V modulu, da lahko administratorji in uporabniki, ki ne potrebujejo\n  ali želijo spletnega uvoza, preprečijo dostop uporabnikom.\n"
 
 #. module: base
-#: model:ir.module.module,description:base.module_im_odoo_support
+#: model:ir.module.module,description:base.module_im_tunierp_support
 msgid ""
 "\n"
-"Odoo Live Support\n"
+"TuniERP Live Support\n"
 "=================\n"
 "\n"
-"Ask your functionnal question directly to the Odoo Operators with the livechat support.\n"
+"Ask your functionnal question directly to the TuniERP Operators with the livechat support.\n"
 "\n"
 "        "
-msgstr "\nOdoo podpora v živo\n=================\n\nPostavite funkcionalna vprašanja neposredno Odoo operaterjem preko podpore s klepetom v živo.\n\n        "
+msgstr "\nTuniERP podpora v živo\n=================\n\nPostavite funkcionalna vprašanja neposredno TuniERP operaterjem preko podpore s klepetom v živo.\n\n        "
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_livechat
 msgid ""
 "\n"
-"Odoo Website LiveChat\n"
+"TuniERP Website LiveChat\n"
 "========================\n"
-"For website built with Odoo CMS, this module include a chat button on your Website, and allow your visitors to chat with your collabarators.\n"
+"For website built with TuniERP CMS, this module include a chat button on your Website, and allow your visitors to chat with your collabarators.\n"
 "        "
-msgstr "\nOdoo spletni klepet v živo\n========================\nNa Odoo CMS spletni strani se pojavi gumb, ki omogoča obiskovalcem klepet z vašimi sodelavci.\n        "
+msgstr "\nTuniERP spletni klepet v živo\n========================\nNa TuniERP CMS spletni strani se pojavi gumb, ki omogoča obiskovalcem klepet z vašimi sodelavci.\n        "
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_event_track
@@ -2291,9 +2291,9 @@ msgid ""
 "``l10n_ch_payment_slip``\n"
 "  Support of ESR/BVR payment slip report and reconciliation.\n"
 "\n"
-"``l10n_ch`` is located in the core Odoo modules. The other modules are in:\n"
+"``l10n_ch`` is located in the core TuniERP modules. The other modules are in:\n"
 "https://github.com/OCA/l10n-switzerland\n"
-msgstr "\nŠvicarska lokalizacija\n==================\n\n**Večjezični švicarski PME/KMU 2015 kontni plan in davki**\n\n**Avtor:** Camptocamp SA\n\n**Finančno prispevali:** Prisme Solutions Informatique SA, Quod SA\n\n**Prevodi:** brain-tec AG, Agile Business Group\n\nDodatke za švicarsko lokalizacijo sestavljajo:\n\n``l10n_ch``\n  večjezični PME/KMU 2015 kontni plan in davki (uradni dodatek)\n``l10n_ch_base_bank``\n  tehnični modul, ki uvede novo poenostavljeno verzijo upravljanja\n  tipa bank\n``l10n_ch_bank``\n  seznam švicarskih bank\n``l10n_ch_zip``\n  seznam švicarskih poštnih številk\n``l10n_ch_dta``\n  podpora DTA plačilnemu protokolu (zastari konec 2014)\n``l10n_ch_payment_slip``\n  porpora za ESR/BVR plačilne liste in usklajevanje.\n\n``l10n_ch`` se nahaja med osnovnimi Odoo moduli. Drugi moduli so v:\nhttps://github.com/OCA/l10n-switzerland\n"
+msgstr "\nŠvicarska lokalizacija\n==================\n\n**Večjezični švicarski PME/KMU 2015 kontni plan in davki**\n\n**Avtor:** Camptocamp SA\n\n**Finančno prispevali:** Prisme Solutions Informatique SA, Quod SA\n\n**Prevodi:** brain-tec AG, Agile Business Group\n\nDodatke za švicarsko lokalizacijo sestavljajo:\n\n``l10n_ch``\n  večjezični PME/KMU 2015 kontni plan in davki (uradni dodatek)\n``l10n_ch_base_bank``\n  tehnični modul, ki uvede novo poenostavljeno verzijo upravljanja\n  tipa bank\n``l10n_ch_bank``\n  seznam švicarskih bank\n``l10n_ch_zip``\n  seznam švicarskih poštnih številk\n``l10n_ch_dta``\n  podpora DTA plačilnemu protokolu (zastari konec 2014)\n``l10n_ch_payment_slip``\n  porpora za ESR/BVR plačilne liste in usklajevanje.\n\n``l10n_ch`` se nahaja med osnovnimi TuniERP moduli. Drugi moduli so v:\nhttps://github.com/OCA/l10n-switzerland\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_project_timesheet
@@ -2723,7 +2723,7 @@ msgid ""
 "rejestrów podatkowych. Moduł ustawia też konta do kupna i sprzedaży towarów\n"
 "zakładając, że wszystkie towary są w obrocie hurtowym.\n"
 "\n"
-"Niniejszy moduł jest przeznaczony dla odoo 8.0.\n"
+"Niniejszy moduł jest przeznaczony dla tunierp 8.0.\n"
 "Wewnętrzny numer wersji OpenGLOBE 1.02\n"
 "    "
 msgstr ""
@@ -3697,7 +3697,7 @@ msgid ""
 "\n"
 "Vehicle, leasing, insurances, cost\n"
 "==================================\n"
-"With this module, Odoo helps you managing all your vehicles, the\n"
+"With this module, TuniERP helps you managing all your vehicles, the\n"
 "contracts associated to those vehicle as well as services, fuel log\n"
 "entries, costs and many other features necessary to the management \n"
 "of your fleet of vehicle(s)\n"
@@ -4040,7 +4040,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a contact in your address book.\n"
 "              </p><p>\n"
-"                Odoo helps you easily track all activities related to\n"
+"                TuniERP helps you easily track all activities related to\n"
 "                a customer: discussions, history of business opportunities,\n"
 "                documents, etc.\n"
 "              </p>\n"
@@ -4053,7 +4053,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a contact in your address book.\n"
 "              </p><p>\n"
-"                Odoo helps you easily track all activities related to\n"
+"                TuniERP helps you easily track all activities related to\n"
 "                a customer; discussions, history of business opportunities,\n"
 "                documents, etc.\n"
 "              </p>\n"
@@ -4066,7 +4066,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a contact in your address book.\n"
 "              </p><p>\n"
-"                Odoo helps you easily track all activities related to\n"
+"                TuniERP helps you easily track all activities related to\n"
 "                a supplier: discussions, history of purchases,\n"
 "                documents, etc.\n"
 "              </p>\n"
@@ -4083,7 +4083,7 @@ msgid ""
 "                You can reorder bank accounts from the list view.\n"
 "              </p>\n"
 "              <p>\n"
-"                If you use the accounting application of Odoo, journals and accounts will be created automatically based on these data.\n"
+"                If you use the accounting application of TuniERP, journals and accounts will be created automatically based on these data.\n"
 "              </p>  \n"
 "            "
 msgstr ""
@@ -5617,9 +5617,9 @@ msgid "Chat With Your Website Visitors"
 msgstr "Klepet z obiskovalci spletne strani"
 
 #. module: base
-#: model:ir.module.module,summary:base.module_im_odoo_support
-msgid "Chat with the Odoo collaborators"
-msgstr "Klepet z Odoo sodelavci"
+#: model:ir.module.module,summary:base.module_im_tunierp_support
+msgid "Chat with the TuniERP collaborators"
+msgstr "Klepet z TuniERP sodelavci"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_check_writing
@@ -6329,9 +6329,9 @@ msgstr "Ustvarjanje novega zapisa v osnovnem modelu"
 #. module: base
 #: model:ir.actions.act_window,help:base.action_res_company_form
 msgid ""
-"Create and manage the companies that will be managed by Odoo from here. "
+"Create and manage the companies that will be managed by TuniERP from here. "
 "Shops or subsidiaries can be created and maintained from here."
-msgstr "Ustvarjanje in upravljanje družb, ki bodo upravljane v Odoo. Tu se lahko ustvarja in vzdržuje trgovine in filiale."
+msgstr "Ustvarjanje in upravljanje družb, ki bodo upravljane v TuniERP. Tu se lahko ustvarja in vzdržuje trgovine in filiale."
 
 #. module: base
 #: model:ir.actions.act_window,help:base.action_res_users
@@ -7795,9 +7795,9 @@ msgstr "Eno izmed možnih razdelkov dejanj: \n  - client_action_multi\n  - clien
 #. module: base
 #: view:base.language.export:base.wizard_lang_export
 msgid ""
-"For more details about translating Odoo in your language, please refer to "
+"For more details about translating TuniERP in your language, please refer to "
 "the"
-msgstr "Za več podrobnosti o prevajanju Odoo v svoj jezik, se sklicujte na"
+msgstr "Za več podrobnosti o prevajanju TuniERP v svoj jezik, se sklicujte na"
 
 #. module: base
 #: help:ir.model.fields,relation_field:0
@@ -8701,7 +8701,7 @@ msgstr ""
 #: help:ir.ui.menu,groups_id:0
 msgid ""
 "If you have groups, the visibility of this menu will be based on these "
-"groups. If this field is empty, Odoo will compute visibility based on the "
+"groups. If this field is empty, TuniERP will compute visibility based on the "
 "related object's read access."
 msgstr ""
 
@@ -9593,7 +9593,7 @@ msgstr "Omogoča namestitve raznih zanimivih, a ne bistvenih orodij, kot raziska
 #. module: base
 #: model:ir.module.category,description:base.module_category_report_designer
 msgid ""
-"Lets you install various tools to simplify and enhance Odoo's report "
+"Lets you install various tools to simplify and enhance TuniERP's report "
 "creation."
 msgstr "Omogoča namestitev različnih orodij za izboljšanje ustvarjanja poročil."
 
@@ -9879,12 +9879,12 @@ msgstr "Upravljanje spletne strani in qWeb prikaza"
 #. module: base
 #: model:ir.actions.act_window,help:base.grant_menu_access
 msgid ""
-"Manage and customize the items available and displayed in your Odoo system "
+"Manage and customize the items available and displayed in your TuniERP system "
 "menu. You can delete an item by clicking on the box at the beginning of each"
 " line and then delete it through the button that appeared. Items can be "
 "assigned to specific groups in order to make them accessible to some users "
 "within the system."
-msgstr "Upravljanje in prilagajanje postavk razpoložljivih in prikazanih v Odoo sistemskem meniju. Postavko lahko izbrišete s klikom na okvirček na začetku vsake vrstice in uporabo gumba, ki se zatem pojavi. Postavke se lahko dodeli specifičnim skupinam, da tako postanejo dosegljive nekaterim sistemskim uporabnikom."
+msgstr "Upravljanje in prilagajanje postavk razpoložljivih in prikazanih v TuniERP sistemskem meniju. Postavko lahko izbrišete s klikom na okvirček na začetku vsake vrstice in uporabo gumba, ki se zatem pojavi. Postavke se lahko dodeli specifičnim skupinam, da tako postanejo dosegljive nekaterim sistemskim uporabnikom."
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_customer_relationship_management
@@ -10820,20 +10820,20 @@ msgstr "Occitan (FR, post 1500) / Occitan"
 #. openerp-web
 #: code:addons/base/static/src/js/apps.js:179
 #, python-format
-msgid "Odoo Apps will be available soon"
-msgstr "Odoo aplikacije bodo kmalu na voljo"
+msgid "TuniERP Apps will be available soon"
+msgstr "TuniERP aplikacije bodo kmalu na voljo"
 
 #. module: base
-#: model:ir.module.module,shortdesc:base.module_im_odoo_support
-msgid "Odoo Live Support"
-msgstr "Odoo podpora v živo"
+#: model:ir.module.module,shortdesc:base.module_im_tunierp_support
+msgid "TuniERP Live Support"
+msgstr "TuniERP podpora v živo"
 
 #. module: base
 #: help:ir.sequence,padding:0
 msgid ""
-"Odoo will automatically adds some '0' on the left of the 'Next Number' to "
+"TuniERP will automatically adds some '0' on the left of the 'Next Number' to "
 "get the required padding size."
-msgstr "Odoo samodejno doda nekaj ničel na levo stran 'Naslednje številke', da doseže želeno globino zapisa."
+msgstr "TuniERP samodejno doda nekaj ničel na levo stran 'Naslednje številke', da doseže želeno globino zapisa."
 
 #. module: base
 #: model:res.partner.category,name:base.res_partner_category_12
@@ -11582,8 +11582,8 @@ msgstr "Portal - zaloga"
 #: model:res.groups,comment:base.group_portal
 msgid ""
 "Portal members have specific access rights (such as record rules and restricted menus).\n"
-"                They usually do not belong to the usual Odoo groups."
-msgstr "Člani portala imajo specifične pravice (kot pravila zapisovanja in omejeni meniji).\n                Navadno ne pripadajo običajnim Odoo skupinam."
+"                They usually do not belong to the usual TuniERP groups."
+msgstr "Člani portala imajo specifične pravice (kot pravila zapisovanja in omejeni meniji).\n                Navadno ne pripadajo običajnim TuniERP skupinam."
 
 #. module: base
 #: model:res.country,name:base.pt
@@ -11781,8 +11781,8 @@ msgstr "Javni projekti"
 #: model:res.groups,comment:base.group_public
 msgid ""
 "Public users have specific access rights (such as record rules and restricted menus).\n"
-"                They usually do not belong to the usual Odoo groups."
-msgstr "Javni uporabniki imajo specifične pravice dostopa (kot pravila zapisovanja in omejeni zapisi).\n                Navadno ne pripadajo običajnim Odoo skupinam."
+"                They usually do not belong to the usual TuniERP groups."
+msgstr "Javni uporabniki imajo specifične pravice dostopa (kot pravila zapisovanja in omejeni zapisi).\n                Navadno ne pripadajo običajnim TuniERP skupinam."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_membership
@@ -13489,8 +13489,8 @@ msgstr "Arhiv TGZ"
 #: view:base.language.export:base.wizard_lang_export
 msgid ""
 "TGZ format: this is a compressed archive containing a PO file, directly suitable\n"
-"                                for uploading to Odoo's translation platform,"
-msgstr "TGZ format: stisnjen arhiv, ki vsebuje PO datoteko, neposredno primeren\n                                za nalaganje v Odoo prevajalsko platformo,"
+"                                for uploading to TuniERP's translation platform,"
+msgstr "TGZ format: stisnjen arhiv, ki vsebuje PO datoteko, neposredno primeren\n                                za nalaganje v TuniERP prevajalsko platformo,"
 
 #. module: base
 #: code:addons/base/res/res_company.py:167 field:res.partner,vat:0
@@ -13762,9 +13762,9 @@ msgstr "Družba, za katero trenutno dela ta uporabnik."
 #: model:ir.actions.act_window,help:base.act_ir_actions_todo_form
 msgid ""
 "The configuration wizards are used to help you configure a new instance of "
-"Odoo. They are launched during the installation of new modules, but you can "
+"TuniERP. They are launched during the installation of new modules, but you can "
 "choose to restart some wizards manually from this menu."
-msgstr "Nastavitveni čarovniki se uporabljajo v pomoč pri nastavitvah nove instance Odoo. Zaženejo se med namestitvijo novih modulov, a iz tega menija lahko izberete ponovni zagon nekaterih čarovnikov."
+msgstr "Nastavitveni čarovniki se uporabljajo v pomoč pri nastavitvah nove instance TuniERP. Zaženejo se med namestitvijo novih modulov, a iz tega menija lahko izberete ponovni zagon nekaterih čarovnikov."
 
 #. module: base
 #: sql_constraint:res.currency:0
@@ -14896,7 +14896,7 @@ msgstr "Pogledi"
 #. module: base
 #: model:ir.actions.act_window,help:base.action_ui_view
 msgid ""
-"Views allows you to personalize each view of Odoo. You can add new fields, "
+"Views allows you to personalize each view of TuniERP. You can add new fields, "
 "move fields, rename them or delete the ones that you do not need."
 msgstr ""
 
@@ -15132,7 +15132,7 @@ msgid ""
 "arrow, but rather add new nodes or arrows. If you absolutly need to modify a"
 " node or arrow, you can only change fields that are empty or set to the "
 "default value. If you don't do that, your customization will be overwrited "
-"at the next update or upgrade to a future version of Odoo."
+"at the next update or upgrade to a future version of TuniERP."
 msgstr ""
 
 #. module: base
@@ -15353,7 +15353,7 @@ msgstr ""
 #, python-format
 msgid ""
 "You can not remove the admin user as it is used internally for resources "
-"created by Odoo (updates, module installation, ...)"
+"created by TuniERP (updates, module installation, ...)"
 msgstr ""
 
 #. module: base
@@ -15587,8 +15587,8 @@ msgstr "npr. en_US"
 #. module: base
 #: view:res.company:base.view_company_form
 #: view:res.partner:base.view_partner_form
-msgid "e.g. www.odoo.com"
-msgstr "npr. www.odoo.com"
+msgid "e.g. www.tunierp.com"
+msgstr "npr. www.tunierp.com"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_sale

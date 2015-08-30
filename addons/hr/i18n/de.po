@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * hr
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 07:13+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: German (http://www.transifex.com/p/odoo-8/language/de/)\n"
+"Language-Team: German (http://www.transifex.com/p/tunierp-8/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -30,12 +30,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a new employee.\n"
 "              </p><p>\n"
-"                With just a quick glance on the Odoo employee screen, you\n"
+"                With just a quick glance on the TuniERP employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Klicken Sie um einen neuen Mitarbeiter anzulegen.\n              </p><p>\n                Mit einem kurzen Blick auf die Odoo-Mitarbeiterübersicht, finden Sie für jeden Mitarbeiter die wesentlichen\n                Informationen wie Anschrift, Stelle oder zeitliche Verfügbarkeit.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Klicken Sie um einen neuen Mitarbeiter anzulegen.\n              </p><p>\n                Mit einem kurzen Blick auf die TuniERP-Mitarbeiterübersicht, finden Sie für jeden Mitarbeiter die wesentlichen\n                Informationen wie Anschrift, Stelle oder zeitliche Verfügbarkeit.\n              </p>\n            "
 
 #. module: hr
 #: model:ir.actions.act_window,help:hr.open_module_tree_department
@@ -43,12 +43,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a department.\n"
 "              </p><p>\n"
-"                Odoo's department structure is used to manage all documents\n"
+"                TuniERP's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                leaves and holidays, recruitments, etc.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Klicken Sie zur Erstellung einer neuen Abteilung.\n              </p><p>\n                Die Struktur der Abteilungen wird in Odoo zur Verwaltung aller\n                mitarbeiterbezogenen Daten mit erforderlichem Abteilungsbezug benötigt:\n                Spesen, Stundenzettel, Abwesenheit und Urlaub, Einstellung von \n                Mitarbeitern.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Klicken Sie zur Erstellung einer neuen Abteilung.\n              </p><p>\n                Die Struktur der Abteilungen wird in TuniERP zur Verwaltung aller\n                mitarbeiterbezogenen Daten mit erforderlichem Abteilungsbezug benötigt:\n                Spesen, Stundenzettel, Abwesenheit und Urlaub, Einstellung von \n                Mitarbeitern.\n              </p>\n            "
 
 #. module: hr
 #: model:ir.actions.act_window,help:hr.view_department_form_installer
@@ -932,8 +932,8 @@ msgstr "Benutzer"
 #. module: hr
 #: code:addons/hr/hr.py:273
 #, python-format
-msgid "Welcome to %s! Please help him/her take the first steps with Odoo!"
-msgstr "Willkommen %s! Bitte helfen sie ihm/ihr bei den ersten Schritten mit Odoo!"
+msgid "Welcome to %s! Please help him/her take the first steps with TuniERP!"
+msgstr "Willkommen %s! Bitte helfen sie ihm/ihr bei den ersten Schritten mit TuniERP!"
 
 #. module: hr
 #: selection:hr.employee,marital:0

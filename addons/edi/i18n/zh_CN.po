@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * edi
 # 
@@ -7,12 +7,12 @@
 # jeffery chen fan <jeffery9@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-07-07 12:49+0000\n"
 "Last-Translator: jeffery chen fan <jeffery9@gmail.com>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/p/odoo-8/language/zh_CN/)\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/p/tunierp-8/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -88,7 +88,7 @@ msgstr "这个单据已经被成功导入！"
 #: code:addons/edi/models/edi.py:130
 #, python-format
 msgid ""
-"The document you are trying to import requires the Odoo `%s` application. "
+"The document you are trying to import requires the TuniERP `%s` application. "
 "You can install it by connecting as the administrator and opening the "
 "configuration assistant."
-msgstr "您要导入的文档需要Odoo `%s` 模块。您可以用管理员登录安装并打开配置向导。"
+msgstr "您要导入的文档需要TuniERP `%s` 模块。您可以用管理员登录安装并打开配置向导。"

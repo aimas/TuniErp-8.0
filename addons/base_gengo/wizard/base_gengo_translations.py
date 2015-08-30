@@ -120,7 +120,7 @@ class base_gengo_translations(osv.osv_memory):
         """
         This method will be called by cron services to get translations from
         Gengo. It will read translated terms and comments from Gengo and will
-        update respective ir.translation in Odoo.
+        update respective ir.translation in TuniERP.
         """
         translation_pool = self.pool.get('ir.translation')
         flag, gengo = self.gengo_authentication(cr, uid, context=context)
@@ -246,7 +246,7 @@ class base_gengo_translations(osv.osv_memory):
 
         A special key 'gengo_language' can be passed in the context in order to
         request only translations of that language only. Its value is the language
-        ID in Odoo.
+        ID in TuniERP.
         """
         if context is None:
             context = {}

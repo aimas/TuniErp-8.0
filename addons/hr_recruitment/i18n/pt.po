@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * hr_recruitment
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 07:20+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Portuguese (http://www.transifex.com/p/odoo-8/language/pt/)\n"
+"Language-Team: Portuguese (http://www.transifex.com/p/tunierp-8/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -109,7 +109,7 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n            Clique para adiciona
 #: model:ir.actions.act_window,help:hr_recruitment.action_hr_job_applications
 msgid ""
 "<p>\n"
-"                Odoo helps you track applicants in the recruitment\n"
+"                TuniERP helps you track applicants in the recruitment\n"
 "                process and follow up all operations: meetings, interviews, etc.\n"
 "              </p><p>\n"
 "                Applicants and their attached CV are created automatically when an email is sent.\n"
@@ -117,13 +117,13 @@ msgid ""
 "                so that you can easily search through their content.\n"
 "              </p>\n"
 "         "
-msgstr "<p>\n                O Odoo ajuda-o a acompanhar as candidaturas no processo de \n                recrutamento e seguir todas as operações: reuniões, entrevistas, etc.\n              </p><p>\n                As candidaturas e os CV's em anexo são criados automaticamente quando o email é enviado.\n                Se instalar os módulos de gestão de documentos, todos os CV's são colocados á disposição,\n                para que os consiga encontrar facilmente.\n              </p>\n         "
+msgstr "<p>\n                O TuniERP ajuda-o a acompanhar as candidaturas no processo de \n                recrutamento e seguir todas as operações: reuniões, entrevistas, etc.\n              </p><p>\n                As candidaturas e os CV's em anexo são criados automaticamente quando o email é enviado.\n                Se instalar os módulos de gestão de documentos, todos os CV's são colocados á disposição,\n                para que os consiga encontrar facilmente.\n              </p>\n         "
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.crm_case_categ0_act_job
 msgid ""
 "<p>\n"
-"                Odoo helps you track applicants in the recruitment\n"
+"                TuniERP helps you track applicants in the recruitment\n"
 "                process and follow up all operations: meetings, interviews, etc.\n"
 "              </p><p>\n"
 "                Applicants and their attached CV are created automatically when an email is sent.\n"
@@ -131,7 +131,7 @@ msgid ""
 "                so that you can easily search through their content.\n"
 "              </p>\n"
 "            "
-msgstr "<p>\n                O Odoo ajuda-o a acompanhar as candidaturas no processo de \n                recrutamento e seguir todas as operações: reuniões, entrevistas, etc.\n              </p><p>\n                As candidaturas e os CV's em anexo são criados automaticamente quando o email é enviado.\n                Se instalar os módulos de gestão de documentos, todos os CV's são colocados á disposição,\n                para que os consiga encontrar facilmente.\n              </p>\n            "
+msgstr "<p>\n                O TuniERP ajuda-o a acompanhar as candidaturas no processo de \n                recrutamento e seguir todas as operações: reuniões, entrevistas, etc.\n              </p><p>\n                As candidaturas e os CV's em anexo são criados automaticamente quando o email é enviado.\n                Se instalar os módulos de gestão de documentos, todos os CV's são colocados á disposição,\n                para que os consiga encontrar facilmente.\n              </p>\n            "
 
 #. module: hr_recruitment
 #: model:survey.page,description:hr_recruitment.recruitment_1

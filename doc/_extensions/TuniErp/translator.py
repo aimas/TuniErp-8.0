@@ -626,11 +626,11 @@ class BootstrapTranslator(nodes.NodeVisitor, object):
                 baseuri = self.builder.get_target_uri(node['parent'])
 
                 if subref in env.metadata:
-                    cover = env.metadata[subref].get('banner', conf.odoo_cover_default)
-                elif subref in conf.odoo_cover_external:
-                    cover = conf.odoo_cover_external[subref]
+                    cover = env.metadata[subref].get('banner', conf.tunierp_cover_default)
+                elif subref in conf.tunierp_cover_external:
+                    cover = conf.tunierp_cover_external[subref]
                 else:
-                    cover = conf.odoo_cover_default_external
+                    cover = conf.tunierp_cover_default_external
 
                 if cover:
                     banner = '_static/' + cover

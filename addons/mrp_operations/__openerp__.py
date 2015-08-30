@@ -53,7 +53,7 @@ The field 'Working Hours' is the delay(stop date - start date).
 So, that we can compare the theoretic delay and real delay. 
     """,
     'author': 'OpenERP SA',
-    'website': 'https://www.odoo.com/page/manufacturing',
+    'website': 'https://www.tunierp.com/page/manufacturing',
     'depends': ['mrp'],
     'data': [
         'security/ir.model.access.csv',

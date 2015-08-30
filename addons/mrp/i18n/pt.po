@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * mrp
 # 
@@ -7,12 +7,12 @@
 # Ricardo Martins <ricardo.nbs.martins@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 07:40+0000\n"
 "Last-Translator: Ricardo Martins <ricardo.nbs.martins@gmail.com>\n"
-"Language-Team: Portuguese (http://www.transifex.com/p/odoo-8/language/pt/)\n"
+"Language-Team: Portuguese (http://www.transifex.com/p/tunierp-8/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -91,11 +91,11 @@ msgid ""
 "                materials used to make a finished product; through a manufacturing\n"
 "                order or a pack of products.\n"
 "              </p><p>\n"
-"                Odoo uses these BoMs to automatically propose manufacturing\n"
+"                TuniERP uses these BoMs to automatically propose manufacturing\n"
 "                orders according to procurement needs.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n               Clique para criar uma lista de materiais. \n              </p><p>\n               Listas de materiais permitem que você defina a lista de  matérias-primas \n             necessárias utilizados ​​para fazer um produto acabado; através de \n              uma ordem de fabrico ou de um pacote de produtos.\n              </p><p>\n               Odoo usa esses BoMs para propor automaticamente as ordens \n               de produção de acordo com as necessidades de aquisição.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n               Clique para criar uma lista de materiais. \n              </p><p>\n               Listas de materiais permitem que você defina a lista de  matérias-primas \n             necessárias utilizados ​​para fazer um produto acabado; através de \n              uma ordem de fabrico ou de um pacote de produtos.\n              </p><p>\n               TuniERP usa esses BoMs para propor automaticamente as ordens \n               de produção de acordo com as necessidades de aquisição.\n              </p>\n            "
 
 #. module: mrp
 #: model:ir.actions.act_window,help:mrp.mrp_property_group_action
@@ -104,17 +104,17 @@ msgid ""
 "                Click to create a group of properties.\n"
 "              </p><p>\n"
 "                Define specific property groups that can be assigned to your\n"
-"                bill of materials and sales orders. Properties allows Odoo\n"
+"                bill of materials and sales orders. Properties allows TuniERP\n"
 "                to automatically select the right bill of materials according\n"
 "                to properties selected in the sales order by salesperson.\n"
 "              </p><p>\n"
 "                For instance, in the property group \"Warranty\", you an have\n"
 "                two properties: 1 year warranty, 3 years warranty. Depending\n"
-"                on the propoerties selected in the sales order, Odoo will\n"
+"                on the propoerties selected in the sales order, TuniERP will\n"
 "                schedule a production using the matching bill of materials.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Click to create a group of properties.\n              </p><p>\n               Definir grupos de propriedades específicas que podem ser atribuídos\n               à sua lista de materiais e ordens de vendas. Propriedades permite Odoo\n                para selecionar automaticamente a lista correta do material de acordo \n                com as propriedades selecionadas na ordem de vendas por vendedor.\n              </p><p>\n               Por exemplo, no grupo de propriedades \"Garantia\", voçê tem\n                duas propriedades: um ano de garantia, 3 anos de garantia. Dependendo\n                das propriedades selecionadas na ordem do cliente, Odoo irá\n               programar uma produção utilizando a lista correspondente de materiais.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Click to create a group of properties.\n              </p><p>\n               Definir grupos de propriedades específicas que podem ser atribuídos\n               à sua lista de materiais e ordens de vendas. Propriedades permite TuniERP\n                para selecionar automaticamente a lista correta do material de acordo \n                com as propriedades selecionadas na ordem de vendas por vendedor.\n              </p><p>\n               Por exemplo, no grupo de propriedades \"Garantia\", voçê tem\n                duas propriedades: um ano de garantia, 3 anos de garantia. Dependendo\n                das propriedades selecionadas na ordem do cliente, TuniERP irá\n               programar uma produção utilizando a lista correspondente de materiais.\n              </p>\n            "
 
 #. module: mrp
 #: model:ir.actions.act_window,help:mrp.mrp_production_action
@@ -138,16 +138,16 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a new property.\n"
 "              </p><p>\n"
-"                The Properties in Odoo are used to select the right bill of\n"
+"                The Properties in TuniERP are used to select the right bill of\n"
 "                materials for manufacturing a product when you have different\n"
 "                ways of building the same product.  You can assign several\n"
 "                properties to each bill of materials.  When a salesperson\n"
 "                creates a sales order, they can relate it to several properties\n"
-"                and Odoo will automatically select the BoM to use according\n"
+"                and TuniERP will automatically select the BoM to use according\n"
 "                the needs.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Clique para criar uma nova propriedade.\n              </p><p>\n                As propriedades Odoo são usados ​​para selecionar a lista \n                de material para fabrico de um produto  quando você tem diferentes\n                formas de produzir o mesmo produto.  Você pode atribuir várias\n                propriedades para cada lista de materiais. Quando um vendedor \n               cria uma ordem de venda, eles podem relacioná-la com várias propriedades\n               e Odoo irá selecionar automaticamente a lista de materiais para utilizar\n               de acordo com as necessidades.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Clique para criar uma nova propriedade.\n              </p><p>\n                As propriedades TuniERP são usados ​​para selecionar a lista \n                de material para fabrico de um produto  quando você tem diferentes\n                formas de produzir o mesmo produto.  Você pode atribuir várias\n                propriedades para cada lista de materiais. Quando um vendedor \n               cria uma ordem de venda, eles podem relacioná-la com várias propriedades\n               e TuniERP irá selecionar automaticamente a lista de materiais para utilizar\n               de acordo com as necessidades.\n              </p>\n            "
 
 #. module: mrp
 #: model:ir.actions.act_window,help:mrp.mrp_routing_action

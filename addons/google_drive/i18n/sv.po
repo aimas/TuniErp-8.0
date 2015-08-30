@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * google_drive
 # 
@@ -7,12 +7,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-07-17 07:11+0000\n"
 "Last-Translator: Christelle Wehbe <libanon_cristelle@hotmail.com>\n"
-"Language-Team: Swedish (http://www.transifex.com/p/odoo-8/language/sv/)\n"
+"Language-Team: Swedish (http://www.transifex.com/p/tunierp-8/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -22,7 +22,7 @@ msgstr ""
 #. module: google_drive
 #: view:google.drive.config:google_drive.view_google_drive_config_form
 msgid ""
-"- Go to the Odoo document you want to filter. For instance, go to "
+"- Go to the TuniERP document you want to filter. For instance, go to "
 "Opportunities and search on Sales Department."
 msgstr ""
 
@@ -63,7 +63,7 @@ msgid ""
 "                    Click to add a new template.\n"
 "                </p>\n"
 "                <p>\n"
-"                    Link your own google drive templates to any record of Odoo. If you have really specific documents you want your collaborator fill in, e.g. Use a spreadsheet to control the quality of your product or review the delivery checklist for each order in a foreign country, ... Its very easy to manage them, link them to Odoo and use them to collaborate with your employees.\n"
+"                    Link your own google drive templates to any record of TuniERP. If you have really specific documents you want your collaborator fill in, e.g. Use a spreadsheet to control the quality of your product or review the delivery checklist for each order in a foreign country, ... Its very easy to manage them, link them to TuniERP and use them to collaborate with your employees.\n"
 "                </p>\n"
 "            "
 msgstr ""
@@ -264,7 +264,7 @@ msgstr ""
 msgid ""
 "The name of the attached document can use fixed or variable data. To distinguish between documents in\n"
 "                                Google Drive, use fixed words and fields. For instance, in the example above, if you wrote Agrolait_%(name)s_Sales\n"
-"                                in the Google Drive name field, the document in your Google Drive and in Odoo attachment will be named\n"
+"                                in the Google Drive name field, the document in your Google Drive and in TuniERP attachment will be named\n"
 "                                'Agrolait_SO0001_Sales'."
 msgstr ""
 

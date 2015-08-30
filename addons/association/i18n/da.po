@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: support@openerp.com\n"
 "POT-Creation-Date: 2011-01-11 11:14:36+0000\n"
 "PO-Revision-Date: 2015-05-27 14:05+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Danish (http://www.transifex.com/projects/p/odoo-8/language/da/)\n"
+"Language-Team: Danish (http://www.transifex.com/projects/p/tunierp-8/language/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -77,7 +77,7 @@ msgstr "Sporer og styrer medarbejder udgifter og kan automatisk gen-fakturere ku
 msgid ""
 "GTD is a methodology to efficiently organise yourself and your tasks. This "
 "module fully integrates GTD principle with OpenERP's project management."
-msgstr "GTD er en metode til effektiv organisering af dine opgaver. Dette modul integrerer GDT principperne med odoo's projektstyring"
+msgstr "GTD er en metode til effektiv organisering af dine opgaver. Dette modul integrerer GDT principperne med tunierp's projektstyring"
 
 #. module: association
 #: view:profile.association.config.install_modules_wizard:0

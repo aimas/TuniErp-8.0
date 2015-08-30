@@ -1,17 +1,17 @@
-:banner: banners/deploying_odoo.jpg
+:banner: banners/deploying_tunierp.jpg
 
 ==============
-Deploying Odoo
+Deploying TuniERP
 ==============
 
-This document describes basic steps to set up Odoo in production. It follows
+This document describes basic steps to set up TuniERP in production. It follows
 :ref:`installation <setup/install>`, but should not be used for development
 systems.
 
 dbfilter
 ========
 
-Odoo is a multi-tenant system: a single Odoo system may run and serve a number
+TuniERP is a multi-tenant system: a single TuniERP system may run and serve a number
 of database instances. It is also highly customizable, with customizations
 (starting from the modules being loaded) depending on the "current database".
 
@@ -20,17 +20,17 @@ company user: the database can be selected when logging in, and customizations
 loaded afterwards.
 
 However it is an issue for non-logged users (portal, website) which aren't
-bound to a database: Odoo need to know which database should be used for the
+bound to a database: TuniERP need to know which database should be used for the
 operations or to get the data. If multi-tenancy is not used that is not an
 issue, there's only one database to use, but if there are multiple databases
-accessible Odoo needs a rule to know which one it should use.
+accessible TuniERP needs a rule to know which one it should use.
 
-That is one of the purposes of :option:`--db-filter <odoo.py --db-filter>`:
-it specifies the default database for the Odoo system. The value is a
+That is one of the purposes of :option:`--db-filter <tunierp.py --db-filter>`:
+it specifies the default database for the TuniERP system. The value is a
 `regular expression`_, possibly including the dynamically injected hostname
-or subdomain through which the Odoo system is accessed.
+or subdomain through which the TuniERP system is accessed.
 
-If an Odoo hosts multiple databases in production, especially if ``website``
+If an TuniERP hosts multiple databases in production, especially if ``website``
 is used, it **must** use a dbfilter or a number of features will not work
 correctly or not use at all.
 
@@ -41,30 +41,30 @@ By default, PostgreSQL only allows connection over UNIX sockets and loopback
 connections (from "localhost", the same machine the PostgreSQL server is
 installed on).
 
-UNIX socket is fine if you want Odoo and PostgreSQL to execute on the same
-machine, and is the default when no host is provided, but if you want Odoo and
+UNIX socket is fine if you want TuniERP and PostgreSQL to execute on the same
+machine, and is the default when no host is provided, but if you want TuniERP and
 PostgreSQL to execute on different machines [#different-machines]_ it will
 need to `listen to network interfaces`_ [#remote-socket]_, either:
 
 * only accept loopback connections and `use an SSH tunnel`_ between the
-  machine on which Odoo runs and the one on which PostgreSQL runs, then
-  configure Odoo to connect to its end of the tunnel
-* accept connections to the machine on which Odoo is installed, possibly
+  machine on which TuniERP runs and the one on which PostgreSQL runs, then
+  configure TuniERP to connect to its end of the tunnel
+* accept connections to the machine on which TuniERP is installed, possibly
   over ssl (see `PostgreSQL connection settings`_ for details), then configure
-  Odoo to connect over the network
+  TuniERP to connect over the network
 
-.. _setup/deploy/odoo:
+.. _setup/deploy/tunierp:
 
-Configuring Odoo
+Configuring TuniERP
 ----------------
 
-Out of the box, Odoo connects to a local postgres over UNIX socket via port
+Out of the box, TuniERP connects to a local postgres over UNIX socket via port
 5432. This can be overridden using :ref:`the database options
 <reference/cmdline/server/database>` when your Postgres deployment is not
 local and/or does not use the installation defaults.
 
 The :ref:`packaged installers <setup/install/packaged>` will automatically
-create a new user (``odoo``) and set it as the database user.
+create a new user (``tunierp``) and set it as the database user.
 
 * The database management screens are protected by the ``admin_passwd``
   setting. This setting can only be set using configuration files, and is
@@ -84,13 +84,13 @@ create a new user (``odoo``) and set it as the database user.
 HTTPS
 =====
 
-Whether it's accessed via website/web client or the webservice, Odoo transmits
+Whether it's accessed via website/web client or the webservice, TuniERP transmits
 authentication information in cleatext. This means a secure deployment of
-Odoo must use HTTPS\ [#switching]_. SSL termination can be implemented via
+TuniERP must use HTTPS\ [#switching]_. SSL termination can be implemented via
 just about any SSL termination proxy, but requires the following setup:
 
-* enable Odoo's :option:`proxy mode <odoo.py --proxy-mode>`. This should only
-  be enabled when Odoo is behind a reverse proxy
+* enable TuniERP's :option:`proxy mode <tunierp.py --proxy-mode>`. This should only
+  be enabled when TuniERP is behind a reverse proxy
 * set up the SSL termination proxy (`Nginx termination example`_)
 * set up the proxying itself (`Nginx proxying example`_)
 * your SSL termination proxy should also automatically redirect non-secure
@@ -99,7 +99,7 @@ just about any SSL termination proxy, but requires the following setup:
 Builtin server
 ==============
 
-Odoo includes built-in HTTP servers, using either multithreading or
+TuniERP includes built-in HTTP servers, using either multithreading or
 multiprocessing.
 
 For production use, it is recommended to use the multiprocessing server as it
@@ -107,7 +107,7 @@ increases stability, makes somewhat better use of computing resources and can
 be better monitored and resource-restricted.
 
 * Multiprocessing is enabled by configuring :option:`a non-zero number of
-  worker processes <odoo.py --workers>`, the number of workers should be based
+  worker processes <tunierp.py --workers>`, the number of workers should be based
   on the number of cores in the machine (possibly with some room for cron
   workers depending on how much cron work is predicted)
 * Worker limits can be configured based on the hardware configuration to avoid
@@ -119,37 +119,37 @@ LiveChat
 --------
 
 In multiprocessing, a dedicated LiveChat worker is automatically started and
-listening on :option:`the longpolling port <odoo.py --longpolling-port>` but
+listening on :option:`the longpolling port <tunierp.py --longpolling-port>` but
 the client will not connect to it.
 
 Instead you must have a proxy redirecting requests whose URL starts with
 ``/longpolling/`` to the longpolling port. Other request should be proxied to
-the :option:`normal HTTP port <odoo.py --xmlrpc-port>`
+the :option:`normal HTTP port <tunierp.py --xmlrpc-port>`
 
-Odoo as a WSGI Application
+TuniERP as a WSGI Application
 ==========================
 
-It is also possible to mount Odoo as a standard WSGI_ application. Odoo
+It is also possible to mount TuniERP as a standard WSGI_ application. TuniERP
 provides the base for a WSGI launcher script as ``openerp-wsgi.py``. That
 script should be customized (possibly after copying it) to correctly set the
 configuration directly in :mod:`openerp.tools.config` rather than through the
 command-line or a configuration file.
 
 However the WSGI server will only expose the main HTTP endpoint for the web
-client, website and webservice API. Because Odoo does not control the creation
+client, website and webservice API. Because TuniERP does not control the creation
 of workers anymore it can not setup cron or livechat workers
 
 Cron Workers
 ------------
 
-To run cron jobs for an Odoo deployment as a WSGI application requires
+To run cron jobs for an TuniERP deployment as a WSGI application requires
 
-* a classical Odoo (run via ``odoo.py``)
+* a classical TuniERP (run via ``tunierp.py``)
 * connected to the database in which cron jobs have to be run (via
-  :option:`odoo.py -d`)
+  :option:`tunierp.py -d`)
 * which should not be exposed to the network. To ensure cron runners are not
   network-accessible, it is possible to disable the built-in HTTP server
-  entirely with :option:`odoo.py --no-xmlrpc` or setting ``xmlrpc = False``
+  entirely with :option:`tunierp.py --no-xmlrpc` or setting ``xmlrpc = False``
   in the configuration file
 
 LiveChat
@@ -167,22 +167,22 @@ notifications.
 
 The solutions to support livechat/motifications in a WSGI application are:
 
-* deploy a threaded version of Odoo (instread of a process-based preforking
+* deploy a threaded version of TuniERP (instread of a process-based preforking
   one) and redirect only requests to URLs starting with ``/longpolling/`` to
-  that Odoo, this is the simplest and the longpolling URL can double up as
+  that TuniERP, this is the simplest and the longpolling URL can double up as
   the cron instance.
-* deploy an evented Odoo via ``openerp-gevent`` and proxy requests starting
+* deploy an evented TuniERP via ``openerp-gevent`` and proxy requests starting
   with ``/longpolling/`` to
-  :option:`the longpolling port <odoo.py --longpolling-port>`.
+  :option:`the longpolling port <tunierp.py --longpolling-port>`.
 
 Serving Static Files
 ====================
 
-For development convenience, Odoo directly serves all static files in its
+For development convenience, TuniERP directly serves all static files in its
 modules. This may not be ideal when it comes to performances, and static
 files should generally be served by a static HTTP server.
 
-Odoo static files live in each module's ``static/`` folder, so static files
+TuniERP static files live in each module's ``static/`` folder, so static files
 can be served by intercepting all requests to :samp:`/{MODULE}/static/{FILE}`,
 and looking up the right module (and file) in the various addons paths.
 
@@ -196,7 +196,7 @@ Security
 "Super-admin" password
 ----------------------
 
-:ref:`setup/deploy/odoo` mentioned ``admin_passwd`` in passing.
+:ref:`setup/deploy/tunierp` mentioned ``admin_passwd`` in passing.
 
 This setting is used on all database management screens (to create, delete,
 dump or restore databases).
@@ -219,7 +219,7 @@ It should be stored securely, and should be generated randomly e.g.
 which will generate a 32 characters pseudorandom printable string.
 
 .. [#different-machines]
-    to have multiple Odoo installations use the same PostgreSQL database,
+    to have multiple TuniERP installations use the same PostgreSQL database,
     or to provide more computing resources to both software.
 .. [#remote-socket]
     technically a tool like socat_ can be used to proxy UNIX sockets across

@@ -1,8 +1,8 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Contact: Odoo <info@odoo.com>
+Upstream-Contact: TuniERP <info@tunierp.com>
 
 Files: *
-Copyright: (C) 2004-2015 Odoo SA. (www.odoo.com)
+Copyright: (C) 2004-2015 TuniERP SA. (www.tunierp.com)
 License: AGPL-3+
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU Affero General Public License as published by

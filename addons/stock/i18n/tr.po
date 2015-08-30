@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * stock
 # 
@@ -8,12 +8,12 @@
 # Murat Kaplan <muratk@projetgrup.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-06-30 16:45+0000\n"
 "Last-Translator: Murat Kaplan <muratk@projetgrup.com>\n"
-"Language-Team: Turkish (http://www.transifex.com/p/odoo-8/language/tr/)\n"
+"Language-Team: Turkish (http://www.transifex.com/p/tunierp-8/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -194,15 +194,15 @@ msgid ""
 "                Click to add a location.\n"
 "              </p><p>\n"
 "                Define your locations to reflect your warehouse structure and\n"
-"                organization. Odoo is able to manage physical locations\n"
+"                organization. TuniERP is able to manage physical locations\n"
 "                (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "                suppliers) and virtual locations which are the counterpart of\n"
 "                the stock operations like the manufacturing orders\n"
 "                consumptions, inventories, etc.\n"
 "              </p><p>  \n"
-"                Every stock operation in Odoo moves the products from one\n"
+"                Every stock operation in TuniERP moves the products from one\n"
 "                location to another one.  For instance, if you receive products\n"
-"                from a supplier, Odoo will move products from the Supplier\n"
+"                from a supplier, TuniERP will move products from the Supplier\n"
 "                location to the Stock location. Each report can be performed on\n"
 "                physical, partner or virtual locations.\n"
 "              </p>\n"
@@ -214,9 +214,9 @@ msgstr ""
 msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a reordering rule.\n"
-"              </p><p>You can define your minimum stock rules, so that Odoo will automatically create draft manufacturing orders or request for quotations according to the stock level. Once the virtual stock of a product (= stock on hand minus all confirmed orders and reservations) is below the minimum quantity, Odoo will generate a procurement request to increase the stock up to the maximum quantity.</p>\n"
+"              </p><p>You can define your minimum stock rules, so that TuniERP will automatically create draft manufacturing orders or request for quotations according to the stock level. Once the virtual stock of a product (= stock on hand minus all confirmed orders and reservations) is below the minimum quantity, TuniERP will generate a procurement request to increase the stock up to the maximum quantity.</p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">                Stok ihtiyaç planlama kuralı oluşturmak için tıklayın.Minimum stok miktarını belirleyin, böylece Odoo stok durumunu takip eder ve otomatik olarak taslak üretim siparişi veya satınalma talebi oluşturur. Öngörülen Miktar (= eldeki stok miktarı - tüm onaylı satış siparişleri ve stok rezervasyonları) minimum miktarın altına düştüğünde ihtiyaç planlama tetiklenir.Stok ihtiyaç planlama kuralında maksimum stok miktarı belirlediyseniz Odoo stok miktarını maksimum stok miktarına tamamlayacak şekilde ihtiyaç hesaplayacaktır.Ürün kartı üzerinde \"İhale Çağrısı\" seçili ise, Odoo stok ihtiyaç hesaplaması sonucunda satınalma teklif talebi yerine otomatik \"Alım İhale Çağrısı\" oluşturur.İhtiyaç planlamasının hesaplanması sürekli ve anlık olarak otomatik yapılabildiği gibi, \"Planlayıcıları Çalıştır\" butonu tıklanarak manuel olarak da tetiklenebilir."
+msgstr "<p class=\"oe_view_nocontent_create\">                Stok ihtiyaç planlama kuralı oluşturmak için tıklayın.Minimum stok miktarını belirleyin, böylece TuniERP stok durumunu takip eder ve otomatik olarak taslak üretim siparişi veya satınalma talebi oluşturur. Öngörülen Miktar (= eldeki stok miktarı - tüm onaylı satış siparişleri ve stok rezervasyonları) minimum miktarın altına düştüğünde ihtiyaç planlama tetiklenir.Stok ihtiyaç planlama kuralında maksimum stok miktarı belirlediyseniz TuniERP stok miktarını maksimum stok miktarına tamamlayacak şekilde ihtiyaç hesaplayacaktır.Ürün kartı üzerinde \"İhale Çağrısı\" seçili ise, TuniERP stok ihtiyaç hesaplaması sonucunda satınalma teklif talebi yerine otomatik \"Alım İhale Çağrısı\" oluşturur.İhtiyaç planlamasının hesaplanması sürekli ve anlık olarak otomatik yapılabildiği gibi, \"Planlayıcıları Çalıştır\" butonu tıklanarak manuel olarak da tetiklenebilir."
 
 #. module: stock
 #: model:ir.actions.act_window,help:stock.action_production_lot_form
@@ -268,7 +268,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a stock operation. \n"
 "              </p><p>\n"
-"                Most operations are prepared automatically by Odoo according\n"
+"                Most operations are prepared automatically by TuniERP according\n"
 "                to your preconfigured logistics rules, but you can also record\n"
 "                manual stock movements.\n"
 "              </p>\n"
@@ -595,7 +595,7 @@ msgstr "Toplu İçerik"
 #, python-format
 msgid ""
 "By changing this quantity here, you accept the new quantity as complete: "
-"Odoo will not automatically generate a back order."
+"TuniERP will not automatically generate a back order."
 msgstr ""
 
 #. module: stock
@@ -5304,14 +5304,14 @@ msgstr ""
 #: help:stock.warehouse.orderpoint,product_min_qty:0
 msgid ""
 "When the virtual stock goes below the Min Quantity specified for this field,"
-" Odoo generates a procurement to bring the forecasted quantity to the Max "
+" TuniERP generates a procurement to bring the forecasted quantity to the Max "
 "Quantity."
 msgstr "Kullanılabilir (Öngörülen) stok miktarı Minimum Miktar'ın altına düştüğünde Minimum Miktar + İhtiyaç Miktarı kadar alım talepleri oluşur."
 
 #. module: stock
 #: help:stock.warehouse.orderpoint,product_max_qty:0
 msgid ""
-"When the virtual stock goes below the Min Quantity, Odoo generates a "
+"When the virtual stock goes below the Min Quantity, TuniERP generates a "
 "procurement to bring the forecasted quantity to the Quantity specified as "
 "Max Quantity."
 msgstr "Kullanılabilir (Öngörülen) stok miktarı Minimum Miktar'ın altına düştüğünde Maksimum Miktara tamamlayacak alım talepleri oluşur."

@@ -19,7 +19,7 @@ class TestWebsiteBlogFlow(TestWebsiteBlogCommon):
         # Create a new blog, subscribe the employee to the blog
         test_blog = self.env['blog.blog'].sudo(self.user_blogmanager).create({
             'name': 'New Blog',
-            'description': 'Presentation of new Odoo features'
+            'description': 'Presentation of new TuniERP features'
         })
         self.assertIn(
             self.user_blogmanager.partner_id, test_blog.message_follower_ids,

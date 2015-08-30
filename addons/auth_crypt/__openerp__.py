@@ -1,8 +1,8 @@
 # -*- encoding: utf-8 -*-
 ##############################################################################
 #
-#    Odoo, Open Source Management Solution
-#    Copyright (C) 2004-2014 OpenERP S.A. (<http://odoo.com>).
+#    TuniERP, Open Source Management Solution
+#    Copyright (C) 2004-2014 OpenERP S.A. (<http://tunierp.com>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -23,7 +23,7 @@
     'version': '2.0',
     'author': ['OpenERP SA', 'FS3'],
     'maintainer': 'OpenERP SA',
-    'website': 'https://www.odoo.com',
+    'website': 'https://www.tunierp.com',
     'category': 'Tools',
     'description': """
 Encrypted passwords

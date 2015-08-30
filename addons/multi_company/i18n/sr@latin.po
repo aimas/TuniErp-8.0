@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * multi_company
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-07-17 07:42+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Serbian (Latin) (http://www.transifex.com/p/odoo-8/language/sr@latin/)\n"
+"Language-Team: Serbian (Latin) (http://www.transifex.com/p/tunierp-8/language/sr@latin/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -24,7 +24,7 @@ msgid "Company Defaults"
 msgstr ""
 
 #. module: multi_company
-#: model:res.company,overdue_msg:multi_company.res_company_odoo
+#: model:res.company,overdue_msg:multi_company.res_company_tunierp
 #: model:res.company,overdue_msg:multi_company.res_company_oerp_be
 #: model:res.company,overdue_msg:multi_company.res_company_oerp_editor
 #: model:res.company,overdue_msg:multi_company.res_company_oerp_in
@@ -48,11 +48,11 @@ msgid "Multi Company"
 msgstr "Multi Kompanija"
 
 #. module: multi_company
-#: model:product.template,name:multi_company.product_product_odoo1_product_template
-msgid "Odoo Offer"
-msgstr "Odoo Ponuda"
+#: model:product.template,name:multi_company.product_product_tunierp1_product_template
+msgid "TuniERP Offer"
+msgstr "TuniERP Ponuda"
 
 #. module: multi_company
-#: model:product.category,name:multi_company.Odoo1
-msgid "Odoo Offers"
-msgstr "Odoo Ponude"
+#: model:product.category,name:multi_company.TuniERP1
+msgid "TuniERP Offers"
+msgstr "TuniERP Ponude"

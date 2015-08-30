@@ -14,7 +14,7 @@ _build/
 # hg stuff
 *.orig
 status
-# odoo filestore
+# tunierp filestore
 openerp/filestore
 # maintenance migration scripts
 openerp/addons/base/maintenance

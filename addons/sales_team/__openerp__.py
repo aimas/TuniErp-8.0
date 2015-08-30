@@ -28,7 +28,7 @@
 Using this application you can manage Sales Team  with CRM and/or Sales 
 =======================================================================
  """,
-    'website': 'https://www.odoo.com/page/crm',
+    'website': 'https://www.tunierp.com/page/crm',
     'depends': ['base','mail','web_kanban_sparkline',],
     'data': ['security/sales_team_security.xml',
              'security/ir.model.access.csv',

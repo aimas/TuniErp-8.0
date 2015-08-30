@@ -8,7 +8,7 @@ This module allows authorized users to import a custom data module (.xml files a
 for customization purpose.
 """,
     'category': 'Uncategorized',
-    'website': 'https://www.odoo.com',
+    'website': 'https://www.tunierp.com',
     'author': 'OpenERP SA',
     'depends': ['web'],
     'installable': True,

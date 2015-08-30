@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * base_setup
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 06:53+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Macedonian (http://www.transifex.com/p/odoo-8/language/mk/)\n"
+"Language-Team: Macedonian (http://www.transifex.com/p/tunierp-8/language/mk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -220,12 +220,12 @@ msgstr "Член"
 #. module: base_setup
 #: view:sale.config.settings:base_setup.view_sale_config_settings
 msgid ""
-"Odoo allows to automatically create leads (or others documents)\n"
-"                            from incoming emails. You can automatically synchronize emails with Odoo\n"
+"TuniERP allows to automatically create leads (or others documents)\n"
+"                            from incoming emails. You can automatically synchronize emails with TuniERP\n"
 "                            using regular POP/IMAP accounts, using a direct email integration script for your\n"
-"                            email server, or by manually pushing emails to Odoo using specific\n"
+"                            email server, or by manually pushing emails to TuniERP using specific\n"
 "                            plugins for your preferred email application."
-msgstr "Odoo дозволува автоматско креирање траги (или други документи)\n                            од пристигачки е-маил пораки. Пораките можете автоматски да ги синхронизирате\n                            со Odoo преку редовен POP/IMAP налог, користејќи скрипта за директна интеграција\n                            на е-маил за вашиот е-маил сервер, или рачно праќајќи ги пораките кон Odoo преку\n                            специфични плагини за вашата преферирана е-маил апликација."
+msgstr "TuniERP дозволува автоматско креирање траги (или други документи)\n                            од пристигачки е-маил пораки. Пораките можете автоматски да ги синхронизирате\n                            со TuniERP преку редовен POP/IMAP налог, користејќи скрипта за директна интеграција\n                            на е-маил за вашиот е-маил сервер, или рачно праќајќи ги пораките кон TuniERP преку\n                            специфични плагини за вашата преферирана е-маил апликација."
 
 #. module: base_setup
 #: view:base.config.settings:base_setup.view_general_configuration
@@ -283,7 +283,7 @@ msgstr "Подесете фонт во хедерот на извештајот,
 
 #. module: base_setup
 #: help:base.config.settings,module_share:0
-msgid "Share or embbed any screen of Odoo."
+msgid "Share or embbed any screen of TuniERP."
 msgstr ""
 
 #. module: base_setup

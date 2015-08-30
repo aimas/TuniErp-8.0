@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * web
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-07-17 08:12+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Greek (http://www.transifex.com/p/odoo-8/language/el/)\n"
+"Language-Team: Greek (http://www.transifex.com/p/tunierp-8/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -254,8 +254,8 @@ msgstr "Σχετικά"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:369
 #, python-format
-msgid "About Odoo"
-msgstr "Σχετικά με το Odoo"
+msgid "About TuniERP"
+msgstr "Σχετικά με το TuniERP"
 
 #. module: web
 #. openerp-web
@@ -545,8 +545,8 @@ msgstr "Chaussée de Namur 40"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:114
 #, python-format
-msgid "Check this box to evaluate Odoo."
-msgstr "Τσεκάρετε αυτό το κουμπί για να αξιολογήσετε το Odoo."
+msgid "Check this box to evaluate TuniERP."
+msgstr "Τσεκάρετε αυτό το κουμπί για να αξιολογήσετε το TuniERP."
 
 #. module: web
 #. openerp-web
@@ -881,8 +881,8 @@ msgstr "Απόρριψη"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:435
 #, python-format
-msgid "Discover Events of Odoo around the world..."
-msgstr "Ανακαλύψτε εκδηλώσεις του Odoo σε όλο το κόσμο"
+msgid "Discover Events of TuniERP around the world..."
+msgstr "Ανακαλύψτε εκδηλώσεις του TuniERP σε όλο το κόσμο"
 
 #. module: web
 #. openerp-web
@@ -1203,7 +1203,7 @@ msgstr "Αρχείο:"
 #: code:addons/web/static/src/xml/base.xml:87
 #, python-format
 msgid ""
-"Fill in this form to create an Odoo database. You can\n"
+"Fill in this form to create an TuniERP database. You can\n"
 "                    create databases for different companies or for different\n"
 "                    goals (testing, production). Once the database is created,\n"
 "                    you will be able to install your first application."
@@ -1617,8 +1617,8 @@ msgstr "Περισσότερα"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:368
 #, python-format
-msgid "My Odoo.com account"
-msgstr "Ο Odoo.com λογαριασμός μου"
+msgid "My TuniERP.com account"
+msgstr "Ο TuniERP.com λογαριασμός μου"
 
 #. module: web
 #. openerp-web
@@ -1728,34 +1728,34 @@ msgstr "Αντικείμενο:"
 #. module: web
 #: view:website:web.layout view:website:web.login_layout
 #: view:website:web.menu_secondary
-msgid "Odoo"
-msgstr "Odoo"
+msgid "TuniERP"
+msgstr "TuniERP"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:386
 #, python-format
-msgid "Odoo (Formerly OpenERP)"
+msgid "TuniERP (Formerly OpenERP)"
 msgstr ""
 
 #. module: web
 #: view:website:web.qunit_suite
-msgid "Odoo Web Tests"
-msgstr "Odoo Web Τεστ"
+msgid "TuniERP Web Tests"
+msgstr "TuniERP Web Τεστ"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:420
 #, python-format
-msgid "Odoo is a trademark of the"
+msgid "TuniERP is a trademark of the"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:422
 #, python-format
-msgid "Odoo.com"
-msgstr "Odoo.com"
+msgid "TuniERP.com"
+msgstr "TuniERP.com"
 
 #. module: web
 #. openerp-web
@@ -2728,7 +2728,7 @@ msgstr "Πρέπει να επιλέξετε τουλάχιστον μία εγ�
 #. openerp-web
 #: code:addons/web/static/src/js/chrome.js:259
 #, python-format
-msgid "Your Odoo session expired. Please refresh the current web page."
+msgid "Your TuniERP session expired. Please refresh the current web page."
 msgstr ""
 
 #. module: web

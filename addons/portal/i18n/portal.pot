@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 #	* portal
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 8.0\n"
+"Project-Id-Version: TuniERP Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-01-21 14:08+0000\n"
@@ -132,7 +132,7 @@ msgid "Dear %(name)s,\n"
 "%(welcome_message)s\n"
 "\n"
 "--\n"
-"Odoo - Open Source Business Applications\n"
+"TuniERP - Open Source Business Applications\n"
 "http://www.openerp.com\n"
 ""
 msgstr ""
@@ -368,7 +368,7 @@ msgstr ""
 #. module: portal
 #: code:addons/portal/wizard/portal_wizard.py:33
 #, python-format
-msgid "Your Odoo account at %(company)s"
+msgid "Your TuniERP account at %(company)s"
 msgstr ""
 
 #. module: portal

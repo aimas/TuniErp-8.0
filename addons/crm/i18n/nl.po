@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * crm
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 06:59+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Dutch (http://www.transifex.com/p/odoo-8/language/nl/)\n"
+"Language-Team: Dutch (http://www.transifex.com/p/tunierp-8/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -135,7 +135,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "            Click to log the summary of a phone call. \n"
 "          </p><p>\n"
-"            Odoo allows you to log inbound calls on the fly to track the\n"
+"            TuniERP allows you to log inbound calls on the fly to track the\n"
 "            history of the communication with a customer or to inform another\n"
 "            team member.\n"
 "          </p><p>\n"
@@ -143,7 +143,7 @@ msgid ""
 "            another call, a meeting or an opportunity.\n"
 "          </p>\n"
 "        "
-msgstr "<p class=\"oe_view_nocontent_create\">\n             Klik hier om een samenvatting van een telefoongesprek te maken            \n          </p><p>\n            Odoo geeft u de mogelijkheid om inkomende gesprekken direct te loggen\n            en zo de communicatie historie met een klant te volgen. Op deze wijze kunt\n            u, andere teamleden informeren.\n          </p><p>\n            Bij een vervolggesprek kunt u direct een nieuw gesprek, afspraak\n            of prospect aanmaken. \n          </p>\n        "
+msgstr "<p class=\"oe_view_nocontent_create\">\n             Klik hier om een samenvatting van een telefoongesprek te maken            \n          </p><p>\n            TuniERP geeft u de mogelijkheid om inkomende gesprekken direct te loggen\n            en zo de communicatie historie met een klant te volgen. Op deze wijze kunt\n            u, andere teamleden informeren.\n          </p><p>\n            Bij een vervolggesprek kunt u direct een nieuw gesprek, afspraak\n            of prospect aanmaken. \n          </p>\n        "
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_categ_phone_outgoing0
@@ -151,20 +151,20 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "            Click to schedule a call \n"
 "          </p><p>\n"
-"            Odoo allows you to easily define all the calls to be done\n"
+"            TuniERP allows you to easily define all the calls to be done\n"
 "            by your sales team and follow up based on their summary.\n"
 "          </p><p>  \n"
 "            You can use the import feature to massively import a new list of\n"
 "            prospects to qualify.\n"
 "          </p>\n"
 "        "
-msgstr "<p class=\"oe_view_nocontent_create\">\n            Klik hier om een telefoongesprek te plannen\n          </p><p>\n            Odoo geeft u de mogelijkheid om eenvoudig alle telefoongesprekken\n            te plannen, welke moeten worden gedaan door het verkoopteam\n          </p><p>  \n            U kunt de import optie gebruiken om een masaal een lijst met\n            nieuwe prosopects te importeren.\n          </p>\n        "
+msgstr "<p class=\"oe_view_nocontent_create\">\n            Klik hier om een telefoongesprek te plannen\n          </p><p>\n            TuniERP geeft u de mogelijkheid om eenvoudig alle telefoongesprekken\n            te plannen, welke moeten worden gedaan door het verkoopteam\n          </p><p>  \n            U kunt de import optie gebruiken om een masaal een lijst met\n            nieuwe prosopects te importeren.\n          </p>\n        "
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid ""
 "<p>\n"
-"                    Odoo helps you keep track of your sales pipeline to follow\n"
+"                    TuniERP helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues.\n"
 "                </p><p>\n"
 "                    You will be able to plan meetings and phone calls from\n"
@@ -172,7 +172,7 @@ msgid ""
 "                    documents, track all discussions, and much more.\n"
 "                </p>\n"
 "            "
-msgstr "<p>\n          Odoo helpt u de verkoop pijplijn te volgen door potentiële verkopen te volgen\n          en toekomstige verkopen beter te begroten.\n          </p><p>\n          U kunt vergaderingen en telefoongesprekken plannen vanuit prospects,\n          ze omzetten in offertes, bijbehorende documenten bijvoegen en nog veel meer.\n          </p>\n            "
+msgstr "<p>\n          TuniERP helpt u de verkoop pijplijn te volgen door potentiële verkopen te volgen\n          en toekomstige verkopen beter te begroten.\n          </p><p>\n          U kunt vergaderingen en telefoongesprekken plannen vanuit prospects,\n          ze omzetten in offertes, bijbehorende documenten bijvoegen en nog veel meer.\n          </p>\n            "
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_lead
@@ -193,7 +193,7 @@ msgstr "<p>\n            Gebruik leads als u een kwalificatie stap wilt toevoege
 #: model:ir.actions.act_window,help:crm.crm_case_category_act_oppor11
 msgid ""
 "<p>\n"
-"                Odoo helps you keep track of your sales pipeline to follow\n"
+"                TuniERP helps you keep track of your sales pipeline to follow\n"
 "                up potential sales and better forecast your future revenues.\n"
 "            </p><p>\n"
 "                You will be able to plan meetings and phone calls from\n"
@@ -201,7 +201,7 @@ msgid ""
 "                documents, track all discussions, and much more.\n"
 "            </p>\n"
 "        "
-msgstr "<p>\n          Odoo helpt u de verkoop pijplijn te volgen door potentiële verkopen te volgen\n          en toekomstige verkopen beter te begroten.\n          </p><p>\n          U kunt vergaderingen en telefoongesprekken plannen vanuit prospects,\n          ze omzetten in offertes, bijbehorende documenten bijvoegen en nog veel meer.\n          </p>\n        "
+msgstr "<p>\n          TuniERP helpt u de verkoop pijplijn te volgen door potentiële verkopen te volgen\n          en toekomstige verkopen beter te begroten.\n          </p><p>\n          U kunt vergaderingen en telefoongesprekken plannen vanuit prospects,\n          ze omzetten in offertes, bijbehorende documenten bijvoegen en nog veel meer.\n          </p>\n        "
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_category_act_leads_all
@@ -2569,9 +2569,9 @@ msgstr "Selecteer de fases voor dit verkoopteam"
 msgid ""
 "Select the list of fields used to search for\n"
 "                            duplicated records. If you select several fields,\n"
-"                            Odoo will propose you to merge only those having\n"
+"                            TuniERP will propose you to merge only those having\n"
 "                            all these fields in common. (not one of the fields)."
-msgstr "Selecteer de lijst van velden welke worden gebruikt voor het zoeken naar\n                            dubbele regels. Indien u meerdere velden selecteert,\n                            zal Odoo voorstellen om alleen de regels samen te voegen\n                            waarvan ieder veld gelijk is (en niet 1 van de velden)."
+msgstr "Selecteer de lijst van velden welke worden gebruikt voor het zoeken naar\n                            dubbele regels. Indien u meerdere velden selecteert,\n                            zal TuniERP voorstellen om alleen de regels samen te voegen\n                            waarvan ieder veld gelijk is (en niet 1 van de velden)."
 
 #. module: crm
 #: selection:base.partner.merge.automatic.wizard,state:0

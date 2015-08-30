@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * mail
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 07:34+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Hungarian (http://www.transifex.com/p/odoo-8/language/hu/)\n"
+"Language-Team: Hungarian (http://www.transifex.com/p/tunierp-8/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -856,9 +856,9 @@ msgstr "Ha bejelölt, az ügyfél kap egy email figyelmeztetést arról, hogy ho
 #. module: mail
 #: help:base.config.settings,alias_domain:0
 msgid ""
-"If you have setup a catch-all email domain redirected to the Odoo server, "
+"If you have setup a catch-all email domain redirected to the TuniERP server, "
 "enter the domain name here."
-msgstr "Ha beállított egy domaint, mely minden Odoo rendszer irányába beérkező emailt megkap, akkor ide írja be ezt a domaint."
+msgstr "Ha beállított egy domaint, mely minden TuniERP rendszer irányába beérkező emailt megkap, akkor ide írja be ezt a domaint."
 
 #. module: mail
 #: view:mail.compose.message:mail.email_compose_message_wizard_form
@@ -1594,8 +1594,8 @@ msgstr "Elküldött"
 #. module: mail
 #: code:addons/mail/mail_followers.py:155
 #, python-format
-msgid "Sent by %(company)s using %(odoo)s"
-msgstr "%(company)s válélalart által kiküldve az %(odoo)s rendszer használatával"
+msgid "Sent by %(company)s using %(tunierp)s"
+msgstr "%(company)s válélalart által kiküldve az %(tunierp)s rendszer használatával"
 
 #. module: mail
 #: field:mail.message.subtype,sequence:0
@@ -1715,17 +1715,17 @@ msgstr "Az ezzel a csoporttal társított e-mail cím. Új beérkezett e-mailek 
 #. module: mail
 #: help:mail.alias,alias_model_id:0
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (TuniERP Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
-msgstr "a modell (Odoo rendszer Dokumentum féle), amelyhez ez az álnév tartozik. Bármely bejövő email, mely nem válaszol egy meglévő rekordra egy új rekordot fog létrehozni ehhez a modellhez (pl. egy projekt ügyet)"
+msgstr "a modell (TuniERP rendszer Dokumentum féle), amelyhez ez az álnév tartozik. Bármely bejövő email, mely nem válaszol egy meglévő rekordra egy új rekordot fog létrehozni ehhez a modellhez (pl. egy projekt ügyet)"
 
 #. module: mail
 #: help:mail.alias,alias_name:0
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
-msgstr "Az email álnév neve, pl. 'állások' ha erre az emailcímre szeretné kapni <allasok@pelda.odoo.com>"
+"<jobs@example.tunierp.com>"
+msgstr "Az email álnév neve, pl. 'állások' ha erre az emailcímre szeretné kapni <allasok@pelda.tunierp.com>"
 
 #. module: mail
 #: help:mail.alias,alias_user_id:0
@@ -2042,8 +2042,8 @@ msgstr "több."
 
 #. module: mail
 #: view:base.config.settings:mail.view_general_configuration_mail_alias_domain
-msgid "mycompany.odoo.com"
-msgstr "envallalatom.odoo.com"
+msgid "mycompany.tunierp.com"
+msgstr "envallalatom.tunierp.com"
 
 #. module: mail
 #. openerp-web

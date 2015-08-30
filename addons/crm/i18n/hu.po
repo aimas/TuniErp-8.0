@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * crm
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 06:58+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Hungarian (http://www.transifex.com/p/odoo-8/language/hu/)\n"
+"Language-Team: Hungarian (http://www.transifex.com/p/tunierp-8/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -135,7 +135,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "            Click to log the summary of a phone call. \n"
 "          </p><p>\n"
-"            Odoo allows you to log inbound calls on the fly to track the\n"
+"            TuniERP allows you to log inbound calls on the fly to track the\n"
 "            history of the communication with a customer or to inform another\n"
 "            team member.\n"
 "          </p><p>\n"
@@ -143,7 +143,7 @@ msgid ""
 "            another call, a meeting or an opportunity.\n"
 "          </p>\n"
 "        "
-msgstr "<p class=\"oe_view_nocontent_create\">\n            Kattintson egy telefonhívás összegzési napló készítéséhez. \n          </p><p>\n            Odoo rendszer lehetővé teszi a beérkező hívások azonnali naplózását az ügyfelekkel\n            történt kommmunikációs történet nyomon követéséhez vagy egy másik csoport\n            résztvevő tájékoztatását.\n          </p><p>\n            Ahhoz, hogy egy hívást nyomonkövethessünk, beállíthat egy másik\n            híváshoz, találkozóhoz egy kérelmet vagy egy új lehetőséget hozhat létre.\n          </p>\n        "
+msgstr "<p class=\"oe_view_nocontent_create\">\n            Kattintson egy telefonhívás összegzési napló készítéséhez. \n          </p><p>\n            TuniERP rendszer lehetővé teszi a beérkező hívások azonnali naplózását az ügyfelekkel\n            történt kommmunikációs történet nyomon követéséhez vagy egy másik csoport\n            résztvevő tájékoztatását.\n          </p><p>\n            Ahhoz, hogy egy hívást nyomonkövethessünk, beállíthat egy másik\n            híváshoz, találkozóhoz egy kérelmet vagy egy új lehetőséget hozhat létre.\n          </p>\n        "
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_categ_phone_outgoing0
@@ -151,20 +151,20 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "            Click to schedule a call \n"
 "          </p><p>\n"
-"            Odoo allows you to easily define all the calls to be done\n"
+"            TuniERP allows you to easily define all the calls to be done\n"
 "            by your sales team and follow up based on their summary.\n"
 "          </p><p>  \n"
 "            You can use the import feature to massively import a new list of\n"
 "            prospects to qualify.\n"
 "          </p>\n"
 "        "
-msgstr "<p class=\"oe_view_nocontent_create\">\n            Kattintson egy hívás ütemezésére.\n          </p><p>\n            Odoo rendszer lehetővé teszi az értékesítési csapata \n            telefonhívásainak könnyű meghatározását és\n            nyomon követéseit az összegzésük alapján.\n          </p><p>  \n            Használhatja az importáló felületet az új  tömeges \n            jelentősnek minősített lista betöltéséhez.\n          </p>\n        "
+msgstr "<p class=\"oe_view_nocontent_create\">\n            Kattintson egy hívás ütemezésére.\n          </p><p>\n            TuniERP rendszer lehetővé teszi az értékesítési csapata \n            telefonhívásainak könnyű meghatározását és\n            nyomon követéseit az összegzésük alapján.\n          </p><p>  \n            Használhatja az importáló felületet az új  tömeges \n            jelentősnek minősített lista betöltéséhez.\n          </p>\n        "
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid ""
 "<p>\n"
-"                    Odoo helps you keep track of your sales pipeline to follow\n"
+"                    TuniERP helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues.\n"
 "                </p><p>\n"
 "                    You will be able to plan meetings and phone calls from\n"
@@ -172,7 +172,7 @@ msgid ""
 "                    documents, track all discussions, and much more.\n"
 "                </p>\n"
 "            "
-msgstr "<p>\n                    Odoo rendszer segítséget nyújt az eladási folyamat nyomon követéséhez a\n                    lehetséges értékesítés figyelemmel kíséréséhez és a\n                    jövőbeni bevételei jobb előrejelzéséhez.\n                </p><p>\n                    Képes lesz a lehetőségekből találkozók tervezésére és\n                    telefonálás, árajánlattá alakításra, ide vonatkozó\n                    dokumentumok hozzáfűzésére, beszélgetések nyomonkövetésére, \n                    és még több mindenre.\n                </p>\n            "
+msgstr "<p>\n                    TuniERP rendszer segítséget nyújt az eladási folyamat nyomon követéséhez a\n                    lehetséges értékesítés figyelemmel kíséréséhez és a\n                    jövőbeni bevételei jobb előrejelzéséhez.\n                </p><p>\n                    Képes lesz a lehetőségekből találkozók tervezésére és\n                    telefonálás, árajánlattá alakításra, ide vonatkozó\n                    dokumentumok hozzáfűzésére, beszélgetések nyomonkövetésére, \n                    és még több mindenre.\n                </p>\n            "
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_lead
@@ -193,7 +193,7 @@ msgstr "<p>\n                    Használja az érdeklődéseket ha osztályozni
 #: model:ir.actions.act_window,help:crm.crm_case_category_act_oppor11
 msgid ""
 "<p>\n"
-"                Odoo helps you keep track of your sales pipeline to follow\n"
+"                TuniERP helps you keep track of your sales pipeline to follow\n"
 "                up potential sales and better forecast your future revenues.\n"
 "            </p><p>\n"
 "                You will be able to plan meetings and phone calls from\n"
@@ -201,7 +201,7 @@ msgid ""
 "                documents, track all discussions, and much more.\n"
 "            </p>\n"
 "        "
-msgstr "<p>\n                    Odoo rendszer segítséget nyújt az eladási folyamat nyomon követéséhez a\n                    lehetséges értékesítés figyelemmel kíséréséhez és a\n                    jövőbeni bevételei jobb előrejelzéséhez.\n                </p><p>\n                    Képes lesz a lehetőségekből találkozók tervezésére és\n                    telefonálás, árajánlattá alakításra, ide vonatkozó\n                    dokumentumok hozzáfűzésére, beszélgetések nyomonkövetésére, \n                    és még több mindenre.\n                </p>\n        "
+msgstr "<p>\n                    TuniERP rendszer segítséget nyújt az eladási folyamat nyomon követéséhez a\n                    lehetséges értékesítés figyelemmel kíséréséhez és a\n                    jövőbeni bevételei jobb előrejelzéséhez.\n                </p><p>\n                    Képes lesz a lehetőségekből találkozók tervezésére és\n                    telefonálás, árajánlattá alakításra, ide vonatkozó\n                    dokumentumok hozzáfűzésére, beszélgetések nyomonkövetésére, \n                    és még több mindenre.\n                </p>\n        "
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_category_act_leads_all
@@ -2569,9 +2569,9 @@ msgstr "Szakasz kiválasztása ehhez az értékesítési csoporthoz"
 msgid ""
 "Select the list of fields used to search for\n"
 "                            duplicated records. If you select several fields,\n"
-"                            Odoo will propose you to merge only those having\n"
+"                            TuniERP will propose you to merge only those having\n"
 "                            all these fields in common. (not one of the fields)."
-msgstr "Válassza ki a megkettőzött rekordok keresésére használt \n                            listázott mezőket. Ha több mezőt választott,\n                            Odoo rendszer javasolni fogja azok összefésülését, \n                            melyek mindegyikben előfordulnak. (nem csak egy mezőben)."
+msgstr "Válassza ki a megkettőzött rekordok keresésére használt \n                            listázott mezőket. Ha több mezőt választott,\n                            TuniERP rendszer javasolni fogja azok összefésülését, \n                            melyek mindegyikben előfordulnak. (nem csak egy mezőben)."
 
 #. module: crm
 #: selection:base.partner.merge.automatic.wizard,state:0

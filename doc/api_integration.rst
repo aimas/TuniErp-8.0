@@ -8,12 +8,12 @@
 Web Service API
 ===============
 
-Odoo is usually extended internally via modules, but many of its features and
+TuniERP is usually extended internally via modules, but many of its features and
 all of its data are also available from the outside for external analysis or
 integration with various tools. Part of the :ref:`reference/orm/model` API is
 easily available over XML-RPC_ and accessible from a variety of languages.
 
-.. Odoo XML-RPC idiosyncracies:
+.. TuniERP XML-RPC idiosyncracies:
    * uses multiple endpoint and a nested call syntax instead of a
      "hierarchical" server structure (e.g. ``openerp.res.partner.read()``)
    * uses its own own manual auth system instead of basic auth or sessions
@@ -35,7 +35,7 @@ Connection
         .. code-block:: python
 
             import xmlrpclib
-            info = xmlrpclib.ServerProxy('https://demo.odoo.com/start').start()
+            info = xmlrpclib.ServerProxy('https://demo.tunierp.com/start').start()
             url, db, username, password = \
                 info['host'], info['database'], info['user'], info['password']
             common = xmlrpclib.ServerProxy('{}/xmlrpc/2/common'.format(url))
@@ -45,7 +45,7 @@ Connection
         .. code-block:: ruby
 
             require "xmlrpc/client"
-            info = XMLRPC::Client.new2('https://demo.odoo.com/start').call('start')
+            info = XMLRPC::Client.new2('https://demo.tunierp.com/start').call('start')
             url, db, username, password = \
                 info['host'], info['database'], info['user'], info['password']
             common = XMLRPC::Client.new2("#{url}/xmlrpc/2/common")
@@ -55,7 +55,7 @@ Connection
         .. code-block:: php
 
             require_once('ripcord.php');
-            $info = ripcord::client('https://demo.odoo.com/start')->start();
+            $info = ripcord::client('https://demo.tunierp.com/start')->start();
             list($url, $db, $username, $password) =
               array($info['host'], $info['database'], $info['user'], $info['password']);
             $common = ripcord::client("$url/xmlrpc/2/common");
@@ -66,7 +66,7 @@ Connection
 
             final XmlRpcClient client = new XmlRpcClient();
             final XmlRpcClientConfigImpl start_config = new XmlRpcClientConfigImpl();
-            start_config.setServerURL(new URL("https://demo.odoo.com/start"));
+            start_config.setServerURL(new URL("https://demo.tunierp.com/start"));
             final Map<String, String> info = (Map<String, String>)client.execute(
                 start_config, "start", emptyList());
 
@@ -91,7 +91,7 @@ Connection
 Configuration
 -------------
 
-If you already have an Odoo server installed, you can just use its
+If you already have an TuniERP server installed, you can just use its
 parameters
 
 .. rst-class:: setup doc-aside
@@ -126,7 +126,7 @@ parameters
                 username = "admin",
                 password = <insert password for your admin user (default: admin)>;
 
-To make exploration simpler, you can also ask https://demo.odoo.com for a test
+To make exploration simpler, you can also ask https://demo.tunierp.com for a test
 database:
 
 .. rst-class:: setup doc-aside
@@ -136,14 +136,14 @@ database:
     .. code-block:: python
 
         import xmlrpclib
-        info = xmlrpclib.ServerProxy('https://demo.odoo.com/start').start()
+        info = xmlrpclib.ServerProxy('https://demo.tunierp.com/start').start()
         url, db, username, password = \
             info['host'], info['database'], info['user'], info['password']
 
     .. code-block:: ruby
 
         require "xmlrpc/client"
-        info = XMLRPC::Client.new2('https://demo.odoo.com/start').call('start')
+        info = XMLRPC::Client.new2('https://demo.tunierp.com/start').call('start')
         url, db, username, password = \
             info['host'], info['database'], info['user'], info['password']
 
@@ -152,7 +152,7 @@ database:
         .. code-block:: php
 
             require_once('ripcord.php');
-            $info = ripcord::client('https://demo.odoo.com/start')->start();
+            $info = ripcord::client('https://demo.tunierp.com/start')->start();
             list($url, $db, $username, $password) =
               array($info['host'], $info['database'], $info['user'], $info['password']);
 
@@ -176,7 +176,7 @@ database:
             final XmlRpcClient client = new XmlRpcClient();
 
             final XmlRpcClientConfigImpl start_config = new XmlRpcClientConfigImpl();
-            start_config.setServerURL(new URL("https://demo.odoo.com/start"));
+            start_config.setServerURL(new URL("https://demo.tunierp.com/start"));
             final Map<String, String> info = (Map<String, String>)client.execute(
                 start_config, "start", emptyList());
 
@@ -196,7 +196,7 @@ database:
 Logging in
 ----------
 
-Odoo requires users of the API to be authenticated before they can query most 
+TuniERP requires users of the API to be authenticated before they can query most 
 data.
 
 The ``xmlrpc/2/common`` endpoint provides meta-calls which don't require
@@ -269,7 +269,7 @@ the login.
 Calling methods
 ===============
 
-The second endpoint is ``xmlrpc/2/object``, is used to call methods of odoo
+The second endpoint is ``xmlrpc/2/object``, is used to call methods of tunierp
 models via the ``execute_kw`` RPC function.
 
 Each call to ``execute_kw`` takes the following parameters:
@@ -681,7 +681,7 @@ updating a record):
 Search and read
 ---------------
 
-Because it is a very common task, Odoo provides a
+Because it is a very common task, TuniERP provides a
 :meth:`~openerp.models.Model.search_read` shortcut which as its name notes is
 equivalent to a :meth:`~openerp.models.Model.search` followed by a
 :meth:`~openerp.models.Model.read`, but avoids having to perform two requests
@@ -944,7 +944,7 @@ Inspection and introspection
           isn't exactly fun in RPC.
 
 While we previously used :meth:`~openerp.models.Model.fields_get` to query a
-model and have been using an arbitrary model from the start, Odoo stores
+model and have been using an arbitrary model from the start, TuniERP stores
 most model metadata inside a few meta-models which allow both querying the
 system and altering models and fields (with some limitations) on the fly over
 XML-RPC.
@@ -954,7 +954,7 @@ XML-RPC.
 ``ir.model``
 ''''''''''''
 
-Provides information about Odoo models via its various fields
+Provides information about TuniERP models via its various fields
 
 ``name``
     a human-readable description of the model
@@ -1099,7 +1099,7 @@ Provides information about Odoo models via its various fields
 ``ir.model.fields``
 '''''''''''''''''''
 
-Provides information about the fields of Odoo models and allows adding
+Provides information about the fields of TuniERP models and allows adding
 custom fields without using Python code
 
 ``model_id``

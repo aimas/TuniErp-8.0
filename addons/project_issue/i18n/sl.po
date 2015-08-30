@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * project_issue
 # 
@@ -7,12 +7,12 @@
 # Matjaž Mozetič <m.mozetic@matmoz.si>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-06-16 12:37+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Slovenian (http://www.transifex.com/p/odoo-8/language/sl/)\n"
+"Language-Team: Slovenian (http://www.transifex.com/p/tunierp-8/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -57,23 +57,23 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n                Dodajanje nove r
 #: model:ir.actions.act_window,help:project_issue.action_view_issues
 msgid ""
 "<p>\n"
-"                    The Odoo issues tacker allows you to efficiantly manage things\n"
+"                    The TuniERP issues tacker allows you to efficiantly manage things\n"
 "                    like internal requests, software development bugs, customer\n"
 "                    complaints, project troubles, material breakdowns, etc.\n"
 "                </p>\n"
 "            "
-msgstr "<p>\n                    Odoo sledilnik zadevam omogoča upravljanje stvari,\n                    kot notranji zahtevki, hrošči pri razvoju aplikacij, reklamacije\n                    kupcev, projektna problematika, okvare, ipd.\n                </p>\n            "
+msgstr "<p>\n                    TuniERP sledilnik zadevam omogoča upravljanje stvari,\n                    kot notranji zahtevki, hrošči pri razvoju aplikacij, reklamacije\n                    kupcev, projektna problematika, okvare, ipd.\n                </p>\n            "
 
 #. module: project_issue
 #: model:ir.actions.act_window,help:project_issue.project_issue_categ_act0
 msgid ""
 "<p>\n"
-"                The Odoo issues tacker allows you to efficiantly manage things\n"
+"                The TuniERP issues tacker allows you to efficiantly manage things\n"
 "                like internal requests, software development bugs, customer\n"
 "                complaints, project troubles, material breakdowns, etc.\n"
 "            </p>\n"
 "        "
-msgstr "<p>\n                    Odoo sledilnik zadevam omogoča upravljanje stvari,\n                    kot notranji zahtevki, hrošči pri razvoju aplikacij, reklamacije\n                    kupcev, projektna problematika, okvare, ipd.\n                </p>\n        "
+msgstr "<p>\n                    TuniERP sledilnik zadevam omogoča upravljanje stvari,\n                    kot notranji zahtevki, hrošči pri razvoju aplikacij, reklamacije\n                    kupcev, projektna problematika, okvare, ipd.\n                </p>\n        "
 
 #. module: project_issue
 #: help:project.issue,kanban_state:0

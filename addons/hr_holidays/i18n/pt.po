@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * hr_holidays
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 07:17+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Portuguese (http://www.transifex.com/p/odoo-8/language/pt/)\n"
+"Language-Team: Portuguese (http://www.transifex.com/p/tunierp-8/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -36,11 +36,11 @@ msgstr "<p class=\"oe_view_nocontent_create\">\nClique para criar um novo pedido
 #: model:ir.actions.act_window,help:hr_holidays.hr_holidays_leaves_assign_legal
 msgid ""
 "<p>\n"
-"               You can assign remaining Legal Leaves for each employee, Odoo\n"
+"               You can assign remaining Legal Leaves for each employee, TuniERP\n"
 "               will automatically create and validate allocation requests.\n"
 "             </p>\n"
 "           "
-msgstr "<p>\n               Pode atribuir as restantes Ausências Legais para cada empregado,  \n               o Odoo criará automaticamente e valida as solicitações de alocação.\n             </p>\n           "
+msgstr "<p>\n               Pode atribuir as restantes Ausências Legais para cada empregado,  \n               o TuniERP criará automaticamente e valida as solicitações de alocação.\n             </p>\n           "
 
 #. module: hr_holidays
 #: field:hr.holidays.status,active:0
@@ -389,7 +389,7 @@ msgid ""
 "If you select this check box, the system allows the employees to take more "
 "leaves than the available ones for this type and will not take them into "
 "account for the \"Remaining Legal Leaves\" defined on the employee form."
-msgstr "Se selecionar esta opção, o Odoo permite que os funcionários tenham mais dias de ausência do que os estabelecidos neste tipo e estes não contam como dias que 'estiveram ausentes' no formulário do funcionário."
+msgstr "Se selecionar esta opção, o TuniERP permite que os funcionários tenham mais dias de ausência do que os estabelecidos neste tipo e estes não contam como dias que 'estiveram ausentes' no formulário do funcionário."
 
 #. module: hr_holidays
 #: field:hr.holidays,message_is_follower:0
@@ -672,9 +672,9 @@ msgstr "Numero de dias"
 #. module: hr_holidays
 #: help:hr.holidays.status,categ_id:0
 msgid ""
-"Once a leave is validated, Odoo will create a corresponding meeting of this "
+"Once a leave is validated, TuniERP will create a corresponding meeting of this "
 "type in the calendar."
-msgstr "Uma vez que uma ausência é validada, Odoo criará uma Ausência/Evento correspondente a este tipo no calendário."
+msgstr "Uma vez que uma ausência é validada, TuniERP criará uma Ausência/Evento correspondente a este tipo no calendário."
 
 #. module: hr_holidays
 #: field:hr.holidays,parent_id:0

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * website
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-07-17 08:15+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Hebrew (http://www.transifex.com/p/odoo-8/language/he/)\n"
+"Language-Team: Hebrew (http://www.transifex.com/p/tunierp-8/language/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -111,8 +111,8 @@ msgstr "404:  אופס, הדף לא קיים !"
 
 #. module: website
 #: view:website:website.snippets
-msgid "50,000+ companies run Odoo to grow their businesses."
-msgstr "יותר מ 50,000 חברות רצות על Odoo כדי להגדיל את עסקיהן"
+msgid "50,000+ companies run TuniERP to grow their businesses."
+msgstr "יותר מ 50,000 חברות רצות על TuniERP כדי להגדיל את עסקיהן"
 
 #. module: website
 #: model:ir.actions.act_window,help:website.action_module_website
@@ -360,7 +360,7 @@ msgstr "באנר"
 
 #. module: website
 #: view:website:website.snippets
-msgid "Banner Odoo Image"
+msgid "Banner TuniERP Image"
 msgstr "באנר תמונה"
 
 #. module: website
@@ -878,8 +878,8 @@ msgstr "ביטול עריכה"
 
 #. module: website
 #: view:website:website.snippets
-msgid "Discover more about Odoo"
-msgstr "גלו עוד אודות Odoo"
+msgid "Discover more about TuniERP"
+msgstr "גלו עוד אודות TuniERP"
 
 #. module: website
 #: view:website:website.template_partner_comment
@@ -1711,41 +1711,41 @@ msgstr "הערה: להסתרת הדף הזה, בטלו את בחירתו בער�
 
 #. module: website
 #: view:website:website.layout view:website:website.snippets
-msgid "Odoo"
-msgstr "Odoo"
+msgid "TuniERP"
+msgstr "TuniERP"
 
 #. module: website
 #: view:website:website.info
-msgid "Odoo Version"
-msgstr "גרסת Odoo"
+msgid "TuniERP Version"
+msgstr "גרסת TuniERP"
 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"Odoo provides essential platform for our project management.\n"
+"TuniERP provides essential platform for our project management.\n"
 "                                                    Things are better organized and more visible with it."
-msgstr "Odoo מספקת פתרונות חייונים לפלטפורמת ניהול פרויקטים.\n                                                   בעזרתה הכל מאורגן טוב יותר ומוצג בנוחות."
+msgstr "TuniERP מספקת פתרונות חייונים לפלטפורמת ניהול פרויקטים.\n                                                   בעזרתה הכל מאורגן טוב יותר ומוצג בנוחות."
 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"Odoo provides essential platform for our project management.\n"
+"TuniERP provides essential platform for our project management.\n"
 "                                            Things are better organized and more visible with it."
 msgstr "oo מספקת פתרונות חייונים לפלטפורמת ניהול פרויקטים.\n                                                   בעזרתה הכל מאורגן טוב יותר ומוצג בנוחות."
 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"Odoo provides essential platform for our project management.\n"
+"TuniERP provides essential platform for our project management.\n"
 "                                Things are better organized and more visible with it."
 msgstr "oo מספקת פתרונות חייונים לפלטפורמת ניהול פרויקטים.\n                                                   בעזרתה הכל מאורגן טוב יותר ומוצג בנוחות."
 
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"Odoo's POS is a web application that can run on any device that\n"
+"TuniERP's POS is a web application that can run on any device that\n"
 "                    can display websites with little to no setup required."
-msgstr "עמדת המכירה (Point Of Sale) של Odoo הינה יישום אינטרנטי שניתן להריץ על כל מכשיר \n                    שמציג אתרי אינטרנט כמעט בלי התקנות או הגדרות."
+msgstr "עמדת המכירה (Point Of Sale) של TuniERP הינה יישום אינטרנטי שניתן להריץ על כל מכשיר \n                    שמציג אתרי אינטרנט כמעט בלי התקנות או הגדרות."
 
 #. module: website
 #. openerp-web
@@ -2895,8 +2895,8 @@ msgstr "אם תצוגה זו היא תבנית דף האינטרנט (complete)"
 
 #. module: website
 #: view:website:website.snippets
-msgid "Which hardware does Odoo POS support?"
-msgstr "איזו חומרה צריך כדי להישתמש בעמדת המכירה-  Odoo POS ?"
+msgid "Which hardware does TuniERP POS support?"
+msgstr "איזו חומרה צריך כדי להישתמש בעמדת המכירה-  TuniERP POS ?"
 
 #. module: website
 #: view:website:website.snippets
@@ -2908,11 +2908,11 @@ msgstr "אמנם חיבור אינטרנט נדרש בכדי להתחיל את �
 #. module: website
 #: view:website:website.snippets
 msgid ""
-"With Odoo's fully integrated software, you can easily manage your\n"
+"With TuniERP's fully integrated software, you can easily manage your\n"
 "                            meetings, schedule business calls, create recurring meetings,\n"
 "                            synchronize your agenda and easily keep in touch with your colleagues,\n"
 "                            partners and other people involved in projects or business discussions."
-msgstr "עם התוכנה המלאה של Odoo באפשרותך לנהל בקלות:\n                            פגישות, שיחות עסקיות, להגדיר פגישות קבועות, \n                            לסנכרן את העשייה ולשמור על קשר עם הצוות, קולגות,\n                            שותפים, ואנשים נוספים שמעורבים בפרויקטים ודיונים עסקיים."
+msgstr "עם התוכנה המלאה של TuniERP באפשרותך לנהל בקלות:\n                            פגישות, שיחות עסקיות, להגדיר פגישות קבועות, \n                            לסנכרן את העשייה ולשמור על קשר עם הצוות, קולגות,\n                            שותפים, ואנשים נוספים שמעורבים בפרויקטים ודיונים עסקיים."
 
 #. module: website
 #: view:website:website.snippet_options
@@ -3095,7 +3095,7 @@ msgstr ""
 
 #. module: website
 #: view:website:website.view_website_form
-msgid "http://www.linkedin.com/company/odoo"
+msgid "http://www.linkedin.com/company/tunierp"
 msgstr ""
 
 #. module: website
@@ -3110,7 +3110,7 @@ msgstr ""
 
 #. module: website
 #: view:website:website.view_website_form
-msgid "https://facebook.com/odoo"
+msgid "https://facebook.com/tunierp"
 msgstr ""
 
 #. module: website
@@ -3120,7 +3120,7 @@ msgstr ""
 
 #. module: website
 #: view:website:website.view_website_form
-msgid "https://plus.google.com/+Odooapps"
+msgid "https://plus.google.com/+TuniERPapps"
 msgstr ""
 
 #. module: website
@@ -3130,7 +3130,7 @@ msgstr ""
 
 #. module: website
 #: view:website:website.view_website_form
-msgid "https://twitter.com/odooapps"
+msgid "https://twitter.com/tunierpapps"
 msgstr ""
 
 #. module: website
@@ -3151,8 +3151,8 @@ msgstr ""
 
 #. module: website
 #: view:website:website.info
-msgid "instance of Odoo, the"
-msgstr "התקנה של Odoo, ה"
+msgid "instance of TuniERP, the"
+msgstr "התקנה של TuniERP, ה"
 
 #. module: website
 #: view:website:website.snippets
@@ -3214,8 +3214,8 @@ msgstr "סגנון."
 #. openerp-web
 #: code:addons/website/static/src/xml/website.xml:37
 #, python-format
-msgid "the classic Odoo interface"
-msgstr "ממשק Odoo הקלאסי"
+msgid "the classic TuniERP interface"
+msgstr "ממשק TuniERP הקלאסי"
 
 #. module: website
 #: field:website.converter.test.sub,name:0

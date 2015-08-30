@@ -47,7 +47,7 @@ Three reports are available:
        the spreading, for the selected Analytic Accounts of Budgets.
 """,
     'author': 'OpenERP SA',
-    'website': 'https://www.odoo.com/page/accounting',
+    'website': 'https://www.tunierp.com/page/accounting',
     'depends': ['account'],
     'data': [
         'security/ir.model.access.csv',

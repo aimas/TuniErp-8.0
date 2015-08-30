@@ -9,7 +9,7 @@
     'description': """
 Bridge module between marketing and CRM
     """,
-    'website': 'https://www.odoo.com/page/crm',
+    'website': 'https://www.tunierp.com/page/crm',
     'data': [
         'views/crm.xml',
         'views/res_config.xml',

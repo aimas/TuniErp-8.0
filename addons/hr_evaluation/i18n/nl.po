@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * hr_evaluation
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 07:15+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Dutch (http://www.transifex.com/p/odoo-8/language/nl/)\n"
+"Language-Team: Dutch (http://www.transifex.com/p/tunierp-8/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -68,8 +68,8 @@ msgstr "(user_signature)s: Gebruikersnaam"
 #: model:survey.page,description:hr_evaluation.opinion_1
 msgid ""
 "<h2>At the supervisor's appraisal date</h2>\n"
-"<p>His direct reports will be invited through Odoo to express a feedback on their supervisor's leadership and to give their opinion about their own engagement and effectiveness, the continuous improvement and openness in action in thecompany...</p>\n"
-"<p>The employees will send back their anonymous answers to Odoo. The data will be handled by the HR manager and a brief summary of the data will be sent to the concerned supervisor, to his team and to the supervisor's supervisor.</p>\n"
+"<p>His direct reports will be invited through TuniERP to express a feedback on their supervisor's leadership and to give their opinion about their own engagement and effectiveness, the continuous improvement and openness in action in thecompany...</p>\n"
+"<p>The employees will send back their anonymous answers to TuniERP. The data will be handled by the HR manager and a brief summary of the data will be sent to the concerned supervisor, to his team and to the supervisor's supervisor.</p>\n"
 "<p>The appraiser should rate the employee's major work accomplishments and performance according to the metric provided below\n"
 "</p><ol>\n"
 "<li>Significantly exceeds standards and expectations required of the position</li>\n"
@@ -78,7 +78,7 @@ msgid ""
 "<li>Did not meet standards and expectations</li>\n"
 "<li>Significantly below standards and expectations</li>\n"
 "</ol>"
-msgstr "<h2>Op de datum van beoordelen </h2> \n<p> Zijn directe rapportage zal worden verzameld via Odoo om een feedback te vragen over de leidinggevende leiderschap van hun manager en om hun mening te geven over hun eigen betrokkenheid en effectiviteit, de continue verbetering en openheid van het bedrijf</p> \n<p> De werknemers sturen hun anonieme antwoorden terug naar Odoo. De gegevens zullen worden behandeld door de HR-manager en een korte samenvatting van de gegevens worden verzonden naar de betrokken manager,  zijn team en supervisor van de manager.</ P> \n<p> De beoordelaar moet grootste werk prestaties van de werknemer beoordelen volgens de volgende schaal\n</p><ol>\n<li>Aanzienlijk hoger dan de normen en verwachtingen van de vereiste positie </li> \n<li>Overtreft normen en verwachtingen</li> \n<li>In overeenstemming met de normen en verwachtingen</li> \n<li>Voldoet niet aan de normen en verwachtingen</li> \n<li>Aanzienlijk onder normen en verwachtingen</li> \n</ol>"
+msgstr "<h2>Op de datum van beoordelen </h2> \n<p> Zijn directe rapportage zal worden verzameld via TuniERP om een feedback te vragen over de leidinggevende leiderschap van hun manager en om hun mening te geven over hun eigen betrokkenheid en effectiviteit, de continue verbetering en openheid van het bedrijf</p> \n<p> De werknemers sturen hun anonieme antwoorden terug naar TuniERP. De gegevens zullen worden behandeld door de HR-manager en een korte samenvatting van de gegevens worden verzonden naar de betrokken manager,  zijn team en supervisor van de manager.</ P> \n<p> De beoordelaar moet grootste werk prestaties van de werknemer beoordelen volgens de volgende schaal\n</p><ol>\n<li>Aanzienlijk hoger dan de normen en verwachtingen van de vereiste positie </li> \n<li>Overtreft normen en verwachtingen</li> \n<li>In overeenstemming met de normen en verwachtingen</li> \n<li>Voldoet niet aan de normen en verwachtingen</li> \n<li>Aanzienlijk onder normen en verwachtingen</li> \n</ol>"
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.appraisal_1
@@ -97,13 +97,13 @@ msgid ""
 "point for the supervisor’s evaluation. The employee can add examples of achievements for each criterion.\n"
 "Once the form had been filled, the employee send it to his supervisor.\n"
 "</li><li>It is the primary responsibility of the supervisor to gather the necessary input from the appropriate sources of feedback\n"
-"(internal and/or external customers, peers). In case of collaboration with Odoo SA Belgium, the supervisor must\n"
+"(internal and/or external customers, peers). In case of collaboration with TuniERP SA Belgium, the supervisor must\n"
 "receive completed evaluation form from the employee's Belgian project manager.\n"
 "</li><li>The supervisor synthesizes and integrates all input into the completed appraisal. He motivates his evaluation in the ad\n"
 "hoc fields.\n"
 "</li><li>The employee may choose to offer comments or explanation regarding the completed review.\n"
 "</li><li>The supervisor send the form to the HR department in India and in Belgium</li></ul>"
-msgstr "<h2>Overall Purpose Of Employee Appraisal</h2>\n<ul><li>To initiate a clear and open communication of performance expectations\n</li><li>To assist employees in their professional growth, through the identification of strengths and opportunities for\ndevelopment</li></ul>\n<h2>At the outset of the appraisal time period</h2>\n<ul><li>It is the joint responsibility of the employee and the supervisor (appraiser) to establish a feasible work plan for the\ncoming year, including major employee responsibilities and corresponding benchmarks against which results will be\nevaluated.\n</li><li>Critical or key elements of performance and professional development needs (if any), should also be noted at this time</li></ul>\n<h2>At the conclusion of the appraisal time period</h2>\n<ul><li>The employee will be responsible for completing a draft of the Appraisal Form as a tool for self-appraisal and a starting\npoint for the supervisor’s evaluation. The employee can add examples of achievements for each criterion.\nOnce the form had been filled, the employee send it to his supervisor.\n</li><li>It is the primary responsibility of the supervisor to gather the necessary input from the appropriate sources of feedback\n(internal and/or external customers, peers). In case of collaboration with Odoo SA Belgium, the supervisor must\nreceive completed evaluation form from the employee's Belgian project manager.\n</li><li>The supervisor synthesizes and integrates all input into the completed appraisal. He motivates his evaluation in the ad\nhoc fields.\n</li><li>The employee may choose to offer comments or explanation regarding the completed review.\n</li><li>The supervisor send the form to the HR department in India and in Belgium</li></ul>"
+msgstr "<h2>Overall Purpose Of Employee Appraisal</h2>\n<ul><li>To initiate a clear and open communication of performance expectations\n</li><li>To assist employees in their professional growth, through the identification of strengths and opportunities for\ndevelopment</li></ul>\n<h2>At the outset of the appraisal time period</h2>\n<ul><li>It is the joint responsibility of the employee and the supervisor (appraiser) to establish a feasible work plan for the\ncoming year, including major employee responsibilities and corresponding benchmarks against which results will be\nevaluated.\n</li><li>Critical or key elements of performance and professional development needs (if any), should also be noted at this time</li></ul>\n<h2>At the conclusion of the appraisal time period</h2>\n<ul><li>The employee will be responsible for completing a draft of the Appraisal Form as a tool for self-appraisal and a starting\npoint for the supervisor’s evaluation. The employee can add examples of achievements for each criterion.\nOnce the form had been filled, the employee send it to his supervisor.\n</li><li>It is the primary responsibility of the supervisor to gather the necessary input from the appropriate sources of feedback\n(internal and/or external customers, peers). In case of collaboration with TuniERP SA Belgium, the supervisor must\nreceive completed evaluation form from the employee's Belgian project manager.\n</li><li>The supervisor synthesizes and integrates all input into the completed appraisal. He motivates his evaluation in the ad\nhoc fields.\n</li><li>The employee may choose to offer comments or explanation regarding the completed review.\n</li><li>The supervisor send the form to the HR department in India and in Belgium</li></ul>"
 
 #. module: hr_evaluation
 #: model:ir.actions.act_window,help:hr_evaluation.open_view_hr_evaluation_tree
@@ -114,12 +114,12 @@ msgid ""
 "                Each employee may be assigned an Appraisal Plan. Such a plan\n"
 "                defines the frequency and the way you manage your periodic\n"
 "                personnel evaluation. You will be able to define steps and\n"
-"                attach interviews to each step. Odoo manages all kinds of\n"
+"                attach interviews to each step. TuniERP manages all kinds of\n"
 "                evaluations: bottom-up, top-down, self-evaluation and final\n"
 "                evaluation by the manager.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik om een nieuwe beoordeling aan te maken.\n              </p><p>\n                Iedere werknemer kan worden toegewezen aan een beoordelingsplan.\n                Een beoordelingsplan plan definieert de frequentie en de manier waarop\n                u de periodieke werknemer beoordelingen beheerd. Het is mogelijk om\n                stappen te maken en gesprekken te koppelen aan iedere stap. Odoo\n                beheert meerdere soorten van beoordelingen. bottom-up, top-down, \n                zelfbeoordeling en eindbeoordelingen door een manager.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik om een nieuwe beoordeling aan te maken.\n              </p><p>\n                Iedere werknemer kan worden toegewezen aan een beoordelingsplan.\n                Een beoordelingsplan plan definieert de frequentie en de manier waarop\n                u de periodieke werknemer beoordelingen beheerd. Het is mogelijk om\n                stappen te maken en gesprekken te koppelen aan iedere stap. TuniERP\n                beheert meerdere soorten van beoordelingen. bottom-up, top-down, \n                zelfbeoordeling en eindbeoordelingen door een manager.\n              </p>\n            "
 
 #. module: hr_evaluation
 #: model:ir.actions.act_window,help:hr_evaluation.action_hr_evaluation_interview_tree
@@ -128,12 +128,12 @@ msgid ""
 "                Click to create a new interview request related to a personal evaluation.\n"
 "              </p><p>\n"
 "                Interview requests are usually generated automatically by\n"
-"                Odoo according to an employee's appraisal plan. Each user\n"
+"                TuniERP according to an employee's appraisal plan. Each user\n"
 "                receives automatic emails and requests to evaluate their\n"
 "                colleagues periodically.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik om een nieuw gesprek aanvraag, gerelateerd aan de persoonlijke evaluatie aan te maken. \n              </p><p>\n                Gesprek aanvragen worden automatisch gegenereerd door Odoo\n                op basis van een werknemer beoordelingsplan. Elke gebruiker ontvangt\n                automatische e-mails en verzoeken om regelmatig hun collega's\n                te beoordelen.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik om een nieuw gesprek aanvraag, gerelateerd aan de persoonlijke evaluatie aan te maken. \n              </p><p>\n                Gesprek aanvragen worden automatisch gegenereerd door TuniERP\n                op basis van een werknemer beoordelingsplan. Elke gebruiker ontvangt\n                automatische e-mails en verzoeken om regelmatig hun collega's\n                te beoordelen.\n              </p>\n            "
 
 #. module: hr_evaluation
 #: model:ir.actions.act_window,help:hr_evaluation.action_evaluation_plans_installer
@@ -143,11 +143,11 @@ msgid ""
 "              </p><p>\n"
 "                You can define appraisal plans (ex: first interview after 6\n"
 "                months, then every year). Then, each employee can be linked to\n"
-"                an appraisal plan so that Odoo can automatically generate\n"
+"                an appraisal plan so that TuniERP can automatically generate\n"
 "                interview requests to managers and/or subordinates.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik om een nieuw beoordelingsplan aan te maken.\n              </p><p>\n                Het is mogelijk om beoordelingsplannen te definiëren (bijv.: eerste gesprek\n                na 6 maanden, daarna ieder jaar). Vervolgens kan iedere werknemer worden\n                gekoppeld aan een beoordelingsplan, zo dat Odoo automatisch\n                gespreksaanvragen kan genereren naar managers en/of ondergeschikten.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Klik om een nieuw beoordelingsplan aan te maken.\n              </p><p>\n                Het is mogelijk om beoordelingsplannen te definiëren (bijv.: eerste gesprek\n                na 6 maanden, daarna ieder jaar). Vervolgens kan iedere werknemer worden\n                gekoppeld aan een beoordelingsplan, zo dat TuniERP automatisch\n                gespreksaanvragen kan genereren naar managers en/of ondergeschikten.\n              </p>\n            "
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.appraisal_2

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * stock
 # 
@@ -15,12 +15,12 @@
 # 智源软件 <likaiyuan2006@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-18 03:33+0000\n"
 "Last-Translator: 卓忆科技 <zhanghao@jointd.com>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/p/odoo-8/language/zh_CN/)\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/p/tunierp-8/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -201,27 +201,27 @@ msgid ""
 "                Click to add a location.\n"
 "              </p><p>\n"
 "                Define your locations to reflect your warehouse structure and\n"
-"                organization. Odoo is able to manage physical locations\n"
+"                organization. TuniERP is able to manage physical locations\n"
 "                (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "                suppliers) and virtual locations which are the counterpart of\n"
 "                the stock operations like the manufacturing orders\n"
 "                consumptions, inventories, etc.\n"
 "              </p><p>  \n"
-"                Every stock operation in Odoo moves the products from one\n"
+"                Every stock operation in TuniERP moves the products from one\n"
 "                location to another one.  For instance, if you receive products\n"
-"                from a supplier, Odoo will move products from the Supplier\n"
+"                from a supplier, TuniERP will move products from the Supplier\n"
 "                location to the Stock location. Each report can be performed on\n"
 "                physical, partner or virtual locations.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                点击添加库位。\n              </p><p>\n                定义库位以反映您的仓库结构\n                和组织。Odoo 能够管理物理库 位\n                (仓库, 货架, 箱子,等等),  合作伙伴库位 (客户,\n                供应商) 以及虚拟库位用于对应\n                库存操作：诸如制造单消耗，\n                库存盘点等。\n              </p><p>  \n                在Odoo的每一个库存操作都是将产品从一个库位\n                移动到另一个库位。 例如,如果您从供应商\n                那里收到产品， Odoo将把产品从供应商库位\n                移动到库存库位。每一个报表都能从\n                物理库位，合作伙伴库位或虚拟库位执行。\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                点击添加库位。\n              </p><p>\n                定义库位以反映您的仓库结构\n                和组织。TuniERP 能够管理物理库 位\n                (仓库, 货架, 箱子,等等),  合作伙伴库位 (客户,\n                供应商) 以及虚拟库位用于对应\n                库存操作：诸如制造单消耗，\n                库存盘点等。\n              </p><p>  \n                在TuniERP的每一个库存操作都是将产品从一个库位\n                移动到另一个库位。 例如,如果您从供应商\n                那里收到产品， TuniERP将把产品从供应商库位\n                移动到库存库位。每一个报表都能从\n                物理库位，合作伙伴库位或虚拟库位执行。\n              </p>\n            "
 
 #. module: stock
 #: model:ir.actions.act_window,help:stock.action_orderpoint_form
 msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a reordering rule.\n"
-"              </p><p>You can define your minimum stock rules, so that Odoo will automatically create draft manufacturing orders or request for quotations according to the stock level. Once the virtual stock of a product (= stock on hand minus all confirmed orders and reservations) is below the minimum quantity, Odoo will generate a procurement request to increase the stock up to the maximum quantity.</p>\n"
+"              </p><p>You can define your minimum stock rules, so that TuniERP will automatically create draft manufacturing orders or request for quotations according to the stock level. Once the virtual stock of a product (= stock on hand minus all confirmed orders and reservations) is below the minimum quantity, TuniERP will generate a procurement request to increase the stock up to the maximum quantity.</p>\n"
 "            "
 msgstr "            "
 
@@ -275,12 +275,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a stock operation. \n"
 "              </p><p>\n"
-"                Most operations are prepared automatically by Odoo according\n"
+"                Most operations are prepared automatically by TuniERP according\n"
 "                to your preconfigured logistics rules, but you can also record\n"
 "                manual stock movements.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                点击创建一个移库操作。 \n              </p><p>\n                大多数的操作Odoo是按您预设置的物流规则\n                自动准备的。不过您依然可以记录\n                手动的库存移动。\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                点击创建一个移库操作。 \n              </p><p>\n                大多数的操作TuniERP是按您预设置的物流规则\n                自动准备的。不过您依然可以记录\n                手动的库存移动。\n              </p>\n            "
 
 #. module: stock
 #: model:ir.actions.act_window,help:stock.action_warehouse_form
@@ -602,8 +602,8 @@ msgstr "包含内容"
 #, python-format
 msgid ""
 "By changing this quantity here, you accept the new quantity as complete: "
-"Odoo will not automatically generate a back order."
-msgstr "通过改变这里的数量，您确认新的完成数量: Odoo不会自动生成后续分批出库单。"
+"TuniERP will not automatically generate a back order."
+msgstr "通过改变这里的数量，您确认新的完成数量: TuniERP不会自动生成后续分批出库单。"
 
 #. module: stock
 #: help:stock.move,procure_method:0
@@ -2034,7 +2034,7 @@ msgstr "存货价值"
 msgid ""
 "Inventory adjustments will be made by comparing the theoretical and the "
 "checked quantities."
-msgstr "库存调整是通过比较产品在odoo系统中的数量和实际复核的数量再进行调整。"
+msgstr "库存调整是通过比较产品在tunierp系统中的数量和实际复核的数量再进行调整。"
 
 #. module: stock
 #: model:stock.location,name:stock.location_inventory
@@ -5311,14 +5311,14 @@ msgstr ""
 #: help:stock.warehouse.orderpoint,product_min_qty:0
 msgid ""
 "When the virtual stock goes below the Min Quantity specified for this field,"
-" Odoo generates a procurement to bring the forecasted quantity to the Max "
+" TuniERP generates a procurement to bring the forecasted quantity to the Max "
 "Quantity."
 msgstr ""
 
 #. module: stock
 #: help:stock.warehouse.orderpoint,product_max_qty:0
 msgid ""
-"When the virtual stock goes below the Min Quantity, Odoo generates a "
+"When the virtual stock goes below the Min Quantity, TuniERP generates a "
 "procurement to bring the forecasted quantity to the Quantity specified as "
 "Max Quantity."
 msgstr ""

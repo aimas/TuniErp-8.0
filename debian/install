@@ -1,2 +1,2 @@
-debian/openerp-server.conf /etc/odoo
-README.md /usr/share/doc/odoo
+debian/openerp-server.conf /etc/tunierp
+README.md /usr/share/doc/tunierp

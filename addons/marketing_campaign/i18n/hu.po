@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * marketing_campaign
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-07-17 07:36+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Hungarian (http://www.transifex.com/p/odoo-8/language/hu/)\n"
+"Language-Team: Hungarian (http://www.transifex.com/p/tunierp-8/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -29,7 +29,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "            Click to create a marketing campaign.\n"
 "          </p><p>\n"
-"            Odoo's marketing campaign allows you to automate communication\n"
+"            TuniERP's marketing campaign allows you to automate communication\n"
 "            to your prospects. You can define a segment (set of conditions) on\n"
 "            your leads and partners to fullfil the campaign.\n"
 "          </p><p>\n"
@@ -39,7 +39,7 @@ msgid ""
 "            contact, if a lead is not closed yet, etc.\n"
 "          </p>\n"
 "        "
-msgstr "<p class=\"oe_view_nocontent_create\">\n            Kattintson egy marketing kampány létrehozásához.\n          </p><p>\n            Odoo rendszer marketing kampánya lehetővé teszi az üzlet \n            lehetőségeivel kapcsolatos automatikus hírközléseket.\n            Meghatározhat egy szelvényt az érdeklődők és \n            ügyfelek (feltételeinek beállításával) a kampány\n            teljesítéséhez.\n          </p><p>\n            Egy kampánynak több tevékenysége lehet, mint email kiküldése, levél\n            nyomtatása, csoporthoz rendelése, stb. Ezek a tevékenységek egy\n            jellegzetes körülmény által kapcsolhatóak; kapcsolati űrlap, 10 nappal\n            az első találkozótól, ha az érdeklődés még nincs lezárva, stb.\n          </p>\n        "
+msgstr "<p class=\"oe_view_nocontent_create\">\n            Kattintson egy marketing kampány létrehozásához.\n          </p><p>\n            TuniERP rendszer marketing kampánya lehetővé teszi az üzlet \n            lehetőségeivel kapcsolatos automatikus hírközléseket.\n            Meghatározhat egy szelvényt az érdeklődők és \n            ügyfelek (feltételeinek beállításával) a kampány\n            teljesítéséhez.\n          </p><p>\n            Egy kampánynak több tevékenysége lehet, mint email kiküldése, levél\n            nyomtatása, csoporthoz rendelése, stb. Ezek a tevékenységek egy\n            jellegzetes körülmény által kapcsolhatóak; kapcsolati űrlap, 10 nappal\n            az első találkozótól, ha az érdeklődés még nincs lezárva, stb.\n          </p>\n        "
 
 #. module: marketing_campaign
 #: field:marketing.campaign.activity,server_action_id:0
@@ -1076,7 +1076,7 @@ msgstr "Változó költség"
 
 #. module: marketing_campaign
 #: model:email.template,subject:marketing_campaign.email_template_1
-msgid "Welcome to the Odoo Partner Channel!"
+msgid "Welcome to the TuniERP Partner Channel!"
 msgstr "Üdvözöljük az Ügyfél csatornán!"
 
 #. module: marketing_campaign

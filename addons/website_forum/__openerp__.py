@@ -28,7 +28,7 @@
 Ask questions, get answers, no distractions
         """,
     'author': 'OpenERP SA',
-    'website': 'https://www.odoo.com/page/community-builder',
+    'website': 'https://www.tunierp.com/page/community-builder',
     'depends': [
         'auth_signup',
         'gamification',

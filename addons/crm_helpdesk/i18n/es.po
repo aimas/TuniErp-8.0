@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * crm_helpdesk
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 07:01+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Spanish (http://www.transifex.com/p/odoo-8/language/es/)\n"
+"Language-Team: Spanish (http://www.transifex.com/p/tunierp-8/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -36,13 +36,13 @@ msgid ""
 "              </p><p>\n"
 "                Helpdesk and Support allow you to track your interventions.\n"
 "              </p><p>\n"
-"                Use the Odoo Issues system to manage your support\n"
+"                Use the TuniERP Issues system to manage your support\n"
 "                activities. Issues can be connected to the email gateway: new\n"
 "                emails may create issues, each of them automatically gets the\n"
 "                history of the conversation with the customer.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\nPulse para crear una nueva petición.\n</p><p>\nLa mesa de soporte permite gestionar sus intervenciones.\n</p><p>\nUse el sistema de incidencias de Odoo para gestionar sus\nactividades de soporte. Las incidencias se pueden conectar \ncon la pasarela de correo electrónico: los nuevos correos\ncrearán incidencias, cada una de las cuales obtendrá \nautomáticamente el historial de conversación con el cliente.\n</p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\nPulse para crear una nueva petición.\n</p><p>\nLa mesa de soporte permite gestionar sus intervenciones.\n</p><p>\nUse el sistema de incidencias de TuniERP para gestionar sus\nactividades de soporte. Las incidencias se pueden conectar \ncon la pasarela de correo electrónico: los nuevos correos\ncrearán incidencias, cada una de las cuales obtendrá \nautomáticamente el historial de conversación con el cliente.\n</p>\n            "
 
 #. module: crm_helpdesk
 #: field:crm.helpdesk,active:0

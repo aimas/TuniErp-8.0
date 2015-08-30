@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * base_report_designer
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 06:53+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Italian (http://www.transifex.com/p/odoo-8/language/it/)\n"
+"Language-Team: Italian (http://www.transifex.com/p/tunierp-8/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -97,18 +97,18 @@ msgstr "Ultima modifica il"
 #. module: base_report_designer
 #: view:base_report_designer.installer:base_report_designer.view_report_designer_installer
 #: model:ir.actions.act_window,name:base_report_designer.action_report_designer_wizard
-msgid "Odoo Report Designer"
-msgstr "ODOO Report Designer"
+msgid "TuniERP Report Designer"
+msgstr "TUNIERP Report Designer"
 
 #. module: base_report_designer
 #: view:base_report_designer.installer:base_report_designer.view_report_designer_installer
-msgid "Odoo Report Designer Configuration"
-msgstr "Configurazione ODOO Report Designer"
+msgid "TuniERP Report Designer Configuration"
+msgstr "Configurazione TUNIERP Report Designer"
 
 #. module: base_report_designer
 #: model:ir.actions.act_window,name:base_report_designer.action_report_designer_installer
-msgid "Odoo Report Designer Installation"
-msgstr "Installazione ODOO Report Designer"
+msgid "TuniERP Report Designer Installation"
+msgstr "Installazione TUNIERP Report Designer"
 
 #. module: base_report_designer
 #: field:base_report_designer.installer,plugin_file:0
@@ -167,16 +167,16 @@ msgstr "Il report RML"
 msgid ""
 "This is the template of your requested report.\n"
 "Save it as a .SXW file and open it with OpenOffice.\n"
-"Don't forget to install the Odoo SA OpenOffice package to modify it.\n"
-"Once it is modified, re-upload it in Odoo using this wizard."
-msgstr "Questo è il modello del vostro report richiesto.\nSalvatelo come file .SXW e apritelo con Open Office.\nNon dimenticate di installare il pacchetto  ODOO SA Openoffice per modificarlo.\nUna volta modificato, ricaricatelo in ODOO utilizzando questo wizard."
+"Don't forget to install the TuniERP SA OpenOffice package to modify it.\n"
+"Once it is modified, re-upload it in TuniERP using this wizard."
+msgstr "Questo è il modello del vostro report richiesto.\nSalvatelo come file .SXW e apritelo con Open Office.\nNon dimenticate di installare il pacchetto  TUNIERP SA Openoffice per modificarlo.\nUna volta modificato, ricaricatelo in TUNIERP utilizzando questo wizard."
 
 #. module: base_report_designer
 #: view:base_report_designer.installer:base_report_designer.view_report_designer_installer
 msgid ""
-"This plug-in allows you to create/modify Odoo Reports into OpenOffice "
+"This plug-in allows you to create/modify TuniERP Reports into OpenOffice "
 "Writer."
-msgstr "Questo plug-in vi permette di creare/modificare i report di ODOO nel programma Write di Open Office"
+msgstr "Questo plug-in vi permette di creare/modificare i report di TUNIERP nel programma Write di Open Office"
 
 #. module: base_report_designer
 #: view:base.report.sxw:base_report_designer.view_base_report_sxw

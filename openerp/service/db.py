@@ -158,7 +158,7 @@ def dump_db_manifest(cr):
     cr.execute("SELECT name, latest_version FROM ir_module_module WHERE state = 'installed'")
     modules = dict(cr.fetchall())
     manifest = {
-        'odoo_dump': '1',
+        'tunierp_dump': '1',
         'db_name': cr.dbname,
         'version': openerp.release.version,
         'version_info': openerp.release.version_info,

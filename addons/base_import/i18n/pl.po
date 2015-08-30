@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * base_import
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 06:52+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Polish (http://www.transifex.com/p/odoo-8/language/pl/)\n"
+"Language-Team: Polish (http://www.transifex.com/p/tunierp-8/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -178,7 +178,7 @@ msgstr ""
 #: code:addons/base_import/static/src/xml/import.xml:152
 #, python-format
 msgid ""
-"Country/Database ID: the unique Odoo ID for a \n"
+"Country/Database ID: the unique TuniERP ID for a \n"
 "                        record, defined by the ID postgresql column"
 msgstr ""
 
@@ -348,7 +348,7 @@ msgstr ""
 #, python-format
 msgid ""
 "For example, to \n"
-"                        reference the country of a contact, Odoo proposes \n"
+"                        reference the country of a contact, TuniERP proposes \n"
 "                        you 3 different fields to import:"
 msgstr ""
 
@@ -422,7 +422,7 @@ msgstr ""
 #, python-format
 msgid ""
 "How to export/import different tables from an SQL \n"
-"                        application to Odoo?"
+"                        application to TuniERP?"
 msgstr ""
 
 #. module: base_import
@@ -480,7 +480,7 @@ msgstr ""
 #, python-format
 msgid ""
 "If the file contains\n"
-"                the column names, Odoo can try auto-detecting the\n"
+"                the column names, TuniERP can try auto-detecting the\n"
 "                field corresponding to the column. This makes imports\n"
 "                simpler especially when the file has many columns."
 msgstr ""
@@ -501,9 +501,9 @@ msgstr ""
 #, python-format
 msgid ""
 "If you do not set all fields in your CSV file, \n"
-"                        Odoo will assign the default value for every non \n"
+"                        TuniERP will assign the default value for every non \n"
 "                        defined fields. But if you\n"
-"                        set fields with empty values in your CSV file, Odoo \n"
+"                        set fields with empty values in your CSV file, TuniERP \n"
 "                        will set the EMPTY value in the field, instead of \n"
 "                        assigning the default value."
 msgstr ""
@@ -532,7 +532,7 @@ msgid ""
 "                        have already been imported will be modified instead of \n"
 "                        being created. This is very usefull as it allows you \n"
 "                        to import several times the same CSV file while having \n"
-"                        made some changes in between two imports. Odoo will \n"
+"                        made some changes in between two imports. TuniERP will \n"
 "                        take care of creating or modifying each record \n"
 "                        depending if it's new or not."
 msgstr ""
@@ -644,7 +644,7 @@ msgstr "Data ostatniej modyfikacji"
 #. openerp-web
 #: code:addons/base_import/static/src/xml/import.xml:55
 #, python-format
-msgid "Map your data to Odoo"
+msgid "Map your data to TuniERP"
 msgstr ""
 
 #. module: base_import
@@ -688,7 +688,7 @@ msgstr "Normalne pola"
 #, python-format
 msgid ""
 "Note that if your CSV file \n"
-"                        has a tabulation as separator, Odoo will not \n"
+"                        has a tabulation as separator, TuniERP will not \n"
 "                        detect the separations. You will need to change the \n"
 "                        file format options in your spreadsheet application. \n"
 "                        See the following question."
@@ -761,9 +761,9 @@ msgid ""
 "Some fields define a relationship with another \n"
 "                        object. For example, the country of a contact is a \n"
 "                        link to a record of the 'Country' object. When you \n"
-"                        want to import such fields, Odoo will have to \n"
+"                        want to import such fields, TuniERP will have to \n"
 "                        recreate links between the different records. \n"
-"                        To help you import such fields, Odoo provides 3 \n"
+"                        To help you import such fields, TuniERP provides 3 \n"
 "                        mechanisms. You must use one and only one mechanism \n"
 "                        per field you want to import."
 msgstr ""
@@ -834,7 +834,7 @@ msgstr ""
 #, python-format
 msgid ""
 "The two files produced are ready to be imported in \n"
-"                        Odoo without any modifications. After having \n"
+"                        TuniERP without any modifications. After having \n"
 "                        imported these two CSV files, you will have 4 contacts \n"
 "                        and 3 companies. (the firsts two contacts are linked \n"
 "                        to the first company). You must first import the \n"
@@ -854,7 +854,7 @@ msgstr ""
 #, python-format
 msgid ""
 "This feature \n"
-"                        allows you to use the Import/Export tool of Odoo to \n"
+"                        allows you to use the Import/Export tool of TuniERP to \n"
 "                        modify a batch of records in your favorite spreadsheet \n"
 "                        application."
 msgstr ""
@@ -875,7 +875,7 @@ msgstr ""
 #, python-format
 msgid ""
 "To manage relations between tables, \n"
-"                        you can use the \"External ID\" facilities of Odoo. \n"
+"                        you can use the \"External ID\" facilities of TuniERP. \n"
 "                        The \"External ID\" of a record is the unique identifier \n"
 "                        of this record in another application. This \"External \n"
 "                        ID\" must be unique accoss all the records of all \n"
@@ -1026,7 +1026,7 @@ msgstr "pomiędzy wierszami %d a %d"
 #: code:addons/base_import/static/src/xml/import.xml:87
 #, python-format
 msgid ""
-"column in Odoo. When you\n"
+"column in TuniERP. When you\n"
 "                        import an other record that links to the first\n"
 "                        one, use"
 msgstr ""

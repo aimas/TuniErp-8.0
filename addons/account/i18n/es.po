@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * account
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 06:39+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Spanish (http://www.transifex.com/p/odoo-8/language/es/)\n"
+"Language-Team: Spanish (http://www.transifex.com/p/tunierp-8/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -311,7 +311,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a customer invoice.\n"
 "              </p><p>\n"
-"                Odoo's electronic invoicing allows to ease and fasten the\n"
+"                TuniERP's electronic invoicing allows to ease and fasten the\n"
 "                collection of customer payments. Your customer receives the\n"
 "                invoice by email and he can pay online and/or import it\n"
 "                in his own system.\n"
@@ -320,7 +320,7 @@ msgid ""
 "                the bottom of each invoice.\n"
 "              </p>\n"
 "            "
-msgstr "Click para crear una factura al cliente.\n</p><p>\nLa facturación electrónica de Odoo permite realizar los cobros de los pagos de los clientes con comodidad y facilidad. Su cliente recibe la factura por email y puede pagarla online y/o importarla a su propio sistema.\n</p><p>\nLos acuerdos con su cliente se muestran automáticamente en la parte inferior de cada factura.\n            "
+msgstr "Click para crear una factura al cliente.\n</p><p>\nLa facturación electrónica de TuniERP permite realizar los cobros de los pagos de los clientes con comodidad y facilidad. Su cliente recibe la factura por email y puede pagarla online y/o importarla a su propio sistema.\n</p><p>\nLos acuerdos con su cliente se muestran automáticamente en la parte inferior de cada factura.\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_invoice_tree3
@@ -346,13 +346,13 @@ msgid ""
 "                A journal entry consists of several journal items, each of\n"
 "                which is either a debit or a credit transaction.\n"
 "              </p><p>\n"
-"                Odoo automatically creates one journal entry per accounting\n"
+"                TuniERP automatically creates one journal entry per accounting\n"
 "                document: invoice, refund, supplier payment, bank statements,\n"
 "                etc. So, you should record journal entries manually only/mainly\n"
 "                for miscellaneous operations.\n"
 "              </p>\n"
 "            "
-msgstr "Click para crear una entrada en el diario.\n</p><p>\nUna entrada en el diario consiste en varios apuntes en dicho diario, cada uno de los cuales puede ser una tarjeta de débito o una operación de crédito.\n</p><p>\nOdoo automáticamente creará un apunte en el diario por cada documento financiero: factura, reembolso, pago a proveedores, extractos de cuentas, etc. Por lo que únicamente se deberían realizar entradas de asientos manuales solo para operaciones adicionales.\n</p><p>\n            "
+msgstr "Click para crear una entrada en el diario.\n</p><p>\nUna entrada en el diario consiste en varios apuntes en dicho diario, cada uno de los cuales puede ser una tarjeta de débito o una operación de crédito.\n</p><p>\nTuniERP automáticamente creará un apunte en el diario por cada documento financiero: factura, reembolso, pago a proveedores, extractos de cuentas, etc. Por lo que únicamente se deberían realizar entradas de asientos manuales solo para operaciones adicionales.\n</p><p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_view_bank_statement_tree
@@ -417,12 +417,12 @@ msgid ""
 "                Click to define a new tax code.\n"
 "              </p><p>\n"
 "                Depending on the country, a tax code is usually a cell to fill\n"
-"                in your legal tax statement. Odoo allows you to define the\n"
+"                in your legal tax statement. TuniERP allows you to define the\n"
 "                tax structure and each tax computation will be registered in\n"
 "                one or several tax code.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\nClick para definir un código de impuesto\n</p><p>\nDependiendo de la ciudad, un código de impuesto es normalmente una celda para rellenar su declaración de impuestos. Odoo le permite definir la declaración de impuesto de la estructura tributaria y el computo de cada impuesto se registrará en uno o varios código de impuestos.\n</p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\nClick para definir un código de impuesto\n</p><p>\nDependiendo de la ciudad, un código de impuesto es normalmente una celda para rellenar su declaración de impuestos. TuniERP le permite definir la declaración de impuesto de la estructura tributaria y el computo de cada impuesto se registrará en uno o varios código de impuestos.\n</p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_invoice_tree2
@@ -431,11 +431,11 @@ msgid ""
 "                Click to record a new supplier invoice.\n"
 "              </p><p>\n"
 "                You can control the invoice from your supplier according to\n"
-"                what you purchased or received. Odoo can also generate\n"
+"                what you purchased or received. TuniERP can also generate\n"
 "                draft invoices automatically from purchase orders or receipts.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\nClick para registrar una nueva factura de proveedor\n</p><p>\nPuede controlar una factura de proveedor conforme a los que haya comprado o recibido. Odoo puede generar también facturas en estado borrador automáticamente desde las órdenes de compra o albaranes de recepción.\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\nClick para registrar una nueva factura de proveedor\n</p><p>\nPuede controlar una factura de proveedor conforme a los que haya comprado o recibido. TuniERP puede generar también facturas en estado borrador automáticamente desde las órdenes de compra o albaranes de recepción.\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_bank_statement_tree
@@ -447,11 +447,11 @@ msgid ""
 "                occurring over a given period of time on a bank account. You\n"
 "                should receive this periodicaly from your bank.\n"
 "              </p><p>\n"
-"                Odoo allows you to reconcile a statement line directly with\n"
+"                TuniERP allows you to reconcile a statement line directly with\n"
 "                the related sale or puchase invoices.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\nClick para registrar un extracto bancario\n</p><p>\nUn extracto bancario es un resumen de todas las transacciones bancarias ocurrido en un periodo de tiempo dado de una cuenta bancaria. Deberías recibir esto periódicamente desde tu banco.\n\nOdoo te permite reconciliar una linea de extracto directamente con las ventas relacionadas o las facturas de compras.\n</p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\nClick para registrar un extracto bancario\n</p><p>\nUn extracto bancario es un resumen de todas las transacciones bancarias ocurrido en un periodo de tiempo dado de una cuenta bancaria. Deberías recibir esto periódicamente desde tu banco.\n\nTuniERP te permite reconciliar una linea de extracto directamente con las ventas relacionadas o las facturas de compras.\n</p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_invoice_tree4
@@ -489,13 +489,13 @@ msgid ""
 "                Select the period and the journal you want to fill.\n"
 "              </p><p>\n"
 "                This view can be used by accountants in order to quickly record\n"
-"                entries in Odoo. If you want to record a supplier invoice,\n"
-"                start by recording the line of the expense account. Odoo\n"
+"                entries in TuniERP. If you want to record a supplier invoice,\n"
+"                start by recording the line of the expense account. TuniERP\n"
 "                will propose to you automatically the Tax related to this\n"
 "                account and the counterpart \"Account Payable\".\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n               Seleccione el periodo y el diario a rellenar\n              </p><p>\n                Esta vista puede ser usada por los contables para registrar automáticamente apuntes en Odoo\n            Si quiere registrar una factura de un proveedor empiece por registrar la linea en la cuenta de gastos. Odoo propondrá automáticamente el impuesto relacionado con esta cuenta y la contrapartida \"Cuenta a pagar\"\n       \n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n               Seleccione el periodo y el diario a rellenar\n              </p><p>\n                Esta vista puede ser usada por los contables para registrar automáticamente apuntes en TuniERP\n            Si quiere registrar una factura de un proveedor empiece por registrar la linea en la cuenta de gastos. TuniERP propondrá automáticamente el impuesto relacionado con esta cuenta y la contrapartida \"Cuenta a pagar\"\n       \n              </p>\n            "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_bank_tree
@@ -506,11 +506,11 @@ msgid ""
 "            Configure your company's bank account and select those that must\n"
 "            appear on the report footer.\n"
 "          </p><p>\n"
-"            If you use the accounting application of Odoo, journals and\n"
+"            If you use the accounting application of TuniERP, journals and\n"
 "            accounts will be created automatically based on these data.\n"
 "          </p>\n"
 "        "
-msgstr "<p class=\"oe_view_nocontent_create\">\n            Click para configurar una cuenta bancaria\n          </p><p>\n            Configure una cuenta  bancaría de su compañía y seleccione cual de estas cuentas debe aparecer en el pie de los informes\n          </p><p>Si usa la aplicación de contabilidad y finanzas de Odoo, los diarios y cuentas serán creados automáticamente basándose en esos datos\n          </p>\n        "
+msgstr "<p class=\"oe_view_nocontent_create\">\n            Click para configurar una cuenta bancaria\n          </p><p>\n            Configure una cuenta  bancaría de su compañía y seleccione cual de estas cuentas debe aparecer en el pie de los informes\n          </p><p>Si usa la aplicación de contabilidad y finanzas de TuniERP, los diarios y cuentas serán creados automáticamente basándose en esos datos\n          </p>\n        "
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_account_manual_reconcile
@@ -533,12 +533,12 @@ msgid ""
 "                term of costs/revenues reporting.\n"
 "              </p><p>\n"
 "                They are usually structured by contracts, projects, products or\n"
-"                departements. Most of the Odoo operations (invoices,\n"
+"                departements. Most of the TuniERP operations (invoices,\n"
 "                timesheets, expenses, etc) generate analytic entries on the\n"
 "                related account.\n"
 "              </p>\n"
 "            "
-msgstr "<p>\nClick para añadir una cuenta analítica.\n              </p><p>\nLa estructura/árbol de cuentas financieras tiene una estructura definida por los requisitos legales del país. La  estructura/árbol de cuentas analíticas debería reflejar las necesidades de nuestro negocio en términos de informes de ingresos /gastos\nNormalmente esta estructurada por contratos, proyectos, productos o departamentos. La mayoría de las operaciones de Odoo (facturas, imputaciones de tiempos costes, etc) generan apuntes analíticos en la cuenta analítica relacionada.\n</p>\n            "
+msgstr "<p>\nClick para añadir una cuenta analítica.\n              </p><p>\nLa estructura/árbol de cuentas financieras tiene una estructura definida por los requisitos legales del país. La  estructura/árbol de cuentas analíticas debería reflejar las necesidades de nuestro negocio en términos de informes de ingresos /gastos\nNormalmente esta estructurada por contratos, proyectos, productos o departamentos. La mayoría de las operaciones de TuniERP (facturas, imputaciones de tiempos costes, etc) generan apuntes analíticos en la cuenta analítica relacionada.\n</p>\n            "
 
 #. module: account
 #: view:account.bank.statement:account.view_bank_statement_form2
@@ -1174,12 +1174,12 @@ msgstr "Saldos vencidos de empresa"
 #: view:account.aged.trial.balance:account.account_aged_balance_view
 msgid ""
 "Aged Partner Balance is a more detailed report of your receivables by "
-"intervals. When opening that report, Odoo asks for the name of the company, "
+"intervals. When opening that report, TuniERP asks for the name of the company, "
 "the fiscal period and the size of the interval to be analyzed (in days). "
-"Odoo then calculates a table of credit balance by period. So if you request "
-"an interval of 30 days Odoo generates an analysis of creditors for the past "
+"TuniERP then calculates a table of credit balance by period. So if you request "
+"an interval of 30 days TuniERP generates an analysis of creditors for the past "
 "month, past two months, and so on."
-msgstr "El saldo de empresa es un informe más detallado de sus ingresos por intervalos. Al abrir este informe, Odoo pregunta el nombre de la compañía, periodo fiscal y el tamaño del intervalo a analizar (en días). Entonces, Odoo calcula una tabla de saldo por periodo. Por lo que si solicita un intervalo de 30 días, Odoo generará un análisis de deuda para el mes pasado, hace 2 meses, hace 3, etc."
+msgstr "El saldo de empresa es un informe más detallado de sus ingresos por intervalos. Al abrir este informe, TuniERP pregunta el nombre de la compañía, periodo fiscal y el tamaño del intervalo a analizar (en días). Entonces, TuniERP calcula una tabla de saldo por periodo. Por lo que si solicita un intervalo de 30 días, TuniERP generará un análisis de deuda para el mes pasado, hace 2 meses, hace 3, etc."
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_aged_receivable_graph
@@ -4582,10 +4582,10 @@ msgstr "Para cuentas que tipicamente tienen más débito que crédito y que dese
 msgid ""
 "For an invoice to be considered as paid, the invoice entries must be "
 "reconciled with counterparts, usually payments. With the automatic "
-"reconciliation functionality, Odoo makes its own search for entries to "
+"reconciliation functionality, TuniERP makes its own search for entries to "
 "reconcile in a series of accounts. It finds entries for each partner where "
 "the amounts correspond."
-msgstr "Para que una factura se considere pagada, el asiento de factura debe estar conciliado con sus contrapartidas normalmente pagos. Con la funcionalidad  conciliación automática, Odoo realiza su propia búsqueda de asientos a en una serie de cuentas. Busca asientos para cada empresa donde los importes coinciden."
+msgstr "Para que una factura se considere pagada, el asiento de factura debe estar conciliado con sus contrapartidas normalmente pagos. Con la funcionalidad  conciliación automática, TuniERP realiza su propia búsqueda de asientos a en una serie de cuentas. Busca asientos para cada empresa donde los importes coinciden."
 
 #. module: account
 #: help:account.journal,with_last_closing_balance:0
@@ -4794,9 +4794,9 @@ msgstr "Indica el orden de secuencia cuando se muestra una lista de impuestos de
 #: help:account.analytic.journal,type:0
 msgid ""
 "Gives the type of the analytic journal. When it needs for a document (eg: an"
-" invoice) to create analytic entries, Odoo will look for a matching journal "
+" invoice) to create analytic entries, TuniERP will look for a matching journal "
 "of the same type."
-msgstr "Muestra el tipo de un diario analítico. Cuando se necesite (p.e: Una factura) para crear una entrada analítica desde un documento, Odoo buscará un diario del mismo tipo."
+msgstr "Muestra el tipo de un diario analítico. Cuando se necesite (p.e: Una factura) para crear una entrada analítica desde un documento, TuniERP buscará un diario del mismo tipo."
 
 #. module: account
 #: code:addons/account/account_invoice.py:726
@@ -7307,8 +7307,8 @@ msgid ""
 "Paypal account (email) for receiving online payments (credit card, etc.) If "
 "you set a paypal account, the customer  will be able to pay your invoices or"
 " quotations with a button \"Pay with  Paypal\" in automated emails or "
-"through the Odoo portal."
-msgstr "Cuenta paypal (correo) para recibir los pagos online (tarjeta de créditos, etc) Si configura una cuenta paypal, el cliente podrá pagar sus facturas o presupuesto con el botón \"Pagar con paypal\" en correos automatizados o a través del portal de Odoo."
+"through the TuniERP portal."
+msgstr "Cuenta paypal (correo) para recibir los pagos online (tarjeta de créditos, etc) Si configura una cuenta paypal, el cliente podrá pagar sus facturas o presupuesto con el botón \"Pagar con paypal\" en correos automatizados o a través del portal de TuniERP."
 
 #. module: account
 #: help:res.company,paypal_account:0
@@ -10172,11 +10172,11 @@ msgstr "Esta etiqueta será visible en el informe para mostrar el saldo calculad
 msgid ""
 "This menu prints a tax declaration based on invoices or payments. Select one"
 " or several periods of the fiscal year. The information required for a tax "
-"declaration is automatically generated by Odoo from invoices (or payments, "
+"declaration is automatically generated by TuniERP from invoices (or payments, "
 "in some countries). This data is updated in real time. That’s very useful "
 "because it enables you to preview at any time the tax that you owe at the "
 "start and end of the month or quarter."
-msgstr "Este menú imprime una declaración de impuestos basada en facturas y pagos, Seleccione uno de varios periodos del año fiscal. La información requerida para la declaración de impuestos esta automáticamente generada por Odoo desde facturas (o pagos, en algunos países). Los datos son actualizados en tiempo real. Es muy útil porque te  permite previsualizar en cualquier momento, los impuestos debidos al inicio o final del mes o trimestre."
+msgstr "Este menú imprime una declaración de impuestos basada en facturas y pagos, Seleccione uno de varios periodos del año fiscal. La información requerida para la declaración de impuestos esta automáticamente generada por TuniERP desde facturas (o pagos, en algunos países). Los datos son actualizados en tiempo real. Es muy útil porque te  permite previsualizar en cualquier momento, los impuestos debidos al inicio o final del mes o trimestre."
 
 #. module: account
 #: help:account.tax,name:0
@@ -10245,12 +10245,12 @@ msgstr "Este campo técnico puede ser usado en el momento de la creación/import
 #. module: account
 #: help:account.account.template,type:0 help:account.entries.report,type:0
 msgid ""
-"This type is used to differentiate types with special effects in Odoo: view "
+"This type is used to differentiate types with special effects in TuniERP: view "
 "can not have entries, consolidation are accounts that can have children "
 "accounts for multi-company consolidations, payable/receivable are for "
 "partners accounts (for debit/credit computations), closed for depreciated "
 "accounts."
-msgstr "Este tipo se usa para diferenciar tipos con efectos especiales en Odoo: La vista puede no tener entradas, las consolidaciones son cuentas que pueden tener cuentas hijas para las consolidaciones multicompañía, A cobrar/ A pagar son para cuentas de empresas (para cómputos de créditos y débitos), cerrado para cuentas depreciadas."
+msgstr "Este tipo se usa para diferenciar tipos con efectos especiales en TuniERP: La vista puede no tener entradas, las consolidaciones son cuentas que pueden tener cuentas hijas para las consolidaciones multicompañía, A cobrar/ A pagar son para cuentas de empresas (para cómputos de créditos y débitos), cerrado para cuentas depreciadas."
 
 #. module: account
 #: help:account.account,currency_mode:0
@@ -11507,8 +11507,8 @@ msgstr "días"
 
 #. module: account
 #: view:account.config.settings:account.view_account_config_settings
-msgid "e.g. sales@odoo.com"
-msgstr "Por ejemplo: ventas@odoo.com"
+msgid "e.g. sales@tunierp.com"
+msgstr "Por ejemplo: ventas@tunierp.com"
 
 #. module: account
 #: view:account.config.settings:account.view_account_config_settings

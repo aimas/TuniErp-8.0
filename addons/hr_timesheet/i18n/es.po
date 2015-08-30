@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * hr_timesheet
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 07:21+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Spanish (http://www.transifex.com/p/odoo-8/language/es/)\n"
+"Language-Team: Spanish (http://www.transifex.com/p/tunierp-8/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -49,7 +49,7 @@ msgid ""
 "<p>\n"
 "                No activity yet on this contract.\n"
 "              </p><p>\n"
-"                In Odoo, contracts and projects are implemented using\n"
+"                In TuniERP, contracts and projects are implemented using\n"
 "                analytic account. So, you can track costs and revenues to analyse\n"
 "                your margins easily.\n"
 "              </p><p>\n"
@@ -62,7 +62,7 @@ msgid ""
 "                on expenses (e.g. reinvoicing of travel costs).\n"
 "              </p>\n"
 "            "
-msgstr "<p>\nSin actividad en este contrato.\n</p><p>\nEn Odoo, los contratos y proyectos se implementan usando\nlas cuentas analíticas. De esta forma, podrá gestionar los ingresos\ny gastos para analizar los márgenes fácilmente.\n</p><p>\nLos costes se generarán automáticamente cuando registre facturas\nde proveedor, gastos o partes de tiempo.\n</p><p>\nLos ingresos se generarán automáticamente al crear facturas de venta.\nLas facturas de venta pueden crearse basadas en pedidos de venta\n(facturas de venta de precio fijo), en partes de horas (basadas en el\ntrabajo realizado) o en gastos (por ejemplo, facturación de los gastos\nde viaje).\n</p>\n            "
+msgstr "<p>\nSin actividad en este contrato.\n</p><p>\nEn TuniERP, los contratos y proyectos se implementan usando\nlas cuentas analíticas. De esta forma, podrá gestionar los ingresos\ny gastos para analizar los márgenes fácilmente.\n</p><p>\nLos costes se generarán automáticamente cuando registre facturas\nde proveedor, gastos o partes de tiempo.\n</p><p>\nLos ingresos se generarán automáticamente al crear facturas de venta.\nLas facturas de venta pueden crearse basadas en pedidos de venta\n(facturas de venta de precio fijo), en partes de horas (basadas en el\ntrabajo realizado) o en gastos (por ejemplo, facturación de los gastos\nde viaje).\n</p>\n            "
 
 #. module: hr_timesheet
 #: selection:hr.sign.in.project,state:0 selection:hr.sign.out.project,state:0
@@ -540,9 +540,9 @@ msgstr "Trabajo realizado en el último período"
 #: model:ir.actions.act_window,help:hr_timesheet.action_define_analytic_structure
 msgid ""
 "You should create an analytic account structure depending on your needs to "
-"analyse costs and revenues. In Odoo, analytic accounts are also used to "
+"analyse costs and revenues. In TuniERP, analytic accounts are also used to "
 "track customer contracts."
-msgstr "Debería crear una estructura de cuentas analíticas dependiendo de sus necesidades de análisis de costes e ingresos. En Odoo, las cuentas analíticas se usan también para gestionar los contratos de clientes."
+msgstr "Debería crear una estructura de cuentas analíticas dependiendo de sus necesidades de análisis de costes e ingresos. En TuniERP, las cuentas analíticas se usan también para gestionar los contratos de clientes."
 
 #. module: hr_timesheet
 #: view:hr.timesheet.report:hr_timesheet.view_hr_timesheet_report_search

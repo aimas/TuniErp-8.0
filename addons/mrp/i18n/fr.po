@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * mrp
 # 
@@ -8,12 +8,12 @@
 # Quentin THEURET <quentin@theuret.net>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-06-18 10:25+0000\n"
 "Last-Translator: Lionel Sausin <ls@numerigraphe.com>\n"
-"Language-Team: French (http://www.transifex.com/p/odoo-8/language/fr/)\n"
+"Language-Team: French (http://www.transifex.com/p/tunierp-8/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -92,11 +92,11 @@ msgid ""
 "                materials used to make a finished product; through a manufacturing\n"
 "                order or a pack of products.\n"
 "              </p><p>\n"
-"                Odoo uses these BoMs to automatically propose manufacturing\n"
+"                TuniERP uses these BoMs to automatically propose manufacturing\n"
 "                orders according to procurement needs.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Cliquez pour créer une nomenclature. \n              </p><p>\n                Les nomenclatures permettent de définir la liste des matières premières nécessaires\n                pour fabriquer un produit fini ; via un ordre de fabrication ou un\n                ensemble de produits.\n              </p><p>\n                Odoo utilise ces nomenclatures pour proposer automatiquement les ordres de fabrication\n                en fonction des besoins d'approvisionnement .\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Cliquez pour créer une nomenclature. \n              </p><p>\n                Les nomenclatures permettent de définir la liste des matières premières nécessaires\n                pour fabriquer un produit fini ; via un ordre de fabrication ou un\n                ensemble de produits.\n              </p><p>\n                TuniERP utilise ces nomenclatures pour proposer automatiquement les ordres de fabrication\n                en fonction des besoins d'approvisionnement .\n              </p>\n            "
 
 #. module: mrp
 #: model:ir.actions.act_window,help:mrp.mrp_property_group_action
@@ -105,17 +105,17 @@ msgid ""
 "                Click to create a group of properties.\n"
 "              </p><p>\n"
 "                Define specific property groups that can be assigned to your\n"
-"                bill of materials and sales orders. Properties allows Odoo\n"
+"                bill of materials and sales orders. Properties allows TuniERP\n"
 "                to automatically select the right bill of materials according\n"
 "                to properties selected in the sales order by salesperson.\n"
 "              </p><p>\n"
 "                For instance, in the property group \"Warranty\", you an have\n"
 "                two properties: 1 year warranty, 3 years warranty. Depending\n"
-"                on the propoerties selected in the sales order, Odoo will\n"
+"                on the propoerties selected in the sales order, TuniERP will\n"
 "                schedule a production using the matching bill of materials.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Cliquez pour créer un groupe de propriétés.\n              </p><p>\n                Définissez un groupe de propriétés spécifiques qui peut être attribué à une nomenclature et à une commande.\n                Les propriétés permettent à Odoo de déterminer automatiquement la bonne nomenclature en fonction des \n                informations de la commande saisies par le vendeur.\n              </p><p>\n                Par exemple, dans le groupe de propriété \"garantie\", vous avez deux propriétés: \"1 an de garantie\" et \"3 ans de\n                garantie\". Selon la propriété sélectionnée dans le bon de commande, Odoo prévoira une fabrication\n                avec la nomenclature correspondante.            \n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Cliquez pour créer un groupe de propriétés.\n              </p><p>\n                Définissez un groupe de propriétés spécifiques qui peut être attribué à une nomenclature et à une commande.\n                Les propriétés permettent à TuniERP de déterminer automatiquement la bonne nomenclature en fonction des \n                informations de la commande saisies par le vendeur.\n              </p><p>\n                Par exemple, dans le groupe de propriété \"garantie\", vous avez deux propriétés: \"1 an de garantie\" et \"3 ans de\n                garantie\". Selon la propriété sélectionnée dans le bon de commande, TuniERP prévoira une fabrication\n                avec la nomenclature correspondante.            \n              </p>\n            "
 
 #. module: mrp
 #: model:ir.actions.act_window,help:mrp.mrp_production_action
@@ -139,16 +139,16 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a new property.\n"
 "              </p><p>\n"
-"                The Properties in Odoo are used to select the right bill of\n"
+"                The Properties in TuniERP are used to select the right bill of\n"
 "                materials for manufacturing a product when you have different\n"
 "                ways of building the same product.  You can assign several\n"
 "                properties to each bill of materials.  When a salesperson\n"
 "                creates a sales order, they can relate it to several properties\n"
-"                and Odoo will automatically select the BoM to use according\n"
+"                and TuniERP will automatically select the BoM to use according\n"
 "                the needs.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                Cliquez pour créer une nouvelle propriété.\n              </p><p>\n                Dans Odoo, les propriétés permettent de sélectionner la nomenclature appropriée lorsqu'il existe plusieurs               méthodes pour fabriquer le même produit. Vous pouvez assigner plusieurs propriétés à chaque nomenclature. Lorsqu'un vendeur crée un bon de commande, il peut le relier à plusieurs propriétés et Odoo sélectionnera automatiquement la nomenclature correspondant aux besoins.\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                Cliquez pour créer une nouvelle propriété.\n              </p><p>\n                Dans TuniERP, les propriétés permettent de sélectionner la nomenclature appropriée lorsqu'il existe plusieurs               méthodes pour fabriquer le même produit. Vous pouvez assigner plusieurs propriétés à chaque nomenclature. Lorsqu'un vendeur crée un bon de commande, il peut le relier à plusieurs propriétés et TuniERP sélectionnera automatiquement la nomenclature correspondant aux besoins.\n              </p>\n            "
 
 #. module: mrp
 #: model:ir.actions.act_window,help:mrp.mrp_routing_action

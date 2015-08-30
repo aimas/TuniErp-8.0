@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * base
 # 
@@ -14,12 +14,12 @@
 # Talway <9010446@qq.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 06:35+0000\n"
 "Last-Translator: mrshelly <mrshelly@hotmail.com>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/p/odoo-8/language/zh_CN/)\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/p/tunierp-8/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -447,7 +447,7 @@ msgid ""
 "    - Withholding tax structure\n"
 "    - Regional State listings\n"
 "    "
-msgstr "\n埃塞俄比亚本地化的基础模块\n====================================== \n\n这是最新的埃塞俄比亚本地化Odoo，包括：\n-会计科目表\n-增值税的税收结构\n-预提税结构\n-区域状态清单\n "
+msgstr "\n埃塞俄比亚本地化的基础模块\n====================================== \n\n这是最新的埃塞俄比亚本地化TuniERP，包括：\n-会计科目表\n-增值税的税收结构\n-预提税结构\n-区域状态清单\n "
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_br
@@ -1695,13 +1695,13 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,description:base.module_im_odoo_support
+#: model:ir.module.module,description:base.module_im_tunierp_support
 msgid ""
 "\n"
-"Odoo Live Support\n"
+"TuniERP Live Support\n"
 "=================\n"
 "\n"
-"Ask your functionnal question directly to the Odoo Operators with the livechat support.\n"
+"Ask your functionnal question directly to the TuniERP Operators with the livechat support.\n"
 "\n"
 "        "
 msgstr ""
@@ -1710,9 +1710,9 @@ msgstr ""
 #: model:ir.module.module,description:base.module_website_livechat
 msgid ""
 "\n"
-"Odoo Website LiveChat\n"
+"TuniERP Website LiveChat\n"
 "========================\n"
-"For website built with Odoo CMS, this module include a chat button on your Website, and allow your visitors to chat with your collabarators.\n"
+"For website built with TuniERP CMS, this module include a chat button on your Website, and allow your visitors to chat with your collabarators.\n"
 "        "
 msgstr ""
 
@@ -2298,7 +2298,7 @@ msgid ""
 "``l10n_ch_payment_slip``\n"
 "  Support of ESR/BVR payment slip report and reconciliation.\n"
 "\n"
-"``l10n_ch`` is located in the core Odoo modules. The other modules are in:\n"
+"``l10n_ch`` is located in the core TuniERP modules. The other modules are in:\n"
 "https://github.com/OCA/l10n-switzerland\n"
 msgstr ""
 
@@ -2730,7 +2730,7 @@ msgid ""
 "rejestrów podatkowych. Moduł ustawia też konta do kupna i sprzedaży towarów\n"
 "zakładając, że wszystkie towary są w obrocie hurtowym.\n"
 "\n"
-"Niniejszy moduł jest przeznaczony dla odoo 8.0.\n"
+"Niniejszy moduł jest przeznaczony dla tunierp 8.0.\n"
 "Wewnętrzny numer wersji OpenGLOBE 1.02\n"
 "    "
 msgstr ""
@@ -3704,7 +3704,7 @@ msgid ""
 "\n"
 "Vehicle, leasing, insurances, cost\n"
 "==================================\n"
-"With this module, Odoo helps you managing all your vehicles, the\n"
+"With this module, TuniERP helps you managing all your vehicles, the\n"
 "contracts associated to those vehicle as well as services, fuel log\n"
 "entries, costs and many other features necessary to the management \n"
 "of your fleet of vehicle(s)\n"
@@ -4047,7 +4047,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a contact in your address book.\n"
 "              </p><p>\n"
-"                Odoo helps you easily track all activities related to\n"
+"                TuniERP helps you easily track all activities related to\n"
 "                a customer: discussions, history of business opportunities,\n"
 "                documents, etc.\n"
 "              </p>\n"
@@ -4060,7 +4060,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a contact in your address book.\n"
 "              </p><p>\n"
-"                Odoo helps you easily track all activities related to\n"
+"                TuniERP helps you easily track all activities related to\n"
 "                a customer; discussions, history of business opportunities,\n"
 "                documents, etc.\n"
 "              </p>\n"
@@ -4073,7 +4073,7 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a contact in your address book.\n"
 "              </p><p>\n"
-"                Odoo helps you easily track all activities related to\n"
+"                TuniERP helps you easily track all activities related to\n"
 "                a supplier: discussions, history of purchases,\n"
 "                documents, etc.\n"
 "              </p>\n"
@@ -4090,7 +4090,7 @@ msgid ""
 "                You can reorder bank accounts from the list view.\n"
 "              </p>\n"
 "              <p>\n"
-"                If you use the accounting application of Odoo, journals and accounts will be created automatically based on these data.\n"
+"                If you use the accounting application of TuniERP, journals and accounts will be created automatically based on these data.\n"
 "              </p>  \n"
 "            "
 msgstr ""
@@ -5624,8 +5624,8 @@ msgid "Chat With Your Website Visitors"
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,summary:base.module_im_odoo_support
-msgid "Chat with the Odoo collaborators"
+#: model:ir.module.module,summary:base.module_im_tunierp_support
+msgid "Chat with the TuniERP collaborators"
 msgstr ""
 
 #. module: base
@@ -6336,7 +6336,7 @@ msgstr ""
 #. module: base
 #: model:ir.actions.act_window,help:base.action_res_company_form
 msgid ""
-"Create and manage the companies that will be managed by Odoo from here. "
+"Create and manage the companies that will be managed by TuniERP from here. "
 "Shops or subsidiaries can be created and maintained from here."
 msgstr ""
 
@@ -7802,7 +7802,7 @@ msgstr "此参数用于动作，可选值有：\n- client_action_multi\n- client
 #. module: base
 #: view:base.language.export:base.wizard_lang_export
 msgid ""
-"For more details about translating Odoo in your language, please refer to "
+"For more details about translating TuniERP in your language, please refer to "
 "the"
 msgstr ""
 
@@ -8708,7 +8708,7 @@ msgstr "选中此项时, 上传文件中的翻译项会替换掉系统中对应�
 #: help:ir.ui.menu,groups_id:0
 msgid ""
 "If you have groups, the visibility of this menu will be based on these "
-"groups. If this field is empty, Odoo will compute visibility based on the "
+"groups. If this field is empty, TuniERP will compute visibility based on the "
 "related object's read access."
 msgstr ""
 
@@ -9600,7 +9600,7 @@ msgstr "让你安装各种有趣的但非必需的工具如： 调查, 午餐 �
 #. module: base
 #: model:ir.module.category,description:base.module_category_report_designer
 msgid ""
-"Lets you install various tools to simplify and enhance Odoo's report "
+"Lets you install various tools to simplify and enhance TuniERP's report "
 "creation."
 msgstr ""
 
@@ -9886,7 +9886,7 @@ msgstr ""
 #. module: base
 #: model:ir.actions.act_window,help:base.grant_menu_access
 msgid ""
-"Manage and customize the items available and displayed in your Odoo system "
+"Manage and customize the items available and displayed in your TuniERP system "
 "menu. You can delete an item by clicking on the box at the beginning of each"
 " line and then delete it through the button that appeared. Items can be "
 "assigned to specific groups in order to make them accessible to some users "
@@ -10827,20 +10827,20 @@ msgstr "Occitan (FR, post 1500) / Occitan"
 #. openerp-web
 #: code:addons/base/static/src/js/apps.js:179
 #, python-format
-msgid "Odoo Apps will be available soon"
-msgstr "Odoo的模块暂时无法访问"
+msgid "TuniERP Apps will be available soon"
+msgstr "TuniERP的模块暂时无法访问"
 
 #. module: base
-#: model:ir.module.module,shortdesc:base.module_im_odoo_support
-msgid "Odoo Live Support"
-msgstr "Odoo在线支持"
+#: model:ir.module.module,shortdesc:base.module_im_tunierp_support
+msgid "TuniERP Live Support"
+msgstr "TuniERP在线支持"
 
 #. module: base
 #: help:ir.sequence,padding:0
 msgid ""
-"Odoo will automatically adds some '0' on the left of the 'Next Number' to "
+"TuniERP will automatically adds some '0' on the left of the 'Next Number' to "
 "get the required padding size."
-msgstr "Odoo 将自动添加几个“0”在“下一个数字”左侧满足填充要求。"
+msgstr "TuniERP 将自动添加几个“0”在“下一个数字”左侧满足填充要求。"
 
 #. module: base
 #: model:res.partner.category,name:base.res_partner_category_12
@@ -11589,7 +11589,7 @@ msgstr "仓库门户"
 #: model:res.groups,comment:base.group_portal
 msgid ""
 "Portal members have specific access rights (such as record rules and restricted menus).\n"
-"                They usually do not belong to the usual Odoo groups."
+"                They usually do not belong to the usual TuniERP groups."
 msgstr ""
 
 #. module: base
@@ -11788,7 +11788,7 @@ msgstr "公有项目"
 #: model:res.groups,comment:base.group_public
 msgid ""
 "Public users have specific access rights (such as record rules and restricted menus).\n"
-"                They usually do not belong to the usual Odoo groups."
+"                They usually do not belong to the usual TuniERP groups."
 msgstr ""
 
 #. module: base
@@ -13496,8 +13496,8 @@ msgstr "TGZ 压缩包"
 #: view:base.language.export:base.wizard_lang_export
 msgid ""
 "TGZ format: this is a compressed archive containing a PO file, directly suitable\n"
-"                                for uploading to Odoo's translation platform,"
-msgstr "TGZ 格式: 这是一个压缩包，包含PO文件，可用于直接\n                                上传到Odoo的翻译平台。"
+"                                for uploading to TuniERP's translation platform,"
+msgstr "TGZ 格式: 这是一个压缩包，包含PO文件，可用于直接\n                                上传到TuniERP的翻译平台。"
 
 #. module: base
 #: code:addons/base/res/res_company.py:167 field:res.partner,vat:0
@@ -13769,9 +13769,9 @@ msgstr "该用户当前工作的公司"
 #: model:ir.actions.act_window,help:base.act_ir_actions_todo_form
 msgid ""
 "The configuration wizards are used to help you configure a new instance of "
-"Odoo. They are launched during the installation of new modules, but you can "
+"TuniERP. They are launched during the installation of new modules, but you can "
 "choose to restart some wizards manually from this menu."
-msgstr "设置向导将帮助您设置一个新的 Odoo 实例。\n向导将在安装新模块的时候启动，但是您也可以在此菜单中手工重新启动一些向导。"
+msgstr "设置向导将帮助您设置一个新的 TuniERP 实例。\n向导将在安装新模块的时候启动，但是您也可以在此菜单中手工重新启动一些向导。"
 
 #. module: base
 #: sql_constraint:res.currency:0
@@ -14903,9 +14903,9 @@ msgstr "视图"
 #. module: base
 #: model:ir.actions.act_window,help:base.action_ui_view
 msgid ""
-"Views allows you to personalize each view of Odoo. You can add new fields, "
+"Views allows you to personalize each view of TuniERP. You can add new fields, "
 "move fields, rename them or delete the ones that you do not need."
-msgstr "您可以自定义Odoo中的任意一个视图。可以添加字段、移动字段、重命名或删除字段"
+msgstr "您可以自定义TuniERP中的任意一个视图。可以添加字段、移动字段、重命名或删除字段"
 
 #. module: base
 #: model:res.country,name:base.vg
@@ -15139,7 +15139,7 @@ msgid ""
 "arrow, but rather add new nodes or arrows. If you absolutly need to modify a"
 " node or arrow, you can only change fields that are empty or set to the "
 "default value. If you don't do that, your customization will be overwrited "
-"at the next update or upgrade to a future version of Odoo."
+"at the next update or upgrade to a future version of TuniERP."
 msgstr ""
 
 #. module: base
@@ -15360,8 +15360,8 @@ msgstr "你不能用同一名字注册两种字体。"
 #, python-format
 msgid ""
 "You can not remove the admin user as it is used internally for resources "
-"created by Odoo (updates, module installation, ...)"
-msgstr "您不能删除 admin 用户，因为其由 Odoo 创建并被系统内部使用"
+"created by TuniERP (updates, module installation, ...)"
+msgstr "您不能删除 admin 用户，因为其由 TuniERP 创建并被系统内部使用"
 
 #. module: base
 #: help:res.country,address_format:0
@@ -15594,8 +15594,8 @@ msgstr "例如：en_US"
 #. module: base
 #: view:res.company:base.view_company_form
 #: view:res.partner:base.view_partner_form
-msgid "e.g. www.odoo.com"
-msgstr "例如：www.odoo.com"
+msgid "e.g. www.tunierp.com"
+msgstr "例如：www.tunierp.com"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_sale

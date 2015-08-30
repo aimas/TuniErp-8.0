@@ -112,7 +112,7 @@ class procurement_order(osv.osv):
 
         'origin': fields.char('Source Document',
             help="Reference of the document that created this Procurement.\n"
-            "This is automatically completed by Odoo."),
+            "This is automatically completed by TuniERP."),
         'company_id': fields.many2one('res.company', 'Company', required=True),
 
         # These two fields are used for shceduling

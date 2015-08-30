@@ -41,7 +41,7 @@ sale discount to a customer.
         'views/templates.xml'
     ],
     'installable': True,
-    'website': 'https://www.odoo.com/page/point-of-sale',
+    'website': 'https://www.tunierp.com/page/point-of-sale',
     'auto_install': False,
 }
 

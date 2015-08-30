@@ -39,7 +39,7 @@ Generic Payroll system.
     * Integrated with Holiday Management
     """,
     'author': 'OpenERP SA',
-    'website': 'https://www.odoo.com/page/employees',
+    'website': 'https://www.tunierp.com/page/employees',
     'depends': [
         'hr',
         'hr_contract',

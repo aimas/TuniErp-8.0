@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * point_of_sale
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 07:46+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Spanish (http://www.transifex.com/p/odoo-8/language/es/)\n"
+"Language-Team: Spanish (http://www.transifex.com/p/tunierp-8/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -629,8 +629,8 @@ msgstr "Activa esta opción si el diario define un método de pago que pueda ser
 #: help:pos.config,iface_self_checkout:0
 msgid ""
 "Check this if this point of sale should open by default in a self checkout "
-"mode. If unchecked, Odoo uses the normal cashier mode by default."
-msgstr "Marque esta casilla si este terminal punto de venta debe abrirse por defecto en modo de auto-pago. Si no está marcado, Odoo utilizará el modo cajero normal por defecto."
+"mode. If unchecked, TuniERP uses the normal cashier mode by default."
+msgstr "Marque esta casilla si este terminal punto de venta debe abrirse por defecto en modo de auto-pago. Si no está marcado, TuniERP utilizará el modo cajero normal por defecto."
 
 #. module: point_of_sale
 #: help:pos.config,group_by:0
@@ -2047,8 +2047,8 @@ msgstr "Número de transacción"
 
 #. module: point_of_sale
 #: view:website:point_of_sale.index
-msgid "Odoo POS"
-msgstr "TPV de Odoo"
+msgid "TuniERP POS"
+msgstr "TPV de TuniERP"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3696,9 +3696,9 @@ msgstr "Esta operación eliminará permanente todos los pedidos no enviados del 
 #. module: point_of_sale
 #: help:pos.config,sequence_id:0
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by TuniERP but you can change it to "
 "customize the reference numbers of your orders."
-msgstr "La secuencia es creada automáticamente por Odoo, pero puede cambiarla para personalizar los números de referencia de sus pedidos."
+msgstr "La secuencia es creada automáticamente por TuniERP, pero puede cambiarla para personalizar los números de referencia de sus pedidos."
 
 #. module: point_of_sale
 #: help:product.template,pos_categ_id:0

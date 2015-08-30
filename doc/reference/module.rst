@@ -11,7 +11,7 @@ Modules
 Manifest
 ========
 
-The manifest file serves to declare a python package as an Odoo module
+The manifest file serves to declare a python package as an TuniERP module
 and to specify module metadata.
 
 It is a file called ``__openerp__.py`` and contains a single Python
@@ -53,7 +53,7 @@ Available manifest fields are:
 ``license`` (``str``, defaults: ``AGPL-3``)
     distribution license for the module
 ``category`` (``str``, default: ``Uncategorized``)
-    classification category within Odoo, rough business domain for the module.
+    classification category within TuniERP, rough business domain for the module.
 
     Although using `existing categories`_ is recommended, the field is
     freeform and unknown categories are created on-the-fly. Category
@@ -61,7 +61,7 @@ Available manifest fields are:
     will create a category ``Foo``, a category ``Bar`` as child category of
     ``Foo``, and will set ``Bar`` as the module's category.
 ``depends`` (``list(str)``)
-    Odoo modules which must be loaded before this one, either because this
+    TuniERP modules which must be loaded before this one, either because this
     module uses features they create or because it alters resources they
     define.
 
@@ -87,4 +87,4 @@ Available manifest fields are:
 
 .. _semantic versioning: http://semver.org
 .. _existing categories:
-     https://github.com/odoo/odoo/blob/master/openerp/addons/base/module/module_data.xml
+     https://github.com/tunierp/tunierp/blob/master/openerp/addons/base/module/module_data.xml

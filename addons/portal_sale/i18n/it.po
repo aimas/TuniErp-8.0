@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * portal_sale
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-07-17 07:47+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Italian (http://www.transifex.com/p/odoo-8/language/it/)\n"
+"Language-Team: Italian (http://www.transifex.com/p/tunierp-8/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -230,7 +230,7 @@ msgid ""
 "Members of this group see the online payment options\n"
 "on Sale Orders and Customer Invoices. These options are meant for customers who are accessing\n"
 "their documents through the portal."
-msgstr "I membri di questo gruppo possono vedere le opzioni di pagamento online\nsugli ordini di vendita e le fatture a cliente. Queste opzioni sono indirizzate ai clienti che\naccedono al portale clienti di Odoo."
+msgstr "I membri di questo gruppo possono vedere le opzioni di pagamento online\nsugli ordini di vendita e le fatture a cliente. Queste opzioni sono indirizzate ai clienti che\naccedono al portale clienti di TuniERP."
 
 #. module: portal_sale
 #: model:ir.model,name:portal_sale.model_mail_mail

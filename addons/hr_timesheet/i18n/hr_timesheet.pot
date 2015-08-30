@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 #	* hr_timesheet
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 8.0\n"
+"Project-Id-Version: TuniERP Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-01-21 14:07+0000\n"
@@ -44,7 +44,7 @@ msgstr ""
 msgid "<p>\n"
 "                No activity yet on this contract.\n"
 "              </p><p>\n"
-"                In Odoo, contracts and projects are implemented using\n"
+"                In TuniERP, contracts and projects are implemented using\n"
 "                analytic account. So, you can track costs and revenues to analyse\n"
 "                your margins easily.\n"
 "              </p><p>\n"
@@ -526,7 +526,7 @@ msgstr ""
 
 #. module: hr_timesheet
 #: model:ir.actions.act_window,help:hr_timesheet.action_define_analytic_structure
-msgid "You should create an analytic account structure depending on your needs to analyse costs and revenues. In Odoo, analytic accounts are also used to track customer contracts."
+msgid "You should create an analytic account structure depending on your needs to analyse costs and revenues. In TuniERP, analytic accounts are also used to track customer contracts."
 msgstr ""
 
 #. module: hr_timesheet

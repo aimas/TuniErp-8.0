@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * analytic_user_function
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-08 15:04+0000\n"
 "Last-Translator: fanha99 <fanha99@hotmail.com>\n"
-"Language-Team: Vietnamese (http://www.transifex.com/p/odoo-8/language/vi/)\n"
+"Language-Team: Vietnamese (http://www.transifex.com/p/tunierp-8/language/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -83,7 +83,7 @@ msgstr ""
 #. module: analytic_user_function
 #: view:account.analytic.account:analytic_user_function.view_account_analytic_account_form_inherit
 msgid ""
-"Odoo will recursively search on parent accounts\n"
+"TuniERP will recursively search on parent accounts\n"
 "                            to check if specific conditions are defined for a\n"
 "                            specific user. This allows to set invoicing\n"
 "                            conditions for a group of contracts."

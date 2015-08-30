@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * web
 # 
@@ -7,12 +7,12 @@
 # Ricardo Martins <ricardo.nbs.martins@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-07-17 08:12+0000\n"
 "Last-Translator: Ricardo Martins <ricardo.nbs.martins@gmail.com>\n"
-"Language-Team: Portuguese (http://www.transifex.com/p/odoo-8/language/pt/)\n"
+"Language-Team: Portuguese (http://www.transifex.com/p/tunierp-8/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -255,8 +255,8 @@ msgstr "Acerca"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:369
 #, python-format
-msgid "About Odoo"
-msgstr "Sobre o Odoo"
+msgid "About TuniERP"
+msgstr "Sobre o TuniERP"
 
 #. module: web
 #. openerp-web
@@ -546,8 +546,8 @@ msgstr "Chaussée de Namur 40"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:114
 #, python-format
-msgid "Check this box to evaluate Odoo."
-msgstr "Selecciona a caixinha para avaliar o Odoo."
+msgid "Check this box to evaluate TuniERP."
+msgstr "Selecciona a caixinha para avaliar o TuniERP."
 
 #. module: web
 #. openerp-web
@@ -882,8 +882,8 @@ msgstr "Descartar"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:435
 #, python-format
-msgid "Discover Events of Odoo around the world..."
-msgstr "Descubra eventos Odoo em todo o mundo..."
+msgid "Discover Events of TuniERP around the world..."
+msgstr "Descubra eventos TuniERP em todo o mundo..."
 
 #. module: web
 #. openerp-web
@@ -1204,11 +1204,11 @@ msgstr "Ficheiro:"
 #: code:addons/web/static/src/xml/base.xml:87
 #, python-format
 msgid ""
-"Fill in this form to create an Odoo database. You can\n"
+"Fill in this form to create an TuniERP database. You can\n"
 "                    create databases for different companies or for different\n"
 "                    goals (testing, production). Once the database is created,\n"
 "                    you will be able to install your first application."
-msgstr "Preencher este formulário para criar uma\n                    base de dados Odoo. Pode criar bases de dados diferentes\n                    para varias empresas ou para fins diferentes (avaliação,\n                    produção). Uma vez que a base de dados esteja criado, \n                    poderá instalar a sua primeira aplicação."
+msgstr "Preencher este formulário para criar uma\n                    base de dados TuniERP. Pode criar bases de dados diferentes\n                    para varias empresas ou para fins diferentes (avaliação,\n                    produção). Uma vez que a base de dados esteja criado, \n                    poderá instalar a sua primeira aplicação."
 
 #. module: web
 #. openerp-web
@@ -1618,8 +1618,8 @@ msgstr "Mais"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:368
 #, python-format
-msgid "My Odoo.com account"
-msgstr "Minha conta no Odoo.com"
+msgid "My TuniERP.com account"
+msgstr "Minha conta no TuniERP.com"
 
 #. module: web
 #. openerp-web
@@ -1729,34 +1729,34 @@ msgstr "Objeto:"
 #. module: web
 #: view:website:web.layout view:website:web.login_layout
 #: view:website:web.menu_secondary
-msgid "Odoo"
-msgstr "Odoo"
+msgid "TuniERP"
+msgstr "TuniERP"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:386
 #, python-format
-msgid "Odoo (Formerly OpenERP)"
-msgstr "Odoo (Antigo OpenERP)"
+msgid "TuniERP (Formerly OpenERP)"
+msgstr "TuniERP (Antigo OpenERP)"
 
 #. module: web
 #: view:website:web.qunit_suite
-msgid "Odoo Web Tests"
-msgstr "Testes Web Odoo"
+msgid "TuniERP Web Tests"
+msgstr "Testes Web TuniERP"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:420
 #, python-format
-msgid "Odoo is a trademark of the"
-msgstr "Odoo é uma marca registrada de"
+msgid "TuniERP is a trademark of the"
+msgstr "TuniERP é uma marca registrada de"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:422
 #, python-format
-msgid "Odoo.com"
-msgstr "Odoo.com"
+msgid "TuniERP.com"
+msgstr "TuniERP.com"
 
 #. module: web
 #. openerp-web
@@ -2729,8 +2729,8 @@ msgstr "Tem de selecionar pelo menos um registo."
 #. openerp-web
 #: code:addons/web/static/src/js/chrome.js:259
 #, python-format
-msgid "Your Odoo session expired. Please refresh the current web page."
-msgstr "A sua sessão Odoo expirou. Por favor, recarregue a sua página web."
+msgid "Your TuniERP session expired. Please refresh the current web page."
+msgstr "A sua sessão TuniERP expirou. Por favor, recarregue a sua página web."
 
 #. module: web
 #. openerp-web

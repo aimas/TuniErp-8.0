@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * mail
 # 
@@ -9,12 +9,12 @@
 # niulinlnc <admin@niulin.net>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-18 03:25+0000\n"
 "Last-Translator: leangjia <liangjia@qq.com>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/p/odoo-8/language/zh_CN/)\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/p/tunierp-8/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -859,7 +859,7 @@ msgstr "如果选中该项，业务伙伴们将收到邮件提醒他们已经被
 #. module: mail
 #: help:base.config.settings,alias_domain:0
 msgid ""
-"If you have setup a catch-all email domain redirected to the Odoo server, "
+"If you have setup a catch-all email domain redirected to the TuniERP server, "
 "enter the domain name here."
 msgstr ""
 
@@ -1597,8 +1597,8 @@ msgstr "已发送"
 #. module: mail
 #: code:addons/mail/mail_followers.py:155
 #, python-format
-msgid "Sent by %(company)s using %(odoo)s"
-msgstr "使用 %(odoo)s 发自 %(company)s "
+msgid "Sent by %(company)s using %(tunierp)s"
+msgstr "使用 %(tunierp)s 发自 %(company)s "
 
 #. module: mail
 #: field:mail.message.subtype,sequence:0
@@ -1718,7 +1718,7 @@ msgstr "关联这个群组的email地址。收到新的email将自动创建一�
 #. module: mail
 #: help:mail.alias,alias_model_id:0
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (TuniERP Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
@@ -1727,7 +1727,7 @@ msgstr ""
 #: help:mail.alias,alias_name:0
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.tunierp.com>"
 msgstr ""
 
 #. module: mail
@@ -2045,8 +2045,8 @@ msgstr "更多."
 
 #. module: mail
 #: view:base.config.settings:mail.view_general_configuration_mail_alias_domain
-msgid "mycompany.odoo.com"
-msgstr "mycompany.odoo.com"
+msgid "mycompany.tunierp.com"
+msgstr "mycompany.tunierp.com"
 
 #. module: mail
 #. openerp-web

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * base_setup
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-09 02:21+0000\n"
 "Last-Translator: choijaeho <hwangtog@gmail.com>\n"
-"Language-Team: Korean (http://www.transifex.com/p/odoo-8/language/ko/)\n"
+"Language-Team: Korean (http://www.transifex.com/p/tunierp-8/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -220,12 +220,12 @@ msgstr "구성원"
 #. module: base_setup
 #: view:sale.config.settings:base_setup.view_sale_config_settings
 msgid ""
-"Odoo allows to automatically create leads (or others documents)\n"
-"                            from incoming emails. You can automatically synchronize emails with Odoo\n"
+"TuniERP allows to automatically create leads (or others documents)\n"
+"                            from incoming emails. You can automatically synchronize emails with TuniERP\n"
 "                            using regular POP/IMAP accounts, using a direct email integration script for your\n"
-"                            email server, or by manually pushing emails to Odoo using specific\n"
+"                            email server, or by manually pushing emails to TuniERP using specific\n"
 "                            plugins for your preferred email application."
-msgstr "Odoo는 수신 메일로 리드(또는 문서)를 자동으로 만들 수 있습니다.\n                            귀하는 다음과 같은 방법으로 자동으로 이메일을 동기화 할 수 있습니다.\n                            일반 POP/IMAP 계정을 이용하거나,\n                            직접 이메일 서버에 이메일 통합 스크립트를 사용하거나,\n                            선호하는 이메일 프로그램에 특정 플러그인을 이용해서\n                            Odoo에 수동으로 이메일을 푸쉬할 수 있습니다."
+msgstr "TuniERP는 수신 메일로 리드(또는 문서)를 자동으로 만들 수 있습니다.\n                            귀하는 다음과 같은 방법으로 자동으로 이메일을 동기화 할 수 있습니다.\n                            일반 POP/IMAP 계정을 이용하거나,\n                            직접 이메일 서버에 이메일 통합 스크립트를 사용하거나,\n                            선호하는 이메일 프로그램에 특정 플러그인을 이용해서\n                            TuniERP에 수동으로 이메일을 푸쉬할 수 있습니다."
 
 #. module: base_setup
 #: view:base.config.settings:base_setup.view_general_configuration
@@ -283,8 +283,8 @@ msgstr "보고서 머리말에 사용할 폰트를 설정합니다. 귀하 회�
 
 #. module: base_setup
 #: help:base.config.settings,module_share:0
-msgid "Share or embbed any screen of Odoo."
-msgstr "Odoo 화면 공유 또는 첨부."
+msgid "Share or embbed any screen of TuniERP."
+msgstr "TuniERP 화면 공유 또는 첨부."
 
 #. module: base_setup
 #: view:sale.config.settings:base_setup.view_sale_config_settings

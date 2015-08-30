@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * mail
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 07:34+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Macedonian (http://www.transifex.com/p/odoo-8/language/mk/)\n"
+"Language-Team: Macedonian (http://www.transifex.com/p/tunierp-8/language/mk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -856,9 +856,9 @@ msgstr "Ако е означено партнерите ќе добијат е-�
 #. module: mail
 #: help:base.config.settings,alias_domain:0
 msgid ""
-"If you have setup a catch-all email domain redirected to the Odoo server, "
+"If you have setup a catch-all email domain redirected to the TuniERP server, "
 "enter the domain name here."
-msgstr "Ако сте подесиле домен што ќе ги прима сите е-маил пораки пренасочен кон Odoo серверот, внесете го тука името на доменот."
+msgstr "Ако сте подесиле домен што ќе ги прима сите е-маил пораки пренасочен кон TuniERP серверот, внесете го тука името на доменот."
 
 #. module: mail
 #: view:mail.compose.message:mail.email_compose_message_wizard_form
@@ -1594,8 +1594,8 @@ msgstr "Испратено"
 #. module: mail
 #: code:addons/mail/mail_followers.py:155
 #, python-format
-msgid "Sent by %(company)s using %(odoo)s"
-msgstr "Испратено од %(company)s преку %(odoo)s"
+msgid "Sent by %(company)s using %(tunierp)s"
+msgstr "Испратено од %(company)s преку %(tunierp)s"
 
 #. module: mail
 #: field:mail.message.subtype,sequence:0
@@ -1715,17 +1715,17 @@ msgstr "E-mail адреса поврзана со оваа група. Нови�
 #. module: mail
 #: help:mail.alias,alias_model_id:0
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (TuniERP Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
-msgstr "Моделот (Тип на Odoo Документ) со кој овој алијас кореспондира. Секој дојдовен е-маил што не одговара на постоечки запис ќе предизвика креирање на нов запис од овој модел (пр. Проектна Задача)"
+msgstr "Моделот (Тип на TuniERP Документ) со кој овој алијас кореспондира. Секој дојдовен е-маил што не одговара на постоечки запис ќе предизвика креирање на нов запис од овој модел (пр. Проектна Задача)"
 
 #. module: mail
 #: help:mail.alias,alias_name:0
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
-msgstr "Името на е-маил алијасот, пр. 'jobs' ако сакате да ги примате сите е-маил пораки испратени до <jobs@example.odoo.com>"
+"<jobs@example.tunierp.com>"
+msgstr "Името на е-маил алијасот, пр. 'jobs' ако сакате да ги примате сите е-маил пораки испратени до <jobs@example.tunierp.com>"
 
 #. module: mail
 #: help:mail.alias,alias_user_id:0
@@ -2042,8 +2042,8 @@ msgstr "повеќе."
 
 #. module: mail
 #: view:base.config.settings:mail.view_general_configuration_mail_alias_domain
-msgid "mycompany.odoo.com"
-msgstr "mycompany.odoo.com"
+msgid "mycompany.tunierp.com"
+msgstr "mycompany.tunierp.com"
 
 #. module: mail
 #. openerp-web

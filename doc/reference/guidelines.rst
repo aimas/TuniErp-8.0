@@ -1,14 +1,14 @@
-:banner: banners/odoo_guideline.jpg
+:banner: banners/tunierp_guideline.jpg
 
 .. highlight:: python
 
 ===============
-Odoo Guidelines
+TuniERP Guidelines
 ===============
 
-This page introduce the new Odoo Coding Guidelines. These guidelines
+This page introduce the new TuniERP Coding Guidelines. These guidelines
 aim to improve the quality of the code (better readability of source,
-...) and  Odoo Apps. Indeed, proper code ought ease maintenance, aid
+...) and  TuniERP Apps. Indeed, proper code ought ease maintenance, aid
 debugging, lower complexity and promote reliability.
 
 Module structure
@@ -52,7 +52,7 @@ For *controller*, the only file should be named *main.py*.
 
 For *static files*, the name pattern is *<module_name>.ext* (i.e. :
 static/js/im_chat.js, static/css/im_chat.css, static/xml/im_chat.xml,
-...). Don't link data (image, libraries) outside Odoo : don't use an
+...). Don't link data (image, libraries) outside TuniERP : don't use an
 url to an image but copy it in our codebase instead.
 
 The complete tree should look like
@@ -225,7 +225,7 @@ Python
 PEP8 options
 ------------
 
-Using a linter can help show syntax and semantic warnings or errors. Odoo
+Using a linter can help show syntax and semantic warnings or errors. TuniERP
 source code tries to respect Python standard, but some of them can be ignored.
 
 - E501: line too long
@@ -243,7 +243,7 @@ The imports are ordered as
 
 #. External libraries (one per line sorted and split in python stdlib)
 #. Imports of ``openerp``
-#. Imports from Odoo modules (rarely, and only if necessary)
+#. Imports from TuniERP modules (rarely, and only if necessary)
 
 Inside these 3 groups, the imported lines are alphabetically sorted.
 
@@ -258,7 +258,7 @@ Inside these 3 groups, the imported lines are alphabetically sorted.
     from openerp import api, fields, models # alphabetically ordered
     from openerp.tools.safe_eval import safe_eval as eval
     from openerp.tools.translate import _
-    # 3 :  imports from odoo modules
+    # 3 :  imports from tunierp modules
     from openerp.addons.website.models.website import slug
     from openerp.addons.web.controllers.main import login_redirect
 
@@ -281,7 +281,7 @@ Idioms
 Symbols
 -------
 
-- Odoo Python Class : use camelcase for code in api v8, underscore lowercase notation for old api.
+- TuniERP Python Class : use camelcase for code in api v8, underscore lowercase notation for old api.
 
 .. code-block:: python
 
@@ -401,7 +401,7 @@ Prefix your commit with
 - **[ADD]** for adding new resources
 - **[REM]** for removing of resources
 - **[MERGE]** for merge commits (only for forward/back-port)
-- **[CLA]** for signing the Odoo Individual Contributor License
+- **[CLA]** for signing the TuniERP Individual Contributor License
 
 Then, in the message itself, specify the part of the code impacted by your changes (module name, lib, transversal object, ...) and a description of the changes.
 

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * point_of_sale
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-17 07:46+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Hungarian (http://www.transifex.com/p/odoo-8/language/hu/)\n"
+"Language-Team: Hungarian (http://www.transifex.com/p/tunierp-8/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -629,8 +629,8 @@ msgstr "Jelölje be ezt a négyzetet, ha ez a napló meghatároz egy olyan fizet
 #: help:pos.config,iface_self_checkout:0
 msgid ""
 "Check this if this point of sale should open by default in a self checkout "
-"mode. If unchecked, Odoo uses the normal cashier mode by default."
-msgstr "Jelölje be ezt, ha ezt az értékesítési pontot alapértelmezés szerint a saját pénztár módba kell megnyitni. Ha nincs bejelölve, az Odoo normál pénztáros módban működik alapértelmezésben."
+"mode. If unchecked, TuniERP uses the normal cashier mode by default."
+msgstr "Jelölje be ezt, ha ezt az értékesítési pontot alapértelmezés szerint a saját pénztár módba kell megnyitni. Ha nincs bejelölve, az TuniERP normál pénztáros módban működik alapértelmezésben."
 
 #. module: point_of_sale
 #: help:pos.config,group_by:0
@@ -2047,8 +2047,8 @@ msgstr "Tranzakció száma"
 
 #. module: point_of_sale
 #: view:website:point_of_sale.index
-msgid "Odoo POS"
-msgstr "Odoo értékesítési pont"
+msgid "TuniERP POS"
+msgstr "TuniERP értékesítési pont"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3696,9 +3696,9 @@ msgstr "Ez a művelet véglegesen megsemmisíti az összes el nem küldött megr
 #. module: point_of_sale
 #: help:pos.config,sequence_id:0
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by TuniERP but you can change it to "
 "customize the reference numbers of your orders."
-msgstr "Ez a sorrend automatikusan lett létrehozzva az Odoo által, de meg lehet változtatni a megrendelések hivatkozási számainak  testreszabásával."
+msgstr "Ez a sorrend automatikusan lett létrehozzva az TuniERP által, de meg lehet változtatni a megrendelések hivatkozási számainak  testreszabásával."
 
 #. module: point_of_sale
 #: help:product.template,pos_categ_id:0

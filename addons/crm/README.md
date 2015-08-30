@@ -1,8 +1,8 @@
-Odoo CRM
+TuniERP CRM
 --------
 
-Boost sales productivity, improve win rates, grow revenue with the Odoo
-<a href="https://www.odoo.com/page/crm">Open Source CRM</a>.
+Boost sales productivity, improve win rates, grow revenue with the TuniERP
+<a href="https://www.tunierp.com/page/crm">Open Source CRM</a>.
 
 Manage your sales funnel with no effort. Attract leads, follow-up on phone
 calls and meetings. Analyse the quality of your leads to make informed
@@ -48,7 +48,7 @@ Work with the email applications you already use every day. Whether your
 company uses Microsoft Outlook or Gmail, no one needs to change the way they
 work, so everyone stays productive.
 
-Route, sort and filter incoming emails automatically. Odoo CRM handles incoming
+Route, sort and filter incoming emails automatically. TuniERP CRM handles incoming
 emails and route them to the right opportunities or sales team. New leads are
 created on the fly and interested salespersons are notified automatically.
 
@@ -62,7 +62,7 @@ see what your team is busy with.
 Lead Automation and Marketing Campaigns
 ---------------------------------------
 
-Drive performance by automating tasks with Odoo <a href="https://www.odoo.com/page/crm">CRM</a>.
+Drive performance by automating tasks with TuniERP <a href="https://www.tunierp.com/page/crm">CRM</a>.
 
 Use our marketing campaigns to automate lead acquisition, follow ups and
 promotions. Define automated actions (e.g. ask a salesperson to call, send an

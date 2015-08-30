@@ -25,7 +25,7 @@
     'author': 'OpenERP SA',
     'category': 'Human Resources',
     'sequence': 31,
-    'website': 'https://www.odoo.com/page/appraisal',
+    'website': 'https://www.tunierp.com/page/appraisal',
     'summary': 'Periodical Evaluations, Appraisals, Surveys',
     'depends': ['hr', 'calendar', 'survey'],
     'description': """

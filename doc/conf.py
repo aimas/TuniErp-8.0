@@ -26,7 +26,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.linkcode',
     'github_link',
-    'odoo',
+    'tunierp',
     'html_domain',
     'exercise_admonition',
     'patchqueue'
@@ -45,8 +45,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'odoo'
-copyright = u'Odoo S.A.'
+project = u'tunierp'
+copyright = u'TuniERP S.A.'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -82,7 +82,7 @@ add_function_parentheses = True
 #show_authors = False
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'odoo'
+pygments_style = 'tunierp'
 
 # A list of ignored prefixes for module index sorting.
 #modindex_common_prefix = []
@@ -91,13 +91,13 @@ pygments_style = 'odoo'
 # -- Options for HTML output ---------------------------------------------------
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'odoo'
+html_theme = 'tunierp'
 
-odoo_cover_default = 'banners/installing_odoo.jpg'
-odoo_cover_external = {
-    'https://odoo.com/documentation/functional/accounting.html'   : 'banners/m_accounting.jpg',
-    'https://odoo.com/documentation/functional/double-entry.html' : 'banners/m_1.jpg',
-    'https://odoo.com/documentation/functional/valuation.html'    : 'banners/m_2.jpg',
+tunierp_cover_default = 'banners/installing_tunierp.jpg'
+tunierp_cover_external = {
+    'https://tunierp.com/documentation/functional/accounting.html'   : 'banners/m_accounting.jpg',
+    'https://tunierp.com/documentation/functional/double-entry.html' : 'banners/m_1.jpg',
+    'https://tunierp.com/documentation/functional/valuation.html'    : 'banners/m_2.jpg',
 }
 
 # Theme options are theme-specific and customize the look and feel of a theme
@@ -187,8 +187,8 @@ intersphinx_mapping = {
     'django': ('https://django.readthedocs.org/en/latest/', None),
 }
 
-github_user = 'odoo'
-github_project = 'odoo'
+github_user = 'tunierp'
+github_project = 'tunierp'
 
 # monkeypatch PHP lexer to not require <?php
 from sphinx.highlighting import lexers

@@ -1,6 +1,6 @@
 Belgium, 2015-03-02
 
-EEZEE-IT agrees to the terms of the Odoo Corporate Contributor License
+EEZEE-IT agrees to the terms of the TuniERP Corporate Contributor License
 Agreement v1.0.
 
 I declare that I am authorized and able to make this agreement and sign this

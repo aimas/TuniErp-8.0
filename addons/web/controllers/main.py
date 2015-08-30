@@ -73,7 +73,7 @@ def serialize_exception(f):
             se = _serialize_exception(e)
             error = {
                 'code': 200,
-                'message': "Odoo Server Error",
+                'message': "TuniERP Server Error",
                 'data': se
             }
             return werkzeug.exceptions.InternalServerError(simplejson.dumps(error))
@@ -514,7 +514,7 @@ class Home(http.Controller):
         if request.env.ref('web.login', False):
             return request.render('web.login', values)
         else:
-            # probably not an odoo compatible database
+            # probably not an tunierp compatible database
             error = 'Unable to login on database %s' % request.session.db
             return werkzeug.utils.redirect('/web/database/selector?error=%s' % error, 303)
 

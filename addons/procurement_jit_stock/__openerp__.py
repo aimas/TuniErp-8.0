@@ -33,7 +33,7 @@
     over there, where procurement_jit will depend on stock
     """,
     'author': 'OpenERP SA',
-    'website': 'https://www.odoo.com/page/manufacturing',
+    'website': 'https://www.tunierp.com/page/manufacturing',
     'depends': ['procurement_jit', 'stock'],
     'data': [],
     'demo': [],

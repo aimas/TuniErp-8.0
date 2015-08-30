@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * purchase
 # 
@@ -7,12 +7,12 @@
 # FIRST AUTHOR Belkacem Mohammed <belkacem77@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-18 18:18+0000\n"
 "Last-Translator: Belkacem Mohammed <belkacem77@gmail.com>\n"
-"Language-Team: Kabyle (http://www.transifex.com/p/odoo-8/language/kab/)\n"
+"Language-Team: Kabyle (http://www.transifex.com/p/tunierp-8/language/kab/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -217,10 +217,10 @@ msgid ""
 "                    Supplier invoices can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control invoices\n"
 "                    you receive from your supplier according to the draft\n"
-"                    document in Odoo.\n"
+"                    document in TuniERP.\n"
 "                </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\nSit dagi iwakken ad ternuḍ tafaturt n useǧǧaw.\n</p><p>\nTifaturin n useǧǧaw zemrent ad lalent si\ntludna neɣ seg irmasen n ifarisen. Ayen ak yeǧǧen ad tseneqdeḍ tifaturin \ni ked-ceggiɛen issaǧǧawen d tfaturin tirewwayin yellan di Odoo.\n</p>"
+msgstr "<p class=\"oe_view_nocontent_create\">\nSit dagi iwakken ad ternuḍ tafaturt n useǧǧaw.\n</p><p>\nTifaturin n useǧǧaw zemrent ad lalent si\ntludna neɣ seg irmasen n ifarisen. Ayen ak yeǧǧen ad tseneqdeḍ tifaturin \ni ked-ceggiɛen issaǧǧawen d tfaturin tirewwayin yellan di TuniERP.\n</p>"
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.act_res_partner_2_purchase_order
@@ -288,10 +288,10 @@ msgid ""
 "                quotation is converted into a purchase order.\n"
 "              </p><p>\n"
 "                Most propositions of purchase orders are created automatically\n"
-"                by Odoo based on inventory needs.\n"
+"                by TuniERP based on inventory needs.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\nSit i tmerna n usuter n ssuma.\n</p><p>\nAsuter n ssuma igber amazray n udiwenni/tastag \ni d-yeḍran d useǧǧaw inek. Ticki intem, asuter\nn ssuma ad yuɣal d taladna n tiɣin.\n</p><p>\nTugett n tludna n tiɣin ttlalent s webridd awurman\nsɣuṛ Odoo ticki tenɣeṣ tnecta n ifarisen deg uselɣas.\n</p>"
+msgstr "<p class=\"oe_view_nocontent_create\">\nSit i tmerna n usuter n ssuma.\n</p><p>\nAsuter n ssuma igber amazray n udiwenni/tastag \ni d-yeḍran d useǧǧaw inek. Ticki intem, asuter\nn ssuma ad yuɣal d taladna n tiɣin.\n</p><p>\nTugett n tludna n tiɣin ttlalent s webridd awurman\nsɣuṛ TuniERP ticki tenɣeṣ tnecta n ifarisen deg uselɣas.\n</p>"
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.action_invoice_pending
@@ -300,14 +300,14 @@ msgid ""
 "            Click to create a draft invoice.\n"
 "          </p><p>\n"
 "            Use this menu to control the invoices to be received from your\n"
-"            supplier. Odoo generates draft invoices from your purchase\n"
+"            supplier. TuniERP generates draft invoices from your purchase\n"
 "            orders or receipts, according to your settings.\n"
 "          </p><p>\n"
 "            Once you receive a supplier invoice, you can match it with the\n"
 "            draft invoice and validate it.\n"
 "          </p>\n"
 "        "
-msgstr "<p class=\"oe_view_nocontent_create\">\nSit iwakken ad ternuḍ tafaturt tarewwayt.\n</p><p>\nSeqdec umuɣ agi i wesenqed n tfaturin ad remseḍ sɣuṛ\naseǧǧaw. Odoo isaraw tifaturin tirewwayin si tludna-ik\nn tiɣin, neɣ irmasen ɣef akken tella twila.\n</p><p>\nTicki tebbwḍed t faturt n useǧǧaw, tzemreḍ\naţeqneḍ ɣer tfaturt tarewwayt ara tɣebleḍ.\n</p>"
+msgstr "<p class=\"oe_view_nocontent_create\">\nSit iwakken ad ternuḍ tafaturt tarewwayt.\n</p><p>\nSeqdec umuɣ agi i wesenqed n tfaturin ad remseḍ sɣuṛ\naseǧǧaw. TuniERP isaraw tifaturin tirewwayin si tludna-ik\nn tiɣin, neɣ irmasen ɣef akken tella twila.\n</p><p>\nTicki tebbwḍed t faturt n useǧǧaw, tzemreḍ\naţeqneḍ ɣer tfaturt tarewwayt ara tɣebleḍ.\n</p>"
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.product_normal_action_puchased

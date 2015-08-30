@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * portal
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-07-09 02:21+0000\n"
 "Last-Translator: choijaeho <hwangtog@gmail.com>\n"
-"Language-Team: Korean (http://www.transifex.com/p/odoo-8/language/ko/)\n"
+"Language-Team: Korean (http://www.transifex.com/p/tunierp-8/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -137,9 +137,9 @@ msgid ""
 "%(welcome_message)s\n"
 "\n"
 "--\n"
-"Odoo - Open Source Business Applications\n"
+"TuniERP - Open Source Business Applications\n"
 "http://www.openerp.com\n"
-msgstr "반갑습니다 %(name)s님\n\n귀하는 %(company)s's %(portal)s에 접속하실 수 있습니다.\n\n귀하의 로그인 데이터는 다음과 같습니다 :\n  ID : %(login)s\n  포털 : %(portal_url)s\n  데이터베이스 : %(db)s \n\n비밀번호를 변경하려면 다음 URL을 방문하십시오 :\n   %(signup_url)s\n\n%(welcome_message)s\n\n--\nOdoo - 오픈소스 기업 응용 프로그램\nhttp://www.openerp.com\n"
+msgstr "반갑습니다 %(name)s님\n\n귀하는 %(company)s's %(portal)s에 접속하실 수 있습니다.\n\n귀하의 로그인 데이터는 다음과 같습니다 :\n  ID : %(login)s\n  포털 : %(portal_url)s\n  데이터베이스 : %(db)s \n\n비밀번호를 변경하려면 다음 URL을 방문하십시오 :\n   %(signup_url)s\n\n%(welcome_message)s\n\n--\nTuniERP - 오픈소스 기업 응용 프로그램\nhttp://www.openerp.com\n"
 
 #. module: portal
 #: view:share.wizard:portal.share_step2_form_portal
@@ -372,8 +372,8 @@ msgstr "이메일을 보내려면 사용자 기본 설정에 이메일 주소가
 #. module: portal
 #: code:addons/portal/wizard/portal_wizard.py:33
 #, python-format
-msgid "Your Odoo account at %(company)s"
-msgstr "%(company)s의 Odoo 계정"
+msgid "Your TuniERP account at %(company)s"
+msgstr "%(company)s의 TuniERP 계정"
 
 #. module: portal
 #: code:addons/portal/mail_mail.py:46

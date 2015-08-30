@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * hr
 # 
@@ -8,12 +8,12 @@
 # leangjia <liangjia@qq.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
 "PO-Revision-Date: 2015-07-07 12:49+0000\n"
 "Last-Translator: leangjia <liangjia@qq.com>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/p/odoo-8/language/zh_CN/)\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/p/tunierp-8/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -32,12 +32,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to add a new employee.\n"
 "              </p><p>\n"
-"                With just a quick glance on the Odoo employee screen, you\n"
+"                With just a quick glance on the TuniERP employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\\\"oe_view_nocontent_create\\\">\\n\n                点击添加一个新员工。\\n\n              </p><p>\\n\n                Odoo系统的员工管理界面可让您随意瞄一眼即可轻松地找到每个人的\\n\n                信息，如联系方式、工作岗位、可用性等。\\n\n              </p>\\n\n            "
+msgstr "<p class=\\\"oe_view_nocontent_create\\\">\\n\n                点击添加一个新员工。\\n\n              </p><p>\\n\n                TuniERP系统的员工管理界面可让您随意瞄一眼即可轻松地找到每个人的\\n\n                信息，如联系方式、工作岗位、可用性等。\\n\n              </p>\\n\n            "
 
 #. module: hr
 #: model:ir.actions.act_window,help:hr.open_module_tree_department
@@ -45,12 +45,12 @@ msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a department.\n"
 "              </p><p>\n"
-"                Odoo's department structure is used to manage all documents\n"
+"                TuniERP's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                leaves and holidays, recruitments, etc.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                点击创建一个部门。\n              </p><p>\n                Odoo的部门结构用于按部门管理所有与员工有关的单据：\n                报销单、计工单、准假申请、招聘等。\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                点击创建一个部门。\n              </p><p>\n                TuniERP的部门结构用于按部门管理所有与员工有关的单据：\n                报销单、计工单、准假申请、招聘等。\n              </p>\n            "
 
 #. module: hr
 #: model:ir.actions.act_window,help:hr.view_department_form_installer
@@ -63,7 +63,7 @@ msgid ""
 "                leaves and holidays, recruitments, etc.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n                点击定义一个新部门。\n              </p><p>\n                Odoo的部门结构用于按部门管理所有与员工有关的单据：\n                报销单、计工单、准假申请、招聘等。\n              </p>\n            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                点击定义一个新部门。\n              </p><p>\n                TuniERP的部门结构用于按部门管理所有与员工有关的单据：\n                报销单、计工单、准假申请、招聘等。\n              </p>\n            "
 
 #. module: hr
 #: model:ir.actions.act_window,help:hr.action_hr_job
@@ -934,8 +934,8 @@ msgstr "用户"
 #. module: hr
 #: code:addons/hr/hr.py:273
 #, python-format
-msgid "Welcome to %s! Please help him/her take the first steps with Odoo!"
-msgstr "欢迎来到 %s！请帮助他/她迈开Odoo的第一步！"
+msgid "Welcome to %s! Please help him/her take the first steps with TuniERP!"
+msgstr "欢迎来到 %s！请帮助他/她迈开TuniERP的第一步！"
 
 #. module: hr
 #: selection:hr.employee,marital:0

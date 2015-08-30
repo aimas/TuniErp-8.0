@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of TuniERP Server.
 # This file contains the translation of the following modules:
 # * share
 # 
@@ -6,12 +6,12 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 8.0\n"
+"Project-Id-Version: TuniERP 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:08+0000\n"
 "PO-Revision-Date: 2015-07-17 08:03+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: German (http://www.transifex.com/p/odoo-8/language/de/)\n"
+"Language-Team: German (http://www.transifex.com/p/tunierp-8/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -338,9 +338,9 @@ msgstr "Nicht-freigegebene  Gruppen"
 #: code:addons/share/wizard/share_wizard.py:868
 #, python-format
 msgid ""
-"Odoo is a powerful and user-friendly suite of Business Applications (CRM, Sales, HR, etc.)\n"
-"It is open source and can be found on https://www.odoo.com."
-msgstr "Odoo ist eine mächtige und nutzerfreundliche Business Application (CRM, Sales, HR, etc.)\nSie ist Open-Source und Sie finden mehr Informationen unter https://www.odoo.com."
+"TuniERP is a powerful and user-friendly suite of Business Applications (CRM, Sales, HR, etc.)\n"
+"It is open source and can be found on https://www.tunierp.com."
+msgstr "TuniERP ist eine mächtige und nutzerfreundliche Business Application (CRM, Sales, HR, etc.)\nSie ist Open-Source und Sie finden mehr Informationen unter https://www.tunierp.com."
 
 #. module: share
 #: help:share.wizard,domain:0
@@ -534,7 +534,7 @@ msgstr "Der aktuelle Benutzer braucht eine konfigurierte E-Mail in den Benutzer 
 #: code:addons/share/wizard/share_wizard.py:855
 #, python-format
 msgid ""
-"The documents are not attached, you can view them online directly on my Odoo server at:\n"
+"The documents are not attached, you can view them online directly on my TuniERP server at:\n"
 "    %s\n"
 "\n"
 msgstr "Die Dokumente wurden nicht angehängt, anstatt dessen können Sie direkt online geöffnet werden:\n    %s\n\n"
@@ -543,9 +543,9 @@ msgstr "Die Dokumente wurden nicht angehängt, anstatt dessen können Sie direkt
 #: code:addons/share/wizard/share_wizard.py:864
 #, python-format
 msgid ""
-"The documents have been automatically added to your current Odoo "
+"The documents have been automatically added to your current TuniERP "
 "documents.\n"
-msgstr "Die Dokumente wurden automatisch zu den anderen Odoo Dokumenten hinzugefügt.\n"
+msgstr "Die Dokumente wurden automatisch zu den anderen TuniERP Dokumenten hinzugefügt.\n"
 
 #. module: share
 #: code:addons/share/wizard/share_wizard.py:831

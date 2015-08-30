@@ -9,7 +9,7 @@ Initializing a working copy
 
 Use the easy-setup shell script::
 
-     curl -O https://raw.githubusercontent.com/odoo/odoo/master/odoo.py | python2
+     curl -O https://raw.githubusercontent.com/tunierp/tunierp/master/tunierp.py | python2
 
 it will will ask a few questions and create a local copy.
 
@@ -23,11 +23,11 @@ Remotes are "remote repositories" which can be fetched from and pushed
 to. Remotes can be listed with ``git remote``\ [#remote-default]_ and a local
 repository can have any number of remotes. The setup script creates 2 remotes:
 
-``odoo``
+``tunierp``
     the official repository and main branches, roughly corresponds to the old
     "mainline" branches in bazaar. You should never need to push to it, and by
     default your local copy is configured to forbid it.
-``odoo-dev``
+``tunierp-dev``
     a grab-bag of development branches, you can push your work to it so other
     coworkers can work with you.
 
@@ -71,14 +71,14 @@ Basic development workflow
 * update your remotes with ``git fetch --all``
 * create your development branch with ``git checkout -b <branch_name>
   <source_branch>``. For instance if you wanted to add support for full-text
-  search in master you could use ``git checkout -b master-fts-xxx odoo/master``
+  search in master you could use ``git checkout -b master-fts-xxx tunierp/master``
 * do your changes, stage them with ``git add`` and commit them with ``git
   commit``
 * if your branch is long-lived, you may want to update it to its parent
 
   - update the remotes with ``git fetch --all``
   - merge the remote branch into the local one with ``git merge --no-ff
-    odoo/master``
+    tunierp/master``
 
 * to push the branch to the development repository, use ``git push -u dev
   <branchname>``, this will automatically create a branch called
@@ -239,4 +239,4 @@ checked-out branch/commit
                       for a merge the merged changes are not considered part
                       of the merge commit
 
-.. _the readme: https://github.com/odoo/odoo/blob/master/README.md#migration-from-bazaar
+.. _the readme: https://github.com/tunierp/tunierp/blob/master/README.md#migration-from-bazaar

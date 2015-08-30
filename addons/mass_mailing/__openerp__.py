@@ -29,7 +29,7 @@ professional emails and reuse templates in a few clicks.
     """,
     'version': '2.0',
     'author': 'OpenERP',
-    'website': 'https://www.odoo.com/page/mailing',
+    'website': 'https://www.tunierp.com/page/mailing',
     'category': 'Marketing',
     'depends': [
         'mail',
