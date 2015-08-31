@@ -32,18 +32,18 @@ class decimal_precision(orm.Model):
         'digits': fields.integer('Digits', required=True),
     }
     _defaults = {
-        'digits': 2,
+        'digits': 3,
     }
 
     _sql_constraints = [
         ('name_uniq', 'unique (name)', """Only one value can be defined for each given usage!"""),
     ]
 
-    @tools.ormcache(skiparg=3)
+    @tools.ormcache(skiparg=4)
     def precision_get(self, cr, uid, application):
         cr.execute('select digits from decimal_precision where name=%s', (application,))
         res = cr.fetchone()
-        return res[0] if res else 2
+        return res[0] if res else 3
 
     def clear_cache(self, cr):
         """clear cache and update models. Notify other workers to restart their registry."""
@@ -94,8 +94,8 @@ class DecimalPrecisionTestModel(orm.Model):
 
     _columns = {
         'float': fields.float(),
-        'float_2': fields.float(digits=(16, 2)),
-        'float_4': fields.float(digits=(16, 4)),
+        'float_3': fields.float(digits=(16, 3)),
+        'float_5': fields.float(digits=(16, 5)),
     }
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
